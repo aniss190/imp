@@ -414,8 +414,17 @@
         },
         "title_3bTAx9": {
           "type": "title",
+          "disabled": true,
           "settings": {
             "heading_tag": "h3"
+          }
+        },
+        "image_yaXHbq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Utilisable_seul_91.png",
+            "alignment": "start",
+            "max_width": 500
           }
         },
         "price_UU6gFH": {
@@ -504,6 +513,7 @@
       "block_order": [
         "liquid_UhaneG",
         "title_3bTAx9",
+        "image_yaXHbq",
         "price_UU6gFH",
         "badges_zMfWkj",
         "liquid_WMzPET",
