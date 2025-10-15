@@ -189,6 +189,7 @@
         "item_Lcm4zJ": {
           "type": "item",
           "settings": {
+            "video": "shopify://files/videos/viuex.mp4",
             "column_size": "3",
             "title": "José - Artisan Plombier",
             "heading_tag": "h4",
@@ -201,6 +202,7 @@
         "item_wgWhcz": {
           "type": "item",
           "settings": {
+            "video": "shopify://files/videos/autre video .mp4",
             "column_size": "3",
             "title": "Stéphane - Particulier",
             "heading_tag": "h4",
@@ -213,6 +215,7 @@
         "item_dkWF9U": {
           "type": "item",
           "settings": {
+            "video": "shopify://files/videos/nouvelles video.mp4",
             "column_size": "3",
             "title": "Patrick - Artisan en rénovation",
             "heading_tag": "h4",
@@ -225,6 +228,7 @@
         "item_3bFYpN": {
           "type": "item",
           "settings": {
+            "video": "shopify://files/videos/Nouvel avis.mp4",
             "column_size": "3",
             "title": "Dupont Père & Fils - Société de rénovation",
             "heading_tag": "h4",
