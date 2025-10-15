@@ -259,25 +259,6 @@
         "text_color": ""
       }
     },
-    "sp_image_standalone_RkPnrc": {
-      "type": "sp-image-standalone",
-      "name": "🚀SP - Image Standalone",
-      "settings": {
-        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
-        "max_width": 1000,
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "padding_left": 0,
-        "padding_right": 0,
-        "media_aspect_ratio": "auto",
-        "desktop_image_width": 0,
-        "mobile_media_aspect_ratio": "auto",
-        "mobile_image_width": 800,
-        "link": "",
-        "media_radius": 0,
-        "media_shadow": false
-      }
-    },
     "ss_testimonial_10_hMqefV": {
       "type": "ss-testimonial-10",
       "blocks": {
@@ -329,6 +310,7 @@
         "testimonial_UgcMCU",
         "testimonial_N64AW3"
       ],
+      "disabled": true,
       "name": "SS - Testimonials #10",
       "settings": {
         "body_padding_vertical": 0,
@@ -767,7 +749,6 @@
     "custom_html_ddFYPr",
     "video_iJYeW3",
     "multi_column_AXeayG",
-    "sp_image_standalone_RkPnrc",
     "ss_testimonial_10_hMqefV",
     "featured_product_BNCh3F",
     "sp_image_standalone_DbtXgJ",
