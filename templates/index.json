@@ -531,6 +531,7 @@
     },
     "sp_image_standalone_DbtXgJ": {
       "type": "sp-image-standalone",
+      "disabled": true,
       "name": "🚀SP - Image Standalone",
       "settings": {
         "background_color": "linear-gradient(164deg, rgba(NaN, NaN, NaN, 0), rgba(255, 255, 255, 1) 100%)",

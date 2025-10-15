@@ -1,1 +1,78 @@
-{"type":"header","name":"Header group","sections":{"announcement-bar":{"type":"announcement-bar","blocks":{"message":{"type":"message","settings":{"text":"French Days 1 acheté = 3 accessoires offerts !","url":""}},"message_yx3w7J":{"type":"message","settings":{"text":"Livraison Gratuite à Domicile","url":""}}},"block_order":["message","message_yx3w7J"],"settings":{"enable_sticky":true,"autoplay":false,"cycle_speed":6,"text_size":"text-base","navigation_mode":"scrolling","scrolling_speed":10,"background":"#1c3d5a","background_gradient":"","text_color":"#ffffff"}},"header":{"type":"header","settings":{"enable_sticky":true,"hide_on_scroll":false,"logo":"shopify:\/\/shop_images\/Utilisable_seul_82.png","logo_max_width":155,"logo_mobile_max_width":155,"menu":"main-menu","sidebar_menu":"","secondary_menu":"","menu_open_trigger":"click","opening_from":"bottom","layout":"logo_left_navigation_center","show_social_media":false,"show_locale_selector":false,"show_country_selector":false,"show_country_flag":false,"show_country_name":false,"transparent_header_text_color":"#1a1a1a","reduce_padding":true,"background_opacity":0,"background_blur_radius":0}}},"order":["announcement-bar","header"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "header",
+  "name": "Header group",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "message": {
+          "type": "message",
+          "settings": {
+            "text": "Offre d'automne : 1 acheté = 3 accessoires offerts !",
+            "url": ""
+          }
+        },
+        "message_yx3w7J": {
+          "type": "message",
+          "settings": {
+            "text": "Livraison Gratuite à Domicile",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "message",
+        "message_yx3w7J"
+      ],
+      "settings": {
+        "enable_sticky": true,
+        "autoplay": false,
+        "cycle_speed": 6,
+        "text_size": "text-base",
+        "navigation_mode": "scrolling",
+        "scrolling_speed": 10,
+        "background": "#1c3d5a",
+        "background_gradient": "",
+        "text_color": "#ffffff"
+      }
+    },
+    "header": {
+      "type": "header",
+      "settings": {
+        "enable_sticky": true,
+        "hide_on_scroll": false,
+        "logo": "shopify://shop_images/Utilisable_seul_82.png",
+        "logo_max_width": 155,
+        "logo_mobile_max_width": 155,
+        "menu": "main-menu",
+        "sidebar_menu": "",
+        "secondary_menu": "",
+        "menu_open_trigger": "click",
+        "opening_from": "bottom",
+        "layout": "logo_left_navigation_center",
+        "show_social_media": false,
+        "show_locale_selector": false,
+        "show_country_selector": false,
+        "show_country_flag": false,
+        "show_country_name": false,
+        "transparent_header_text_color": "#1a1a1a",
+        "reduce_padding": true,
+        "background_opacity": 0,
+        "background_blur_radius": 0
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header"
+  ]
+}
