@@ -1,0 +1,354 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "liquid_DJ4MjX": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Trustpilot Stars<\/title>\n<\/head>\n<body>\n    <a target=\"_blank\" rel=\"noopener noreferrer\" style=\"text-decoration: none; display: flex; align-items: center;\">\n        <span style=\"font-size: 15px; font-weight: bold; color: #000;\">4.8<\/span>\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0647\/2148\/6072\/files\/trustpilot_5_stars.svg?v=1721578152\" alt=\"Trustpilot 5 stars\" style=\"margin: 0 8px; width: 80px; height: auto;\">\n        <span style=\"font-size: 15px; color: #555;\">Loved by our customers !<\/span>\n    <\/a>\n<\/body>\n<\/html>"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "badges": {
+          "type": "badges",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "image_Fqch4T": {
+          "type": "image",
+          "settings": {
+            "alignment": "center",
+            "max_width": 500
+          }
+        },
+        "rating": {
+          "type": "rating",
+          "settings": {
+            "show_empty": false
+          }
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {}
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "collapse_content": false
+          }
+        },
+        "liquid_aDBdFd": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<section id=\"spacekris\">\n  <section id=\"lowstockkris\">\n    <article>\n      <b>\n        <ul>\n          <li><span id=\"random-stock\">4<\/span> items left at this price<\/li>\n        <\/ul>\n      <\/b>\n    <\/article>\n  <\/section>\n<\/section>\n \n<script>\n  \/\/ Générer un nombre aléatoire entre 3 et 10\n  var randomStock = Math.floor(Math.random() * 10) + 3;\n \n  \/\/ Remplacer le texte dans l'élément avec l'ID 'random-stock'\n  document.getElementById(\"random-stock\").textContent = randomStock;\n<\/script>\n \n<style>\n\/* Conteneur général *\/\n#spacekris {\n  display: flex;\n  align-items: center;\n  justify-content: flex-start; \/* Alignement sur la gauche *\/\n  margin-left: 0px; \/* Pas de décalage supplémentaire *\/\n  height: 30px; \/* Hauteur ajustée *\/\n}\n \n#lowstockkris {\n  box-shadow: rgba(17, 12, 46, 0.15) 0px 24px 50px 0px;\n  border-radius: 20px;\n  padding: 10px 15px; \/* Padding top\/bottom de 10px et gauche\/droite de 15px *\/\n  background-color: rgba(255, 0, 0, 0.1); \/* Légère transparence pour l'urgence *\/\n  display: flex;\n  align-items: center;\n  justify-content: flex-start; \/* Alignement gauche du texte *\/\n  height: 30px; \/* Hauteur ajustée *\/\n}\n \n#lowstockkris b {\n  font-size: 12px; \/* Taille du texte *\/\n  color: #AD0000; \/* Couleur rouge foncé *\/\n  font-weight: normal;\n}\n \n\/* Suppression de la liste par défaut *\/\n#lowstockkris ul {\n  list-style: none;\n  padding: 0;\n  margin: 0;\n}\n \n\/* Animation pulsation pour le point rouge *\/\n#lowstockkris li:before {\n  content: '●'; \/* Point rouge *\/\n  margin-right: 5px;\n  color: #AD0000;\n  display: inline-block; \/* Bloc en ligne pour l'animation *\/\n  animation: pulse 1.5s infinite; \/* Animation continue *\/\n}\n \n\/* Définition de l'animation de pulsation *\/\n@keyframes pulse {\n  0% {\n    transform: scale(1);\n    opacity: 1; \/* Taille et opacité normales *\/\n  }\n  50% {\n    transform: scale(1.5); \/* Agrandissement du point *\/\n    opacity: 0.5; \/* Réduction de l'opacité *\/\n  }\n  100% {\n    transform: scale(1); \/* Retour à la taille initiale *\/\n    opacity: 1; \/* Opacité normale *\/\n  }\n}\n<\/style>"
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_style": "block",
+            "swatch_selector_style": "swatch",
+            "variant_image_options": "",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "#9d2b32",
+            "atc_button_text_color": "#ffffff",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "payment_terms": {
+          "type": "payment_terms",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "liquid_DJ4MjX",
+        "title",
+        "badges",
+        "price",
+        "image_Fqch4T",
+        "rating",
+        "separator",
+        "description",
+        "liquid_aDBdFd",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "payment_terms"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_fixed_add_to_cart": true,
+        "desktop_media_width": 55,
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "floating_dots",
+        "enable_video_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
+    "sp_payment_icons_AzfVwT": {
+      "type": "sp-payment-icons",
+      "blocks": {
+        "image_BYPLgF": {
+          "type": "image",
+          "settings": {
+            "alt_text": ""
+          }
+        },
+        "image_E8WTLH": {
+          "type": "image",
+          "settings": {
+            "alt_text": ""
+          }
+        },
+        "image_e8EKE4": {
+          "type": "image",
+          "settings": {
+            "alt_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_BYPLgF",
+        "image_E8WTLH",
+        "image_e8EKE4"
+      ],
+      "disabled": true,
+      "settings": {
+        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "max_width": 1000,
+        "icon_height": 50,
+        "icon_gap": 5,
+        "padding_top": 25,
+        "padding_bottom": 25,
+        "padding_left": 10,
+        "padding_right": 10,
+        "show_visa": true,
+        "show_mastercard": true,
+        "show_american_express": true,
+        "show_discover": false,
+        "show_paypal": true,
+        "show_apple_pay": false,
+        "show_google_pay": false,
+        "show_shop_pay": false
+      }
+    },
+    "logo_list_WKiakj": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_MEb78y": {
+          "type": "logo",
+          "settings": {
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "logo_cGX6Lf": {
+          "type": "logo",
+          "settings": {
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "logo_9DeXPg": {
+          "type": "logo",
+          "settings": {
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "logo_TGfPGH": {
+          "type": "logo",
+          "settings": {
+            "logo_width": 120,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_MEb78y",
+        "logo_cGX6Lf",
+        "logo_9DeXPg",
+        "logo_TGfPGH"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "title": "Featured on",
+        "content": "",
+        "text_alignment": "center",
+        "items_per_row": 5,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "logo_item_background": "",
+        "logo_item_border": ""
+      }
+    },
+    "press_WGp7QW": {
+      "type": "press",
+      "blocks": {
+        "quote_jgr4eq": {
+          "type": "quote",
+          "settings": {
+            "logo_width": 100,
+            "author": "",
+            "content": "Scientifically designed for those who refuse to let discomfort hold them back, Kindfoot empowers every step with comfort and support for life’s most meaningful moments.",
+            "show_rating": true,
+            "rating": 5
+          }
+        }
+      },
+      "block_order": [
+        "quote_jgr4eq"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_size": "medium",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "logo_item_background": "",
+        "logo_item_border": ""
+      }
+    },
+    "images_with_text_scrolling_yUqDYz": {
+      "type": "images-with-text-scrolling",
+      "blocks": {
+        "item_tXyPhX": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "icon_width": 48,
+            "title": "COMFORT",
+            "content": "<p>Orthopedic Comfort Designed by Experts — Feel the difference with each step.<\/p>"
+          }
+        },
+        "item_PtwJi8": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2.png",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "DURABILITY",
+            "content": "<p>Built to Last — Durable materials that support you, day after day<\/p>"
+          }
+        },
+        "item_erjJwC": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "icon_width": 48,
+            "title": "STABILITY",
+            "content": "<p>Stay Steady on Every Path—Advanced traction and stability for worry-free movement.<\/p>"
+          }
+        },
+        "item_WEpPbn": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "icon_width": 48,
+            "title": "QUALITY",
+            "content": "<p>Keep your feet healthy and stylish at any age<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_tXyPhX",
+        "item_PtwJi8",
+        "item_erjJwC",
+        "item_WEpPbn"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "show_counter": true,
+        "desktop_image_effect": "reveal",
+        "image_position": "end",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "17311443447f1d21d8": {
+      "type": "apps",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "ss_wave_2_nBpHJi": {
+      "type": "ss-wave-2",
+      "settings": {
+        "wave_height": 120,
+        "wave_height_mobile": 80,
+        "wave_animation": true,
+        "wave_rotate": false,
+        "wave_color": "#9d2b32",
+        "background_color": "#ffffff",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_horizontal": 0,
+        "padding_horizontal_mobile": 0,
+        "full_width": true,
+        "content_width": 120,
+        "border_thickness": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "sp_payment_icons_AzfVwT",
+    "logo_list_WKiakj",
+    "press_WGp7QW",
+    "images_with_text_scrolling_yUqDYz",
+    "17311443447f1d21d8",
+    "ss_wave_2_nBpHJi"
+  ]
+}
