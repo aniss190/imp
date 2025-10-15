@@ -493,19 +493,19 @@
             "max_width": 500
           }
         },
-        "collapsible_text_3yAqmi": {
-          "type": "collapsible_text",
-          "settings": {
-            "title": "Service client 7/7",
-            "content": "<p>Notre équipe est à votre disposition pour répondre à vos questions 7j/ 7</p><p>Vous pouvez nous contacter par e-mail aux horaires suivants : 9h 17h du lundi au dimanche.</p><p>contact@flexi-cut.com</p><p>N'hésitez pas à nous joindre.</p>",
-            "page": ""
-          }
-        },
         "collapsible_text_hHDDbD": {
           "type": "collapsible_text",
           "settings": {
             "title": "Informations d'expédition",
             "content": "<p>Nous sommes <strong>en rupture de stock</strong> suite à un <strong>succès important</strong> et à un volume de commandes bien au-delà de nos prévisions.<br/><br/>Le prochain lot est <strong>déjà en production</strong>. Pour garantir la meilleure qualité, nous prenons le temps de :</p><ul><li>usiner et affûter chaque tête,<br/></li><li>réaliser les contrôles dimensionnels,<br/></li><li>assembler les coffrets,<br/></li><li><strong>tester chaque outil un par un</strong> sur PVC avant mise en carton.<br/></li></ul><p>👉 <strong>Expédition estimée : sous 4 à 5 semaines.</strong><br/><br/>Une fois la production terminée, le délai de livraison est généralement de <strong>6 à 9 jours ouvrés</strong> (numéro de suivi communiqué par email).</p><p>Merci pour votre patience — cette rigueur assure un outil <strong>fiable, précis et durable</strong>.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_text_3yAqmi": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "Service client 7/7",
+            "content": "<p>Notre équipe est à votre disposition pour répondre à vos questions 7j/ 7</p><p>Vous pouvez nous contacter par e-mail aux horaires suivants : 9h 17h du lundi au dimanche.</p><p>contact@flexi-cut.com</p><p>N'hésitez pas à nous joindre.</p>",
             "page": ""
           }
         }
@@ -524,8 +524,8 @@
         "buy_buttons_C8dVXB",
         "liquid_RahGWq",
         "image_9gGK97",
-        "collapsible_text_3yAqmi",
-        "collapsible_text_hHDDbD"
+        "collapsible_text_hHDDbD",
+        "collapsible_text_3yAqmi"
       ],
       "custom_css": [],
       "settings": {
