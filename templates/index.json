@@ -448,6 +448,12 @@
             "liquid": "<div style=\"background-color: #ffe6e6; border-radius: 12px; padding: 4px 12px; color: #a30000; font-size: 14px; font-weight: 500; box-shadow: 0 2px 6px rgba(0,0,0,0.05); display: inline-flex; align-items: center; gap: 8px;\">\n  <span class=\"stock-bullet-alert\"></span>\n  <span><strong>Stock limité</strong> — prochain arrivage dans 4 semaines</span>\n</div>"
           }
         },
+        "kaching_bundles_app_block_tKGXK8": {
+          "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
+          "settings": {
+            "product": "{{section.settings.product}}"
+          }
+        },
         "liquid_tntxgY": {
           "type": "liquid",
           "settings": {
@@ -503,6 +509,7 @@
         "liquid_WMzPET",
         "image_UidjNd",
         "liquid_HX8Vae",
+        "kaching_bundles_app_block_tKGXK8",
         "liquid_tntxgY",
         "buy_buttons_C8dVXB",
         "liquid_RahGWq",
