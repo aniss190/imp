@@ -644,7 +644,7 @@
             "hide_thumbnails": false,
             "product_handle": "",
             "aggregated": true,
-            "data-limit": 10,
+            "data-limit": 8,
             "maxwidth": 1080,
             "is_sample": false
           }
