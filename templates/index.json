@@ -31,6 +31,7 @@
         "logo_3LJjcW": {
           "type": "logo",
           "settings": {
+            "logo": "shopify://shop_images/TI_FINAL_No_WKP_horz-logo-e1680127492158.webp",
             "logo_width": 300,
             "link": ""
           }
@@ -38,6 +39,7 @@
         "logo_4r6BHC": {
           "type": "logo",
           "settings": {
+            "logo": "shopify://shop_images/nickelodeon-splat-logo.svg",
             "logo_width": 300,
             "link": ""
           }
@@ -45,6 +47,7 @@
         "logo_eyLtrt": {
           "type": "logo",
           "settings": {
+            "logo": "shopify://shop_images/thetoysassociaation.png",
             "logo_width": 300,
             "link": ""
           }
@@ -52,6 +55,7 @@
         "logo_zEHpnz": {
           "type": "logo",
           "settings": {
+            "logo": "shopify://shop_images/Cartoon_Network_2010_logo_svg.png",
             "logo_width": 300,
             "link": ""
           }
@@ -75,7 +79,7 @@
         "text_color": "",
         "heading_color": "",
         "heading_gradient": "",
-        "logo_item_background": "",
+        "logo_item_background": "#ababab",
         "logo_item_border": ""
       }
     },
@@ -87,7 +91,7 @@
           "settings": {
             "title": "",
             "subheading": "",
-            "content": "<h2><strong>Why do parents choose Terrakids?</strong></h2>",
+            "content": "<h2><strong>Why do parents choose MudBudz ?</strong></h2>",
             "button_text": "",
             "button_url": "",
             "animate_impact_text": false,
@@ -121,6 +125,8 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
+        "image": "shopify://shop_images/mudbudz_benefits.jpg",
+        "mobile_image": "shopify://shop_images/mudbudz_benefits.jpg",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
