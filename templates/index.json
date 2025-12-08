@@ -16,8 +16,8 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "lg",
-        "image": "shopify://shop_images/20251126_0410_Grandes_Aventures_d_Engins_remix_01kaz248e7em9sh286v1nq6bgt_46bdf82a-5422-4d4e-990d-a975aa687134.png",
-        "mobile_image": "shopify://shop_images/20251126_0410_Grandes_Aventures_d_Engins_remix_01kaz248e7em9sh286v1nq6bgt.png",
+        "image": "shopify://shop_images/Copie_de_Votre_texte_de_paragraphe_736_x_1100_px.png",
+        "mobile_image": "shopify://shop_images/Copie_de_Votre_texte_de_paragraphe_736_x_1100_px.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -31,7 +31,6 @@
         "logo_3LJjcW": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/logo-joueclub-site.png",
             "logo_width": 300,
             "link": ""
           }
@@ -39,7 +38,6 @@
         "logo_4r6BHC": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/png-clipart-la-grande-recre-toy-shop-beaugrenelle-paris-shopping-mall-game-hopscotch-child-text.png",
             "logo_width": 300,
             "link": ""
           }
@@ -47,7 +45,6 @@
         "logo_eyLtrt": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/5a1c3058f65d84088faf13df.png",
             "logo_width": 300,
             "link": ""
           }
@@ -55,7 +52,6 @@
         "logo_zEHpnz": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/Logo-KingJouet.png",
             "logo_width": 300,
             "link": ""
           }
@@ -125,8 +121,6 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/Copie_de_Copie_de_Moon_Bundle_template_checkout_1.png",
-        "mobile_image": "shopify://shop_images/Copie_de_Copie_de_Moon_Bundle_template_checkout_1.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -777,7 +771,6 @@
         "image_Pjk3j7": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Nouveau_projet_13_d2408266-699f-452a-95c1-483f7dfcb794.jpg",
             "alignment": "center",
             "max_width": 270
           }
@@ -898,7 +891,6 @@
         "image_hEL86z": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/ChatGPT_Image_27_nov._2025_07_39_20.png",
             "media_width": 50,
             "media_position": "start",
             "text_position": "place-self-center text-center",
@@ -920,7 +912,6 @@
         "image_KRiLwp": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/gif_2.gif",
             "media_width": 50,
             "media_position": "start",
             "text_position": "place-self-center text-center",
@@ -942,7 +933,6 @@
         "image_8cNfzC": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/gif.gif",
             "media_width": 50,
             "media_position": "start",
             "text_position": "place-self-center text-center",

@@ -17,14 +17,14 @@
         "message": {
           "type": "message",
           "settings": {
-            "text": "Offre d'automne : 1 acheté = 3 accessoires offerts !",
+            "text": "CHRISTMAS : -76% NOW !",
             "url": ""
           }
         },
         "message_yx3w7J": {
           "type": "message",
           "settings": {
-            "text": "Livraison Gratuite à Domicile",
+            "text": "FREE SHIPPING WITHIN 24H",
             "url": ""
           }
         }
@@ -40,7 +40,7 @@
         "text_size": "text-base",
         "navigation_mode": "scrolling",
         "scrolling_speed": 10,
-        "background": "#1c3d5a",
+        "background": "#ffc006",
         "background_gradient": "",
         "text_color": "#ffffff"
       }
@@ -50,7 +50,6 @@
       "settings": {
         "enable_sticky": true,
         "hide_on_scroll": false,
-        "logo": "shopify://shop_images/Utilisable_seul_82.png",
         "logo_max_width": 155,
         "logo_mobile_max_width": 155,
         "menu": "main-menu",
