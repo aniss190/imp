@@ -842,6 +842,7 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
+        "image": "shopify://shop_images/telechargement_27_707e88dc-d6db-441d-b30a-7892d247d7ee.jpg",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -923,7 +924,7 @@
       "name": "Multiple images with text",
       "settings": {
         "full_width": true,
-        "images_layout": "apilado",
+        "images_layout": "stacked",
         "collage_images_alignment": "medio",
         "background": "#ffffff",
         "background_gradient": "",
