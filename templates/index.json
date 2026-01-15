@@ -267,6 +267,7 @@
         "item_ATfJWA": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/image-6.jpg",
             "column_size": "3",
             "title": "Julieta. K",
             "heading_tag": "h4",
@@ -279,8 +280,9 @@
         "item_cFWFKB": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/image-10.jpg",
             "column_size": "3",
-            "title": "Federico D.",
+            "title": "Federica D.",
             "heading_tag": "h4",
             "content": "<p>« Después de 2 meses con Bradiva, mi piel está más firme y he recuperado la confianza en mi cuerpo. ¡Nunca he visto una transformación tan natural! »</p>",
             "link_url": "",
@@ -304,8 +306,9 @@
         "item_xJdFrw": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/image-9.jpg",
             "column_size": "3",
-            "title": "Roberto. Yo",
+            "title": "Roberta. Yo",
             "heading_tag": "h4",
             "content": "<p>« ¡He perdido 5 kilos sin sacrificios y con mucha más energía! Bradiva se ha convertido en mi aliado cada mañana. »</p><p></p>",
             "link_url": "",
@@ -316,6 +319,7 @@
         "item_BDPNPg": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/53-690c80a8558aa.png",
             "column_size": "3",
             "title": "Elena. A",
             "heading_tag": "h4",
@@ -328,6 +332,7 @@
         "item_yRxk8A": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/53-690c80a8558aa.png",
             "column_size": "3",
             "title": "Marina T.",
             "heading_tag": "h4",
@@ -1205,6 +1210,7 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
+        "image": "shopify://shop_images/telechargement_32.jpg",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
