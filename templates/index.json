@@ -631,6 +631,7 @@
         "item_QdbeiM": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/2-e205fe66-d49f-4f2e-9010-b0014d587491-690c80a483a4c.png",
             "column_size": "3",
             "title": "Colágeno",
             "heading_tag": "h4",
@@ -643,6 +644,7 @@
         "item_xiaYUR": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/1-e60313cf-ed1a-4934-a5fc-3b2e3b8b87c1-690c80a478a40.png",
             "column_size": "3",
             "title": "Creatina",
             "heading_tag": "h4",
@@ -655,6 +657,7 @@
         "item_dPL9Rr": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/3-914d17df-d405-4944-8307-3f2e01d74d11-690c80a542c51.png",
             "column_size": "3",
             "title": "Myo-Inositol",
             "heading_tag": "h4",
@@ -667,6 +670,7 @@
         "item_LV4cm8": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/4_504cf819-51e8-41e3-befc-bf61f1576e47.png",
             "column_size": "3",
             "title": "Vitamina B12 & B8",
             "heading_tag": "h4",
@@ -679,6 +683,7 @@
         "item_6nijje": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/5-690c80a61543e.png",
             "column_size": "3",
             "title": "BCAA",
             "heading_tag": "h4",
@@ -865,7 +870,7 @@
         "full_width": true,
         "content_width": "pequeño",
         "text_position": "centro",
-        "background": "#f2f2f2",
+        "background": "#ffffff",
         "background_gradient": "",
         "text_color": ""
       }
@@ -876,6 +881,7 @@
         "item_E9WdEM": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/STEP_1.gif",
             "image_rotation_degrees": -2,
             "subheading": "",
             "title": "Ingesta de Bradiva",
@@ -887,6 +893,7 @@
         "item_Qqepc9": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/STEP_B.webp",
             "image_rotation_degrees": 1.5,
             "subheading": "",
             "title": "Absorción muscular dirigida 🍑",
@@ -898,6 +905,7 @@
         "item_PmJFmn": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/STEP_C.webp",
             "image_rotation_degrees": 0,
             "subheading": "",
             "title": "Síntesis y crecimiento muscular 🔬",
@@ -917,7 +925,7 @@
         "full_width": true,
         "images_layout": "apilado",
         "collage_images_alignment": "medio",
-        "background": "#f2f2f2",
+        "background": "#ffffff",
         "background_gradient": "",
         "text_color": "",
         "button_background": "",
@@ -956,6 +964,7 @@
         "step_YTCaWL": {
           "type": "step",
           "settings": {
+            "image": "shopify://shop_images/6-690c80a66a3e0.png",
             "video": "",
             "title": "Agrega una dosis de Bradiva en tu shaker.",
             "description": "Cada dosis contiene la cantidad ideal de activos para estimular el crecimiento y la tonicidad de los glúteos.",
@@ -965,6 +974,7 @@
         "step_H8AhF9": {
           "type": "step",
           "settings": {
+            "image": "shopify://shop_images/7-690c80a754f7b.png",
             "video": "",
             "title": "Agregue agua y agite bien durante unos segundos.",
             "description": "La fórmula se activa y los principios actúan para fortalecer los músculos y apoyar la piel.",
@@ -974,6 +984,7 @@
         "step_JXcKJd": {
           "type": "step",
           "settings": {
+            "image": "shopify://shop_images/8-690c80a76fea2.png",
             "video": "",
             "title": "Bebe tu dosis de energía y feminidad.",
             "description": "Día tras día, sentirás más fuerza, más forma y glúteos más definidos.",
