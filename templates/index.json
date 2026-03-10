@@ -9,1246 +9,1019 @@
  */
 {
   "order": [
-    "image-with-text-overlay",
-    "rich_text_nzgDXE",
-    "image_with_text_overlay_pjaxby",
-    "rich_text_46BUxt",
-    "multi_column_gDXFLN",
-    "rich_text_Qpbdha",
-    "multi_column_BKPLPt",
-    "multi_column_m7Hdxz",
-    "featured-product",
-    "custom_liquid_ebKGdt",
-    "tabs_Waa9zt",
-    "multi_column_wTJTNc",
-    "text_with_icons_faPQUB",
-    "rich_text_xzp6hM",
-    "image_with_text_overlay_XzmrHF",
-    "rich_text_mkzW7K",
-    "multiple_images_with_text_rKWqNJ",
-    "rich_text_FKTUGn",
-    "how_to_use_sambal_LAmJVU",
-    "faq_MQHPPV",
-    "image_with_text_overlay_kUPeMC",
-    "contact_V6dyWF",
-    "17359565654f612dcd"
+    "slideshow_qxk8Ba",
+    "logo_list_mer8Cd",
+    "sp_image_standalone_mEaDfr",
+    "ss_testimonial_8_kRy8Pg",
+    "ss_testimonial_10_hMqefV",
+    "featured_product_BNCh3F",
+    "multi_column_ehHhNL",
+    "ss_comparison_table_6_3MTYnP",
+    "faq_6HBHkM",
+    "173889216379020d1a",
+    "text_with_icons_R7GyBX"
   ],
   "sections": {
-    "image-with-text-overlay": {
-      "type": "image-with-text-overlay",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify://shop_images/telechargement_23.jpg",
-        "mobile_image": "shopify://shop_images/telechargement_26.jpg",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
-    },
-    "rich_text_nzgDXE": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_ichNN7": {
-          "type": "heading",
-          "settings": {
-            "text": "¿Por qué elegir Bradiva?",
-            "heading_tag": "h3",
-            "text_color": "",
-            "gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading_ichNN7"
-      ],
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "image_with_text_overlay_pjaxby": {
-      "type": "image-with-text-overlay",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify://shop_images/telechargement_24.jpg",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
-    },
-    "rich_text_46BUxt": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_tNUGGQ": {
-          "type": "heading",
-          "settings": {
-            "text": "Adoptado por muchas mujeres",
-            "heading_tag": "h3",
-            "text_color": "",
-            "gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading_tNUGGQ"
-      ],
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "multi_column_gDXFLN": {
-      "type": "multi-column",
-      "blocks": {
-        "item_XPwGra": {
-          "type": "item",
-          "settings": {
-            "column_size": "3",
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_cQ6yUA": {
-          "type": "item",
-          "settings": {
-            "column_size": "3",
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_m9hihC": {
-          "type": "item",
-          "settings": {
-            "column_size": "3",
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_ejp9Fg": {
-          "type": "item",
-          "settings": {
-            "column_size": "3",
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        }
-      },
-      "block_order": [
-        "item_XPwGra",
-        "item_cQ6yUA",
-        "item_m9hihC",
-        "item_ejp9Fg"
-      ],
-      "settings": {
-        "full_width": true,
-        "stack_on_mobile": false,
-        "gap": "medium",
-        "text_alignment": "center",
-        "subheading": "",
-        "title": "",
-        "content": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "rich_text_Qpbdha": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_kMDDRt": {
-          "type": "heading",
-          "settings": {
-            "text": "Ce sont nos clientes qui parlent pour nous",
-            "heading_tag": "h4",
-            "text_color": "",
-            "gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading_kMDDRt"
-      ],
-      "name": "Rich text",
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "multi_column_BKPLPt": {
-      "type": "multi-column",
-      "blocks": {
-        "item_xQeqfi": {
-          "type": "item",
-          "settings": {
-            "column_size": "3",
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        }
-      },
-      "block_order": [
-        "item_xQeqfi"
-      ],
-      "disabled": true,
-      "custom_css": [
-        ".section-full {padding-top: 0px;}"
-      ],
-      "settings": {
-        "full_width": true,
-        "stack_on_mobile": true,
-        "gap": "medium",
-        "text_alignment": "center",
-        "subheading": "",
-        "title": "El secreto de belleza para una figura perfecta",
-        "content": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "multi_column_m7Hdxz": {
-      "type": "multi-column",
-      "blocks": {
-        "item_m74fTV": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/image-12.jpg",
-            "column_size": "3",
-            "title": "Iris J",
-            "heading_tag": "h4",
-            "content": "<p>« Desde que uso Bradiva me siento más enérgica y tonificada. ¡El sabor no es pronunciado y ya he notado que mis glúteos están más firmes después de unas semanas! »</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_ATfJWA": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/image-6.jpg",
-            "column_size": "3",
-            "title": "Julieta. K",
-            "heading_tag": "h4",
-            "content": "<p>« Siempre he tenido las nalgas planas, a pesar del deporte. ¡Con Bradiva, finalmente vi volumen! Y ningún efecto hinchado, solo natural. ¡Me encanta! »</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_cFWFKB": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/image-10.jpg",
-            "column_size": "3",
-            "title": "Federica D.",
-            "heading_tag": "h4",
-            "content": "<p>« Después de 2 meses con Bradiva, mi piel está más firme y he recuperado la confianza en mi cuerpo. ¡Nunca he visto una transformación tan natural! »</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_qUPwd9": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/image-11.jpg",
-            "column_size": "3",
-            "title": "Alicia Pérez",
-            "heading_tag": "h4",
-            "content": "<p>«Al principio era escéptica, pero honestamente, los resultados son reales. Mi trasero es más redondeado y mi piel más firme. Incluso mi novio lo ha notado»</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_xJdFrw": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/image-9.jpg",
-            "column_size": "3",
-            "title": "Roberta. Yo",
-            "heading_tag": "h4",
-            "content": "<p>« ¡He perdido 5 kilos sin sacrificios y con mucha más energía! Bradiva se ha convertido en mi aliado cada mañana. »</p><p></p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_BDPNPg": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/53-690c80a8558aa.png",
-            "column_size": "3",
-            "title": "Elena. A",
-            "heading_tag": "h4",
-            "content": "<p>« Antes, siempre estaba cansada, ¡ahora tengo energía constante y me siento más ligera! »</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_yRxk8A": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/53-690c80a8558aa.png",
-            "column_size": "3",
-            "title": "Marina T.",
-            "heading_tag": "h4",
-            "content": "<p>« ¡Bradiva es mi descubrimiento del año! Piel más firme, cuerpo más armonioso y glúteos más esculpidos. ¡Me encanta! »</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        }
-      },
-      "block_order": [
-        "item_m74fTV",
-        "item_ATfJWA",
-        "item_cFWFKB",
-        "item_qUPwd9",
-        "item_xJdFrw",
-        "item_BDPNPg",
-        "item_yRxk8A"
-      ],
-      "settings": {
-        "full_width": true,
-        "stack_on_mobile": false,
-        "gap": "medium",
-        "text_alignment": "center",
-        "subheading": "",
-        "title": "",
-        "content": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "featured-product": {
-      "type": "featured-product",
-      "blocks": {
-        "vendor": {
-          "type": "vendor",
-          "disabled": true,
-          "settings": {}
-        },
-        "liquid_UqCNKi": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<!DOCTYPE html>\n<html>\n<head>\n<style>\n:root {\n  --social-proof-text-color: #000000;\n  --social-proof-star-color: #38af85;\n}\n\n.social-proof-slide__block-rating {\n    display: flex;\n    align-items: center;\n    justify-content: flex-start;\nfont-size: 14px;\n}\n\n.social-proof-slide__block-stars {\n    display: flex;\n    margin-right: 8px;\n    color: var(--social-proof-star-color);\n}\n\n.social-proof-slide__block-rating-text {\n    display: inline;\n    color: var(--social-proof-text-color);\n    content: var(--social-proof-rating-text);\n}\n\n.social-proof-star {\n    margin: 0;\n    padding: 0;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    width: 16px;\n    height: 16px;\n}\n\n.social-proof-star svg {\n    width: 16px;\n    height: 16px;\n    fill: var(--social-proof-star-color);\n}\n</style>\n</head>\n<body>\n\n<div class=\"social-proof-slide__block-rating mt-2\">\n  <span class=\"social-proof-slide__block-stars\">\n    <span class=\"social-proof-star\">\n      <svg xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <svg class=\"w-[16px] h-[16px]\" fill=\"currentColor\" stroke=\"currentColor\" xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <path d=\"M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z\"></path>\n      </svg>\n    </span>\n<span class=\"social-proof-star\">\n      <svg xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <svg class=\"w-[16px] h-[16px]\" fill=\"currentColor\" stroke=\"currentColor\" xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <path d=\"M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z\"></path>\n      </svg>\n    </span>\n<span class=\"social-proof-star\">\n      <svg xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <svg class=\"w-[16px] h-[16px]\" fill=\"currentColor\" stroke=\"currentColor\" xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <path d=\"M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z\"></path>\n      </svg>\n    </span>\n<span class=\"social-proof-star\">\n      <svg xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <svg class=\"w-[16px] h-[16px]\" fill=\"currentColor\" stroke=\"currentColor\" xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <path d=\"M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z\"></path>\n      </svg>\n    </span>\n<span class=\"social-proof-star\">\n      <svg xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <svg class=\"w-[16px] h-[16px]\" fill=\"currentColor\" stroke=\"currentColor\" xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <path d=\"M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z\"></path>\n      </svg>\n    </span>\n  </span>\n  <span class=\"social-proof-slide__block-rating-text\">\n    Noté 4.8\n par +1000 Clientes !\n  </span>\n</div>\n\n</body>\n</html>"
-          }
-        },
-        "title": {
-          "type": "title",
-          "settings": {
-            "heading_tag": "h4"
-          }
-        },
-        "badges": {
-          "type": "badges",
-          "settings": {}
-        },
-        "liquid_B4Egz4": {
-          "type": "liquid",
-          "disabled": true,
-          "settings": {
-            "liquid": "<style>\n  .price-inline {\n    display: flex;\n    align-items: center;\n    gap: 11px; /* réduit de 20 % */\n    font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;\n  }\n\n  .price-current {\n    font-size: 26px; /* -20 % */\n    font-weight: 800;\n    line-height: 1;\n    color: #0f0f0f;\n  }\n\n  .price-old {\n    font-size: 22px; /* -20 % */\n    font-weight: 800;\n    line-height: 1;\n    color: #ff7e8d;\n    position: relative;\n    padding: 0 2px;\n  }\n\n  .price-old::after {\n    content: \"\";\n    position: absolute;\n    left: -2px;\n    right: -2px;\n    top: 50%;\n    height: 3px; /* -20 % */\n    background: #ff7e8d;\n    transform: translateY(-50%) rotate(-6deg);\n    border-radius: 2px;\n    opacity: 0.9;\n  }\n\n  .discount-badge {\n    font-size: 14px; /* -20 % */\n    font-weight: 700;\n    color: #ff7e8d;\n    background: #ffeef1;\n    padding: 7px 11px; /* -20 % */\n    border-radius: 10px;\n    display: inline-flex;\n    align-items: center;\n    justify-content: center;\n  }\n\n  @media (max-width: 480px) {\n    .price-current {\n      font-size: 23px;\n    }\n    .price-old {\n      font-size: 19px;\n    }\n    .discount-badge {\n      font-size: 12px;\n      padding: 5px 8px;\n    }\n  }\n</style>\n\n<div class=\"price-inline\">\n  <div class=\"price-current\">39,90€</div>\n  <div class=\"price-old\">79,90€</div>\n  <div class=\"discount-badge\">− 50% Oferta Especial de Navidad</div>\n</div>"
-          }
-        },
-        "image_pRggRB": {
-          "type": "image",
-          "settings": {
-            "alignment": "centro",
-            "max_width": 500
-          }
-        },
-        "liquid_jnATdX": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<style>\n  .blink {\n    animation: blink-animation 1.5s steps(5, start) infinite;\n    color: red;\n    display: inline-block; /* Display as inline-block */\n    vertical-align: middle; /* Align vertically to middle */\n    font-size: 10px; /* Set font size */\n  }\n\n  @keyframes blink-animation {\n    to {\n      visibility: hidden;\n    }\n  }\n\n  .red-div {\n    background-color: #ffcccc;\n    padding: 2px 10px; /* 6px vertical, 10px horizontal */\n    border-radius: 8px; /* Rounded corners */\n    display: inline-block; /* Display as inline-block */\n    text-align: center; /* Center align the content */\n    margin: 0 auto; /* Horizontally center the red-div */\n  }\n\n  .text {\n    display: inline-block; /* Display as inline-block */\n    vertical-align: middle; /* Align vertically to middle */\n    margin-left: 10px; /* Add some space between the dot and the text */\n    color: #AD0000; /* Text color */\n    font-weight: 500; /* Medium font weight */\n    font-size: 12px; /* Set font size */\n    text-align: justify; /* Justify the text to the center */\n  }\n</style>\n\n<div class=\"red-div\">\n  <div class=\"blink\">&#9679;</div>\n  <div class=\"text\">Stock restante: 5 Bradiva </div>\n</div>"
-          }
-        },
-        "image_h9L7gC": {
-          "type": "image",
-          "settings": {
-            "alignment": "centro",
-            "max_width": 500
-          }
-        },
-        "rating": {
-          "type": "rating",
-          "settings": {
-            "show_empty": false
-          }
-        },
-        "separator": {
-          "type": "separator",
-          "disabled": true,
-          "settings": {}
-        },
-        "description": {
-          "type": "description",
-          "disabled": true,
-          "settings": {
-            "collapse_content": false
-          }
-        },
-        "variant-picker": {
-          "type": "variant_picker",
-          "settings": {
-            "hide_sold_out_variants": false,
-            "stack_blocks": true,
-            "selector_style": "block",
-            "swatch_selector_style": "color",
-            "variant_image_options": "",
-            "size_chart_page": ""
-          }
-        },
-        "image_RDB3Wz": {
-          "type": "image",
-          "settings": {
-            "alignment": "centro",
-            "max_width": 500
-          }
-        },
-        "liquid_hBQ6RP": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<style style=\"z-index: 22;\">\n.unique-body-Xyz123 {\n  font-family: Arial, sans-serif;\n  background-color: #f9f9f9;\n  color: #333;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  height: 100vh;\n  margin: 0;\n}\n\n.unique-container-Abc456 {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  gap: 10px; /* Badge'ler arasındaki boşluk */\n}\n\n.unique-badge-Def789 {\n  display: inline-flex;\n  align-items: center;\n  background-color: #e0ffd8; /* Muy claro fondo verde */\n  color: #004d00; /* Texto verde oscuro */\n  padding: 2px 4px; /* Padding reducido */\n  border-radius: 3px; /* Esquina redondeada reducida */\n  font-size: 10px; /* Tamaño de fuente reducido */\n  font-weight: bold;\n  text-align: center;\n  position: relative;\n}\n\n.unique-badge-Ghi012 {\n  display: inline-flex;\n  align-items: center;\n  background-color: #ffdede; /* Fondo rojo claro */\n  color: #b22222; /* Texto rojo oscuro */\n  padding: 2px 4px; /* Padding reducido */\n  border-radius: 3px; /* Esquina redondeada reducida */\n  font-size: 10px; /* Tamaño de fuente reducido */\n  font-weight: bold;\n  text-align: center;\n  position: relative;\n}\n\n.unique-icon-Jkl345 {\n  width: 12px; /* Tamaño de icono reducido */\n  height: 12px; /* Tamaño de icono reducido */\n  margin-right: 2px;\n  vertical-align: middle;\n}\n\n.unique-badge-Def789 span, .unique-badge-Ghi012 span {\n  display: flex;\n  align-items: center;\n  white-space: nowrap; /* Asegura que el texto se mantenga en una sola línea */\n}\n\n@keyframes\n unique-rotate-Mno678 {\n  from {\n    transform: rotate(0deg);\n  }\n  to {\n    transform: rotate(360deg);\n  }\n}\n\n.unique-clock-hand-Pqr901 {\n  transform-origin: 50% 50%;\n  animation: unique-rotate-Mno678 2s linear infinite;\n}\n</style>\n\n<div class=\"unique-container-Abc456\" style=\"z-index: 21;\">\n  <div class=\"unique-badge-Def789\">\n    <span>\n      <svg class=\"unique-icon-Jkl345\" viewBox=\"0 0 24 24\" xmlns=\"http://w3.org/2000/svg\">\n        <path fill=\"#004d00\" d=\"M12 2C9.24 2 7 4.24 7 7V10H5C3.9 10 3 10.9 3 12V19C3 20.1 3.9 21 5 21H19C20.1 21 21 20.1 21 19V12C21 10.9 20.1 10 19 10H17V7C17 4.24 14.76 2 12 2M12 4C13.66 4 15 5.34 15 7V10H9V7C9 5.34 10.34 4 12 4M12 12C13.1 12 14 12.9 14 14C14 15.1 13.1 16 12 16C10.9 16 10 15.1 10 14C10 12.9 10.9 12 12 12Z\"></path>\n      </svg>\n90J Satisfecho o reembolsado</span>\n  </div>\n\n  <div class=\"unique-badge-Ghi012\">\n    <span>\n      <svg class=\"unique-icon-Jkl345\" viewBox=\"0 0 24 24\" xmlns=\"http://w3.org/2000/svg\">\n        <circle cx=\"12\" cy=\"12\" r=\"10\" stroke=\"#b22222\" stroke-width=\"2\" fill=\"none\"></circle>\n        <line x1=\"12\" y1=\"12\" x2=\"12\" y2=\"6\" stroke=\"#b22222\" stroke-width=\"2\" class=\"unique-clock-hand-Pqr901\"></line>\n        <line x1=\"12\" y1=\"12\" x2=\"16\" y2=\"12\" stroke=\"#b22222\" stroke-width=\"2\"></line>\n      </svg>\n¡STOCK BAJO!    </span>\n  </div>\n</div>"
-          }
-        },
-        "buy-buttons": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_payment_button": false,
-            "show_gift_card_recipient": true,
-            "atc_button_background": "#000000",
-            "atc_button_text_color": "#ffffff",
-            "payment_button_background": "#f0c417",
-            "payment_button_text_color": ""
-          }
-        },
-        "image_HEKD9X": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "alignment": "centro",
-            "max_width": 500
-          }
-        },
-        "liquid_qAwa8K": {
-          "type": "liquid",
-          "settings": {
-            "liquid": ""
-          }
-        },
-        "liquid_qTkTzG": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<style>\n  .features-wrapper {\n    display: flex;\n    justify-content: center;\n  }\n\n  .features-container {\n    display: flex;\n    flex-wrap: wrap;\n    gap: 20px;\n    max-width: 600px;\n  }\n\n  .feature-item {\n    width: calc(50% - 10px);\n    display: flex;\n    align-items: center;\n    gap: 10px;\n  }\n\n  .icon-wrapper {\n    width: 40px;\n    height: 40px;\n    background-color: #F5F7F8;\n    border-radius: 50%;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    flex-shrink: 0;\n  }\n\n  .icon-wrapper img {\n    width: 22px;\n    height: 22px;\n    display: block;\n  }\n\n  .text-wrapper { display: flex; flex-direction: column; }\n  .feature-title { font-weight: 700; color: #242424; margin: 0; font-size: 14px; }\n  .feature-subtitle { font-weight: 400; color: #424242; margin: 0; font-size: 12px; }\n\n  @media (max-width: 480px) {\n    .feature-item { width: calc(50% - 10px); }\n    .feature-title { font-size: 12px; }\n    .feature-subtitle { font-size: 10px; }\n    .icon-wrapper { width: 36px; height: 36px; }\n    .icon-wrapper img { width: 20px; height: 20px; }\n  }\n\n  /* language switch */\n  html[lang=\"fr\"] .features-en { display: none !important; }\n  html[lang=\"en\"] .features-fr { display: none !important; }\n</style>\n\n<!-- FRENCH VERSION -->\n<div class=\"features-wrapper features-fr\">\n  <div class=\"features-container\">\n\n    <div class=\"feature-item\">\n      <div class=\"icon-wrapper\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0891/4871/9429/files/NOUVEAU-SHIPPING1.svg?v=1744585896\" alt=\"\">\n      </div>\n      <div class=\"text-wrapper\">\n        <p class=\"feature-title\">Envío gratis</p>\n        <p class=\"feature-subtitle\">Envío en 24/72H</p>\n      </div>\n    </div>\n\n    <div class=\"feature-item\">\n      <div class=\"icon-wrapper\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0891/4871/9429/files/NOUVEAU-check-shield.svg?v=1744586491\" alt=\"\">\n      </div>\n      <div class=\"text-wrapper\">\n        <p class=\"feature-title\">Pago seguro</p>\n        <p class=\"feature-subtitle\">a través de SSL & 3D Secure</p>\n      </div>\n    </div>\n\n    <div class=\"feature-item\">\n      <div class=\"icon-wrapper\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0891/4871/9429/files/NOUVEAU-RETOUR.svg?v=1744585755\" alt=\"\">\n      </div>\n      <div class=\"text-wrapper\">\n        <p class=\"feature-title\">Satisfecho o reembolsado</p>\n        <p class=\"feature-subtitle\">90 días para probar</p>\n      </div>\n    </div>\n\n    <div class=\"feature-item\">\n      <div class=\"icon-wrapper\">\n        <img src=\"https://em-content.zobj.net/source/apple/391/flag-france_1f1eb-1f1f7.png\" alt=\"\">\n      </div>\n      <div class=\"text-wrapper\">\n        <p class=\"feature-title\">SAV Español</p>\n        <p class=\"feature-subtitle\">Disponible 7d/7</p>\n      </div>\n    </div>\n\n  </div>\n</div>"
-          }
-        },
-        "liquid_x9KRXa": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<style>\n  .aloura-badge {\n    --border-color: #ff7e8d;\n    --text-color: #1a1a1a;\n    --subtext-color: #555;\n    --check-color: #59a10b;\n    display: inline-flex;\n    align-items: center;\n    gap: 8px;\n    padding: 6px 10px;\n    border: 2px dashed var(--border-color);\n    border-radius: 10px;\n    background: #ffeef1;\n    font-family: 'Inter', sans-serif;\n    font-size: 15px;\n    line-height: 1.2;\n    color: var(--text-color);\n  }\n\n  .aloura-badge .avatars {\n    display: flex;\n    align-items: center;\n  }\n\n  .aloura-badge .avatars img {\n    width: 26px;\n    height: 26px;\n    border-radius: 50%;\n    border: 2px solid #fff;\n    object-fit: cover;\n    margin-left: -8px;\n    box-shadow: 0 0 0 1px rgba(0,0,0,0.05);\n  }\n\n  .aloura-badge .avatars img:first-child {\n    margin-left: 0;\n  }\n\n  .aloura-badge .verified {\n    display: inline-flex;\n    align-items: center;\n    justify-content: center;\n    background: #eaf9da;\n    border-radius: 50%;\n    width: 15px;\n    height: 15px;\n    margin: 0 3px;\n  }\n\n  .aloura-badge .verified svg {\n    width: 10px;\n    height: 10px;\n    fill: var(--check-color);\n  }\n\n  .aloura-badge strong {\n    font-weight: 700;\n  }\n\n  @media (max-width: 480px) {\n    .aloura-badge {\n      font-size: 14px;\n      padding: 5px 8px;\n    }\n    .aloura-badge .avatars img {\n      width: 22px;\n      height: 22px;\n      margin-left: -6px;\n    }\n  }\n</style>\n\n<div class=\"aloura-badge\">\n  <div class=\"avatars\">\n    <img src=\"//aloura.de/cdn/shop/files/IMG_5070.jpg?v=1754681100&width=100\" alt=\"\">\n    <img src=\"//aloura.de/cdn/shop/files/IMG_5069.jpg?v=1754681121&width=100\" alt=\"\">\n    <img src=\"//aloura.de/cdn/shop/files/IMG_5071.jpg?v=1754681123&width=100\" alt=\"\">\n  </div>\n  <span><strong>María</strong></span>\n  <span class=\"verified\">\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\">\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\"\n        d=\"M21.007 8.27C22.194 9.125 23 10.45 23 12c0 1.55-.806 2.876-1.993 3.73.24 1.442-.134 2.958-1.227 4.05-1.095 1.095-2.61 1.459-4.046 1.225C14.883 22.196 13.546 23 12 23c-1.55 0-2.878-.807-3.731-1.996-1.438.235-2.954-.128-4.05-1.224-1.095-1.095-1.459-2.611-1.217-4.05C1.816 14.877 1 13.551 1 12s.816-2.878 2.002-3.73c-.242-1.439.122-2.955 1.218-4.05 1.093-1.094 2.61-1.467 4.057-1.227C9.125 1.804 10.453 1 12 1c1.545 0 2.88.803 3.732 1.993 1.442-.24 2.956.135 4.048 1.227 1.093 1.092 1.468 2.608 1.227 4.05Zm-4.426-.084a1 1 0 0 1 .233 1.395l-5 7a1 1 0 0 1-1.521.126l-3-3a1 1 0 0 1 1.414-1.414l2.165 2.165 4.314-6.04a1 1 0 0 1 1.395-.232Z\"/>\n    </svg>\n  </span>\n  <span>y <strong>+ 14.372 mujeres</strong> aprueban Bradiva</span>\n</div>"
-          }
-        },
-        "liquid_VDrnEd": {
-          "type": "liquid",
-          "disabled": true,
-          "settings": {
-            "liquid": "<div class=\"video-slider-container\">\n  <div class=\"video-slider\">\n\n    <!-- Carte 1 -->\n    <div class=\"video-card\">\n      <video src=\"https://admin.shopify.com/store/eygnni-1x/themes/188459843919/editor?previewMode=mobile&setting=template--26801030136143__featured-product__liquid_VDrnEd__liquid&block=template--26801030136143__insta_tQatw8__video_wLzGFf&section=template--26801030136143__insta_tQatw8\n\" muted autoplay loop playsinline></video>\n      <div class=\"overlay\">\n        <p>¡Finalmente puedo volver a hacer deporte, gracias!</p>\n        <div class=\"stars\">★★★★★</div>\n      </div>\n    </div>\n<!-- Carte 2 -->\n    <div class=\"video-card\">\n      <video src=\"https://cdn.shopify.com/videos/c/o/v/9d119f2e5ba44c86afe041d2c8311292.mp4\n\n\n\" muted autoplay loop playsinline></video>\n      <div class=\"overlay\">\n        <p>Las tendinitis y los dolores en las rodillas y la espalda han desaparecido, estoy feliz.</p>\n        <div class=\"stars\">★★★★★</div>\n      </div>\n    </div>\n\n    <!-- Carte 3 -->\n    <div class=\"video-card\">\n      <video src=\"https://cdn.shopify.com/videos/c/o/v/a82913ba025042509c9edf011c5de5e0.mp4\" muted autoplay loop playsinline></video>\n      <div class=\"overlay\">\n        <p>Ya no tengo dolores articulares, rara vez me enfermo, ¡es genial!</p>\n        <div class=\"stars\">★★★★★</div>\n      </div>\n    </div>\n\n\n  </div>\n</div>\n<style>\n.video-slider-container {\n  overflow-x: auto;\n  -webkit-overflow-scrolling: touch;\n  padding: 10px 0;\n}\n.video-slider {\n  display: flex;\n  gap: 14px;\n  padding-left: 10px;\n}\n.video-card {\n  position: relative;\n  flex: 0 0 230px;\n  border-radius: 16px;\n  overflow: hidden;\n  box-shadow: 0 5px 15px rgba(0,0,0,0.15);\n  background: #000;\n}\n.video-card video {\n  width: 100%;\n  height: 100%;\n  object-fit: cover;\n  display: block;\n}\n.video-card .overlay {\n  position: absolute;\n  bottom: 0;\n  width: 100%;\n  color: white;\n  background: linear-gradient(transparent, rgba(0,0,0,0.6));\n  padding: 10px;\n  font-size: 14px;\n}\n.video-card .stars {\n  font-size: 14px;\n  margin-top: 4px;\n  color: #fff500;\n  letter-spacing: 2px;\n}\n</style>"
-          }
-        },
-        "image_NnVtjL": {
-          "type": "image",
-          "settings": {
-            "alignment": "centro",
-            "max_width": 500
-          }
-        }
-      },
-      "block_order": [
-        "vendor",
-        "liquid_UqCNKi",
-        "title",
-        "badges",
-        "liquid_B4Egz4",
-        "image_pRggRB",
-        "liquid_jnATdX",
-        "image_h9L7gC",
-        "rating",
-        "separator",
-        "description",
-        "variant-picker",
-        "image_RDB3Wz",
-        "liquid_hBQ6RP",
-        "buy-buttons",
-        "image_HEKD9X",
-        "liquid_qAwa8K",
-        "liquid_qTkTzG",
-        "liquid_x9KRXa",
-        "liquid_VDrnEd",
-        "image_NnVtjL"
-      ],
-      "settings": {
-        "full_width": false,
-        "product": "bradiva-womens-creatine",
-        "desktop_media_width": 55,
-        "desktop_media_layout": "carousel_thumbnails_bottom",
-        "mobile_media_size": "expanded",
-        "mobile_carousel_control": "thumbnails",
-        "enable_video_autoplay": true,
-        "enable_video_looping": true,
-        "enable_image_zoom": false,
-        "max_image_zoom_level": 3,
-        "background": "#ffffff",
-        "background_gradient": "",
-        "text_color": "",
-        "input_background": "rgba(0,0,0,0)",
-        "input_text_color": ""
-      }
-    },
-    "custom_liquid_ebKGdt": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "name": "Líquido Personalizado",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<div class=\"product-infoliquid\" bis_skin_checked=\"1\">\n            <div class=\"product-infoliquid\" bis_skin_checked=\"1\">\n            <div class=\"product-info__liquid\" bis_skin_checked=\"1\">\n    <div style=\"display: flex; margin-bottom: 20px; margin-top: -15px; align-items: center; border: 1px solid #e1e1e1; padding: 12px; border-radius: 10px; max-width: 1200px;\" bis_skin_checked=\"1\">\n        <div style=\"flex-shrink: 0;\" bis_skin_checked=\"1\">\n            <img src=\"https://www.lutronic.com/us/wp-content/uploads/sites/5/2023/08/Melda_Isaac-600x600-1.png\" alt=\"Foto de Perfil\" style=\"border-radius: 50%; width: 60px; height: 60px; object-fit: cover;\">\n        </div>\n        <div style=\"margin-left: 8px;\" bis_skin_checked=\"1\">\n            <div style=\"display: flex; align-items: center;\" bis_skin_checked=\"1\">\n                <img src=\"https://cdn.shopify.com/s/files/1/0549/0117/8598/files/stars-4.5.svg?v=1662112912\" alt=\"Estrellas\" style=\"width: 100px; height: auto;\">\n            </div>\n            <p style=\"font-style: italic; font-size: 11px; margin: 5px 0;\">“Una alternativa natural y no invasiva que ayuda a esculpir la silueta estimulando los músculos y evitando las molestias de los métodos tradicionales. Ideal para quienes desean un cuerpo armonioso sin intervenciones.”</p>\n            <div style=\"display: flex; align-items: center;\" bis_skin_checked=\"1\">\n                <img src=\"https://pagepilot.ai/images/checkmark.svg\" alt=\"Ícono Verificado\" style=\"width: 20px; height: 20px; margin-right: 5px;\">\n                <span>Dr. Sofía L.</span>\n            </div>\n        </div>\n    </div>\n</div>\n          </div>\n<!-- <div class=\"richtext-product-description2\">\n<p>Nuestras imágenes son ilustrativas: cada producto conserva su diseño y calidad, con a veces sutiles variaciones entre lotes.</p>\n</div> -->\n\n<style>\n/ .richtext-product-description p:nth-child(1)::before {\n  content: '';\n  display: inline-block;\n  background-size: contain;\n  background-repeat: no-repeat;\n  margin-right: 8px; /* Espaciado entre el ícono y el texto /\n  vertical-align: middle; / Alinea el ícono con el texto /\n}\n.richtext-product-description2 p {\n  font-size: 14px;\n  line-height: 26px;\n}/\n</style>\n          </div>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "tabs_Waa9zt": {
-      "type": "tabs",
-      "blocks": {
-        "tab_kNhjBC": {
-          "type": "tab",
-          "settings": {
-            "title": "Ingredientes y Beneficios 🌿",
-            "content": "<h3><strong>Ingredientes y Beneficios</strong></h3><p>Bradiva ahora tiene un delicado sabor a naranja tropical sutil, agradable y nunca empalagoso.<br/><br/>Nuestra nueva fórmula, aún más pura, <strong>no contiene colorantes ni azúcares añadidos</strong>.</p><p>A diferencia de la creatina clásica, a menudo amarga o pesada, <strong>Bradiva se disuelve perfectamente</strong> y ofrece un sabor fresco, dulce y natural.<br/><br/>Cada medida es un concentrado de nutrientes esenciales, diseñado para combinar <strong>eficacia y placer de manera completamente natural.</strong> 🌿</p><p><br/><strong>Creatina Monohidratada (5000 mg)</strong> – Favorece el desarrollo de la masa muscular y estimula la producción de energía celular.<br/></p><p><strong>L-Glutamina (1000 mg)</strong> – Apoya una mejor recuperación muscular y favorece la salud digestiva.<br/></p><p><strong>Colágeno Hidrolizado (2500 mg)</strong> – Ayuda a reafirmar y mejorar la elasticidad de la piel, protegiendo las articulaciones y los tejidos conectivos.<br/></p><p><strong>Mio-Inositol (1000 mg)</strong> – Contribuye al equilibrio hormonal y ayuda a reducir la hinchazón abdominal.<br/></p><p><strong>Vitaminas B6 y B12</strong> – Ofrecen un verdadero impulso de energía diaria, mejorando el estado de ánimo y la concentración.<br/></p><p><strong>BCAA (2000 mg)</strong> – Reduce las tensiones musculares, aumenta la resistencia y acelera la recuperación después de la actividad física.<br/></p>",
-            "page": ""
-          }
-        },
-        "tab_qpeWfc": {
-          "type": "tab",
-          "settings": {
-            "title": "¿Cuál es el contenido de un pedido de Bradiva y cuál es la dosis recomendada?",
-            "content": "<p>Cada pedido de Bradiva contiene:</p><ul><li><strong>1 frasco de Bradiva</strong> (polvo activo natural para glúteos)<br/></li><li><strong>1 cucharada dosificadora</strong> integrada para facilitar tu dosificación diaria<br/></li><li><strong>1 eBook exclusivo</strong> ofrecido, enviado automáticamente por correo electrónico justo después de tu pedido<br/><br/>→ Este eBook te explica <strong>cómo optimizar tus resultados</strong>, con consejos de nutrición, hidratación y pequeños hábitos a adoptar en tu día a día.<br/></li></ul><p>Todo está pensado para acompañarte paso a paso en tu transformación.</p><p>Una caja contiene <strong>269 g de polvo</strong>.<br/><br/>La dosis recomendada es de <strong>1 medida (aproximadamente 9 g) por día</strong>.<br/><br/>Esto corresponde a un tratamiento de aproximadamente <strong>30 días</strong> con una toma diaria.</p>",
-            "page": ""
-          }
-        },
-        "tab_GUd9zE": {
-          "type": "tab",
-          "settings": {
-            "title": "¿Es necesario hacer deporte para usar Bradiva?",
-            "content": "<p>¡No! Bradiva está diseñado precisamente para aquellos que <strong>no siempre tienen el tiempo o las ganas de pasar horas entrenando</strong>.<br/></p>",
-            "page": ""
-          }
-        },
-        "tab_dkjrUh": {
-          "type": "tab",
-          "settings": {
-            "title": "¿Cuáles son los resultados?",
-            "content": "<p>Nuestros ingredientes son <strong>científicamente probados</strong>: la <strong>creatina monohidratada</strong> es uno de los suplementos más estudiados en el mundo, con más de <strong>500 investigaciones que confirman su eficacia</strong>.<br/><br/>El <strong>colágeno hidrolizado</strong> mejora la firmeza y elasticidad de la piel, mientras que el <strong>Myo-Inositol</strong> ayuda a regular las hormonas femeninas.</p><p><strong>Resultados típicos:</strong></p><p><strong>1–2 semanas:</strong> más energía y mejor recuperación<br/></p><p><strong>3–4 semanas:</strong> aumento de la fuerza muscular<br/></p><p><strong>6–8 semanas:</strong> figura más tonificada y definida<br/></p><p>¡Más de <strong>20,000 mujeres ya confían en nosotros!</strong><br/><br/>Si no notas ninguna mejora después de <strong>90 días de uso regular</strong>, <strong>te reembolsamos completamente</strong>.</p>",
-            "page": ""
-          }
-        },
-        "tab_c9j7Vg": {
-          "type": "tab",
-          "settings": {
-            "title": "¿Cuáles son tus garantías?",
-            "content": "<p>Estamos convencidos de la eficacia de Bradiva, por eso ofrecemos una <strong>garantía de “90 días satisfecho o reembolsado”</strong>.<br/><br/>Si, después de un uso regular y conforme a nuestras recomendaciones, no obtienes los resultados esperados, puedes contactarnos dentro de los 90 días siguientes a tu pedido para recibir un reembolso completo.<br/><br/> Este es nuestro compromiso de confianza: <strong>pruebas Bradiva sin ningún riesgo.</strong></p>",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "tab_kNhjBC",
-        "tab_qpeWfc",
-        "tab_GUd9zE",
-        "tab_dkjrUh",
-        "tab_c9j7Vg"
-      ],
-      "settings": {
-        "full_width": true,
-        "content_size": "medium",
-        "subheading": "",
-        "title": "",
-        "text_alignment": "center",
-        "first_tab_open": false,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": ""
-      }
-    },
-    "multi_column_wTJTNc": {
-      "type": "multi-column",
-      "blocks": {
-        "item_QdbeiM": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/2-e205fe66-d49f-4f2e-9010-b0014d587491-690c80a483a4c.png",
-            "column_size": "3",
-            "title": "Colágeno",
-            "heading_tag": "h4",
-            "content": "<p>Reafirma la piel, mejora la elasticidad y ayuda a mantener unas nalgas tonificadas y firmes</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_xiaYUR": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/1-e60313cf-ed1a-4934-a5fc-3b2e3b8b87c1-690c80a478a40.png",
-            "column_size": "3",
-            "title": "Creatina",
-            "heading_tag": "h4",
-            "content": "<p>Favorece el aumento de masa muscular en los glúteos</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_dPL9Rr": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/3-914d17df-d405-4944-8307-3f2e01d74d11-690c80a542c51.png",
-            "column_size": "3",
-            "title": "Myo-Inositol",
-            "heading_tag": "h4",
-            "content": "<p>Equilibra las hormonas, mejora la sensibilidad a la insulina y favorece una mejor composición corporal</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_LV4cm8": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/4_504cf819-51e8-41e3-befc-bf61f1576e47.png",
-            "column_size": "3",
-            "title": "Vitamina B12 & B8",
-            "heading_tag": "h4",
-            "content": "<p>Apoya el metabolismo energético y la recuperación, mientras reduce la fatiga</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_6nijje": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/5-690c80a61543e.png",
-            "column_size": "3",
-            "title": "BCAA",
-            "heading_tag": "h4",
-            "content": "<p>Estimulan el crecimiento muscular y limitan la degradación de los músculos, para curvas más firmes</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        }
-      },
-      "block_order": [
-        "item_QdbeiM",
-        "item_xiaYUR",
-        "item_dPL9Rr",
-        "item_LV4cm8",
-        "item_6nijje"
-      ],
-      "settings": {
-        "full_width": true,
-        "stack_on_mobile": false,
-        "gap": "medium",
-        "text_alignment": "center",
-        "subheading": "",
-        "title": "Los activos que esculpen tus glúteos",
-        "content": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "text_with_icons_faPQUB": {
-      "type": "text-with-icons",
-      "blocks": {
-        "item_mPRDdf": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-coupon",
-            "custom_icon": "shopify://shop_images/telechargement_22.jpg",
-            "mobile_icon_width": 120,
-            "icon_width": 120,
-            "icon_background_type": "circle",
-            "icon_background": "#ffffff",
-            "icon_color": "",
-            "title": "Certificado GMP",
-            "content": "<p>Una calidad controlada en cada etapa para ofrecerle un producto seguro y eficaz.</p>"
-          }
-        },
-        "item_Yk4bVG": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-coupon",
-            "custom_icon": "shopify://shop_images/telechargement_18.jpg",
-            "mobile_icon_width": 108,
-            "icon_width": 104,
-            "icon_background_type": "circle",
-            "icon_background": "#ffffff",
-            "icon_color": "",
-            "title": "Ingredientes 100 % naturales",
-            "content": "<p>Porque tu cuerpo merece lo mejor de la naturaleza, sin compromisos.</p>"
-          }
-        },
-        "item_9VTxCy": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-coupon",
-            "custom_icon": "shopify://shop_images/telechargement_19.jpg",
-            "mobile_icon_width": 108,
-            "icon_width": 104,
-            "icon_background_type": "circle",
-            "icon_background": "#ffffff",
-            "icon_color": "",
-            "title": "Sin OGM",
-            "content": "<p>Natural, limpio y sin artificios, justo lo que su cuerpo necesita.</p>"
-          }
-        },
-        "item_RJrqE6": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-coupon",
-            "custom_icon": "shopify://shop_images/telechargement_20.jpg",
-            "mobile_icon_width": 120,
-            "icon_width": 104,
-            "icon_background_type": "circle",
-            "icon_background": "#ffffff",
-            "icon_color": "",
-            "title": "Sin azúcar añadido",
-            "content": "<p>Sin compromisos en la línea</p>"
-          }
-        },
-        "item_eyH7PT": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-coupon",
-            "custom_icon": "shopify://shop_images/telechargement_21.jpg",
-            "mobile_icon_width": 108,
-            "icon_width": 104,
-            "icon_background_type": "circle",
-            "icon_background": "#ffffff",
-            "icon_color": "",
-            "title": "Sin gluten",
-            "content": "<p>Ligero, digestible y respetuoso con su bienestar diario.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "item_mPRDdf",
-        "item_Yk4bVG",
-        "item_9VTxCy",
-        "item_RJrqE6",
-        "item_eyH7PT"
-      ],
-      "name": "Text with icons",
-      "settings": {
-        "full_width": true,
-        "stack_on_mobile": false,
-        "title": "",
-        "heading_tag": "h5",
-        "text_alignment": "center",
-        "icon_spacing": "medium",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "rich_text_xzp6hM": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_W6dHpF": {
-          "type": "heading",
-          "settings": {
-            "text": "¿Bradiva o BBL? La naturalidad siempre gana",
-            "heading_tag": "h4",
-            "text_color": "",
-            "gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading_W6dHpF"
-      ],
-      "name": "Rich text",
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "image_with_text_overlay_XzmrHF": {
-      "type": "image-with-text-overlay",
-      "name": "Imagen con texto superpuesto",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify://shop_images/telechargement_27_707e88dc-d6db-441d-b30a-7892d247d7ee.jpg",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
-    },
-    "rich_text_mkzW7K": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_rWAPpp": {
-          "type": "heading",
-          "settings": {
-            "text": "Tu nuevo contorno, sin horas en el gimnasio. ¿El secreto? La ciencia Bradiva",
-            "heading_tag": "h4",
-            "text_color": "",
-            "gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading_rWAPpp"
-      ],
-      "name": "Rich text",
-      "settings": {
-        "full_width": true,
-        "content_width": "pequeño",
-        "text_position": "centro",
-        "background": "#ffffff",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "multiple_images_with_text_rKWqNJ": {
-      "type": "multiple-images-with-text",
-      "blocks": {
-        "item_E9WdEM": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/STEP_1.gif",
-            "image_rotation_degrees": -2,
-            "subheading": "",
-            "title": "Ingesta de Bradiva",
-            "content": "<p>Durante la ingesta, la creatina es absorbida por el sistema digestivo y luego transportada en la sangre en forma de <strong>creatina libre</strong>.<br/><br/>Actúa como un <strong>depósito de energía celular (ATP)</strong>, esencial para la contracción muscular y el rendimiento.</p>",
-            "button_url": "",
-            "button_text": ""
-          }
-        },
-        "item_Qqepc9": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/STEP_B.webp",
-            "image_rotation_degrees": 1.5,
-            "subheading": "",
-            "title": "Absorción muscular dirigida 🍑",
-            "content": "<p>Una vez en la circulación, la creatina es <strong>captada por las células musculares</strong>, especialmente las de los glúteos, a través de un transportador específico (CreaT1).<br/><br/>Aumenta la <strong>reserva de fosfocreatina</strong>, optimizando la recuperación y la potencia durante el entrenamiento de los glúteos. </p>",
-            "button_url": "",
-            "button_text": ""
-          }
-        },
-        "item_PmJFmn": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/STEP_C.webp",
-            "image_rotation_degrees": 0,
-            "subheading": "",
-            "title": "Síntesis y crecimiento muscular 🔬",
-            "content": "<p>Gracias a una mejor disponibilidad energética, las <strong>fibras musculares de los glúteos</strong> pueden entrenar más intensamente, regenerarse más rápido y <strong>aumentar en volumen</strong>.<br/><br/>Resultado: una <strong>hipertrofia natural</strong> y glúteos más firmes, más densos y más tonificados. </p>",
-            "button_url": "",
-            "button_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "item_E9WdEM",
-        "item_Qqepc9",
-        "item_PmJFmn"
-      ],
-      "name": "Multiple images with text",
-      "settings": {
-        "full_width": true,
-        "images_layout": "stacked",
-        "collage_images_alignment": "medio",
-        "background": "#ffffff",
-        "background_gradient": "",
-        "text_color": "",
-        "button_background": "",
-        "button_text_color": ""
-      }
-    },
-    "rich_text_FKTUGn": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_8hHpUi": {
-          "type": "heading",
-          "settings": {
-            "text": "Cómo usarlo: el secreto para un trasero perfecto",
-            "heading_tag": "h3",
-            "text_color": "",
-            "gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading_8hHpUi"
-      ],
-      "name": "Rich text",
-      "settings": {
-        "full_width": true,
-        "content_width": "pequeño",
-        "text_position": "centro",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "how_to_use_sambal_LAmJVU": {
-      "type": "how-to-use-sambal",
-      "blocks": {
-        "step_YTCaWL": {
-          "type": "step",
-          "settings": {
-            "image": "shopify://shop_images/6-690c80a66a3e0.png",
-            "video": "",
-            "title": "Agrega una dosis de Bradiva en tu shaker.",
-            "description": "Cada dosis contiene la cantidad ideal de activos para estimular el crecimiento y la tonicidad de los glúteos.",
-            "alignment": "left"
-          }
-        },
-        "step_H8AhF9": {
-          "type": "step",
-          "settings": {
-            "image": "shopify://shop_images/7-690c80a754f7b.png",
-            "video": "",
-            "title": "Agregue agua y agite bien durante unos segundos.",
-            "description": "La fórmula se activa y los principios actúan para fortalecer los músculos y apoyar la piel.",
-            "alignment": "left"
-          }
-        },
-        "step_JXcKJd": {
-          "type": "step",
-          "settings": {
-            "image": "shopify://shop_images/8-690c80a76fea2.png",
-            "video": "",
-            "title": "Bebe tu dosis de energía y feminidad.",
-            "description": "Día tras día, sentirás más fuerza, más forma y glúteos más definidos.",
-            "alignment": "left"
-          }
-        }
-      },
-      "block_order": [
-        "step_YTCaWL",
-        "step_H8AhF9",
-        "step_JXcKJd"
-      ],
-      "name": "Comment utiliser",
-      "settings": {}
-    },
-    "faq_MQHPPV": {
+    "faq_6HBHkM": {
+      "name": "FAQ",
       "type": "faq",
       "blocks": {
-        "item_qfyPPE": {
+        "item_6WhXFW": {
           "type": "item",
           "settings": {
-            "title": "¿Cuál es el sabor de Bradiva?",
-            "content": "<p>Bradiva tiene un sabor ligero, afrutado y agradable.<br/><br/>No tiene regusto químico ni amargo: es un placer disfrutarlo cada día.</p>"
+            "title": "Comment contacter votre service client ?",
+            "content": "<p><p>Notre équipe support est disponible 24h/24 et 7j/7 pour vous accompagner. Contactez-nous par email, chat en direct sur notre site, ou téléphone. Nous nous engageons à répondre à toutes vos questions dans les 2h maximum.</p></p>"
           }
         },
-        "item_9LmAfd": {
+        "item_AN3mHD": {
           "type": "item",
           "settings": {
-            "title": "¿Bradiva contiene lactosa?",
-            "content": "<p>No, <strong>Bradiva no contiene lactosa</strong> </p><p>Su fórmula está elaborada a partir de ingredientes naturales como la creatina, el colágeno (bovino, pescado y pollo), los BCAA, las vitaminas y los minerales <strong>ningún ingrediente lácteo forma parte de su composición</strong>.</p><p>Esto significa que <strong>Bradiva es perfectamente compatible con una dieta sin lactosa</strong> o una ligera intolerancia.</p>"
+            "title": "Quels moyens de paiement acceptez-vous ?",
+            "content": "<p><p>Nous acceptons toutes les cartes bancaires (Visa, Mastercard, American Express), PayPal, et le paiement en 3 fois sans frais via Klarna. Tous nos paiements sont sécurisés par cryptage SSL 256 bits pour votre sécurité.</p></p>"
           }
         },
-        "item_KjpMhk": {
+        "item_KQKJJF": {
           "type": "item",
           "settings": {
-            "title": "¿Puedo tomar Bradiva si estoy embarazada o amamantando?",
-            "content": "<p>Por precaución, <strong>no recomendamos el uso de Bradiva durante el embarazo o la lactancia</strong>.<br/><br/>Aunque la fórmula contiene únicamente ingredientes naturales, es mejor <strong>consultar a su médico o partera</strong> primero.<br/><br/>Su seguridad y la de su bebé son lo más importante 💕</p>"
+            "title": "Puis-je commander plusieurs boîtes pour une cure longue ?",
+            "content": "<p><p>Bien sûr ! Beaucoup de nos clients commandent des lots de 3 ou 6 boîtes pour bénéficier de tarifs préférentiels et assurer leur cure complète. Plus vous commandez, plus vous économisez. Vos produits sont garantis 2 ans.</p></p>"
           }
         },
-        "item_yeCKw3": {
+        "item_QDPdmz": {
           "type": "item",
           "settings": {
-            "title": "¿Puedo tomar Bradiva si tengo una enfermedad crónica o un tratamiento médico?",
-            "content": "<p>Si está siguiendo un <strong>tratamiento médico</strong> o padece una <strong>enfermedad crónica (tiroides, diabetes, hipertensión, riñones, etc.)</strong>, le recomendamos que <strong>consulte a su médico antes de comenzar Bradiva</strong>.<br/><br/>Nuestros ingredientes son naturales, pero pueden interactuar con ciertos tratamientos.<br/><br/>Un consejo profesional garantiza un uso seguro y adecuado a su situación 🌸</p>"
+            "title": "Puis-je retourner le produit si je ne suis pas satisfait(e) ?",
+            "content": "<p><p>Absolument ! Nous offrons une garantie satisfait ou remboursé de 30 jours. Si vous n'êtes pas pleinement satisfait(e) de votre achat, retournez-nous le produit et nous vous remboursons intégralement, sans questions.</p></p>"
           }
         },
-        "item_yDiwY9": {
+        "item_UPwiW4": {
           "type": "item",
           "settings": {
-            "title": "¿Bradiva favorece la pérdida de peso?",
-            "content": "<p>Sí, Bradiva ayuda a quemar grasas y a definir la figura.<br/><br/>Pero atención: su objetivo no es hacerte “adelgazar por todas partes” o perder tus curvas.</p><p>Su fórmula 6 en 1 actúa como un potenciador natural del metabolismo:</p><p>Ayuda al cuerpo a utilizar las grasas como fuente de energía,<br/></p><p>Favorece la digestión y el drenaje,<br/></p><p>Y sobre todo contribuye a esculpir y mantener las curvas femeninas, especialmente en la zona 🍑.<br/></p><p>✨ <strong>El resultado:</strong> no solo pierdes peso, sino que obtienes una figura más armoniosa: cintura más delgada, abdomen más plano, glúteos tonificados y piel más luminosa.</p><p>⚡ <strong>Bradiva es mucho más que un simple complemento alimenticio:</strong><br/><br/>es un aliado de transformación que actúa sobre la línea, las curvas y la luminosidad.</p>"
+            "title": "Le produit convient-il aux végétariens et végétaliens ?",
+            "content": "<p><p>Oui, Super Detox convient parfaitement aux végétariens et végétaliens. Nos gélules sont 100% végétales et tous nos ingrédients sont d'origine naturelle. Le produit ne contient aucun dérivé animal.</p></p>"
           }
         },
-        "item_8yPykD": {
+        "item_VbbtCC": {
           "type": "item",
           "settings": {
-            "title": "¿En qué forma se presenta Bradiva?",
-            "content": "<p>Bradiva es un polvo que se diluye en agua.<br/><br/>No hay cápsulas para ingerir, ni comprimidos demasiado grandes: solo una bebida fácil y agradable de disfrutar.</p>"
+            "title": "Le produit est-il certifié et contrôlé ?",
+            "content": "<p><p>Oui, Super Detox est fabriqué en France dans des laboratoires certifiés ISO 22000 et HACCP. Chaque lot est testé par des laboratoires indépendants pour garantir la pureté et la concentration des actifs. Nous respectons toutes les normes européennes.</p></p>"
           }
         },
-        "item_Qt9h7g": {
+        "item_c4TUDX": {
           "type": "item",
           "settings": {
-            "title": "¿Cómo preparar Bradiva?",
-            "content": "<p>Es muy simple: añade una dosis de Bradiva en un vaso o en la coctelera, vierte agua, mezcla bien… ¡y disfruta de tu bebida! 🍑<br/><br/>Un pequeño gesto diario para grandes resultados.</p><p></p>"
+            "title": "Quels sont les délais et frais de livraison ?",
+            "content": "<p><p>Nous offrons la livraison gratuite en France métropolitaine sous 3-5 jours ouvrés. Votre commande est expédiée sous 24h depuis nos entrepôts français. Vous recevrez un email de suivi avec votre numéro de colis.</p></p>"
           }
         },
-        "item_mrg8b4": {
+        "item_ebV7BW": {
           "type": "item",
           "settings": {
-            "title": "¿Es necesario hacer mucho deporte para usar Bradiva?",
-            "content": "<p>¡No! Bradiva está diseñado para aquellos que no siempre tienen el tiempo o las ganas de pasar horas entrenando.<br/><br/>Solo se necesitan algunos ejercicios simples para ver resultados.</p>"
+            "title": "Livrez-vous en Europe et dans les DOM-TOM ?",
+            "content": "<p><p>Oui, nous livrons dans toute l'Europe (5-8 jours ouvrés) et les DOM-TOM (7-12 jours ouvrés). Les frais de port varient selon la destination. Toutes nos expéditions sont assurées et suivies jusqu'à votre domicile.</p></p>"
           }
         },
-        "item_K9EhFR": {
+        "item_tfq4jP": {
           "type": "item",
           "settings": {
-            "title": "¿Cuánto tiempo debo entrenar al día?",
-            "content": "<p>¡No necesitas pasar horas en el gimnasio! Con solo 10 minutos al día en casa puedes sentir los beneficios: más energía, menos estrés y una mejor forma física.<br/><br/>Y si tienes un poco más de tiempo, puedes complementar tu rutina con los ejercicios del PDF 2 o 3 veces por semana para acelerar tus progresos.</p>"
-          }
-        },
-        "item_XY77ii": {
-          "type": "item",
-          "settings": {
-            "title": "¿Cuántas veces al día debo tomarlo?",
-            "content": "<p>El programa es muy simple: solo necesitas <strong>1 dosis al día</strong> para activar todos los beneficios de quemar grasa, esculpir las curvas y dar luminosidad a la piel. ✨</p><p></p>"
-          }
-        },
-        "item_P6yRzh": {
-          "type": "item",
-          "settings": {
-            "title": "¿Es seguro para las mujeres con SOP (Síndrome de Ovario Poliquístico)?",
-            "content": "<p>¡Sí! Nuestro sistema de microneedling está diseñado para ser seguro para todos los tipos de piel, incluidas las pieles sensibles.<br/><br/>Sin embargo, si tienes una afección cutánea grave, se recomienda consultar a tu médico antes de usar el producto.</p>"
-          }
-        },
-        "item_6cJAWF": {
-          "type": "item",
-          "settings": {
-            "title": "¿Puedo combinar este producto con otros suplementos alimenticios?",
-            "content": "<p>Bradiva reemplaza la mayoría de los suplementos: <strong>creatina, BCAA, colágeno, glutamina y vitaminas esenciales.</strong><br/><br/>Sin embargo, puedes tomar <strong>multivitaminas, omega-3 o medicamentos recetados</strong>, pero ya no es necesario comprar creatina o BCAA por separado.</p>"
-          }
-        },
-        "item_3ydTfx": {
-          "type": "item",
-          "settings": {
-            "title": "¿Qué garantía ofrecen?",
-            "content": "<p>Ofrecemos una <strong>garantía de satisfacción o reembolso de 90 días.</strong><br/><br/>Si no notas ninguna mejora en términos de fuerza, energía o forma del cuerpo a pesar de un uso regular, <strong>contáctanos y te reembolsaremos completamente.</strong></p>"
-          }
-        },
-        "item_QbyjD9": {
-          "type": "item",
-          "settings": {
-            "title": "¿Cuáles son los resultados?",
-            "content": "<p>¡Absolutamente! Nuestros ingredientes son <strong>científicamente probados</strong>:<br/><br/>la <strong>creatina monohidratada</strong> es uno de los suplementos más estudiados en el mundo, con más de 500 investigaciones que confirman su eficacia.<br/><br/>El <strong>colágeno hidrolizado</strong> mejora la firmeza de la piel, mientras que el <strong>Myo-Inositol</strong> ayuda a regular las hormonas femeninas.</p><p><strong>Resultados típicos:</strong><br/><br/>✅ <strong>1-2 semanas:</strong> más energía y mejor recuperación<br/><br/>✅ <strong>3-4 semanas:</strong> aumento de la fuerza muscular<br/><br/>✅ <strong>6-8 semanas:</strong> silueta más firme y definida</p><p>¡Más de <strong>20,000 mujeres</strong> ya confían en Bradiva! 💖<br/><br/>Y si después de 90 días de uso regular no notas ninguna mejora, <strong>te reembolsamos completamente.</strong></p>"
-          }
-        },
-        "item_RKyzeA": {
-          "type": "item",
-          "settings": {
-            "title": "¿Cuánto tiempo dura un paquete?",
-            "content": "<p>Un paquete de Bradiva contiene <strong>269 g de polvo</strong>, es decir, <strong>30 días de tratamiento</strong> con la dosis recomendada de <strong>1 medida (9 g) por día.</strong></p><p>Para obtener resultados óptimos, recomendamos:<br/><br/><strong>Mínimo:</strong> 1 paquete (30 días) para percibir los primeros efectos<br/><br/><strong>Recomendado:</strong> 2-3 paquetes (60-90 días) para una transformación visible<br/><br/><strong>Ideal:</strong> tratamiento continuo de 6 meses para resultados duraderos</p><p>Muchas de nuestras clientas piden directamente <strong>2 o 3 paquetes</strong> para aprovechar los <strong>precios reducidos</strong> y evitar <strong>rupturas de stock.</strong></p>"
-          }
-        },
-        "item_MihJ8p": {
-          "type": "item",
-          "settings": {
-            "title": "¿Puedo usarlo si ya hago deporte?",
-            "content": "<p>Sí, ¡es <strong>altamente recomendado!</strong> <br/><br/>Bradiva ha sido formulado para <strong>potenciar tus entrenamientos</strong>, sin importar tu actividad:</p><p><strong>Gimnasio / Fitness:</strong> la creatina aumenta el rendimiento y acelera la recuperación<br/><br/><strong>Pilates / Yoga:</strong> el colágeno ayuda a mantener la flexibilidad articular<br/><br/><strong>Cardio / Correr:</strong> los BCAA reducen la fatiga muscular<br/><br/><strong>Entrenamientos en interiores:</strong> la L-Glutamina optimiza la recuperación post-esfuerzo</p><p><strong>Tiempo óptimo:</strong><br/><br/>⏰ <strong>Antes del entrenamiento:</strong> 30 minutos antes para más energía<br/><br/>💧 <strong>Después del entrenamiento:</strong> dentro de la hora para favorecer la recuperación</p><p>Aún si eres <strong>principiante</strong>, ¡Bradiva te dará la energía y la motivación para comenzar y progresar más rápido! ✨</p>"
-          }
-        },
-        "item_GWJTCQ": {
-          "type": "item",
-          "settings": {
-            "title": "¿Cuáles son los gastos de envío?",
-            "content": "<p>Ofrecemos <strong>envío gratuito en toda España</strong>, sin ningún costo adicional para nuestras clientas.</p>"
-          }
-        },
-        "item_DAfyn3": {
-          "type": "item",
-          "settings": {
-            "title": "¿Cuánto tiempo tarda la entrega?",
-            "content": "<p>Enviamos con transportistas confiables (DHL / Correos / GLS).<br/><br/>La preparación del pedido generalmente toma <strong>24-48 horas</strong>, y luego la entrega se realiza en un promedio de <strong>4-7 días hábiles</strong>.</p>"
-          }
-        },
-        "item_VnHdN7": {
-          "type": "item",
-          "settings": {
-            "title": "¿Puedo seguir mi pedido?",
-            "content": "<p>¡Sí! 📦 Tan pronto como se realice el envío, recibirás un <strong>número de seguimiento por correo electrónico</strong> para seguir tu paquete en tiempo real y, si es necesario, <strong>elegir las opciones de entrega</strong> más convenientes para ti.</p>"
-          }
-        },
-        "item_3EBPbR": {
-          "type": "item",
-          "settings": {
-            "title": "¿Cómo funciona la devolución?",
-            "content": "<p>Bradiva ofrece una <strong>garantía de satisfacción o reembolso de 90 días.</strong><br/><br/>Solo tienes que contactarnos por correo electrónico a la dirección <a><strong>contacto@bradiva.es</strong></a> para iniciar el proceso de devolución.<br/><br/>Después de recibir y verificar el producto, el <strong>reembolso se realiza en un plazo de 1 a 5 días hábiles</strong> directamente en tu método de pago.</p>"
-          }
-        },
-        "item_D3yQPm": {
-          "type": "item",
-          "settings": {
-            "title": "¿Bradiva ayuda contra la celulitis?",
-            "content": "<p>¡Sí! 💕 El <strong>colágeno</strong> actúa desde adentro fortaleciendo los tejidos de la piel, mientras que la <strong>creatina</strong> y los <strong>BCAA</strong> ayudan a tonificar los músculos.<br/><br/><strong>El resultado:</strong> la piel se ve más firme, el cuerpo más esculpido y la celulitis menos visible. 🍑✨</p>"
+            "title": "Puis-je prendre Super Detox avec d'autres compléments ?",
+            "content": "<p><p>Super Detox peut généralement être associé à d'autres compléments alimentaires. Cependant, nous recommandons d'espacer les prises de 2h minimum. Si vous suivez un traitement médical ou prenez d'autres suppléments, consultez votre professionnel de santé.</p></p>"
           }
         }
       },
-      "block_order": [
-        "item_qfyPPE",
-        "item_9LmAfd",
-        "item_KjpMhk",
-        "item_yeCKw3",
-        "item_yDiwY9",
-        "item_8yPykD",
-        "item_Qt9h7g",
-        "item_mrg8b4",
-        "item_K9EhFR",
-        "item_XY77ii",
-        "item_P6yRzh",
-        "item_6cJAWF",
-        "item_3ydTfx",
-        "item_QbyjD9",
-        "item_RKyzeA",
-        "item_MihJ8p",
-        "item_GWJTCQ",
-        "item_DAfyn3",
-        "item_VnHdN7",
-        "item_3EBPbR",
-        "item_D3yQPm"
-      ],
       "settings": {
+        "title": "",
+        "content": "<h3><h4>Questions fréquentes</h4></h3>",
+        "background": "",
+        "button_url": "",
         "full_width": true,
         "subheading": "",
-        "title": "Preguntas Frecuentes",
-        "content": "",
-        "team_avatar_width": 160,
-        "support_hours": "",
+        "text_color": "",
         "answer_time": "",
         "button_text": "",
-        "button_url": "",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
         "heading_color": "",
+        "support_hours": "",
+        "text_position": "center",
         "heading_gradient": "",
         "button_background": "",
         "button_text_color": "",
+        "team_avatar_width": 160,
+        "background_gradient": "",
         "accordion_background": "",
         "accordion_text_color": ""
-      }
+      },
+      "block_order": [
+        "item_c4TUDX",
+        "item_QDPdmz",
+        "item_AN3mHD",
+        "item_6WhXFW",
+        "item_VbbtCC",
+        "item_KQKJJF",
+        "item_ebV7BW",
+        "item_UPwiW4",
+        "item_tfq4jP"
+      ]
     },
-    "image_with_text_overlay_kUPeMC": {
-      "type": "image-with-text-overlay",
-      "name": "Imagen con superposición de texto",
+    "logo_list_mer8Cd": {
+      "name": "Logo list",
+      "type": "logo-list",
+      "blocks": {
+        "logo_Bd69FU": {
+          "type": "logo",
+          "settings": {
+            "link": "",
+            "logo_width": 300
+          }
+        },
+        "logo_XCyhtq": {
+          "type": "logo",
+          "settings": {
+            "link": "",
+            "logo_width": 300
+          }
+        },
+        "logo_YrdN9r": {
+          "type": "logo",
+          "settings": {
+            "link": "",
+            "logo_width": 300
+          }
+        },
+        "logo_dea4mb": {
+          "type": "logo",
+          "settings": {
+            "link": "",
+            "logo_width": 300
+          }
+        }
+      },
       "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify://shop_images/telechargement_32.jpg",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
-    },
-    "contact_V6dyWF": {
-      "type": "contact",
-      "name": "Formulario de contacto",
-      "settings": {
-        "full_width": true,
-        "subheading": "",
         "title": "",
-        "content": "",
-        "text_position": "start",
-        "contact_form_size": "large",
+        "content": "<h3><strong>Recommandé par</strong></h3>",
         "background": "",
-        "background_gradient": "",
+        "full_width": true,
         "text_color": "",
+        "stack_mobile": true,
         "heading_color": "",
+        "items_per_row": 4,
+        "text_alignment": "center",
         "heading_gradient": "",
-        "contact_background": "",
-        "contact_text_color": "",
-        "button_background": "",
-        "button_text_color": ""
-      }
+        "logo_item_border": "",
+        "background_gradient": "",
+        "logo_item_background": "#ecf9ff"
+      },
+      "custom_css": [],
+      "block_order": [
+        "logo_Bd69FU",
+        "logo_YrdN9r",
+        "logo_dea4mb",
+        "logo_XCyhtq"
+      ]
     },
-    "17359565654f612dcd": {
+    "slideshow_qxk8Ba": {
+      "name": "Slideshow",
+      "type": "slideshow",
+      "blocks": {
+        "image_Exg7iP": {
+          "type": "image",
+          "settings": {
+            "title": "",
+            "background": "",
+            "subheading": "",
+            "text_color": "#ffffff",
+            "button_link": "",
+            "button_text": "",
+            "heading_tag": "h0",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "content_max_width": 780,
+            "background_gradient": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center"
+          }
+        }
+      },
+      "settings": {
+        "autoplay": false,
+        "background": "#f2f2f2",
+        "full_width": true,
+        "image_size": "auto",
+        "cycle_speed": 6,
+        "controls_type": "none",
+        "transition_type": "fade_with_text",
+        "background_gradient": "",
+        "show_initial_transition": false,
+        "allow_transparent_header": false
+      },
+      "block_order": [
+        "image_Exg7iP"
+      ]
+    },
+    "173889216379020d1a": {
       "type": "apps",
       "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
         "background": "",
+        "full_width": true,
+        "text_color": "",
         "background_gradient": "",
-        "text_color": ""
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false
       }
+    },
+    "multi_column_ehHhNL": {
+      "name": "Multi-column",
+      "type": "multi-column",
+      "blocks": {
+        "item_Hr6QPx": {
+          "type": "item",
+          "settings": {
+            "image": "",
+            "title": "Étape 3 - Détox complète",
+            "content": "<p><p>Après 21 jours de cure, votre organisme est purifié en profondeur. Vous retrouvez vitalité, bien-être digestif et un teint éclatant. Répétez la cure 3-4 fois par an pour maintenir les bienfaits.</p></p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link",
+            "column_size": "3",
+            "heading_tag": "h4"
+          }
+        },
+        "item_NyVJUU": {
+          "type": "item",
+          "settings": {
+            "image": "",
+            "title": "Étape 2 - Action progressive",
+            "content": "<p><p>La formule 3 en 1 agit simultanément sur vos parasites, votre foie et votre côlon. Les premiers effets se ressentent dès 7 jours : meilleur transit, regain d'énergie, sensation de légèreté.</p></p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link",
+            "column_size": "3",
+            "heading_tag": "h4"
+          }
+        },
+        "item_j7Q4PT": {
+          "type": "item",
+          "settings": {
+            "image": "",
+            "title": "Étape 1 - Prise quotidienne",
+            "content": "<p><p>Prenez 2 gélules chaque matin à jeun avec un grand verre d'eau, 30 minutes avant votre petit-déjeuner. Cette routine simple maximise l'absorption des principes actifs naturels.</p></p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link",
+            "column_size": "3",
+            "heading_tag": "h4"
+          }
+        }
+      },
+      "settings": {
+        "gap": "medium",
+        "title": "",
+        "content": "<h4><strong><h3>Comment ça marche ?</h3></strong></h4>",
+        "background": "",
+        "full_width": true,
+        "subheading": "",
+        "text_color": "",
+        "text_alignment": "center",
+        "stack_on_mobile": false,
+        "background_gradient": ""
+      },
+      "block_order": [
+        "item_j7Q4PT",
+        "item_NyVJUU",
+        "item_Hr6QPx"
+      ]
+    },
+    "text_with_icons_R7GyBX": {
+      "name": "Text with icons",
+      "type": "text-with-icons",
+      "blocks": {
+        "item_PQMQA4": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-lock",
+            "title": "Paiement sécurisé",
+            "content": "",
+            "icon_color": "#ffffff",
+            "icon_width": 32,
+            "icon_background": "#5fa0be",
+            "mobile_icon_width": 24,
+            "icon_background_type": "circle"
+          }
+        },
+        "item_PUQrek": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-operator",
+            "title": "Service client 24h",
+            "content": "",
+            "icon_color": "#ffffff",
+            "icon_width": 32,
+            "icon_background": "#5fa0be",
+            "mobile_icon_width": 24,
+            "icon_background_type": "circle"
+          }
+        },
+        "item_gDEFhV": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "title": "Livraison gratuite",
+            "content": "",
+            "icon_color": "#ffffff",
+            "icon_width": 32,
+            "icon_background": "#5fa0be",
+            "mobile_icon_width": 24,
+            "icon_background_type": "circle"
+          }
+        },
+        "item_tLJeRY": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-return",
+            "title": "Satisfait ou remboursé",
+            "content": "",
+            "icon_color": "#ffffff",
+            "icon_width": 32,
+            "icon_background": "#5fa0be",
+            "mobile_icon_width": 24,
+            "icon_background_type": "circle"
+          }
+        }
+      },
+      "settings": {
+        "title": "",
+        "background": "",
+        "full_width": true,
+        "text_color": "",
+        "heading_tag": "h5",
+        "icon_spacing": "medium",
+        "text_alignment": "center",
+        "stack_on_mobile": false,
+        "background_gradient": ""
+      },
+      "block_order": [
+        "item_gDEFhV",
+        "item_PUQrek",
+        "item_PQMQA4",
+        "item_tLJeRY"
+      ]
+    },
+    "featured_product_BNCh3F": {
+      "type": "featured-product",
+      "blocks": {
+        "text_LAWpqU": {
+          "type": "text",
+          "settings": {
+            "text": "<p><h4>Bénéfices clés:</h4><ul><li>Détoxification complète en 21 jours (foie, côlon, parasites)</li><li>Regain d'énergie dès la première semaine</li><li>Amélioration du transit et de la digestion</li><li>Élimination des toxines et parasites naturellement</li><li>Teint plus éclatant et bien-être général</li></ul></p>"
+          }
+        },
+        "price_UU6gFH": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "title_3bTAx9": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h3"
+          }
+        },
+        "liquid_GKVcqB": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<!DOCTYPE html>\n<html>\n<head>\n<style>\n:root {\n  --social-proof-text-color: #000000;\n  --social-proof-star-color: #0F5151;\n}\n\n.social-proof-slideblock-rating {\n    display: flex;\n    align-items: center;\n    justify-content: flex-start;\nfont-size: 14px;\n}\n\n.social-proof-slideblock-stars {\n    display: flex;\n    margin-right: 8px;\n    color: var(--social-proof-star-color);\n}\n\n.social-proof-slideblock-rating-text {\n    display: inline;\n    color: var(--social-proof-text-color);\n    content: var(--social-proof-rating-text);\n}\n\n.social-proof-star {\n    margin: 0;\n    padding: 0;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    width: 16px;\n    height: 16px;\n}\n\n.social-proof-star svg {\n    width: 16px;\n    height: 16px;\n    fill: var(--social-proof-star-color);\n}\n</style>\n</head>\n<body>\n\n<div class=\"social-proof-slideblock-rating mt-2\">\n  <span class=\"social-proof-slideblock-stars\">\n    <span class=\"social-proof-star\">\n      <svg xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <svg class=\"w-[16px] h-[16px]\" fill=\"currentColor\" stroke=\"currentColor\" xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <path d=\"M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z\"></path>\n      </svg>\n    </span>\n<span class=\"social-proof-star\">\n      <svg xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <svg class=\"w-[16px] h-[16px]\" fill=\"currentColor\" stroke=\"currentColor\" xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <path d=\"M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z\"></path>\n      </svg>\n    </span>\n<span class=\"social-proof-star\">\n      <svg xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <svg class=\"w-[16px] h-[16px]\" fill=\"currentColor\" stroke=\"currentColor\" xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <path d=\"M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z\"></path>\n      </svg>\n    </span>\n<span class=\"social-proof-star\">\n      <svg xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <svg class=\"w-[16px] h-[16px]\" fill=\"currentColor\" stroke=\"currentColor\" xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <path d=\"M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z\"></path>\n      </svg>\n    </span>\n<span class=\"social-proof-star\">\n      <svg xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <svg class=\"w-[16px] h-[16px]\" fill=\"currentColor\" stroke=\"currentColor\" xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <path d=\"M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z\"></path>\n      </svg>\n    </span>\n  </span>\n  <span class=\"social-proof-slideblock-rating-text\">\n    Noté 4.8 par +320 Clients !\n  </span>\n</div>\n\n</body>\n</html>"
+          }
+        },
+        "liquid_HX8Vae": {
+          "name": "stock availability liquid",
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div style=\"background-color: #ffe6e6; border-radius: 12px; padding: 1px 10px; color: #a30000; font-size: 14px; font-weight: 400; box-shadow: 0 2px 6px rgba(0,0,0,0.05); display: inline-flex; align-items: center; gap: 8px;\">\n  <span class=\"stock-bullet-alert\"></span>\n  <span><strong>4 en stock</strong>, se envía en 24 horas</span>\n</div>"
+          }
+        },
+        "liquid_RahGWq": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<ul style=\"margin-top: 10px; display: flex; justify-content: space-between;\" class=\"list list-payment\" role=\"list\"><li class=\"list-payment__item\">\n                  <svg class=\"icon icon--full-color\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-labelledby=\"pi-american_express\" viewBox=\"0 0 38 24\" width=\"38\" height=\"24\"><title id=\"pi-american_express\">American Express</title><path fill=\"#000\" d=\"M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3Z\" opacity=\".07\"></path><path fill=\"#006FCF\" d=\"M35 1c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h32Z\"></path><path fill=\"#FFF\" d=\"M22.012 19.936v-8.421L37 11.528v2.326l-1.732 1.852L37 17.573v2.375h-2.766l-1.47-1.622-1.46 1.628-9.292-.02Z\"></path><path fill=\"#006FCF\" d=\"M23.013 19.012v-6.57h5.572v1.513h-3.768v1.028h3.678v1.488h-3.678v1.01h3.768v1.531h-5.572Z\"></path><path fill=\"#006FCF\" d=\"m28.557 19.012 3.083-3.289-3.083-3.282h2.386l1.884 2.083 1.89-2.082H37v.051l-3.017 3.23L37 18.92v.093h-2.307l-1.917-2.103-1.898 2.104h-2.321Z\"></path><path fill=\"#FFF\" d=\"M22.71 4.04h3.614l1.269 2.881V4.04h4.46l.77 2.159.771-2.159H37v8.421H19l3.71-8.421Z\"></path><path fill=\"#006FCF\" d=\"m23.395 4.955-2.916 6.566h2l.55-1.315h2.98l.55 1.315h2.05l-2.904-6.566h-2.31Zm.25 3.777.875-2.09.873 2.09h-1.748Z\"></path><path fill=\"#006FCF\" d=\"M28.581 11.52V4.953l2.811.01L32.84 9l1.456-4.046H37v6.565l-1.74.016v-4.51l-1.644 4.494h-1.59L30.35 7.01v4.51h-1.768Z\"></path></svg>\n\n                </li><li class=\"list-payment__item\">\n                  <svg class=\"icon icon--full-color\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" x=\"0\" y=\"0\" width=\"38\" height=\"24\" viewBox=\"0 0 165.521 105.965\" xml:space=\"preserve\" aria-labelledby=\"pi-apple_pay\"><title id=\"pi-apple_pay\">Apple Pay</title><path fill=\"#000\" d=\"M150.698 0H14.823c-.566 0-1.133 0-1.698.003-.477.004-.953.009-1.43.022-1.039.028-2.087.09-3.113.274a10.51 10.51 0 0 0-2.958.975 9.932 9.932 0 0 0-4.35 4.35 10.463 10.463 0 0 0-.975 2.96C.113 9.611.052 10.658.024 11.696a70.22 70.22 0 0 0-.022 1.43C0 13.69 0 14.256 0 14.823v76.318c0 .567 0 1.132.002 1.699.003.476.009.953.022 1.43.028 1.036.09 2.084.275 3.11a10.46 10.46 0 0 0 .974 2.96 9.897 9.897 0 0 0 1.83 2.52 9.874 9.874 0 0 0 2.52 1.83c.947.483 1.917.79 2.96.977 1.025.183 2.073.245 3.112.273.477.011.953.017 1.43.02.565.004 1.132.004 1.698.004h135.875c.565 0 1.132 0 1.697-.004.476-.002.952-.009 1.431-.02 1.037-.028 2.085-.09 3.113-.273a10.478 10.478 0 0 0 2.958-.977 9.955 9.955 0 0 0 4.35-4.35c.483-.947.789-1.917.974-2.96.186-1.026.246-2.074.274-3.11.013-.477.02-.954.022-1.43.004-.567.004-1.132.004-1.699V14.824c0-.567 0-1.133-.004-1.699a63.067 63.067 0 0 0-.022-1.429c-.028-1.038-.088-2.085-.274-3.112a10.4 10.4 0 0 0-.974-2.96 9.94 9.94 0 0 0-4.35-4.35A10.52 10.52 0 0 0 156.939.3c-1.028-.185-2.076-.246-3.113-.274a71.417 71.417 0 0 0-1.431-.022C151.83 0 151.263 0 150.698 0z\"></path><path fill=\"#FFF\" d=\"M150.698 3.532l1.672.003c.452.003.905.008 1.36.02.793.022 1.719.065 2.583.22.75.135 1.38.34 1.984.648a6.392 6.392 0 0 1 2.804 2.807c.306.6.51 1.226.645 1.983.154.854.197 1.783.218 2.58.013.45.019.9.02 1.36.005.557.005 1.113.005 1.671v76.318c0 .558 0 1.114-.004 1.682-.002.45-.008.9-.02 1.35-.022.796-.065 1.725-.221 2.589a6.855 6.855 0 0 1-.645 1.975 6.397 6.397 0 0 1-2.808 2.807c-.6.306-1.228.511-1.971.645-.881.157-1.847.2-2.574.22-.457.01-.912.017-1.379.019-.555.004-1.113.004-1.669.004H14.801c-.55 0-1.1 0-1.66-.004a74.993 74.993 0 0 1-1.35-.018c-.744-.02-1.71-.064-2.584-.22a6.938 6.938 0 0 1-1.986-.65 6.337 6.337 0 0 1-1.622-1.18 6.355 6.355 0 0 1-1.178-1.623 6.935 6.935 0 0 1-.646-1.985c-.156-.863-.2-1.788-.22-2.578a66.088 66.088 0 0 1-.02-1.355l-.003-1.327V14.474l.002-1.325a66.7 66.7 0 0 1 .02-1.357c.022-.792.065-1.717.222-2.587a6.924 6.924 0 0 1 .646-1.981c.304-.598.7-1.144 1.18-1.623a6.386 6.386 0 0 1 1.624-1.18 6.96 6.96 0 0 1 1.98-.646c.865-.155 1.792-.198 2.586-.22.452-.012.905-.017 1.354-.02l1.677-.003h135.875\"></path><g><g><path fill=\"#000\" d=\"M43.508 35.77c1.404-1.755 2.356-4.112 2.105-6.52-2.054.102-4.56 1.355-6.012 3.112-1.303 1.504-2.456 3.959-2.156 6.266 2.306.2 4.61-1.152 6.063-2.858\"></path><path fill=\"#000\" d=\"M45.587 39.079c-3.35-.2-6.196 1.9-7.795 1.9-1.6 0-4.049-1.8-6.698-1.751-3.447.05-6.645 2-8.395 5.1-3.598 6.2-.95 15.4 2.55 20.45 1.699 2.5 3.747 5.25 6.445 5.151 2.55-.1 3.549-1.65 6.647-1.65 3.097 0 3.997 1.65 6.696 1.6 2.798-.05 4.548-2.5 6.247-5 1.95-2.85 2.747-5.6 2.797-5.75-.05-.05-5.396-2.101-5.446-8.251-.05-5.15 4.198-7.6 4.398-7.751-2.399-3.548-6.147-3.948-7.447-4.048\"></path></g><g><path fill=\"#000\" d=\"M78.973 32.11c7.278 0 12.347 5.017 12.347 12.321 0 7.33-5.173 12.373-12.529 12.373h-8.058V69.62h-5.822V32.11h14.062zm-8.24 19.807h6.68c5.07 0 7.954-2.729 7.954-7.46 0-4.73-2.885-7.434-7.928-7.434h-6.706v14.894z\"></path><path fill=\"#000\" d=\"M92.764 61.847c0-4.809 3.665-7.564 10.423-7.98l7.252-.442v-2.08c0-3.04-2.001-4.704-5.562-4.704-2.938 0-5.07 1.507-5.51 3.82h-5.252c.157-4.86 4.731-8.395 10.918-8.395 6.654 0 10.995 3.483 10.995 8.89v18.663h-5.38v-4.497h-.13c-1.534 2.937-4.914 4.782-8.579 4.782-5.406 0-9.175-3.222-9.175-8.057zm17.675-2.417v-2.106l-6.472.416c-3.64.234-5.536 1.585-5.536 3.95 0 2.288 1.975 3.77 5.068 3.77 3.95 0 6.94-2.522 6.94-6.03z\"></path><path fill=\"#000\" d=\"M120.975 79.652v-4.496c.364.051 1.247.103 1.715.103 2.573 0 4.029-1.09 4.913-3.899l.52-1.663-9.852-27.293h6.082l6.863 22.146h.13l6.862-22.146h5.927l-10.216 28.67c-2.34 6.577-5.017 8.735-10.683 8.735-.442 0-1.872-.052-2.261-.157z\"></path></g></g></svg>\n\n                </li><li class=\"list-payment__item\">\n                  <svg class=\"icon icon--full-color\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" viewBox=\"0 0 38 24\" width=\"38\" height=\"24\" aria-labelledby=\"pi-google_pay\"><title id=\"pi-google_pay\">Google Pay</title><path d=\"M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z\" fill=\"#000\" opacity=\".07\"></path><path d=\"M35 1c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h32\" fill=\"#FFF\"></path><path d=\"M18.093 11.976v3.2h-1.018v-7.9h2.691a2.447 2.447 0 0 1 1.747.692 2.28 2.28 0 0 1 .11 3.224l-.11.116c-.47.447-1.098.69-1.747.674l-1.673-.006zm0-3.732v2.788h1.698c.377.012.741-.135 1.005-.404a1.391 1.391 0 0 0-1.005-2.354l-1.698-.03zm6.484 1.348c.65-.03 1.286.188 1.778.613.445.43.682 1.03.65 1.649v3.334h-.969v-.766h-.049a1.93 1.93 0 0 1-1.673.931 2.17 2.17 0 0 1-1.496-.533 1.667 1.667 0 0 1-.613-1.324 1.606 1.606 0 0 1 .613-1.336 2.746 2.746 0 0 1 1.698-.515c.517-.02 1.03.093 1.49.331v-.208a1.134 1.134 0 0 0-.417-.901 1.416 1.416 0 0 0-.98-.368 1.545 1.545 0 0 0-1.319.717l-.895-.564a2.488 2.488 0 0 1 2.182-1.06zM23.29 13.52a.79.79 0 0 0 .337.662c.223.176.5.269.785.263.429-.001.84-.17 1.146-.472.305-.286.478-.685.478-1.103a2.047 2.047 0 0 0-1.324-.374 1.716 1.716 0 0 0-1.03.294.883.883 0 0 0-.392.73zm9.286-3.75l-3.39 7.79h-1.048l1.281-2.728-2.224-5.062h1.103l1.612 3.885 1.569-3.885h1.097z\" fill=\"#5F6368\"></path><path d=\"M13.986 11.284c0-.308-.024-.616-.073-.92h-4.29v1.747h2.451a2.096 2.096 0 0 1-.9 1.373v1.134h1.464a4.433 4.433 0 0 0 1.348-3.334z\" fill=\"#4285F4\"></path><path d=\"M9.629 15.721a4.352 4.352 0 0 0 3.01-1.097l-1.466-1.14a2.752 2.752 0 0 1-4.094-1.44H5.577v1.17a4.53 4.53 0 0 0 4.052 2.507z\" fill=\"#34A853\"></path><path d=\"M7.079 12.05a2.709 2.709 0 0 1 0-1.735v-1.17H5.577a4.505 4.505 0 0 0 0 4.075l1.502-1.17z\" fill=\"#FBBC04\"></path><path d=\"M9.629 8.44a2.452 2.452 0 0 1 1.74.68l1.3-1.293a4.37 4.37 0 0 0-3.065-1.183 4.53 4.53 0 0 0-4.027 2.5l1.502 1.171a2.715 2.715 0 0 1 2.55-1.875z\" fill=\"#EA4335\"></path></svg>\n\n                </li><li class=\"list-payment__item\">\n                  <svg class=\"icon icon--full-color\" viewBox=\"0 0 38 24\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" width=\"38\" height=\"24\" aria-labelledby=\"pi-master\"><title id=\"pi-master\">Mastercard</title><path opacity=\".07\" d=\"M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z\"></path><path fill=\"#fff\" d=\"M35 1c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h32\"></path><circle fill=\"#EB001B\" cx=\"15\" cy=\"12\" r=\"7\"></circle><circle fill=\"#F79E1B\" cx=\"23\" cy=\"12\" r=\"7\"></circle><path fill=\"#FF5F00\" d=\"M22 12c0-2.4-1.2-4.5-3-5.7-1.8 1.3-3 3.4-3 5.7s1.2 4.5 3 5.7c1.8-1.2 3-3.3 3-5.7z\"></path></svg>\n                </li><li class=\"list-payment__item\">\n                  <svg class=\"icon icon--full-color\" viewBox=\"0 0 38 24\" xmlns=\"http://www.w3.org/2000/svg\" width=\"38\" height=\"24\" role=\"img\" aria-labelledby=\"pi-paypal\"><title id=\"pi-paypal\">PayPal</title><path opacity=\".07\" d=\"M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z\"></path><path fill=\"#fff\" d=\"M35 1c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h32\"></path><path fill=\"#003087\" d=\"M23.9 8.3c.2-1 0-1.7-.6-2.3-.6-.7-1.7-1-3.1-1h-4.1c-.3 0-.5.2-.6.5L14 15.6c0 .2.1.4.3.4H17l.4-3.4 1.8-2.2 4.7-2.1z\"></path><path fill=\"#3086C8\" d=\"M23.9 8.3l-.2.2c-.5 2.8-2.2 3.8-4.6 3.8H18c-.3 0-.5.2-.6.5l-.6 3.9-.2 1c0 .2.1.4.3.4H19c.3 0 .5-.2.5-.4v-.1l.4-2.4v-.1c0-.2.3-.4.5-.4h.3c2.1 0 3.7-.8 4.1-3.2.2-1 .1-1.8-.4-2.4-.1-.5-.3-.7-.5-.8z\"></path><path fill=\"#012169\" d=\"M23.3 8.1c-.1-.1-.2-.1-.3-.1-.1 0-.2 0-.3-.1-.3-.1-.7-.1-1.1-.1h-3c-.1 0-.2 0-.2.1-.2.1-.3.2-.3.4l-.7 4.4v.1c0-.3.3-.5.6-.5h1.3c2.5 0 4.1-1 4.6-3.8v-.2c-.1-.1-.3-.2-.5-.2h-.1z\"></path></svg>\n                </li><li class=\"list-payment__item\">\n                  <svg class=\"icon icon--full-color\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" viewBox=\"0 0 38 24\" width=\"38\" height=\"24\" aria-labelledby=\"pi-shopify_pay\"><title id=\"pi-shopify_pay\">Shop Pay</title><path opacity=\".07\" d=\"M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z\" fill=\"#000\"></path><path d=\"M35.889 0C37.05 0 38 .982 38 2.182v19.636c0 1.2-.95 2.182-2.111 2.182H2.11C.95 24 0 23.018 0 21.818V2.182C0 .982.95 0 2.111 0H35.89z\" fill=\"#5A31F4\"></path><path d=\"M9.35 11.368c-1.017-.223-1.47-.31-1.47-.705 0-.372.306-.558.92-.558.54 0 .934.238 1.225.704a.079.079 0 00.104.03l1.146-.584a.082.082 0 00.032-.114c-.475-.831-1.353-1.286-2.51-1.286-1.52 0-2.464.755-2.464 1.956 0 1.275 1.15 1.597 2.17 1.82 1.02.222 1.474.31 1.474.705 0 .396-.332.582-.993.582-.612 0-1.065-.282-1.34-.83a.08.08 0 00-.107-.035l-1.143.57a.083.083 0 00-.036.111c.454.92 1.384 1.437 2.627 1.437 1.583 0 2.539-.742 2.539-1.98s-1.155-1.598-2.173-1.82v-.003zM15.49 8.855c-.65 0-1.224.232-1.636.646a.04.04 0 01-.069-.03v-2.64a.08.08 0 00-.08-.081H12.27a.08.08 0 00-.08.082v8.194a.08.08 0 00.08.082h1.433a.08.08 0 00.081-.082v-3.594c0-.695.528-1.227 1.239-1.227.71 0 1.226.521 1.226 1.227v3.594a.08.08 0 00.081.082h1.433a.08.08 0 00.081-.082v-3.594c0-1.51-.981-2.577-2.355-2.577zM20.753 8.62c-.778 0-1.507.24-2.03.588a.082.082 0 00-.027.109l.632 1.088a.08.08 0 00.11.03 2.5 2.5 0 011.318-.366c1.25 0 2.17.891 2.17 2.068 0 1.003-.736 1.745-1.669 1.745-.76 0-1.288-.446-1.288-1.077 0-.361.152-.657.548-.866a.08.08 0 00.032-.113l-.596-1.018a.08.08 0 00-.098-.035c-.799.299-1.359 1.018-1.359 1.984 0 1.46 1.152 2.55 2.76 2.55 1.877 0 3.227-1.313 3.227-3.195 0-2.018-1.57-3.492-3.73-3.492zM28.675 8.843c-.724 0-1.373.27-1.845.746-.026.027-.069.007-.069-.029v-.572a.08.08 0 00-.08-.082h-1.397a.08.08 0 00-.08.082v8.182a.08.08 0 00.08.081h1.433a.08.08 0 00.081-.081v-2.683c0-.036.043-.054.069-.03a2.6 2.6 0 001.808.7c1.682 0 2.993-1.373 2.993-3.157s-1.313-3.157-2.993-3.157zm-.271 4.929c-.956 0-1.681-.768-1.681-1.783s.723-1.783 1.681-1.783c.958 0 1.68.755 1.68 1.783 0 1.027-.713 1.783-1.681 1.783h.001z\" fill=\"#fff\"></path></svg>\n\n                </li><li class=\"list-payment__item\">\n                  <svg class=\"icon icon--full-color\" viewBox=\"0 0 38 24\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" width=\"38\" height=\"24\" aria-labelledby=\"pi-visa\"><title id=\"pi-visa\">Visa</title><path opacity=\".07\" d=\"M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z\"></path><path fill=\"#fff\" d=\"M35 1c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h32\"></path><path d=\"M28.3 10.1H28c-.4 1-.7 1.5-1 3h1.9c-.3-1.5-.3-2.2-.6-3zm2.9 5.9h-1.7c-.1 0-.1 0-.2-.1l-.2-.9-.1-.2h-2.4c-.1 0-.2 0-.2.2l-.3.9c0 .1-.1.1-.1.1h-2.1l.2-.5L27 8.7c0-.5.3-.7.8-.7h1.5c.1 0 .2 0 .2.2l1.4 6.5c.1.4.2.7.2 1.1.1.1.1.1.1.2zm-13.4-.3l.4-1.8c.1 0 .2.1.2.1.7.3 1.4.5 2.1.4.2 0 .5-.1.7-.2.5-.2.5-.7.1-1.1-.2-.2-.5-.3-.8-.5-.4-.2-.8-.4-1.1-.7-1.2-1-.8-2.4-.1-3.1.6-.4.9-.8 1.7-.8 1.2 0 2.5 0 3.1.2h.1c-.1.6-.2 1.1-.4 1.7-.5-.2-1-.4-1.5-.4-.3 0-.6 0-.9.1-.2 0-.3.1-.4.2-.2.2-.2.5 0 .7l.5.4c.4.2.8.4 1.1.6.5.3 1 .8 1.1 1.4.2.9-.1 1.7-.9 2.3-.5.4-.7.6-1.4.6-1.4 0-2.5.1-3.4-.2-.1.2-.1.2-.2.1zm-3.5.3c.1-.7.1-.7.2-1 .5-2.2 1-4.5 1.4-6.7.1-.2.1-.3.3-.3H18c-.2 1.2-.4 2.1-.7 3.2-.3 1.5-.6 3-1 4.5 0 .2-.1.2-.3.2M5 8.2c0-.1.2-.2.3-.2h3.4c.5 0 .9.3 1 .8l.9 4.4c0 .1 0 .1.1.2 0-.1.1-.1.1-.1l2.1-5.1c-.1-.1 0-.2.1-.2h2.1c0 .1 0 .1-.1.2l-3.1 7.3c-.1.2-.1.3-.2.4-.1.1-.3 0-.5 0H9.7c-.1 0-.2 0-.2-.2L7.9 9.5c-.2-.2-.5-.5-.9-.6-.6-.3-1.7-.5-1.9-.5L5 8.2z\" fill=\"#142688\"></path></svg>\n                </li></ul>"
+          }
+        },
+        "liquid_hzyEzW": {
+          "name": "trust and urgency liquid",
+          "type": "liquid",
+          "settings": {
+            "liquid": "<style style=\"z-index: 22;\">\n.unique-body-Xyz123 {\n  font-family: Arial, sans-serif;\n  background-color: #f9f9f9;\n  color: #333;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  height: 100vh;\n  margin: 0;\n}\n\n.unique-container-Abc456 {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  gap: 10px; /* Badge'ler arasındaki boşluk */\nmargin: 20px 0;\n}\n\n.unique-badge-Def789 {\n  display: inline-flex;\n  align-items: center;\n  background-color: #e0ffd8; /* Çok açık yeşil arka plan */\n  color: #004d00; /* Koyu yeşil metin */\n  padding: 2px 4px; /* Küçültülmüş padding */\n  border-radius: 3px; /* Küçültülmüş yuvarlama */\n  font-size: 10px; /* Küçültülmüş font boyutu */\n  font-weight: bold;\n  text-align: center;\n  position: relative;\n}\n\n.unique-badge-Ghi012 {\n  display: inline-flex;\n  align-items: center;\n  background-color: #ffdede; /* Açık kırmızı arka plan */\n  color: #b22222; /* Koyu kırmızı metin */\n  padding: 2px 4px; /* Küçültülmüş padding */\n  border-radius: 3px; /* Küçültülmüş yuvarlama */\n  font-size: 10px; /* Küçültülmüş font boyutu */\n  font-weight: bold;\n  text-align: center;\n  position: relative;\n}\n\n.unique-icon-Jkl345 {\n  width: 12px; /* Küçültülmüş ikon boyutu */\n  height: 12px; /* Küçültülmüş ikon boyutu */\n  margin-right: 2px;\n  vertical-align: middle;\n}\n\n.unique-badge-Def789 span, .unique-badge-Ghi012 span {\n  display: flex;\n  align-items: center;\n  white-space: nowrap; /* Metinlerin tek satırda kalmasını sağlar */\n}\n\n@keyframes\n unique-rotate-Mno678 {\n  from {\n    transform: rotate(0deg);\n  }\n  to {\n    transform: rotate(360deg);\n  }\n}\n\n.unique-clock-hand-Pqr901 {\n  transform-origin: 50% 50%;\n  animation: unique-rotate-Mno678 2s linear infinite;\n}\n</style>\n\n<div class=\"unique-container-Abc456\" style=\"z-index: 21;\">\n  <div class=\"unique-badge-Def789\">\n    <span>\n      <svg class=\"unique-icon-Jkl345\" viewBox=\"0 0 24 24\" xmlns=\"http://w3.org/2000/svg\">\n        <path fill=\"#004d00\" d=\"M12 2C9.24 2 7 4.24 7 7V10H5C3.9 10 3 10.9 3 12V19C3 20.1 3.9 21 5 21H19C20.1 21 21 20.1 21 19V12C21 10.9 20.1 10 19 10H17V7C17 4.24 14.76 2 12 2M12 4C13.66 4 15 5.34 15 7V10H9V7C9 5.34 10.34 4 12 4M12 12C13.1 12 14 12.9 14 14C14 15.1 13.1 16 12 16C10.9 16 10 15.1 10 14C10 12.9 10.9 12 12 12Z\"></path>\n      </svg>\n90J Satisfait ou remboursé</span>\n  </div>\n\n  <div class=\"unique-badge-Ghi012\">\n    <span>\n      <svg class=\"unique-icon-Jkl345\" viewBox=\"0 0 24 24\" xmlns=\"http://w3.org/2000/svg\">\n        <circle cx=\"12\" cy=\"12\" r=\"10\" stroke=\"#b22222\" stroke-width=\"2\" fill=\"none\"></circle>\n        <line x1=\"12\" y1=\"12\" x2=\"12\" y2=\"6\" stroke=\"#b22222\" stroke-width=\"2\" class=\"unique-clock-hand-Pqr901\"></line>\n        <line x1=\"12\" y1=\"12\" x2=\"16\" y2=\"12\" stroke=\"#b22222\" stroke-width=\"2\"></line>\n      </svg>\nSTOCK FAIBLE !    </span>\n  </div>\n</div>"
+          }
+        },
+        "buy_buttons_C8dVXB": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false,
+            "atc_button_background": "#edc42d",
+            "atc_button_text_color": "#000000",
+            "show_gift_card_recipient": true,
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "variant_picker_LdEqUg": {
+          "type": "variant_picker",
+          "settings": {
+            "stack_blocks": true,
+            "selector_style": "block",
+            "size_chart_page": "",
+            "swatch_selector_style": "swatch",
+            "variant_image_options": "",
+            "hide_sold_out_variants": false
+          }
+        },
+        "collapsible_text_3yAqmi": {
+          "type": "collapsible_text",
+          "settings": {
+            "page": "",
+            "title": "Quels sont les ingrédients principaux de cette formule 3 en 1 ?",
+            "content": "<p><p>Notre Super Detox contient du chardon-marie pour le foie, de l'artichaut pour la détoxification, des fibres de psyllium pour le côlon, et un complexe antiparasitaire naturel à base d'ail noir et de noix. Tous nos ingrédients sont 100% naturels et certifiés biologiques.</p></p>"
+          }
+        },
+        "collapsible_text_C6N9Hj": {
+          "type": "collapsible_text",
+          "settings": {
+            "page": "",
+            "title": "Quand vais-je voir les premiers effets de la détox ?",
+            "content": "<p><p>La plupart de nos clients ressentent les premiers bienfaits dès la fin de la première semaine : amélioration du transit, regain d'énergie. Les effets complets sur la détoxification du foie et l'élimination des parasites sont visibles après 2-3 semaines d'utilisation régulière.</p></p>"
+          }
+        },
+        "collapsible_text_YF7gFz": {
+          "type": "collapsible_text",
+          "settings": {
+            "page": "",
+            "title": "Comment utiliser Super Detox - Parasites, Foie, Côlon ?",
+            "content": "<p><p>Prenez 2 gélules le matin à jeun avec un grand verre d'eau, 30 minutes avant le petit-déjeuner. Pour une cure complète, utilisez le produit pendant 21 jours consécutifs. Il est recommandé de boire beaucoup d'eau durant la cure.</p></p>"
+          }
+        },
+        "collapsible_text_tdhMiY": {
+          "type": "collapsible_text",
+          "settings": {
+            "page": "",
+            "title": "Y a-t-il des contre-indications ou effets secondaires ?",
+            "content": "<p><p>Super Detox est formulé avec des ingrédients naturels et est généralement bien toléré. Cependant, il est déconseillé aux femmes enceintes et allaitantes. En cas de traitement médical, consultez votre médecin. Certaines personnes peuvent ressentir une légère fatigue les premiers jours (effet détox normal).</p></p>"
+          }
+        }
+      },
+      "settings": {
+        "product": "super-detox-parasites-foie-colon",
+        "background": "",
+        "full_width": true,
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": "",
+        "enable_image_zoom": false,
+        "mobile_media_size": "expanded",
+        "background_gradient": "",
+        "desktop_media_width": 55,
+        "desktop_media_layout": "carousel_thumbnails_bottom",
+        "enable_video_looping": false,
+        "max_image_zoom_level": 3,
+        "enable_video_autoplay": false,
+        "mobile_carousel_control": "thumbnails"
+      },
+      "custom_css": [],
+      "block_order": [
+        "liquid_GKVcqB",
+        "title_3bTAx9",
+        "price_UU6gFH",
+        "text_LAWpqU",
+        "liquid_HX8Vae",
+        "liquid_hzyEzW",
+        "variant_picker_LdEqUg",
+        "buy_buttons_C8dVXB",
+        "liquid_RahGWq",
+        "collapsible_text_YF7gFz",
+        "collapsible_text_3yAqmi",
+        "collapsible_text_C6N9Hj",
+        "collapsible_text_tdhMiY"
+      ]
+    },
+    "ss_testimonial_8_kRy8Pg": {
+      "name": "SS - Testimonial #8",
+      "type": "ss-testimonial-8",
+      "settings": {
+        "lazy": true,
+        "text": "<p>based on <strong>1 067</strong> reviews</p>",
+        "button": "",
+        "rating": 4.8,
+        "heading": "Nos clients en parlent mieux",
+        "text_mt": 16,
+        "button_mt": 16,
+        "dots_size": 12,
+        "slider_mt": 36,
+        "text_font": "josefin_sans_n4",
+        "text_size": 20,
+        "arrow_size": 50,
+        "button_url": "",
+        "dots_color": "#000000",
+        "full_width": true,
+        "margin_top": 0,
+        "slider_gap": 20,
+        "stars_size": 28,
+        "text_align": "center",
+        "text_color": "#000000",
+        "arrow_color": "#000000",
+        "button_font": "josefin_sans_n4",
+        "button_size": 16,
+        "card_radius": 16,
+        "card_shadow": true,
+        "padding_top": 20,
+        "rating_hide": false,
+        "rating_text": "Excellent",
+        "slider_view": 3,
+        "stars_align": "center",
+        "stars_color": "#FFFFFF",
+        "stars_count": 5,
+        "text_custom": false,
+        "text_height": 130,
+        "border_color": "#000000",
+        "button_align": "center",
+        "button_color": "#FFFFFF",
+        "card_text_mt": 16,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 40,
+        "rating_align": "center",
+        "slider_width": 80,
+        "button_custom": false,
+        "button_height": 100,
+        "button_radius": 8,
+        "card_bg_color": "#FFFFFF",
+        "content_width": 120,
+        "heading_align": "center",
+        "heading_color": "#000000",
+        "margin_bottom": 0,
+        "arrow_bg_color": "#FFFFFF",
+        "card_text_font": "josefin_sans_n4",
+        "card_text_less": "View ess",
+        "card_text_more": "",
+        "card_text_size": 14,
+        "heading_custom": false,
+        "heading_height": 130,
+        "padding_bottom": 0,
+        "rating_text_mt": 16,
+        "stars_bg_color": "#00B67A",
+        "arrow_icon_size": 28,
+        "button_bg_color": "#000000",
+        "card_heading_mt": 16,
+        "card_text_align": "center",
+        "card_text_color": "#000000",
+        "background_color": "#FFFFFF",
+        "border_thickness": 0,
+        "card_count_words": 20,
+        "card_text_custom": false,
+        "card_text_height": 150,
+        "dots_show_mobile": false,
+        "dots_size_mobile": 12,
+        "rating_text_font": "josefin_sans_n4",
+        "rating_text_hide": false,
+        "rating_text_size": 24,
+        "text_size_mobile": 16,
+        "arrow_hover_color": "#000000",
+        "arrow_show_mobile": false,
+        "arrow_size_mobile": 50,
+        "card_border_color": "#000000",
+        "card_heading_font": "josefin_sans_n4",
+        "card_heading_size": 24,
+        "card_shadow_color": "#ffffff",
+        "dots_show_desktop": false,
+        "rating_text_color": "#000000",
+        "slider_gap_mobile": 20,
+        "stars_size_mobile": 24,
+        "arrow_border_color": "#FFFFFF",
+        "arrow_show_desktop": true,
+        "button_hover_color": "#FFFFFF",
+        "button_size_mobile": 14,
+        "card_heading_align": "center",
+        "card_heading_color": "#000000",
+        "padding_horizontal": 5,
+        "rating_text_custom": false,
+        "rating_text_height": 130,
+        "slider_view_mobile": 1.2,
+        "background_gradient": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "button_border_color": "#000000",
+        "card_heading_custom": false,
+        "card_heading_height": 130,
+        "heading_size_mobile": 24,
+        "arrow_bg_hover_color": "#FFFFFF",
+        "button_bg_hover_color": "#000000",
+        "card_border_thickness": 0,
+        "card_padding_vertical": 32,
+        "card_text_size_mobile": 14,
+        "arrow_border_thickness": 0,
+        "arrow_icon_size_mobile": 28,
+        "button_border_thickness": 0,
+        "button_padding_vertical": 20,
+        "card_padding_horizontal": 40,
+        "rating_text_size_mobile": 20,
+        "arrow_border_hover_color": "#FFFFFF",
+        "card_author_date_text_mt": 16,
+        "card_heading_size_mobile": 20,
+        "button_border_hover_color": "#000000",
+        "button_padding_horizontal": 16,
+        "padding_horizontal_mobile": 1.5,
+        "card_author_date_text_font": "josefin_sans_n4",
+        "card_author_date_text_size": 16,
+        "card_author_date_text_align": "center",
+        "card_author_date_text_color": "#000000",
+        "card_author_date_text_custom": false,
+        "card_author_date_text_height": 130,
+        "card_padding_vertical_mobile": 24,
+        "card_padding_horizontal_mobile": 24,
+        "card_author_date_text_size_mobile": 16
+      }
+    },
+    "ss_testimonial_10_hMqefV": {
+      "name": "SS - Testimonials #10",
+      "type": "ss-testimonial-10",
+      "blocks": {
+        "testimonial_8Wqng6": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p>Cette detox 3 en 1 a changé ma vie. Plus de sensation d'être 'empoisonnée' après les repas, plus de fatigue inexpliquée. Je me sens purifiée de l'intérieur. Un investissement santé que je ne regrette absolument pas.</p>",
+            "author": "Amélie T.",
+            "stars_count": 5
+          }
+        },
+        "testimonial_EKjfHP": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p>J'étais sceptique au début mais ce produit a dépassé mes attentes. Fini la fatigue constante et les troubles digestifs que j'avais depuis des mois. Dès la 2ème semaine, j'ai senti une vraie différence. Merci Dawtox pour cette super detox !</p>",
+            "author": "Marc L.",
+            "stars_count": 5
+          }
+        },
+        "testimonial_FqG636": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p>Après 3 semaines d'utilisation du Super Detox, j'ai enfin retrouvé mon énergie ! Mes problèmes de ballonnements ont complètement disparu et je me sens comme régénérée. La formule 3 en 1 est vraiment efficace, je recommande vivement.</p>",
+            "author": "Sophie M.",
+            "stars_count": 5
+          }
+        },
+        "testimonial_Htn3xf": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p>J'ai commandé Super Detox sur les conseils de ma sœur. Résultat : -3 kg en 3 semaines sans régime, plus d'énergie pour mes enfants et mon travail. Cette formule naturelle fait vraiment des miracles !</p>",
+            "author": "Valérie C.",
+            "stars_count": 5
+          }
+        },
+        "testimonial_N64AW3": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p>Incroyable ! J'avais des problèmes de transit depuis des années et rien ne fonctionnait. Avec Super Detox, tout est rentré dans l'ordre en 10 jours. Mon teint s'est éclairci et j'ai retrouvé ma vitalité d'avant.</p>",
+            "author": "Julien R.",
+            "stars_count": 5
+          }
+        },
+        "testimonial_UgcMCU": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p>En tant que naturopathe, j'ai testé beaucoup de produits détox. Celui-ci se démarque vraiment par son action complète sur les parasites, le foie et le côlon. Mes clients sont ravis des résultats obtenus en seulement 21 jours.</p>",
+            "author": "Dr. Claire B.",
+            "stars_count": 5
+          }
+        },
+        "testimonial_j7Rn8w": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p>Enfin un produit qui tient ses promesses ! Dès la première semaine, j'ai senti mon système digestif se rééquilibrer. Mes analyses sanguines se sont même améliorées selon mon médecin. Je recommande cette super detox à 100%.</p>",
+            "author": "Philippe D.",
+            "stars_count": 5
+          }
+        }
+      },
+      "settings": {
+        "lazy": true,
+        "dots_mt": 32,
+        "heading": "",
+        "text_mt": 12,
+        "stars_mt": 24,
+        "author_mt": 8,
+        "dots_size": 12,
+        "slider_mt": 20,
+        "text_font": "josefin_sans_n4",
+        "text_size": 20,
+        "arrow_size": 50,
+        "dots_color": "#5fa0be",
+        "full_width": true,
+        "margin_top": 0,
+        "slider_gap": 36,
+        "stars_size": 20,
+        "text_align": "left",
+        "text_color": "#1a1a1a",
+        "arrow_color": "#756e67",
+        "author_font": "josefin_sans_n4",
+        "author_size": 20,
+        "body_radius": 12,
+        "image_ratio": "square",
+        "padding_top": 0,
+        "slider_view": 3.7,
+        "stars_align": "start",
+        "stars_color": "#f0c417",
+        "sub_heading": "",
+        "text_custom": false,
+        "text_height": 130,
+        "author_align": "left",
+        "author_color": "#1a1a1a",
+        "border_color": "#ffffff",
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 40,
+        "image_radius": 12,
+        "author_custom": false,
+        "author_height": 130,
+        "body_bg_color": "#ffffff",
+        "content_width": 120,
+        "heading_align": "left",
+        "heading_color": "#756e67",
+        "margin_bottom": 0,
+        "arrow_bg_color": "#ffffff",
+        "heading_custom": false,
+        "heading_height": 150,
+        "padding_bottom": 36,
+        "arrow_icon_size": 40,
+        "background_color": "#ffffff",
+        "border_thickness": 0,
+        "dots_show_mobile": true,
+        "dots_size_mobile": 12,
+        "sub_heading_font": "josefin_sans_n4",
+        "sub_heading_size": 18,
+        "text_size_mobile": 16,
+        "arrow_hover_color": "#ffffff",
+        "arrow_show_mobile": false,
+        "arrow_size_mobile": 42,
+        "body_border_color": "#000000",
+        "dots_show_desktop": false,
+        "slider_gap_mobile": 20,
+        "sub_heading_color": "#756e67",
+        "text_align_mobile": "left",
+        "arrow_border_color": "#756e67",
+        "arrow_show_desktop": true,
+        "author_size_mobile": 16,
+        "image_ratio_mobile": "square",
+        "padding_horizontal": 5,
+        "slider_view_mobile": 1,
+        "stars_align_mobile": "start",
+        "sub_heading_custom": false,
+        "sub_heading_height": 150,
+        "author_align_mobile": "left",
+        "background_gradient": "",
+        "heading_size_mobile": 24,
+        "arrow_bg_hover_color": "#756e67",
+        "heading_align_mobile": "left",
+        "body_border_thickness": 0,
+        "body_padding_vertical": 0,
+        "arrow_border_thickness": 0,
+        "arrow_icon_size_mobile": 28,
+        "image_border_thickness": 0,
+        "body_padding_horizontal": 0,
+        "sub_heading_size_mobile": 14,
+        "arrow_border_hover_color": "#756e67",
+        "padding_horizontal_mobile": 1.5,
+        "body_padding_vertical_mobile": 0,
+        "body_padding_horizontal_mobile": 0
+      },
+      "block_order": [
+        "testimonial_FqG636",
+        "testimonial_EKjfHP",
+        "testimonial_UgcMCU",
+        "testimonial_N64AW3",
+        "testimonial_8Wqng6",
+        "testimonial_Htn3xf",
+        "testimonial_j7Rn8w"
+      ]
+    },
+    "sp_image_standalone_mEaDfr": {
+      "name": "🚀SP - Image Standalone",
+      "type": "sp-image-standalone",
+      "settings": {
+        "link": "",
+        "max_width": 1000,
+        "padding_top": 0,
+        "media_radius": 0,
+        "media_shadow": false,
+        "padding_left": 0,
+        "padding_right": 0,
+        "padding_bottom": 0,
+        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "media_aspect_ratio": "auto",
+        "mobile_image_width": 800,
+        "desktop_image_width": 0,
+        "mobile_media_aspect_ratio": "auto"
+      }
+    },
+    "ss_comparison_table_6_3MTYnP": {
+      "name": "SS - Comparison Table #6",
+      "type": "ss-comparison-table-6",
+      "blocks": {
+        "table_row_7YXkJk": {
+          "type": "table_row",
+          "settings": {
+            "four_column": "",
+            "row_heading": "Ingrédients 100% naturels certifiés",
+            "first_column": "",
+            "third_column": "",
+            "second_column": "",
+            "four_column_icon": "none",
+            "first_column_icon": "check",
+            "third_column_icon": "none",
+            "second_column_icon": "cross"
+          }
+        },
+        "table_row_APa7Lx": {
+          "type": "table_row",
+          "settings": {
+            "four_column": "",
+            "row_heading": "Formule 3 en 1 unique",
+            "first_column": "",
+            "third_column": "",
+            "second_column": "",
+            "four_column_icon": "none",
+            "first_column_icon": "check",
+            "third_column_icon": "none",
+            "second_column_icon": "cross"
+          }
+        },
+        "table_row_DyY6wR": {
+          "type": "table_row",
+          "settings": {
+            "four_column": "",
+            "row_heading": "Résultats visibles en 7 jours",
+            "first_column": "",
+            "third_column": "",
+            "second_column": "",
+            "four_column_icon": "none",
+            "first_column_icon": "check",
+            "third_column_icon": "none",
+            "second_column_icon": "cross"
+          }
+        },
+        "table_row_HmxUYi": {
+          "type": "table_row",
+          "settings": {
+            "four_column": "",
+            "row_heading": "Fabriqué en France",
+            "first_column": "",
+            "third_column": "",
+            "second_column": "",
+            "four_column_icon": "none",
+            "first_column_icon": "check",
+            "third_column_icon": "none",
+            "second_column_icon": "cross"
+          }
+        },
+        "table_row_LkP9Ub": {
+          "type": "table_row",
+          "settings": {
+            "four_column": "",
+            "row_heading": "Satisfait ou remboursé 30 jours",
+            "first_column": "",
+            "third_column": "",
+            "second_column": "",
+            "four_column_icon": "none",
+            "first_column_icon": "check",
+            "third_column_icon": "none",
+            "second_column_icon": "cross"
+          }
+        }
+      },
+      "settings": {
+        "lazy": true,
+        "text": "",
+        "button": "",
+        "heading": "",
+        "list_mt": 50,
+        "text_mt": 4,
+        "body_gap": 20,
+        "list_gap": 30,
+        "button_mt": 50,
+        "icon_size": 28,
+        "text_font": "josefin_sans_n4",
+        "text_size": 18,
+        "button_url": "",
+        "full_width": false,
+        "icon_color": "#000000",
+        "margin_top": 0,
+        "text_color": "#000000",
+        "button_font": "josefin_sans_n4",
+        "button_size": 18,
+        "padding_top": 0,
+        "text_custom": false,
+        "text_height": 150,
+        "border_color": "#000000",
+        "button_color": "#ffffff",
+        "button_style": "non_outline",
+        "button_width": 305,
+        "four_heading": "",
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 52,
+        "table_radius": 16,
+        "button_custom": false,
+        "button_height": 100,
+        "button_radius": 100,
+        "content_width": 130,
+        "first_heading": "Dewtox",
+        "heading_color": "#5fa0be",
+        "margin_bottom": 0,
+        "table_columns": 2,
+        "third_heading": "",
+        "heading_custom": false,
+        "heading_height": 150,
+        "list_mt_mobile": 32,
+        "list_text_font": "josefin_sans_n4",
+        "list_text_size": 20,
+        "padding_bottom": 8,
+        "second_heading": "Autres marques",
+        "body_gap_mobile": 10,
+        "button_bg_color": "#16142b",
+        "list_gap_mobile": 30,
+        "list_text_color": "#1a1a1a",
+        "table_mt_mobile": 14,
+        "background_color": "#ffffff",
+        "border_thickness": 0,
+        "button_mt_mobile": 32,
+        "icon_size_mobile": 28,
+        "list_hide_mobile": true,
+        "list_text_custom": false,
+        "list_text_height": 150,
+        "text_size_mobile": 18,
+        "icon_margin_right": 16,
+        "button_hover_color": "#dad0ff",
+        "button_size_mobile": 18,
+        "padding_horizontal": 5,
+        "table_border_color": "#5fa0be",
+        "table_heading_font": "assistant_n4",
+        "table_heading_size": 20,
+        "background_gradient": "",
+        "button_border_color": "#16142b",
+        "heading_size_mobile": 32,
+        "table_column_active": "1",
+        "table_heading_align": "center",
+        "table_heading_color": "#5fa0be",
+        "table_row_text_font": "poppins_n6",
+        "table_row_text_size": 20,
+        "table_heading_custom": false,
+        "table_heading_height": 100,
+        "table_row_image_size": 24,
+        "table_row_text_align": "center",
+        "table_row_text_color": "#1a192e",
+        "button_bg_hover_color": "#16142b",
+        "list_text_size_mobile": 18,
+        "table_row_text_custom": true,
+        "table_row_text_height": 130,
+        "button_position_mobile": "bottom",
+        "table_border_thickness": 1,
+        "table_row_heading_font": "poppins_n6",
+        "table_row_heading_size": 16,
+        "button_border_thickness": 0,
+        "button_padding_vertical": 16,
+        "table_row_heading_align": "left",
+        "table_row_heading_color": "#1a1a1a",
+        "content_horizontal_align": "start",
+        "table_heading_image_size": 100,
+        "table_row_heading_custom": true,
+        "table_row_heading_height": 130,
+        "button_border_hover_color": "#16142b",
+        "button_padding_horizontal": 48,
+        "padding_horizontal_mobile": 1.5,
+        "table_active_border_color": "#dad0ff",
+        "table_heading_size_mobile": 14,
+        "table_heading_active_color": "#ffffff",
+        "table_row_padding_vertical": 16,
+        "table_row_text_size_mobile": 16,
+        "table_row_active_text_color": "#ffffff",
+        "table_row_image_size_mobile": 24,
+        "table_column_active_bg_color": "#5fa0be",
+        "table_row_padding_horizontal": 14,
+        "table_heading_bg_active_color": "#5fa0be",
+        "table_row_heading_size_mobile": 16,
+        "button_padding_vertical_mobile": 16,
+        "table_heading_padding_vertical": 18,
+        "table_row_heading_width_mobile": 66,
+        "content_horizontal_align_mobile": "center",
+        "table_heading_image_size_mobile": 100,
+        "button_padding_horizontal_mobile": 48,
+        "table_heading_padding_horizontal": 0,
+        "table_row_padding_vertical_mobile": 16,
+        "table_row_padding_horizontal_mobile": 14,
+        "table_heading_padding_vertical_mobile": 18,
+        "table_heading_padding_horizontal_mobile": 0
+      },
+      "block_order": [
+        "table_row_APa7Lx",
+        "table_row_DyY6wR",
+        "table_row_7YXkJk",
+        "table_row_HmxUYi",
+        "table_row_LkP9Ub"
+      ]
     }
   }
 }
