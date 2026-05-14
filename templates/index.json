@@ -13,7 +13,6 @@
     "mad_scrolling_logo_pncdMe",
     "rich_text_DHLDdE",
     "image_with_text_overlay_8NVY73",
-    "rich_text_qF6tRT",
     "ss_testimonial_8_kRy8Pg",
     "multi_column_QxVQLz",
     "ss_testimonial_10_hMqefV",
@@ -177,43 +176,20 @@
         "overlay_opacity": 30
       }
     },
-    "rich_text_qF6tRT": {
-      "type": "rich-text",
-      "blocks": {
-        "richtext_AWAeed": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p><strong>KLIP™ has already changed the lives of over 10,000 women!</strong></p>"
-          }
-        }
-      },
-      "block_order": [
-        "richtext_AWAeed"
-      ],
-      "name": "Rich text",
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "ss_testimonial_8_kRy8Pg": {
       "type": "ss-testimonial-8",
       "name": "SS - Testimonial #8",
       "settings": {
-        "heading": "Nos clients en parlent mieux",
-        "heading_custom": false,
-        "heading_font": "josefin_sans_n4",
+        "heading": "KLIP™ has already changed the lives of over 10,000 women!",
+        "heading_custom": true,
+        "heading_font": "montserrat_n6",
         "heading_size": 40,
         "heading_size_mobile": 24,
         "heading_height": 130,
         "heading_align": "center",
         "rating_text": "Excellent",
         "rating_text_custom": false,
-        "rating_text_font": "josefin_sans_n4",
+        "rating_text_font": "montserrat_n6",
         "rating_text_size": 24,
         "rating_text_size_mobile": 20,
         "rating_text_height": 130,
@@ -430,9 +406,9 @@
         "stack_on_mobile": false,
         "gap": "medium",
         "text_alignment": "center",
-        "subheading": "About",
-        "title": "Featured content",
-        "content": "<p>Organize content into multiple columns to share useful information to your customers about your products, values...</p>",
+        "subheading": "",
+        "title": "",
+        "content": "",
         "background": "",
         "background_gradient": "",
         "text_color": ""
