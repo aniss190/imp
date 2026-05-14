@@ -13,7 +13,6 @@
     "mad_scrolling_logo_pncdMe",
     "rich_text_DHLDdE",
     "image_with_text_overlay_8NVY73",
-    "sp_video_grid_MgEVMP",
     "ss_testimonial_8_kRy8Pg",
     "multi_column_QxVQLz",
     "ss_testimonial_10_hMqefV",
@@ -174,37 +173,7 @@
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
-        "overlay_opacity": 30
-      }
-    },
-    "sp_video_grid_MgEVMP": {
-      "type": "sp-video-grid",
-      "blocks": {
-        "video_rCVRmn": {
-          "type": "video",
-          "settings": {
-            "video_inline": true,
-            "video_autoplay": true,
-            "video_loop": true,
-            "video_controls": false,
-            "video_muted": true
-          }
-        }
-      },
-      "block_order": [
-        "video_rCVRmn"
-      ],
-      "name": "🚀SP - Video Grid",
-      "settings": {
-        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
-        "button_background_color": "linear-gradient(164deg, rgba(17, 17, 17, 1), rgba(51, 51, 51, 1) 100%)",
-        "video_aspect_ratio": "1 / 1",
-        "max_width": 1000,
-        "grid_gap": 25,
-        "padding_top": 25,
-        "padding_bottom": 25,
-        "padding_left": 10,
-        "padding_right": 10
+        "overlay_opacity": 0
       }
     },
     "ss_testimonial_8_kRy8Pg": {
