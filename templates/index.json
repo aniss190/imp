@@ -22,365 +22,426 @@
     "text_with_icons_R7GyBX"
   ],
   "sections": {
-    "faq_6HBHkM": {
-      "name": "FAQ",
-      "type": "faq",
-      "blocks": {
-        "item_6WhXFW": {
-          "type": "item",
-          "settings": {
-            "title": "Comment contacter votre service client ?",
-            "content": "<p><p>Notre équipe support est disponible 24h/24 et 7j/7 pour vous accompagner. Contactez-nous par email, chat en direct sur notre site, ou téléphone. Nous nous engageons à répondre à toutes vos questions dans les 2h maximum.</p></p>"
-          }
-        },
-        "item_AN3mHD": {
-          "type": "item",
-          "settings": {
-            "title": "Quels moyens de paiement acceptez-vous ?",
-            "content": "<p><p>Nous acceptons toutes les cartes bancaires (Visa, Mastercard, American Express), PayPal, et le paiement en 3 fois sans frais via Klarna. Tous nos paiements sont sécurisés par cryptage SSL 256 bits pour votre sécurité.</p></p>"
-          }
-        },
-        "item_KQKJJF": {
-          "type": "item",
-          "settings": {
-            "title": "Puis-je commander plusieurs boîtes pour une cure longue ?",
-            "content": "<p><p>Bien sûr ! Beaucoup de nos clients commandent des lots de 3 ou 6 boîtes pour bénéficier de tarifs préférentiels et assurer leur cure complète. Plus vous commandez, plus vous économisez. Vos produits sont garantis 2 ans.</p></p>"
-          }
-        },
-        "item_QDPdmz": {
-          "type": "item",
-          "settings": {
-            "title": "Puis-je retourner le produit si je ne suis pas satisfait(e) ?",
-            "content": "<p><p>Absolument ! Nous offrons une garantie satisfait ou remboursé de 30 jours. Si vous n'êtes pas pleinement satisfait(e) de votre achat, retournez-nous le produit et nous vous remboursons intégralement, sans questions.</p></p>"
-          }
-        },
-        "item_UPwiW4": {
-          "type": "item",
-          "settings": {
-            "title": "Le produit convient-il aux végétariens et végétaliens ?",
-            "content": "<p><p>Oui, Super Detox convient parfaitement aux végétariens et végétaliens. Nos gélules sont 100% végétales et tous nos ingrédients sont d'origine naturelle. Le produit ne contient aucun dérivé animal.</p></p>"
-          }
-        },
-        "item_VbbtCC": {
-          "type": "item",
-          "settings": {
-            "title": "Le produit est-il certifié et contrôlé ?",
-            "content": "<p><p>Oui, Super Detox est fabriqué en France dans des laboratoires certifiés ISO 22000 et HACCP. Chaque lot est testé par des laboratoires indépendants pour garantir la pureté et la concentration des actifs. Nous respectons toutes les normes européennes.</p></p>"
-          }
-        },
-        "item_c4TUDX": {
-          "type": "item",
-          "settings": {
-            "title": "Quels sont les délais et frais de livraison ?",
-            "content": "<p><p>Nous offrons la livraison gratuite en France métropolitaine sous 3-5 jours ouvrés. Votre commande est expédiée sous 24h depuis nos entrepôts français. Vous recevrez un email de suivi avec votre numéro de colis.</p></p>"
-          }
-        },
-        "item_ebV7BW": {
-          "type": "item",
-          "settings": {
-            "title": "Livrez-vous en Europe et dans les DOM-TOM ?",
-            "content": "<p><p>Oui, nous livrons dans toute l'Europe (5-8 jours ouvrés) et les DOM-TOM (7-12 jours ouvrés). Les frais de port varient selon la destination. Toutes nos expéditions sont assurées et suivies jusqu'à votre domicile.</p></p>"
-          }
-        },
-        "item_tfq4jP": {
-          "type": "item",
-          "settings": {
-            "title": "Puis-je prendre Super Detox avec d'autres compléments ?",
-            "content": "<p><p>Super Detox peut généralement être associé à d'autres compléments alimentaires. Cependant, nous recommandons d'espacer les prises de 2h minimum. Si vous suivez un traitement médical ou prenez d'autres suppléments, consultez votre professionnel de santé.</p></p>"
-          }
-        }
-      },
-      "settings": {
-        "title": "",
-        "content": "<h3><h4>Questions fréquentes</h4></h3>",
-        "background": "",
-        "button_url": "",
-        "full_width": true,
-        "subheading": "",
-        "text_color": "",
-        "answer_time": "",
-        "button_text": "",
-        "heading_color": "",
-        "support_hours": "",
-        "text_position": "center",
-        "heading_gradient": "",
-        "button_background": "",
-        "button_text_color": "",
-        "team_avatar_width": 160,
-        "background_gradient": "",
-        "accordion_background": "",
-        "accordion_text_color": ""
-      },
-      "block_order": [
-        "item_c4TUDX",
-        "item_QDPdmz",
-        "item_AN3mHD",
-        "item_6WhXFW",
-        "item_VbbtCC",
-        "item_KQKJJF",
-        "item_ebV7BW",
-        "item_UPwiW4",
-        "item_tfq4jP"
-      ]
-    },
-    "logo_list_mer8Cd": {
-      "name": "Logo list",
-      "type": "logo-list",
-      "blocks": {
-        "logo_Bd69FU": {
-          "type": "logo",
-          "settings": {
-            "link": "",
-            "logo_width": 300
-          }
-        },
-        "logo_XCyhtq": {
-          "type": "logo",
-          "settings": {
-            "link": "",
-            "logo_width": 300
-          }
-        },
-        "logo_YrdN9r": {
-          "type": "logo",
-          "settings": {
-            "link": "",
-            "logo_width": 300
-          }
-        },
-        "logo_dea4mb": {
-          "type": "logo",
-          "settings": {
-            "link": "",
-            "logo_width": 300
-          }
-        }
-      },
-      "settings": {
-        "title": "",
-        "content": "<h3><strong>Recommandé par</strong></h3>",
-        "background": "",
-        "full_width": true,
-        "text_color": "",
-        "stack_mobile": true,
-        "heading_color": "",
-        "items_per_row": 4,
-        "text_alignment": "center",
-        "heading_gradient": "",
-        "logo_item_border": "",
-        "background_gradient": "",
-        "logo_item_background": "#ecf9ff"
-      },
-      "custom_css": [],
-      "block_order": [
-        "logo_Bd69FU",
-        "logo_YrdN9r",
-        "logo_dea4mb",
-        "logo_XCyhtq"
-      ]
-    },
     "slideshow_qxk8Ba": {
-      "name": "Slideshow",
       "type": "slideshow",
       "blocks": {
         "image_Exg7iP": {
           "type": "image",
           "settings": {
-            "title": "",
-            "background": "",
+            "image": "shopify://shop_images/gemini-vyjaei48oh.jpg",
+            "mobile_image": "shopify://shop_images/gemini-vyjaei48oh.jpg",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
             "subheading": "",
-            "text_color": "#ffffff",
-            "button_link": "",
-            "button_text": "",
+            "title": "",
             "heading_tag": "h0",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
             "button_background": "#ffffff",
             "button_text_color": "#000000",
-            "content_max_width": 780,
-            "background_gradient": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center"
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
           }
         }
-      },
-      "settings": {
-        "autoplay": false,
-        "background": "#f2f2f2",
-        "full_width": true,
-        "image_size": "auto",
-        "cycle_speed": 6,
-        "controls_type": "none",
-        "transition_type": "fade_with_text",
-        "background_gradient": "",
-        "show_initial_transition": false,
-        "allow_transparent_header": false
       },
       "block_order": [
         "image_Exg7iP"
-      ]
-    },
-    "173889216379020d1a": {
-      "type": "apps",
+      ],
+      "name": "Slideshow",
       "settings": {
-        "background": "",
         "full_width": true,
-        "text_color": "",
-        "background_gradient": "",
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false
+        "allow_transparent_header": false,
+        "show_initial_transition": false,
+        "image_size": "auto",
+        "controls_type": "none",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
       }
     },
-    "multi_column_ehHhNL": {
-      "name": "Multi-column",
-      "type": "multi-column",
+    "logo_list_mer8Cd": {
+      "type": "logo-list",
       "blocks": {
-        "item_Hr6QPx": {
-          "type": "item",
+        "logo_Bd69FU": {
+          "type": "logo",
           "settings": {
-            "image": "",
-            "title": "Étape 3 - Détox complète",
-            "content": "<p><p>Après 21 jours de cure, votre organisme est purifié en profondeur. Vous retrouvez vitalité, bien-être digestif et un teint éclatant. Répétez la cure 3-4 fois par an pour maintenir les bienfaits.</p></p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link",
-            "column_size": "3",
-            "heading_tag": "h4"
+            "logo_width": 300,
+            "link": ""
           }
         },
-        "item_NyVJUU": {
-          "type": "item",
+        "logo_YrdN9r": {
+          "type": "logo",
           "settings": {
-            "image": "",
-            "title": "Étape 2 - Action progressive",
-            "content": "<p><p>La formule 3 en 1 agit simultanément sur vos parasites, votre foie et votre côlon. Les premiers effets se ressentent dès 7 jours : meilleur transit, regain d'énergie, sensation de légèreté.</p></p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link",
-            "column_size": "3",
-            "heading_tag": "h4"
+            "logo_width": 300,
+            "link": ""
           }
         },
-        "item_j7Q4PT": {
-          "type": "item",
+        "logo_dea4mb": {
+          "type": "logo",
           "settings": {
-            "image": "",
-            "title": "Étape 1 - Prise quotidienne",
-            "content": "<p><p>Prenez 2 gélules chaque matin à jeun avec un grand verre d'eau, 30 minutes avant votre petit-déjeuner. Cette routine simple maximise l'absorption des principes actifs naturels.</p></p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link",
-            "column_size": "3",
-            "heading_tag": "h4"
+            "logo_width": 300,
+            "link": ""
+          }
+        },
+        "logo_XCyhtq": {
+          "type": "logo",
+          "settings": {
+            "logo_width": 300,
+            "link": ""
           }
         }
       },
-      "settings": {
-        "gap": "medium",
-        "title": "",
-        "content": "<h4><strong><h3>Comment ça marche ?</h3></strong></h4>",
-        "background": "",
-        "full_width": true,
-        "subheading": "",
-        "text_color": "",
-        "text_alignment": "center",
-        "stack_on_mobile": false,
-        "background_gradient": ""
-      },
       "block_order": [
-        "item_j7Q4PT",
-        "item_NyVJUU",
-        "item_Hr6QPx"
-      ]
+        "logo_Bd69FU",
+        "logo_YrdN9r",
+        "logo_dea4mb",
+        "logo_XCyhtq"
+      ],
+      "custom_css": [],
+      "name": "Logo list",
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "title": "",
+        "content": "<h3><strong>Recommandé par</strong></h3>",
+        "text_alignment": "center",
+        "items_per_row": 4,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "logo_item_background": "#ecf9ff",
+        "logo_item_border": ""
+      }
     },
-    "text_with_icons_R7GyBX": {
-      "name": "Text with icons",
-      "type": "text-with-icons",
+    "sp_image_standalone_mEaDfr": {
+      "type": "sp-image-standalone",
+      "name": "🚀SP - Image Standalone",
+      "settings": {
+        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "max_width": 1000,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_left": 0,
+        "padding_right": 0,
+        "media_aspect_ratio": "auto",
+        "desktop_image_width": 0,
+        "mobile_media_aspect_ratio": "auto",
+        "mobile_image_width": 800,
+        "link": "",
+        "media_radius": 0,
+        "media_shadow": false
+      }
+    },
+    "ss_testimonial_8_kRy8Pg": {
+      "type": "ss-testimonial-8",
+      "name": "SS - Testimonial #8",
+      "settings": {
+        "heading": "Nos clients en parlent mieux",
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 40,
+        "heading_size_mobile": 24,
+        "heading_height": 130,
+        "heading_align": "center",
+        "rating_text": "Excellent",
+        "rating_text_custom": false,
+        "rating_text_font": "josefin_sans_n4",
+        "rating_text_size": 24,
+        "rating_text_size_mobile": 20,
+        "rating_text_height": 130,
+        "rating_text_mt": 16,
+        "rating": 4.8,
+        "rating_hide": false,
+        "rating_text_hide": false,
+        "rating_align": "center",
+        "stars_count": 5,
+        "stars_size": 28,
+        "stars_size_mobile": 24,
+        "stars_align": "center",
+        "text": "<p>based on <strong>1 067</strong> reviews</p>",
+        "text_custom": false,
+        "text_font": "josefin_sans_n4",
+        "text_size": 20,
+        "text_size_mobile": 16,
+        "text_height": 130,
+        "text_align": "center",
+        "text_mt": 16,
+        "slider_width": 80,
+        "slider_view": 3,
+        "slider_view_mobile": 1.2,
+        "slider_gap": 20,
+        "slider_gap_mobile": 20,
+        "slider_mt": 36,
+        "card_padding_vertical": 32,
+        "card_padding_vertical_mobile": 24,
+        "card_padding_horizontal": 40,
+        "card_padding_horizontal_mobile": 24,
+        "card_radius": 16,
+        "card_border_thickness": 0,
+        "card_shadow": true,
+        "card_heading_custom": false,
+        "card_heading_font": "josefin_sans_n4",
+        "card_heading_size": 24,
+        "card_heading_size_mobile": 20,
+        "card_heading_height": 130,
+        "card_heading_align": "center",
+        "card_heading_mt": 16,
+        "card_text_custom": false,
+        "card_text_font": "josefin_sans_n4",
+        "card_text_size": 14,
+        "card_text_size_mobile": 14,
+        "card_text_height": 150,
+        "card_text_align": "center",
+        "card_text_mt": 16,
+        "card_text_more": "",
+        "card_text_less": "View ess",
+        "card_count_words": 20,
+        "card_author_date_text_custom": false,
+        "card_author_date_text_font": "josefin_sans_n4",
+        "card_author_date_text_size": 16,
+        "card_author_date_text_size_mobile": 16,
+        "card_author_date_text_height": 130,
+        "card_author_date_text_align": "center",
+        "card_author_date_text_mt": 16,
+        "arrow_size": 50,
+        "arrow_size_mobile": 50,
+        "arrow_icon_size": 28,
+        "arrow_icon_size_mobile": 28,
+        "arrow_border_thickness": 0,
+        "arrow_show_desktop": true,
+        "arrow_show_mobile": false,
+        "dots_size": 12,
+        "dots_size_mobile": 12,
+        "dots_show_desktop": false,
+        "dots_show_mobile": false,
+        "button": "",
+        "button_url": "",
+        "button_custom": false,
+        "button_font": "josefin_sans_n4",
+        "button_size": 16,
+        "button_size_mobile": 14,
+        "button_height": 100,
+        "button_align": "center",
+        "button_mt": 16,
+        "button_padding_vertical": 20,
+        "button_padding_horizontal": 16,
+        "button_radius": 8,
+        "button_border_thickness": 0,
+        "button_color": "#ffffff",
+        "button_hover_color": "#ffffff",
+        "button_bg_color": "#000000",
+        "button_bg_hover_color": "#000000",
+        "button_border_color": "#000000",
+        "button_border_hover_color": "#000000",
+        "card_bg_color": "#ffffff",
+        "card_border_color": "#000000",
+        "card_shadow_color": "#ffffff",
+        "card_heading_color": "#000000",
+        "card_text_color": "#000000",
+        "card_author_date_text_color": "#000000",
+        "arrow_color": "#000000",
+        "arrow_hover_color": "#000000",
+        "arrow_bg_color": "#ffffff",
+        "arrow_bg_hover_color": "#ffffff",
+        "arrow_border_color": "#ffffff",
+        "arrow_border_hover_color": "#ffffff",
+        "dots_color": "#000000",
+        "heading_color": "#000000",
+        "rating_text_color": "#000000",
+        "stars_bg_color": "#00b67a",
+        "stars_color": "#ffffff",
+        "text_color": "#000000",
+        "background_color": "#ffffff",
+        "background_gradient": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 20,
+        "padding_bottom": 0,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": true,
+        "content_width": 120,
+        "border_thickness": 0,
+        "lazy": true
+      }
+    },
+    "ss_testimonial_10_hMqefV": {
+      "type": "ss-testimonial-10",
       "blocks": {
-        "item_PQMQA4": {
-          "type": "item",
+        "testimonial_FqG636": {
+          "type": "testimonial",
           "settings": {
-            "icon": "picto-lock",
-            "title": "Paiement sécurisé",
-            "content": "",
-            "icon_color": "#ffffff",
-            "icon_width": 32,
-            "icon_background": "#5fa0be",
-            "mobile_icon_width": 24,
-            "icon_background_type": "circle"
+            "stars_count": 5,
+            "text": "<p>Après 3 semaines d'utilisation du Super Detox, j'ai enfin retrouvé mon énergie ! Mes problèmes de ballonnements ont complètement disparu et je me sens comme régénérée. La formule 3 en 1 est vraiment efficace, je recommande vivement.</p>",
+            "author": "Sophie M."
           }
         },
-        "item_PUQrek": {
-          "type": "item",
+        "testimonial_EKjfHP": {
+          "type": "testimonial",
           "settings": {
-            "icon": "picto-operator",
-            "title": "Service client 24h",
-            "content": "",
-            "icon_color": "#ffffff",
-            "icon_width": 32,
-            "icon_background": "#5fa0be",
-            "mobile_icon_width": 24,
-            "icon_background_type": "circle"
+            "stars_count": 5,
+            "text": "<p>J'étais sceptique au début mais ce produit a dépassé mes attentes. Fini la fatigue constante et les troubles digestifs que j'avais depuis des mois. Dès la 2ème semaine, j'ai senti une vraie différence. Merci Dawtox pour cette super detox !</p>",
+            "author": "Marc L."
           }
         },
-        "item_gDEFhV": {
-          "type": "item",
+        "testimonial_UgcMCU": {
+          "type": "testimonial",
           "settings": {
-            "icon": "picto-coupon",
-            "title": "Livraison gratuite",
-            "content": "",
-            "icon_color": "#ffffff",
-            "icon_width": 32,
-            "icon_background": "#5fa0be",
-            "mobile_icon_width": 24,
-            "icon_background_type": "circle"
+            "stars_count": 5,
+            "text": "<p>En tant que naturopathe, j'ai testé beaucoup de produits détox. Celui-ci se démarque vraiment par son action complète sur les parasites, le foie et le côlon. Mes clients sont ravis des résultats obtenus en seulement 21 jours.</p>",
+            "author": "Dr. Claire B."
           }
         },
-        "item_tLJeRY": {
-          "type": "item",
+        "testimonial_N64AW3": {
+          "type": "testimonial",
           "settings": {
-            "icon": "picto-return",
-            "title": "Satisfait ou remboursé",
-            "content": "",
-            "icon_color": "#ffffff",
-            "icon_width": 32,
-            "icon_background": "#5fa0be",
-            "mobile_icon_width": 24,
-            "icon_background_type": "circle"
+            "stars_count": 5,
+            "text": "<p>Incroyable ! J'avais des problèmes de transit depuis des années et rien ne fonctionnait. Avec Super Detox, tout est rentré dans l'ordre en 10 jours. Mon teint s'est éclairci et j'ai retrouvé ma vitalité d'avant.</p>",
+            "author": "Julien R."
+          }
+        },
+        "testimonial_8Wqng6": {
+          "type": "testimonial",
+          "settings": {
+            "stars_count": 5,
+            "text": "<p>Cette detox 3 en 1 a changé ma vie. Plus de sensation d'être 'empoisonnée' après les repas, plus de fatigue inexpliquée. Je me sens purifiée de l'intérieur. Un investissement santé que je ne regrette absolument pas.</p>",
+            "author": "Amélie T."
+          }
+        },
+        "testimonial_Htn3xf": {
+          "type": "testimonial",
+          "settings": {
+            "stars_count": 5,
+            "text": "<p>J'ai commandé Super Detox sur les conseils de ma sœur. Résultat : -3 kg en 3 semaines sans régime, plus d'énergie pour mes enfants et mon travail. Cette formule naturelle fait vraiment des miracles !</p>",
+            "author": "Valérie C."
+          }
+        },
+        "testimonial_j7Rn8w": {
+          "type": "testimonial",
+          "settings": {
+            "stars_count": 5,
+            "text": "<p>Enfin un produit qui tient ses promesses ! Dès la première semaine, j'ai senti mon système digestif se rééquilibrer. Mes analyses sanguines se sont même améliorées selon mon médecin. Je recommande cette super detox à 100%.</p>",
+            "author": "Philippe D."
           }
         }
       },
-      "settings": {
-        "title": "",
-        "background": "",
-        "full_width": true,
-        "text_color": "",
-        "heading_tag": "h5",
-        "icon_spacing": "medium",
-        "text_alignment": "center",
-        "stack_on_mobile": false,
-        "background_gradient": ""
-      },
       "block_order": [
-        "item_gDEFhV",
-        "item_PUQrek",
-        "item_PQMQA4",
-        "item_tLJeRY"
-      ]
+        "testimonial_FqG636",
+        "testimonial_EKjfHP",
+        "testimonial_UgcMCU",
+        "testimonial_N64AW3",
+        "testimonial_8Wqng6",
+        "testimonial_Htn3xf",
+        "testimonial_j7Rn8w"
+      ],
+      "name": "SS - Testimonials #10",
+      "settings": {
+        "body_padding_vertical": 0,
+        "body_padding_vertical_mobile": 0,
+        "body_padding_horizontal": 0,
+        "body_padding_horizontal_mobile": 0,
+        "body_radius": 12,
+        "body_border_thickness": 0,
+        "heading": "",
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 40,
+        "heading_size_mobile": 24,
+        "heading_height": 150,
+        "heading_align": "left",
+        "heading_align_mobile": "left",
+        "sub_heading": "",
+        "sub_heading_custom": false,
+        "sub_heading_font": "josefin_sans_n4",
+        "sub_heading_size": 18,
+        "sub_heading_size_mobile": 14,
+        "sub_heading_height": 150,
+        "slider_view": 3.7,
+        "slider_view_mobile": 1,
+        "slider_gap": 36,
+        "slider_gap_mobile": 20,
+        "slider_mt": 20,
+        "image_radius": 12,
+        "image_border_thickness": 0,
+        "image_ratio": "square",
+        "image_ratio_mobile": "square",
+        "stars_size": 20,
+        "stars_mt": 24,
+        "stars_align": "start",
+        "stars_align_mobile": "start",
+        "text_custom": false,
+        "text_font": "josefin_sans_n4",
+        "text_size": 20,
+        "text_size_mobile": 16,
+        "text_height": 130,
+        "text_mt": 12,
+        "text_align": "left",
+        "text_align_mobile": "left",
+        "author_custom": false,
+        "author_font": "josefin_sans_n4",
+        "author_size": 20,
+        "author_size_mobile": 16,
+        "author_height": 130,
+        "author_mt": 8,
+        "author_align": "left",
+        "author_align_mobile": "left",
+        "arrow_size": 50,
+        "arrow_size_mobile": 42,
+        "arrow_icon_size": 40,
+        "arrow_icon_size_mobile": 28,
+        "arrow_border_thickness": 0,
+        "arrow_show_desktop": true,
+        "arrow_show_mobile": false,
+        "dots_size": 12,
+        "dots_size_mobile": 12,
+        "dots_mt": 32,
+        "dots_show_desktop": false,
+        "dots_show_mobile": true,
+        "body_bg_color": "#ffffff",
+        "body_border_color": "#000000",
+        "stars_color": "#f0c417",
+        "text_color": "#1a1a1a",
+        "author_color": "#1a1a1a",
+        "arrow_color": "#756e67",
+        "arrow_hover_color": "#ffffff",
+        "arrow_bg_color": "#ffffff",
+        "arrow_bg_hover_color": "#756e67",
+        "arrow_border_color": "#756e67",
+        "arrow_border_hover_color": "#756e67",
+        "dots_color": "#5fa0be",
+        "heading_color": "#756e67",
+        "sub_heading_color": "#756e67",
+        "background_color": "#ffffff",
+        "background_gradient": "",
+        "border_color": "#ffffff",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 0,
+        "padding_bottom": 36,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": true,
+        "content_width": 120,
+        "border_thickness": 0,
+        "lazy": true
+      }
     },
     "featured_product_BNCh3F": {
       "type": "featured-product",
       "blocks": {
-        "text_LAWpqU": {
-          "type": "text",
+        "liquid_GKVcqB": {
+          "type": "liquid",
           "settings": {
-            "text": "<p><h4>Bénéfices clés:</h4><ul><li>Détoxification complète en 21 jours (foie, côlon, parasites)</li><li>Regain d'énergie dès la première semaine</li><li>Amélioration du transit et de la digestion</li><li>Élimination des toxines et parasites naturellement</li><li>Teint plus éclatant et bien-être général</li></ul></p>"
-          }
-        },
-        "price_UU6gFH": {
-          "type": "price",
-          "settings": {
-            "show_taxes_notice": false
+            "liquid": "<!DOCTYPE html>\n<html>\n<head>\n<style>\n:root {\n  --social-proof-text-color: #000000;\n  --social-proof-star-color: #0F5151;\n}\n\n.social-proof-slideblock-rating {\n    display: flex;\n    align-items: center;\n    justify-content: flex-start;\nfont-size: 14px;\n}\n\n.social-proof-slideblock-stars {\n    display: flex;\n    margin-right: 8px;\n    color: var(--social-proof-star-color);\n}\n\n.social-proof-slideblock-rating-text {\n    display: inline;\n    color: var(--social-proof-text-color);\n    content: var(--social-proof-rating-text);\n}\n\n.social-proof-star {\n    margin: 0;\n    padding: 0;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    width: 16px;\n    height: 16px;\n}\n\n.social-proof-star svg {\n    width: 16px;\n    height: 16px;\n    fill: var(--social-proof-star-color);\n}\n</style>\n</head>\n<body>\n\n<div class=\"social-proof-slideblock-rating mt-2\">\n  <span class=\"social-proof-slideblock-stars\">\n    <span class=\"social-proof-star\">\n      <svg xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <svg class=\"w-[16px] h-[16px]\" fill=\"currentColor\" stroke=\"currentColor\" xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <path d=\"M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z\"></path>\n      </svg>\n    </span>\n<span class=\"social-proof-star\">\n      <svg xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <svg class=\"w-[16px] h-[16px]\" fill=\"currentColor\" stroke=\"currentColor\" xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <path d=\"M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z\"></path>\n      </svg>\n    </span>\n<span class=\"social-proof-star\">\n      <svg xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <svg class=\"w-[16px] h-[16px]\" fill=\"currentColor\" stroke=\"currentColor\" xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <path d=\"M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z\"></path>\n      </svg>\n    </span>\n<span class=\"social-proof-star\">\n      <svg xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <svg class=\"w-[16px] h-[16px]\" fill=\"currentColor\" stroke=\"currentColor\" xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <path d=\"M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z\"></path>\n      </svg>\n    </span>\n<span class=\"social-proof-star\">\n      <svg xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <svg class=\"w-[16px] h-[16px]\" fill=\"currentColor\" stroke=\"currentColor\" xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <path d=\"M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z\"></path>\n      </svg>\n    </span>\n  </span>\n  <span class=\"social-proof-slideblock-rating-text\">\n    Noté 4.8 par +320 Clients !\n  </span>\n</div>\n\n</body>\n</html>"
           }
         },
         "title_3bTAx9": {
@@ -389,17 +450,52 @@
             "heading_tag": "h3"
           }
         },
-        "liquid_GKVcqB": {
-          "type": "liquid",
+        "price_UU6gFH": {
+          "type": "price",
           "settings": {
-            "liquid": "<!DOCTYPE html>\n<html>\n<head>\n<style>\n:root {\n  --social-proof-text-color: #000000;\n  --social-proof-star-color: #0F5151;\n}\n\n.social-proof-slideblock-rating {\n    display: flex;\n    align-items: center;\n    justify-content: flex-start;\nfont-size: 14px;\n}\n\n.social-proof-slideblock-stars {\n    display: flex;\n    margin-right: 8px;\n    color: var(--social-proof-star-color);\n}\n\n.social-proof-slideblock-rating-text {\n    display: inline;\n    color: var(--social-proof-text-color);\n    content: var(--social-proof-rating-text);\n}\n\n.social-proof-star {\n    margin: 0;\n    padding: 0;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    width: 16px;\n    height: 16px;\n}\n\n.social-proof-star svg {\n    width: 16px;\n    height: 16px;\n    fill: var(--social-proof-star-color);\n}\n</style>\n</head>\n<body>\n\n<div class=\"social-proof-slideblock-rating mt-2\">\n  <span class=\"social-proof-slideblock-stars\">\n    <span class=\"social-proof-star\">\n      <svg xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <svg class=\"w-[16px] h-[16px]\" fill=\"currentColor\" stroke=\"currentColor\" xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <path d=\"M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z\"></path>\n      </svg>\n    </span>\n<span class=\"social-proof-star\">\n      <svg xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <svg class=\"w-[16px] h-[16px]\" fill=\"currentColor\" stroke=\"currentColor\" xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <path d=\"M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z\"></path>\n      </svg>\n    </span>\n<span class=\"social-proof-star\">\n      <svg xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <svg class=\"w-[16px] h-[16px]\" fill=\"currentColor\" stroke=\"currentColor\" xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <path d=\"M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z\"></path>\n      </svg>\n    </span>\n<span class=\"social-proof-star\">\n      <svg xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <svg class=\"w-[16px] h-[16px]\" fill=\"currentColor\" stroke=\"currentColor\" xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <path d=\"M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z\"></path>\n      </svg>\n    </span>\n<span class=\"social-proof-star\">\n      <svg xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <svg class=\"w-[16px] h-[16px]\" fill=\"currentColor\" stroke=\"currentColor\" xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <path d=\"M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z\"></path>\n      </svg>\n    </span>\n  </span>\n  <span class=\"social-proof-slideblock-rating-text\">\n    Noté 4.8 par +320 Clients !\n  </span>\n</div>\n\n</body>\n</html>"
+            "show_taxes_notice": false
+          }
+        },
+        "text_LAWpqU": {
+          "type": "text",
+          "settings": {
+            "text": "<p><h4>Bénéfices clés:</h4><ul><li>Détoxification complète en 21 jours (foie, côlon, parasites)</li><li>Regain d'énergie dès la première semaine</li><li>Amélioration du transit et de la digestion</li><li>Élimination des toxines et parasites naturellement</li><li>Teint plus éclatant et bien-être général</li></ul></p>"
           }
         },
         "liquid_HX8Vae": {
-          "name": "stock availability liquid",
           "type": "liquid",
+          "name": "stock availability liquid",
           "settings": {
             "liquid": "<div style=\"background-color: #ffe6e6; border-radius: 12px; padding: 1px 10px; color: #a30000; font-size: 14px; font-weight: 400; box-shadow: 0 2px 6px rgba(0,0,0,0.05); display: inline-flex; align-items: center; gap: 8px;\">\n  <span class=\"stock-bullet-alert\"></span>\n  <span><strong>4 en stock</strong>, se envía en 24 horas</span>\n</div>"
+          }
+        },
+        "liquid_hzyEzW": {
+          "type": "liquid",
+          "name": "trust and urgency liquid",
+          "settings": {
+            "liquid": "<style style=\"z-index: 22;\">\n.unique-body-Xyz123 {\n  font-family: Arial, sans-serif;\n  background-color: #f9f9f9;\n  color: #333;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  height: 100vh;\n  margin: 0;\n}\n\n.unique-container-Abc456 {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  gap: 10px; /* Badge'ler arasındaki boşluk */\nmargin: 20px 0;\n}\n\n.unique-badge-Def789 {\n  display: inline-flex;\n  align-items: center;\n  background-color: #e0ffd8; /* Çok açık yeşil arka plan */\n  color: #004d00; /* Koyu yeşil metin */\n  padding: 2px 4px; /* Küçültülmüş padding */\n  border-radius: 3px; /* Küçültülmüş yuvarlama */\n  font-size: 10px; /* Küçültülmüş font boyutu */\n  font-weight: bold;\n  text-align: center;\n  position: relative;\n}\n\n.unique-badge-Ghi012 {\n  display: inline-flex;\n  align-items: center;\n  background-color: #ffdede; /* Açık kırmızı arka plan */\n  color: #b22222; /* Koyu kırmızı metin */\n  padding: 2px 4px; /* Küçültülmüş padding */\n  border-radius: 3px; /* Küçültülmüş yuvarlama */\n  font-size: 10px; /* Küçültülmüş font boyutu */\n  font-weight: bold;\n  text-align: center;\n  position: relative;\n}\n\n.unique-icon-Jkl345 {\n  width: 12px; /* Küçültülmüş ikon boyutu */\n  height: 12px; /* Küçültülmüş ikon boyutu */\n  margin-right: 2px;\n  vertical-align: middle;\n}\n\n.unique-badge-Def789 span, .unique-badge-Ghi012 span {\n  display: flex;\n  align-items: center;\n  white-space: nowrap; /* Metinlerin tek satırda kalmasını sağlar */\n}\n\n@keyframes\n unique-rotate-Mno678 {\n  from {\n    transform: rotate(0deg);\n  }\n  to {\n    transform: rotate(360deg);\n  }\n}\n\n.unique-clock-hand-Pqr901 {\n  transform-origin: 50% 50%;\n  animation: unique-rotate-Mno678 2s linear infinite;\n}\n</style>\n\n<div class=\"unique-container-Abc456\" style=\"z-index: 21;\">\n  <div class=\"unique-badge-Def789\">\n    <span>\n      <svg class=\"unique-icon-Jkl345\" viewBox=\"0 0 24 24\" xmlns=\"http://w3.org/2000/svg\">\n        <path fill=\"#004d00\" d=\"M12 2C9.24 2 7 4.24 7 7V10H5C3.9 10 3 10.9 3 12V19C3 20.1 3.9 21 5 21H19C20.1 21 21 20.1 21 19V12C21 10.9 20.1 10 19 10H17V7C17 4.24 14.76 2 12 2M12 4C13.66 4 15 5.34 15 7V10H9V7C9 5.34 10.34 4 12 4M12 12C13.1 12 14 12.9 14 14C14 15.1 13.1 16 12 16C10.9 16 10 15.1 10 14C10 12.9 10.9 12 12 12Z\"></path>\n      </svg>\n90J Satisfait ou remboursé</span>\n  </div>\n\n  <div class=\"unique-badge-Ghi012\">\n    <span>\n      <svg class=\"unique-icon-Jkl345\" viewBox=\"0 0 24 24\" xmlns=\"http://w3.org/2000/svg\">\n        <circle cx=\"12\" cy=\"12\" r=\"10\" stroke=\"#b22222\" stroke-width=\"2\" fill=\"none\"></circle>\n        <line x1=\"12\" y1=\"12\" x2=\"12\" y2=\"6\" stroke=\"#b22222\" stroke-width=\"2\" class=\"unique-clock-hand-Pqr901\"></line>\n        <line x1=\"12\" y1=\"12\" x2=\"16\" y2=\"12\" stroke=\"#b22222\" stroke-width=\"2\"></line>\n      </svg>\nSTOCK FAIBLE !    </span>\n  </div>\n</div>"
+          }
+        },
+        "variant_picker_LdEqUg": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_style": "block",
+            "swatch_selector_style": "swatch",
+            "variant_image_options": "",
+            "size_chart_page": ""
+          }
+        },
+        "buy_buttons_C8dVXB": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "#edc42d",
+            "atc_button_text_color": "#000000",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
           }
         },
         "liquid_RahGWq": {
@@ -408,86 +504,39 @@
             "liquid": "<ul style=\"margin-top: 10px; display: flex; justify-content: space-between;\" class=\"list list-payment\" role=\"list\"><li class=\"list-payment__item\">\n                  <svg class=\"icon icon--full-color\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-labelledby=\"pi-american_express\" viewBox=\"0 0 38 24\" width=\"38\" height=\"24\"><title id=\"pi-american_express\">American Express</title><path fill=\"#000\" d=\"M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3Z\" opacity=\".07\"></path><path fill=\"#006FCF\" d=\"M35 1c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h32Z\"></path><path fill=\"#FFF\" d=\"M22.012 19.936v-8.421L37 11.528v2.326l-1.732 1.852L37 17.573v2.375h-2.766l-1.47-1.622-1.46 1.628-9.292-.02Z\"></path><path fill=\"#006FCF\" d=\"M23.013 19.012v-6.57h5.572v1.513h-3.768v1.028h3.678v1.488h-3.678v1.01h3.768v1.531h-5.572Z\"></path><path fill=\"#006FCF\" d=\"m28.557 19.012 3.083-3.289-3.083-3.282h2.386l1.884 2.083 1.89-2.082H37v.051l-3.017 3.23L37 18.92v.093h-2.307l-1.917-2.103-1.898 2.104h-2.321Z\"></path><path fill=\"#FFF\" d=\"M22.71 4.04h3.614l1.269 2.881V4.04h4.46l.77 2.159.771-2.159H37v8.421H19l3.71-8.421Z\"></path><path fill=\"#006FCF\" d=\"m23.395 4.955-2.916 6.566h2l.55-1.315h2.98l.55 1.315h2.05l-2.904-6.566h-2.31Zm.25 3.777.875-2.09.873 2.09h-1.748Z\"></path><path fill=\"#006FCF\" d=\"M28.581 11.52V4.953l2.811.01L32.84 9l1.456-4.046H37v6.565l-1.74.016v-4.51l-1.644 4.494h-1.59L30.35 7.01v4.51h-1.768Z\"></path></svg>\n\n                </li><li class=\"list-payment__item\">\n                  <svg class=\"icon icon--full-color\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" x=\"0\" y=\"0\" width=\"38\" height=\"24\" viewBox=\"0 0 165.521 105.965\" xml:space=\"preserve\" aria-labelledby=\"pi-apple_pay\"><title id=\"pi-apple_pay\">Apple Pay</title><path fill=\"#000\" d=\"M150.698 0H14.823c-.566 0-1.133 0-1.698.003-.477.004-.953.009-1.43.022-1.039.028-2.087.09-3.113.274a10.51 10.51 0 0 0-2.958.975 9.932 9.932 0 0 0-4.35 4.35 10.463 10.463 0 0 0-.975 2.96C.113 9.611.052 10.658.024 11.696a70.22 70.22 0 0 0-.022 1.43C0 13.69 0 14.256 0 14.823v76.318c0 .567 0 1.132.002 1.699.003.476.009.953.022 1.43.028 1.036.09 2.084.275 3.11a10.46 10.46 0 0 0 .974 2.96 9.897 9.897 0 0 0 1.83 2.52 9.874 9.874 0 0 0 2.52 1.83c.947.483 1.917.79 2.96.977 1.025.183 2.073.245 3.112.273.477.011.953.017 1.43.02.565.004 1.132.004 1.698.004h135.875c.565 0 1.132 0 1.697-.004.476-.002.952-.009 1.431-.02 1.037-.028 2.085-.09 3.113-.273a10.478 10.478 0 0 0 2.958-.977 9.955 9.955 0 0 0 4.35-4.35c.483-.947.789-1.917.974-2.96.186-1.026.246-2.074.274-3.11.013-.477.02-.954.022-1.43.004-.567.004-1.132.004-1.699V14.824c0-.567 0-1.133-.004-1.699a63.067 63.067 0 0 0-.022-1.429c-.028-1.038-.088-2.085-.274-3.112a10.4 10.4 0 0 0-.974-2.96 9.94 9.94 0 0 0-4.35-4.35A10.52 10.52 0 0 0 156.939.3c-1.028-.185-2.076-.246-3.113-.274a71.417 71.417 0 0 0-1.431-.022C151.83 0 151.263 0 150.698 0z\"></path><path fill=\"#FFF\" d=\"M150.698 3.532l1.672.003c.452.003.905.008 1.36.02.793.022 1.719.065 2.583.22.75.135 1.38.34 1.984.648a6.392 6.392 0 0 1 2.804 2.807c.306.6.51 1.226.645 1.983.154.854.197 1.783.218 2.58.013.45.019.9.02 1.36.005.557.005 1.113.005 1.671v76.318c0 .558 0 1.114-.004 1.682-.002.45-.008.9-.02 1.35-.022.796-.065 1.725-.221 2.589a6.855 6.855 0 0 1-.645 1.975 6.397 6.397 0 0 1-2.808 2.807c-.6.306-1.228.511-1.971.645-.881.157-1.847.2-2.574.22-.457.01-.912.017-1.379.019-.555.004-1.113.004-1.669.004H14.801c-.55 0-1.1 0-1.66-.004a74.993 74.993 0 0 1-1.35-.018c-.744-.02-1.71-.064-2.584-.22a6.938 6.938 0 0 1-1.986-.65 6.337 6.337 0 0 1-1.622-1.18 6.355 6.355 0 0 1-1.178-1.623 6.935 6.935 0 0 1-.646-1.985c-.156-.863-.2-1.788-.22-2.578a66.088 66.088 0 0 1-.02-1.355l-.003-1.327V14.474l.002-1.325a66.7 66.7 0 0 1 .02-1.357c.022-.792.065-1.717.222-2.587a6.924 6.924 0 0 1 .646-1.981c.304-.598.7-1.144 1.18-1.623a6.386 6.386 0 0 1 1.624-1.18 6.96 6.96 0 0 1 1.98-.646c.865-.155 1.792-.198 2.586-.22.452-.012.905-.017 1.354-.02l1.677-.003h135.875\"></path><g><g><path fill=\"#000\" d=\"M43.508 35.77c1.404-1.755 2.356-4.112 2.105-6.52-2.054.102-4.56 1.355-6.012 3.112-1.303 1.504-2.456 3.959-2.156 6.266 2.306.2 4.61-1.152 6.063-2.858\"></path><path fill=\"#000\" d=\"M45.587 39.079c-3.35-.2-6.196 1.9-7.795 1.9-1.6 0-4.049-1.8-6.698-1.751-3.447.05-6.645 2-8.395 5.1-3.598 6.2-.95 15.4 2.55 20.45 1.699 2.5 3.747 5.25 6.445 5.151 2.55-.1 3.549-1.65 6.647-1.65 3.097 0 3.997 1.65 6.696 1.6 2.798-.05 4.548-2.5 6.247-5 1.95-2.85 2.747-5.6 2.797-5.75-.05-.05-5.396-2.101-5.446-8.251-.05-5.15 4.198-7.6 4.398-7.751-2.399-3.548-6.147-3.948-7.447-4.048\"></path></g><g><path fill=\"#000\" d=\"M78.973 32.11c7.278 0 12.347 5.017 12.347 12.321 0 7.33-5.173 12.373-12.529 12.373h-8.058V69.62h-5.822V32.11h14.062zm-8.24 19.807h6.68c5.07 0 7.954-2.729 7.954-7.46 0-4.73-2.885-7.434-7.928-7.434h-6.706v14.894z\"></path><path fill=\"#000\" d=\"M92.764 61.847c0-4.809 3.665-7.564 10.423-7.98l7.252-.442v-2.08c0-3.04-2.001-4.704-5.562-4.704-2.938 0-5.07 1.507-5.51 3.82h-5.252c.157-4.86 4.731-8.395 10.918-8.395 6.654 0 10.995 3.483 10.995 8.89v18.663h-5.38v-4.497h-.13c-1.534 2.937-4.914 4.782-8.579 4.782-5.406 0-9.175-3.222-9.175-8.057zm17.675-2.417v-2.106l-6.472.416c-3.64.234-5.536 1.585-5.536 3.95 0 2.288 1.975 3.77 5.068 3.77 3.95 0 6.94-2.522 6.94-6.03z\"></path><path fill=\"#000\" d=\"M120.975 79.652v-4.496c.364.051 1.247.103 1.715.103 2.573 0 4.029-1.09 4.913-3.899l.52-1.663-9.852-27.293h6.082l6.863 22.146h.13l6.862-22.146h5.927l-10.216 28.67c-2.34 6.577-5.017 8.735-10.683 8.735-.442 0-1.872-.052-2.261-.157z\"></path></g></g></svg>\n\n                </li><li class=\"list-payment__item\">\n                  <svg class=\"icon icon--full-color\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" viewBox=\"0 0 38 24\" width=\"38\" height=\"24\" aria-labelledby=\"pi-google_pay\"><title id=\"pi-google_pay\">Google Pay</title><path d=\"M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z\" fill=\"#000\" opacity=\".07\"></path><path d=\"M35 1c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h32\" fill=\"#FFF\"></path><path d=\"M18.093 11.976v3.2h-1.018v-7.9h2.691a2.447 2.447 0 0 1 1.747.692 2.28 2.28 0 0 1 .11 3.224l-.11.116c-.47.447-1.098.69-1.747.674l-1.673-.006zm0-3.732v2.788h1.698c.377.012.741-.135 1.005-.404a1.391 1.391 0 0 0-1.005-2.354l-1.698-.03zm6.484 1.348c.65-.03 1.286.188 1.778.613.445.43.682 1.03.65 1.649v3.334h-.969v-.766h-.049a1.93 1.93 0 0 1-1.673.931 2.17 2.17 0 0 1-1.496-.533 1.667 1.667 0 0 1-.613-1.324 1.606 1.606 0 0 1 .613-1.336 2.746 2.746 0 0 1 1.698-.515c.517-.02 1.03.093 1.49.331v-.208a1.134 1.134 0 0 0-.417-.901 1.416 1.416 0 0 0-.98-.368 1.545 1.545 0 0 0-1.319.717l-.895-.564a2.488 2.488 0 0 1 2.182-1.06zM23.29 13.52a.79.79 0 0 0 .337.662c.223.176.5.269.785.263.429-.001.84-.17 1.146-.472.305-.286.478-.685.478-1.103a2.047 2.047 0 0 0-1.324-.374 1.716 1.716 0 0 0-1.03.294.883.883 0 0 0-.392.73zm9.286-3.75l-3.39 7.79h-1.048l1.281-2.728-2.224-5.062h1.103l1.612 3.885 1.569-3.885h1.097z\" fill=\"#5F6368\"></path><path d=\"M13.986 11.284c0-.308-.024-.616-.073-.92h-4.29v1.747h2.451a2.096 2.096 0 0 1-.9 1.373v1.134h1.464a4.433 4.433 0 0 0 1.348-3.334z\" fill=\"#4285F4\"></path><path d=\"M9.629 15.721a4.352 4.352 0 0 0 3.01-1.097l-1.466-1.14a2.752 2.752 0 0 1-4.094-1.44H5.577v1.17a4.53 4.53 0 0 0 4.052 2.507z\" fill=\"#34A853\"></path><path d=\"M7.079 12.05a2.709 2.709 0 0 1 0-1.735v-1.17H5.577a4.505 4.505 0 0 0 0 4.075l1.502-1.17z\" fill=\"#FBBC04\"></path><path d=\"M9.629 8.44a2.452 2.452 0 0 1 1.74.68l1.3-1.293a4.37 4.37 0 0 0-3.065-1.183 4.53 4.53 0 0 0-4.027 2.5l1.502 1.171a2.715 2.715 0 0 1 2.55-1.875z\" fill=\"#EA4335\"></path></svg>\n\n                </li><li class=\"list-payment__item\">\n                  <svg class=\"icon icon--full-color\" viewBox=\"0 0 38 24\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" width=\"38\" height=\"24\" aria-labelledby=\"pi-master\"><title id=\"pi-master\">Mastercard</title><path opacity=\".07\" d=\"M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z\"></path><path fill=\"#fff\" d=\"M35 1c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h32\"></path><circle fill=\"#EB001B\" cx=\"15\" cy=\"12\" r=\"7\"></circle><circle fill=\"#F79E1B\" cx=\"23\" cy=\"12\" r=\"7\"></circle><path fill=\"#FF5F00\" d=\"M22 12c0-2.4-1.2-4.5-3-5.7-1.8 1.3-3 3.4-3 5.7s1.2 4.5 3 5.7c1.8-1.2 3-3.3 3-5.7z\"></path></svg>\n                </li><li class=\"list-payment__item\">\n                  <svg class=\"icon icon--full-color\" viewBox=\"0 0 38 24\" xmlns=\"http://www.w3.org/2000/svg\" width=\"38\" height=\"24\" role=\"img\" aria-labelledby=\"pi-paypal\"><title id=\"pi-paypal\">PayPal</title><path opacity=\".07\" d=\"M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z\"></path><path fill=\"#fff\" d=\"M35 1c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h32\"></path><path fill=\"#003087\" d=\"M23.9 8.3c.2-1 0-1.7-.6-2.3-.6-.7-1.7-1-3.1-1h-4.1c-.3 0-.5.2-.6.5L14 15.6c0 .2.1.4.3.4H17l.4-3.4 1.8-2.2 4.7-2.1z\"></path><path fill=\"#3086C8\" d=\"M23.9 8.3l-.2.2c-.5 2.8-2.2 3.8-4.6 3.8H18c-.3 0-.5.2-.6.5l-.6 3.9-.2 1c0 .2.1.4.3.4H19c.3 0 .5-.2.5-.4v-.1l.4-2.4v-.1c0-.2.3-.4.5-.4h.3c2.1 0 3.7-.8 4.1-3.2.2-1 .1-1.8-.4-2.4-.1-.5-.3-.7-.5-.8z\"></path><path fill=\"#012169\" d=\"M23.3 8.1c-.1-.1-.2-.1-.3-.1-.1 0-.2 0-.3-.1-.3-.1-.7-.1-1.1-.1h-3c-.1 0-.2 0-.2.1-.2.1-.3.2-.3.4l-.7 4.4v.1c0-.3.3-.5.6-.5h1.3c2.5 0 4.1-1 4.6-3.8v-.2c-.1-.1-.3-.2-.5-.2h-.1z\"></path></svg>\n                </li><li class=\"list-payment__item\">\n                  <svg class=\"icon icon--full-color\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" viewBox=\"0 0 38 24\" width=\"38\" height=\"24\" aria-labelledby=\"pi-shopify_pay\"><title id=\"pi-shopify_pay\">Shop Pay</title><path opacity=\".07\" d=\"M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z\" fill=\"#000\"></path><path d=\"M35.889 0C37.05 0 38 .982 38 2.182v19.636c0 1.2-.95 2.182-2.111 2.182H2.11C.95 24 0 23.018 0 21.818V2.182C0 .982.95 0 2.111 0H35.89z\" fill=\"#5A31F4\"></path><path d=\"M9.35 11.368c-1.017-.223-1.47-.31-1.47-.705 0-.372.306-.558.92-.558.54 0 .934.238 1.225.704a.079.079 0 00.104.03l1.146-.584a.082.082 0 00.032-.114c-.475-.831-1.353-1.286-2.51-1.286-1.52 0-2.464.755-2.464 1.956 0 1.275 1.15 1.597 2.17 1.82 1.02.222 1.474.31 1.474.705 0 .396-.332.582-.993.582-.612 0-1.065-.282-1.34-.83a.08.08 0 00-.107-.035l-1.143.57a.083.083 0 00-.036.111c.454.92 1.384 1.437 2.627 1.437 1.583 0 2.539-.742 2.539-1.98s-1.155-1.598-2.173-1.82v-.003zM15.49 8.855c-.65 0-1.224.232-1.636.646a.04.04 0 01-.069-.03v-2.64a.08.08 0 00-.08-.081H12.27a.08.08 0 00-.08.082v8.194a.08.08 0 00.08.082h1.433a.08.08 0 00.081-.082v-3.594c0-.695.528-1.227 1.239-1.227.71 0 1.226.521 1.226 1.227v3.594a.08.08 0 00.081.082h1.433a.08.08 0 00.081-.082v-3.594c0-1.51-.981-2.577-2.355-2.577zM20.753 8.62c-.778 0-1.507.24-2.03.588a.082.082 0 00-.027.109l.632 1.088a.08.08 0 00.11.03 2.5 2.5 0 011.318-.366c1.25 0 2.17.891 2.17 2.068 0 1.003-.736 1.745-1.669 1.745-.76 0-1.288-.446-1.288-1.077 0-.361.152-.657.548-.866a.08.08 0 00.032-.113l-.596-1.018a.08.08 0 00-.098-.035c-.799.299-1.359 1.018-1.359 1.984 0 1.46 1.152 2.55 2.76 2.55 1.877 0 3.227-1.313 3.227-3.195 0-2.018-1.57-3.492-3.73-3.492zM28.675 8.843c-.724 0-1.373.27-1.845.746-.026.027-.069.007-.069-.029v-.572a.08.08 0 00-.08-.082h-1.397a.08.08 0 00-.08.082v8.182a.08.08 0 00.08.081h1.433a.08.08 0 00.081-.081v-2.683c0-.036.043-.054.069-.03a2.6 2.6 0 001.808.7c1.682 0 2.993-1.373 2.993-3.157s-1.313-3.157-2.993-3.157zm-.271 4.929c-.956 0-1.681-.768-1.681-1.783s.723-1.783 1.681-1.783c.958 0 1.68.755 1.68 1.783 0 1.027-.713 1.783-1.681 1.783h.001z\" fill=\"#fff\"></path></svg>\n\n                </li><li class=\"list-payment__item\">\n                  <svg class=\"icon icon--full-color\" viewBox=\"0 0 38 24\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" width=\"38\" height=\"24\" aria-labelledby=\"pi-visa\"><title id=\"pi-visa\">Visa</title><path opacity=\".07\" d=\"M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z\"></path><path fill=\"#fff\" d=\"M35 1c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h32\"></path><path d=\"M28.3 10.1H28c-.4 1-.7 1.5-1 3h1.9c-.3-1.5-.3-2.2-.6-3zm2.9 5.9h-1.7c-.1 0-.1 0-.2-.1l-.2-.9-.1-.2h-2.4c-.1 0-.2 0-.2.2l-.3.9c0 .1-.1.1-.1.1h-2.1l.2-.5L27 8.7c0-.5.3-.7.8-.7h1.5c.1 0 .2 0 .2.2l1.4 6.5c.1.4.2.7.2 1.1.1.1.1.1.1.2zm-13.4-.3l.4-1.8c.1 0 .2.1.2.1.7.3 1.4.5 2.1.4.2 0 .5-.1.7-.2.5-.2.5-.7.1-1.1-.2-.2-.5-.3-.8-.5-.4-.2-.8-.4-1.1-.7-1.2-1-.8-2.4-.1-3.1.6-.4.9-.8 1.7-.8 1.2 0 2.5 0 3.1.2h.1c-.1.6-.2 1.1-.4 1.7-.5-.2-1-.4-1.5-.4-.3 0-.6 0-.9.1-.2 0-.3.1-.4.2-.2.2-.2.5 0 .7l.5.4c.4.2.8.4 1.1.6.5.3 1 .8 1.1 1.4.2.9-.1 1.7-.9 2.3-.5.4-.7.6-1.4.6-1.4 0-2.5.1-3.4-.2-.1.2-.1.2-.2.1zm-3.5.3c.1-.7.1-.7.2-1 .5-2.2 1-4.5 1.4-6.7.1-.2.1-.3.3-.3H18c-.2 1.2-.4 2.1-.7 3.2-.3 1.5-.6 3-1 4.5 0 .2-.1.2-.3.2M5 8.2c0-.1.2-.2.3-.2h3.4c.5 0 .9.3 1 .8l.9 4.4c0 .1 0 .1.1.2 0-.1.1-.1.1-.1l2.1-5.1c-.1-.1 0-.2.1-.2h2.1c0 .1 0 .1-.1.2l-3.1 7.3c-.1.2-.1.3-.2.4-.1.1-.3 0-.5 0H9.7c-.1 0-.2 0-.2-.2L7.9 9.5c-.2-.2-.5-.5-.9-.6-.6-.3-1.7-.5-1.9-.5L5 8.2z\" fill=\"#142688\"></path></svg>\n                </li></ul>"
           }
         },
-        "liquid_hzyEzW": {
-          "name": "trust and urgency liquid",
-          "type": "liquid",
+        "collapsible_text_YF7gFz": {
+          "type": "collapsible_text",
           "settings": {
-            "liquid": "<style style=\"z-index: 22;\">\n.unique-body-Xyz123 {\n  font-family: Arial, sans-serif;\n  background-color: #f9f9f9;\n  color: #333;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  height: 100vh;\n  margin: 0;\n}\n\n.unique-container-Abc456 {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  gap: 10px; /* Badge'ler arasındaki boşluk */\nmargin: 20px 0;\n}\n\n.unique-badge-Def789 {\n  display: inline-flex;\n  align-items: center;\n  background-color: #e0ffd8; /* Çok açık yeşil arka plan */\n  color: #004d00; /* Koyu yeşil metin */\n  padding: 2px 4px; /* Küçültülmüş padding */\n  border-radius: 3px; /* Küçültülmüş yuvarlama */\n  font-size: 10px; /* Küçültülmüş font boyutu */\n  font-weight: bold;\n  text-align: center;\n  position: relative;\n}\n\n.unique-badge-Ghi012 {\n  display: inline-flex;\n  align-items: center;\n  background-color: #ffdede; /* Açık kırmızı arka plan */\n  color: #b22222; /* Koyu kırmızı metin */\n  padding: 2px 4px; /* Küçültülmüş padding */\n  border-radius: 3px; /* Küçültülmüş yuvarlama */\n  font-size: 10px; /* Küçültülmüş font boyutu */\n  font-weight: bold;\n  text-align: center;\n  position: relative;\n}\n\n.unique-icon-Jkl345 {\n  width: 12px; /* Küçültülmüş ikon boyutu */\n  height: 12px; /* Küçültülmüş ikon boyutu */\n  margin-right: 2px;\n  vertical-align: middle;\n}\n\n.unique-badge-Def789 span, .unique-badge-Ghi012 span {\n  display: flex;\n  align-items: center;\n  white-space: nowrap; /* Metinlerin tek satırda kalmasını sağlar */\n}\n\n@keyframes\n unique-rotate-Mno678 {\n  from {\n    transform: rotate(0deg);\n  }\n  to {\n    transform: rotate(360deg);\n  }\n}\n\n.unique-clock-hand-Pqr901 {\n  transform-origin: 50% 50%;\n  animation: unique-rotate-Mno678 2s linear infinite;\n}\n</style>\n\n<div class=\"unique-container-Abc456\" style=\"z-index: 21;\">\n  <div class=\"unique-badge-Def789\">\n    <span>\n      <svg class=\"unique-icon-Jkl345\" viewBox=\"0 0 24 24\" xmlns=\"http://w3.org/2000/svg\">\n        <path fill=\"#004d00\" d=\"M12 2C9.24 2 7 4.24 7 7V10H5C3.9 10 3 10.9 3 12V19C3 20.1 3.9 21 5 21H19C20.1 21 21 20.1 21 19V12C21 10.9 20.1 10 19 10H17V7C17 4.24 14.76 2 12 2M12 4C13.66 4 15 5.34 15 7V10H9V7C9 5.34 10.34 4 12 4M12 12C13.1 12 14 12.9 14 14C14 15.1 13.1 16 12 16C10.9 16 10 15.1 10 14C10 12.9 10.9 12 12 12Z\"></path>\n      </svg>\n90J Satisfait ou remboursé</span>\n  </div>\n\n  <div class=\"unique-badge-Ghi012\">\n    <span>\n      <svg class=\"unique-icon-Jkl345\" viewBox=\"0 0 24 24\" xmlns=\"http://w3.org/2000/svg\">\n        <circle cx=\"12\" cy=\"12\" r=\"10\" stroke=\"#b22222\" stroke-width=\"2\" fill=\"none\"></circle>\n        <line x1=\"12\" y1=\"12\" x2=\"12\" y2=\"6\" stroke=\"#b22222\" stroke-width=\"2\" class=\"unique-clock-hand-Pqr901\"></line>\n        <line x1=\"12\" y1=\"12\" x2=\"16\" y2=\"12\" stroke=\"#b22222\" stroke-width=\"2\"></line>\n      </svg>\nSTOCK FAIBLE !    </span>\n  </div>\n</div>"
-          }
-        },
-        "buy_buttons_C8dVXB": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_payment_button": false,
-            "atc_button_background": "#edc42d",
-            "atc_button_text_color": "#000000",
-            "show_gift_card_recipient": true,
-            "payment_button_background": "",
-            "payment_button_text_color": ""
-          }
-        },
-        "variant_picker_LdEqUg": {
-          "type": "variant_picker",
-          "settings": {
-            "stack_blocks": true,
-            "selector_style": "block",
-            "size_chart_page": "",
-            "swatch_selector_style": "swatch",
-            "variant_image_options": "",
-            "hide_sold_out_variants": false
+            "title": "Comment utiliser Super Detox - Parasites, Foie, Côlon ?",
+            "content": "<p><p>Prenez 2 gélules le matin à jeun avec un grand verre d'eau, 30 minutes avant le petit-déjeuner. Pour une cure complète, utilisez le produit pendant 21 jours consécutifs. Il est recommandé de boire beaucoup d'eau durant la cure.</p></p>",
+            "page": ""
           }
         },
         "collapsible_text_3yAqmi": {
           "type": "collapsible_text",
           "settings": {
-            "page": "",
             "title": "Quels sont les ingrédients principaux de cette formule 3 en 1 ?",
-            "content": "<p><p>Notre Super Detox contient du chardon-marie pour le foie, de l'artichaut pour la détoxification, des fibres de psyllium pour le côlon, et un complexe antiparasitaire naturel à base d'ail noir et de noix. Tous nos ingrédients sont 100% naturels et certifiés biologiques.</p></p>"
+            "content": "<p><p>Notre Super Detox contient du chardon-marie pour le foie, de l'artichaut pour la détoxification, des fibres de psyllium pour le côlon, et un complexe antiparasitaire naturel à base d'ail noir et de noix. Tous nos ingrédients sont 100% naturels et certifiés biologiques.</p></p>",
+            "page": ""
           }
         },
         "collapsible_text_C6N9Hj": {
           "type": "collapsible_text",
           "settings": {
-            "page": "",
             "title": "Quand vais-je voir les premiers effets de la détox ?",
-            "content": "<p><p>La plupart de nos clients ressentent les premiers bienfaits dès la fin de la première semaine : amélioration du transit, regain d'énergie. Les effets complets sur la détoxification du foie et l'élimination des parasites sont visibles après 2-3 semaines d'utilisation régulière.</p></p>"
-          }
-        },
-        "collapsible_text_YF7gFz": {
-          "type": "collapsible_text",
-          "settings": {
-            "page": "",
-            "title": "Comment utiliser Super Detox - Parasites, Foie, Côlon ?",
-            "content": "<p><p>Prenez 2 gélules le matin à jeun avec un grand verre d'eau, 30 minutes avant le petit-déjeuner. Pour une cure complète, utilisez le produit pendant 21 jours consécutifs. Il est recommandé de boire beaucoup d'eau durant la cure.</p></p>"
+            "content": "<p><p>La plupart de nos clients ressentent les premiers bienfaits dès la fin de la première semaine : amélioration du transit, regain d'énergie. Les effets complets sur la détoxification du foie et l'élimination des parasites sont visibles après 2-3 semaines d'utilisation régulière.</p></p>",
+            "page": ""
           }
         },
         "collapsible_text_tdhMiY": {
           "type": "collapsible_text",
           "settings": {
-            "page": "",
             "title": "Y a-t-il des contre-indications ou effets secondaires ?",
-            "content": "<p><p>Super Detox est formulé avec des ingrédients naturels et est généralement bien toléré. Cependant, il est déconseillé aux femmes enceintes et allaitantes. En cas de traitement médical, consultez votre médecin. Certaines personnes peuvent ressentir une légère fatigue les premiers jours (effet détox normal).</p></p>"
+            "content": "<p><p>Super Detox est formulé avec des ingrédients naturels et est généralement bien toléré. Cependant, il est déconseillé aux femmes enceintes et allaitantes. En cas de traitement médical, consultez votre médecin. Certaines personnes peuvent ressentir une légère fatigue les premiers jours (effet détox normal).</p></p>",
+            "page": ""
           }
         }
       },
-      "settings": {
-        "product": "super-detox-parasites-foie-colon",
-        "background": "",
-        "full_width": true,
-        "text_color": "",
-        "input_background": "rgba(0,0,0,0)",
-        "input_text_color": "",
-        "enable_image_zoom": false,
-        "mobile_media_size": "expanded",
-        "background_gradient": "",
-        "desktop_media_width": 55,
-        "desktop_media_layout": "carousel_thumbnails_bottom",
-        "enable_video_looping": false,
-        "max_image_zoom_level": 3,
-        "enable_video_autoplay": false,
-        "mobile_carousel_control": "thumbnails"
-      },
-      "custom_css": [],
       "block_order": [
         "liquid_GKVcqB",
         "title_3bTAx9",
@@ -502,518 +551,158 @@
         "collapsible_text_3yAqmi",
         "collapsible_text_C6N9Hj",
         "collapsible_text_tdhMiY"
-      ]
-    },
-    "ss_testimonial_8_kRy8Pg": {
-      "name": "SS - Testimonial #8",
-      "type": "ss-testimonial-8",
+      ],
+      "custom_css": [],
       "settings": {
-        "lazy": true,
-        "text": "<p>based on <strong>1 067</strong> reviews</p>",
-        "button": "",
-        "rating": 4.8,
-        "heading": "Nos clients en parlent mieux",
-        "text_mt": 16,
-        "button_mt": 16,
-        "dots_size": 12,
-        "slider_mt": 36,
-        "text_font": "josefin_sans_n4",
-        "text_size": 20,
-        "arrow_size": 50,
-        "button_url": "",
-        "dots_color": "#000000",
         "full_width": true,
-        "margin_top": 0,
-        "slider_gap": 20,
-        "stars_size": 28,
-        "text_align": "center",
-        "text_color": "#000000",
-        "arrow_color": "#000000",
-        "button_font": "josefin_sans_n4",
-        "button_size": 16,
-        "card_radius": 16,
-        "card_shadow": true,
-        "padding_top": 20,
-        "rating_hide": false,
-        "rating_text": "Excellent",
-        "slider_view": 3,
-        "stars_align": "center",
-        "stars_color": "#FFFFFF",
-        "stars_count": 5,
-        "text_custom": false,
-        "text_height": 130,
-        "border_color": "#000000",
-        "button_align": "center",
-        "button_color": "#FFFFFF",
-        "card_text_mt": 16,
-        "heading_font": "josefin_sans_n4",
-        "heading_size": 40,
-        "rating_align": "center",
-        "slider_width": 80,
-        "button_custom": false,
-        "button_height": 100,
-        "button_radius": 8,
-        "card_bg_color": "#FFFFFF",
-        "content_width": 120,
-        "heading_align": "center",
-        "heading_color": "#000000",
-        "margin_bottom": 0,
-        "arrow_bg_color": "#FFFFFF",
-        "card_text_font": "josefin_sans_n4",
-        "card_text_less": "View ess",
-        "card_text_more": "",
-        "card_text_size": 14,
-        "heading_custom": false,
-        "heading_height": 130,
-        "padding_bottom": 0,
-        "rating_text_mt": 16,
-        "stars_bg_color": "#00B67A",
-        "arrow_icon_size": 28,
-        "button_bg_color": "#000000",
-        "card_heading_mt": 16,
-        "card_text_align": "center",
-        "card_text_color": "#000000",
-        "background_color": "#FFFFFF",
-        "border_thickness": 0,
-        "card_count_words": 20,
-        "card_text_custom": false,
-        "card_text_height": 150,
-        "dots_show_mobile": false,
-        "dots_size_mobile": 12,
-        "rating_text_font": "josefin_sans_n4",
-        "rating_text_hide": false,
-        "rating_text_size": 24,
-        "text_size_mobile": 16,
-        "arrow_hover_color": "#000000",
-        "arrow_show_mobile": false,
-        "arrow_size_mobile": 50,
-        "card_border_color": "#000000",
-        "card_heading_font": "josefin_sans_n4",
-        "card_heading_size": 24,
-        "card_shadow_color": "#ffffff",
-        "dots_show_desktop": false,
-        "rating_text_color": "#000000",
-        "slider_gap_mobile": 20,
-        "stars_size_mobile": 24,
-        "arrow_border_color": "#FFFFFF",
-        "arrow_show_desktop": true,
-        "button_hover_color": "#FFFFFF",
-        "button_size_mobile": 14,
-        "card_heading_align": "center",
-        "card_heading_color": "#000000",
-        "padding_horizontal": 5,
-        "rating_text_custom": false,
-        "rating_text_height": 130,
-        "slider_view_mobile": 1.2,
-        "background_gradient": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
-        "button_border_color": "#000000",
-        "card_heading_custom": false,
-        "card_heading_height": 130,
-        "heading_size_mobile": 24,
-        "arrow_bg_hover_color": "#FFFFFF",
-        "button_bg_hover_color": "#000000",
-        "card_border_thickness": 0,
-        "card_padding_vertical": 32,
-        "card_text_size_mobile": 14,
-        "arrow_border_thickness": 0,
-        "arrow_icon_size_mobile": 28,
-        "button_border_thickness": 0,
-        "button_padding_vertical": 20,
-        "card_padding_horizontal": 40,
-        "rating_text_size_mobile": 20,
-        "arrow_border_hover_color": "#FFFFFF",
-        "card_author_date_text_mt": 16,
-        "card_heading_size_mobile": 20,
-        "button_border_hover_color": "#000000",
-        "button_padding_horizontal": 16,
-        "padding_horizontal_mobile": 1.5,
-        "card_author_date_text_font": "josefin_sans_n4",
-        "card_author_date_text_size": 16,
-        "card_author_date_text_align": "center",
-        "card_author_date_text_color": "#000000",
-        "card_author_date_text_custom": false,
-        "card_author_date_text_height": 130,
-        "card_padding_vertical_mobile": 24,
-        "card_padding_horizontal_mobile": 24,
-        "card_author_date_text_size_mobile": 16
+        "product": "super-detox-parasites-foie-colon",
+        "desktop_media_width": 55,
+        "desktop_media_layout": "carousel_thumbnails_bottom",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "thumbnails",
+        "enable_video_autoplay": false,
+        "enable_video_looping": false,
+        "enable_image_zoom": false,
+        "max_image_zoom_level": 3,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
       }
     },
-    "ss_testimonial_10_hMqefV": {
-      "name": "SS - Testimonials #10",
-      "type": "ss-testimonial-10",
+    "multi_column_ehHhNL": {
+      "type": "multi-column",
       "blocks": {
-        "testimonial_8Wqng6": {
-          "type": "testimonial",
+        "item_j7Q4PT": {
+          "type": "item",
           "settings": {
-            "text": "<p>Cette detox 3 en 1 a changé ma vie. Plus de sensation d'être 'empoisonnée' après les repas, plus de fatigue inexpliquée. Je me sens purifiée de l'intérieur. Un investissement santé que je ne regrette absolument pas.</p>",
-            "author": "Amélie T.",
-            "stars_count": 5
+            "column_size": "3",
+            "title": "Étape 1 - Prise quotidienne",
+            "heading_tag": "h4",
+            "content": "<p><p>Prenez 2 gélules chaque matin à jeun avec un grand verre d'eau, 30 minutes avant votre petit-déjeuner. Cette routine simple maximise l'absorption des principes actifs naturels.</p></p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
           }
         },
-        "testimonial_EKjfHP": {
-          "type": "testimonial",
+        "item_NyVJUU": {
+          "type": "item",
           "settings": {
-            "text": "<p>J'étais sceptique au début mais ce produit a dépassé mes attentes. Fini la fatigue constante et les troubles digestifs que j'avais depuis des mois. Dès la 2ème semaine, j'ai senti une vraie différence. Merci Dawtox pour cette super detox !</p>",
-            "author": "Marc L.",
-            "stars_count": 5
+            "column_size": "3",
+            "title": "Étape 2 - Action progressive",
+            "heading_tag": "h4",
+            "content": "<p><p>La formule 3 en 1 agit simultanément sur vos parasites, votre foie et votre côlon. Les premiers effets se ressentent dès 7 jours : meilleur transit, regain d'énergie, sensation de légèreté.</p></p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
           }
         },
-        "testimonial_FqG636": {
-          "type": "testimonial",
+        "item_Hr6QPx": {
+          "type": "item",
           "settings": {
-            "text": "<p>Après 3 semaines d'utilisation du Super Detox, j'ai enfin retrouvé mon énergie ! Mes problèmes de ballonnements ont complètement disparu et je me sens comme régénérée. La formule 3 en 1 est vraiment efficace, je recommande vivement.</p>",
-            "author": "Sophie M.",
-            "stars_count": 5
-          }
-        },
-        "testimonial_Htn3xf": {
-          "type": "testimonial",
-          "settings": {
-            "text": "<p>J'ai commandé Super Detox sur les conseils de ma sœur. Résultat : -3 kg en 3 semaines sans régime, plus d'énergie pour mes enfants et mon travail. Cette formule naturelle fait vraiment des miracles !</p>",
-            "author": "Valérie C.",
-            "stars_count": 5
-          }
-        },
-        "testimonial_N64AW3": {
-          "type": "testimonial",
-          "settings": {
-            "text": "<p>Incroyable ! J'avais des problèmes de transit depuis des années et rien ne fonctionnait. Avec Super Detox, tout est rentré dans l'ordre en 10 jours. Mon teint s'est éclairci et j'ai retrouvé ma vitalité d'avant.</p>",
-            "author": "Julien R.",
-            "stars_count": 5
-          }
-        },
-        "testimonial_UgcMCU": {
-          "type": "testimonial",
-          "settings": {
-            "text": "<p>En tant que naturopathe, j'ai testé beaucoup de produits détox. Celui-ci se démarque vraiment par son action complète sur les parasites, le foie et le côlon. Mes clients sont ravis des résultats obtenus en seulement 21 jours.</p>",
-            "author": "Dr. Claire B.",
-            "stars_count": 5
-          }
-        },
-        "testimonial_j7Rn8w": {
-          "type": "testimonial",
-          "settings": {
-            "text": "<p>Enfin un produit qui tient ses promesses ! Dès la première semaine, j'ai senti mon système digestif se rééquilibrer. Mes analyses sanguines se sont même améliorées selon mon médecin. Je recommande cette super detox à 100%.</p>",
-            "author": "Philippe D.",
-            "stars_count": 5
+            "column_size": "3",
+            "title": "Étape 3 - Détox complète",
+            "heading_tag": "h4",
+            "content": "<p><p>Après 21 jours de cure, votre organisme est purifié en profondeur. Vous retrouvez vitalité, bien-être digestif et un teint éclatant. Répétez la cure 3-4 fois par an pour maintenir les bienfaits.</p></p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
           }
         }
       },
-      "settings": {
-        "lazy": true,
-        "dots_mt": 32,
-        "heading": "",
-        "text_mt": 12,
-        "stars_mt": 24,
-        "author_mt": 8,
-        "dots_size": 12,
-        "slider_mt": 20,
-        "text_font": "josefin_sans_n4",
-        "text_size": 20,
-        "arrow_size": 50,
-        "dots_color": "#5fa0be",
-        "full_width": true,
-        "margin_top": 0,
-        "slider_gap": 36,
-        "stars_size": 20,
-        "text_align": "left",
-        "text_color": "#1a1a1a",
-        "arrow_color": "#756e67",
-        "author_font": "josefin_sans_n4",
-        "author_size": 20,
-        "body_radius": 12,
-        "image_ratio": "square",
-        "padding_top": 0,
-        "slider_view": 3.7,
-        "stars_align": "start",
-        "stars_color": "#f0c417",
-        "sub_heading": "",
-        "text_custom": false,
-        "text_height": 130,
-        "author_align": "left",
-        "author_color": "#1a1a1a",
-        "border_color": "#ffffff",
-        "heading_font": "josefin_sans_n4",
-        "heading_size": 40,
-        "image_radius": 12,
-        "author_custom": false,
-        "author_height": 130,
-        "body_bg_color": "#ffffff",
-        "content_width": 120,
-        "heading_align": "left",
-        "heading_color": "#756e67",
-        "margin_bottom": 0,
-        "arrow_bg_color": "#ffffff",
-        "heading_custom": false,
-        "heading_height": 150,
-        "padding_bottom": 36,
-        "arrow_icon_size": 40,
-        "background_color": "#ffffff",
-        "border_thickness": 0,
-        "dots_show_mobile": true,
-        "dots_size_mobile": 12,
-        "sub_heading_font": "josefin_sans_n4",
-        "sub_heading_size": 18,
-        "text_size_mobile": 16,
-        "arrow_hover_color": "#ffffff",
-        "arrow_show_mobile": false,
-        "arrow_size_mobile": 42,
-        "body_border_color": "#000000",
-        "dots_show_desktop": false,
-        "slider_gap_mobile": 20,
-        "sub_heading_color": "#756e67",
-        "text_align_mobile": "left",
-        "arrow_border_color": "#756e67",
-        "arrow_show_desktop": true,
-        "author_size_mobile": 16,
-        "image_ratio_mobile": "square",
-        "padding_horizontal": 5,
-        "slider_view_mobile": 1,
-        "stars_align_mobile": "start",
-        "sub_heading_custom": false,
-        "sub_heading_height": 150,
-        "author_align_mobile": "left",
-        "background_gradient": "",
-        "heading_size_mobile": 24,
-        "arrow_bg_hover_color": "#756e67",
-        "heading_align_mobile": "left",
-        "body_border_thickness": 0,
-        "body_padding_vertical": 0,
-        "arrow_border_thickness": 0,
-        "arrow_icon_size_mobile": 28,
-        "image_border_thickness": 0,
-        "body_padding_horizontal": 0,
-        "sub_heading_size_mobile": 14,
-        "arrow_border_hover_color": "#756e67",
-        "padding_horizontal_mobile": 1.5,
-        "body_padding_vertical_mobile": 0,
-        "body_padding_horizontal_mobile": 0
-      },
       "block_order": [
-        "testimonial_FqG636",
-        "testimonial_EKjfHP",
-        "testimonial_UgcMCU",
-        "testimonial_N64AW3",
-        "testimonial_8Wqng6",
-        "testimonial_Htn3xf",
-        "testimonial_j7Rn8w"
-      ]
-    },
-    "sp_image_standalone_mEaDfr": {
-      "name": "🚀SP - Image Standalone",
-      "type": "sp-image-standalone",
+        "item_j7Q4PT",
+        "item_NyVJUU",
+        "item_Hr6QPx"
+      ],
+      "name": "Multi-column",
       "settings": {
-        "link": "",
-        "max_width": 1000,
-        "padding_top": 0,
-        "media_radius": 0,
-        "media_shadow": false,
-        "padding_left": 0,
-        "padding_right": 0,
-        "padding_bottom": 0,
-        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
-        "media_aspect_ratio": "auto",
-        "mobile_image_width": 800,
-        "desktop_image_width": 0,
-        "mobile_media_aspect_ratio": "auto"
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "",
+        "content": "<h4><strong><h3>Comment ça marche ?</h3></strong></h4>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
       }
     },
     "ss_comparison_table_6_3MTYnP": {
-      "name": "SS - Comparison Table #6",
       "type": "ss-comparison-table-6",
       "blocks": {
-        "table_row_7YXkJk": {
-          "type": "table_row",
-          "settings": {
-            "four_column": "",
-            "row_heading": "Ingrédients 100% naturels certifiés",
-            "first_column": "",
-            "third_column": "",
-            "second_column": "",
-            "four_column_icon": "none",
-            "first_column_icon": "check",
-            "third_column_icon": "none",
-            "second_column_icon": "cross"
-          }
-        },
         "table_row_APa7Lx": {
           "type": "table_row",
           "settings": {
-            "four_column": "",
             "row_heading": "Formule 3 en 1 unique",
             "first_column": "",
-            "third_column": "",
-            "second_column": "",
-            "four_column_icon": "none",
             "first_column_icon": "check",
+            "second_column": "",
+            "second_column_icon": "cross",
+            "third_column": "",
             "third_column_icon": "none",
-            "second_column_icon": "cross"
+            "four_column": "",
+            "four_column_icon": "none"
           }
         },
         "table_row_DyY6wR": {
           "type": "table_row",
           "settings": {
-            "four_column": "",
             "row_heading": "Résultats visibles en 7 jours",
             "first_column": "",
-            "third_column": "",
-            "second_column": "",
-            "four_column_icon": "none",
             "first_column_icon": "check",
+            "second_column": "",
+            "second_column_icon": "cross",
+            "third_column": "",
             "third_column_icon": "none",
-            "second_column_icon": "cross"
+            "four_column": "",
+            "four_column_icon": "none"
+          }
+        },
+        "table_row_7YXkJk": {
+          "type": "table_row",
+          "settings": {
+            "row_heading": "Ingrédients 100% naturels certifiés",
+            "first_column": "",
+            "first_column_icon": "check",
+            "second_column": "",
+            "second_column_icon": "cross",
+            "third_column": "",
+            "third_column_icon": "none",
+            "four_column": "",
+            "four_column_icon": "none"
           }
         },
         "table_row_HmxUYi": {
           "type": "table_row",
           "settings": {
-            "four_column": "",
             "row_heading": "Fabriqué en France",
             "first_column": "",
-            "third_column": "",
-            "second_column": "",
-            "four_column_icon": "none",
             "first_column_icon": "check",
+            "second_column": "",
+            "second_column_icon": "cross",
+            "third_column": "",
             "third_column_icon": "none",
-            "second_column_icon": "cross"
+            "four_column": "",
+            "four_column_icon": "none"
           }
         },
         "table_row_LkP9Ub": {
           "type": "table_row",
           "settings": {
-            "four_column": "",
             "row_heading": "Satisfait ou remboursé 30 jours",
             "first_column": "",
-            "third_column": "",
-            "second_column": "",
-            "four_column_icon": "none",
             "first_column_icon": "check",
+            "second_column": "",
+            "second_column_icon": "cross",
+            "third_column": "",
             "third_column_icon": "none",
-            "second_column_icon": "cross"
+            "four_column": "",
+            "four_column_icon": "none"
           }
         }
-      },
-      "settings": {
-        "lazy": true,
-        "text": "",
-        "button": "",
-        "heading": "",
-        "list_mt": 50,
-        "text_mt": 4,
-        "body_gap": 20,
-        "list_gap": 30,
-        "button_mt": 50,
-        "icon_size": 28,
-        "text_font": "josefin_sans_n4",
-        "text_size": 18,
-        "button_url": "",
-        "full_width": false,
-        "icon_color": "#000000",
-        "margin_top": 0,
-        "text_color": "#000000",
-        "button_font": "josefin_sans_n4",
-        "button_size": 18,
-        "padding_top": 0,
-        "text_custom": false,
-        "text_height": 150,
-        "border_color": "#000000",
-        "button_color": "#ffffff",
-        "button_style": "non_outline",
-        "button_width": 305,
-        "four_heading": "",
-        "heading_font": "josefin_sans_n4",
-        "heading_size": 52,
-        "table_radius": 16,
-        "button_custom": false,
-        "button_height": 100,
-        "button_radius": 100,
-        "content_width": 130,
-        "first_heading": "Dewtox",
-        "heading_color": "#5fa0be",
-        "margin_bottom": 0,
-        "table_columns": 2,
-        "third_heading": "",
-        "heading_custom": false,
-        "heading_height": 150,
-        "list_mt_mobile": 32,
-        "list_text_font": "josefin_sans_n4",
-        "list_text_size": 20,
-        "padding_bottom": 8,
-        "second_heading": "Autres marques",
-        "body_gap_mobile": 10,
-        "button_bg_color": "#16142b",
-        "list_gap_mobile": 30,
-        "list_text_color": "#1a1a1a",
-        "table_mt_mobile": 14,
-        "background_color": "#ffffff",
-        "border_thickness": 0,
-        "button_mt_mobile": 32,
-        "icon_size_mobile": 28,
-        "list_hide_mobile": true,
-        "list_text_custom": false,
-        "list_text_height": 150,
-        "text_size_mobile": 18,
-        "icon_margin_right": 16,
-        "button_hover_color": "#dad0ff",
-        "button_size_mobile": 18,
-        "padding_horizontal": 5,
-        "table_border_color": "#5fa0be",
-        "table_heading_font": "assistant_n4",
-        "table_heading_size": 20,
-        "background_gradient": "",
-        "button_border_color": "#16142b",
-        "heading_size_mobile": 32,
-        "table_column_active": "1",
-        "table_heading_align": "center",
-        "table_heading_color": "#5fa0be",
-        "table_row_text_font": "poppins_n6",
-        "table_row_text_size": 20,
-        "table_heading_custom": false,
-        "table_heading_height": 100,
-        "table_row_image_size": 24,
-        "table_row_text_align": "center",
-        "table_row_text_color": "#1a192e",
-        "button_bg_hover_color": "#16142b",
-        "list_text_size_mobile": 18,
-        "table_row_text_custom": true,
-        "table_row_text_height": 130,
-        "button_position_mobile": "bottom",
-        "table_border_thickness": 1,
-        "table_row_heading_font": "poppins_n6",
-        "table_row_heading_size": 16,
-        "button_border_thickness": 0,
-        "button_padding_vertical": 16,
-        "table_row_heading_align": "left",
-        "table_row_heading_color": "#1a1a1a",
-        "content_horizontal_align": "start",
-        "table_heading_image_size": 100,
-        "table_row_heading_custom": true,
-        "table_row_heading_height": 130,
-        "button_border_hover_color": "#16142b",
-        "button_padding_horizontal": 48,
-        "padding_horizontal_mobile": 1.5,
-        "table_active_border_color": "#dad0ff",
-        "table_heading_size_mobile": 14,
-        "table_heading_active_color": "#ffffff",
-        "table_row_padding_vertical": 16,
-        "table_row_text_size_mobile": 16,
-        "table_row_active_text_color": "#ffffff",
-        "table_row_image_size_mobile": 24,
-        "table_column_active_bg_color": "#5fa0be",
-        "table_row_padding_horizontal": 14,
-        "table_heading_bg_active_color": "#5fa0be",
-        "table_row_heading_size_mobile": 16,
-        "button_padding_vertical_mobile": 16,
-        "table_heading_padding_vertical": 18,
-        "table_row_heading_width_mobile": 66,
-        "content_horizontal_align_mobile": "center",
-        "table_heading_image_size_mobile": 100,
-        "button_padding_horizontal_mobile": 48,
-        "table_heading_padding_horizontal": 0,
-        "table_row_padding_vertical_mobile": 16,
-        "table_row_padding_horizontal_mobile": 14,
-        "table_heading_padding_vertical_mobile": 18,
-        "table_heading_padding_horizontal_mobile": 0
       },
       "block_order": [
         "table_row_APa7Lx",
@@ -1021,7 +710,317 @@
         "table_row_7YXkJk",
         "table_row_HmxUYi",
         "table_row_LkP9Ub"
-      ]
+      ],
+      "name": "SS - Comparison Table #6",
+      "settings": {
+        "body_gap": 20,
+        "body_gap_mobile": 10,
+        "content_horizontal_align": "start",
+        "content_horizontal_align_mobile": "center",
+        "heading": "",
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 52,
+        "heading_size_mobile": 32,
+        "heading_height": 150,
+        "text": "",
+        "text_custom": false,
+        "text_font": "josefin_sans_n4",
+        "text_size": 18,
+        "text_size_mobile": 18,
+        "text_height": 150,
+        "text_mt": 4,
+        "list_mt": 50,
+        "list_mt_mobile": 32,
+        "list_gap": 30,
+        "list_gap_mobile": 30,
+        "list_hide_mobile": true,
+        "icon_size": 28,
+        "icon_size_mobile": 28,
+        "icon_margin_right": 16,
+        "list_text_custom": false,
+        "list_text_font": "josefin_sans_n4",
+        "list_text_size": 20,
+        "list_text_size_mobile": 18,
+        "list_text_height": 150,
+        "button": "",
+        "button_url": "",
+        "button_custom": false,
+        "button_font": "josefin_sans_n4",
+        "button_size": 18,
+        "button_size_mobile": 18,
+        "button_height": 100,
+        "button_width": 305,
+        "button_mt": 50,
+        "button_mt_mobile": 32,
+        "button_padding_vertical": 16,
+        "button_padding_vertical_mobile": 16,
+        "button_padding_horizontal": 48,
+        "button_padding_horizontal_mobile": 48,
+        "button_radius": 100,
+        "button_border_thickness": 0,
+        "button_style": "non_outline",
+        "button_position_mobile": "bottom",
+        "table_columns": 2,
+        "table_mt_mobile": 14,
+        "table_column_active": "1",
+        "table_radius": 16,
+        "table_border_thickness": 1,
+        "table_heading_image_size": 100,
+        "table_heading_image_size_mobile": 100,
+        "first_heading": "Dewtox",
+        "second_heading": "Autres marques",
+        "third_heading": "",
+        "four_heading": "",
+        "table_heading_custom": false,
+        "table_heading_font": "assistant_n4",
+        "table_heading_size": 20,
+        "table_heading_size_mobile": 14,
+        "table_heading_height": 100,
+        "table_heading_align": "center",
+        "table_heading_padding_horizontal": 0,
+        "table_heading_padding_horizontal_mobile": 0,
+        "table_heading_padding_vertical": 18,
+        "table_heading_padding_vertical_mobile": 18,
+        "table_row_padding_horizontal": 14,
+        "table_row_padding_horizontal_mobile": 14,
+        "table_row_padding_vertical": 16,
+        "table_row_padding_vertical_mobile": 16,
+        "table_row_heading_width_mobile": 66,
+        "table_row_heading_custom": true,
+        "table_row_heading_font": "poppins_n6",
+        "table_row_heading_size": 16,
+        "table_row_heading_size_mobile": 16,
+        "table_row_heading_height": 130,
+        "table_row_heading_align": "left",
+        "table_row_text_custom": true,
+        "table_row_text_font": "poppins_n6",
+        "table_row_text_size": 20,
+        "table_row_text_size_mobile": 16,
+        "table_row_text_height": 130,
+        "table_row_text_align": "center",
+        "table_row_image_size": 24,
+        "table_row_image_size_mobile": 24,
+        "heading_color": "#5fa0be",
+        "text_color": "#000000",
+        "icon_color": "#000000",
+        "list_text_color": "#1a1a1a",
+        "button_color": "#ffffff",
+        "button_hover_color": "#dad0ff",
+        "button_bg_color": "#16142b",
+        "button_bg_hover_color": "#16142b",
+        "button_border_color": "#16142b",
+        "button_border_hover_color": "#16142b",
+        "table_border_color": "#5fa0be",
+        "table_active_border_color": "#dad0ff",
+        "table_heading_color": "#5fa0be",
+        "table_heading_active_color": "#ffffff",
+        "table_heading_bg_active_color": "#5fa0be",
+        "table_column_active_bg_color": "#5fa0be",
+        "table_row_heading_color": "#1a1a1a",
+        "table_row_text_color": "#1a192e",
+        "table_row_active_text_color": "#ffffff",
+        "background_color": "#ffffff",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 0,
+        "padding_bottom": 8,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": false,
+        "content_width": 130,
+        "border_thickness": 0,
+        "lazy": true
+      }
+    },
+    "faq_6HBHkM": {
+      "type": "faq",
+      "blocks": {
+        "item_c4TUDX": {
+          "type": "item",
+          "settings": {
+            "title": "Quels sont les délais et frais de livraison ?",
+            "content": "<p><p>Nous offrons la livraison gratuite en France métropolitaine sous 3-5 jours ouvrés. Votre commande est expédiée sous 24h depuis nos entrepôts français. Vous recevrez un email de suivi avec votre numéro de colis.</p></p>"
+          }
+        },
+        "item_QDPdmz": {
+          "type": "item",
+          "settings": {
+            "title": "Puis-je retourner le produit si je ne suis pas satisfait(e) ?",
+            "content": "<p><p>Absolument ! Nous offrons une garantie satisfait ou remboursé de 30 jours. Si vous n'êtes pas pleinement satisfait(e) de votre achat, retournez-nous le produit et nous vous remboursons intégralement, sans questions.</p></p>"
+          }
+        },
+        "item_AN3mHD": {
+          "type": "item",
+          "settings": {
+            "title": "Quels moyens de paiement acceptez-vous ?",
+            "content": "<p><p>Nous acceptons toutes les cartes bancaires (Visa, Mastercard, American Express), PayPal, et le paiement en 3 fois sans frais via Klarna. Tous nos paiements sont sécurisés par cryptage SSL 256 bits pour votre sécurité.</p></p>"
+          }
+        },
+        "item_6WhXFW": {
+          "type": "item",
+          "settings": {
+            "title": "Comment contacter votre service client ?",
+            "content": "<p><p>Notre équipe support est disponible 24h/24 et 7j/7 pour vous accompagner. Contactez-nous par email, chat en direct sur notre site, ou téléphone. Nous nous engageons à répondre à toutes vos questions dans les 2h maximum.</p></p>"
+          }
+        },
+        "item_VbbtCC": {
+          "type": "item",
+          "settings": {
+            "title": "Le produit est-il certifié et contrôlé ?",
+            "content": "<p><p>Oui, Super Detox est fabriqué en France dans des laboratoires certifiés ISO 22000 et HACCP. Chaque lot est testé par des laboratoires indépendants pour garantir la pureté et la concentration des actifs. Nous respectons toutes les normes européennes.</p></p>"
+          }
+        },
+        "item_KQKJJF": {
+          "type": "item",
+          "settings": {
+            "title": "Puis-je commander plusieurs boîtes pour une cure longue ?",
+            "content": "<p><p>Bien sûr ! Beaucoup de nos clients commandent des lots de 3 ou 6 boîtes pour bénéficier de tarifs préférentiels et assurer leur cure complète. Plus vous commandez, plus vous économisez. Vos produits sont garantis 2 ans.</p></p>"
+          }
+        },
+        "item_ebV7BW": {
+          "type": "item",
+          "settings": {
+            "title": "Livrez-vous en Europe et dans les DOM-TOM ?",
+            "content": "<p><p>Oui, nous livrons dans toute l'Europe (5-8 jours ouvrés) et les DOM-TOM (7-12 jours ouvrés). Les frais de port varient selon la destination. Toutes nos expéditions sont assurées et suivies jusqu'à votre domicile.</p></p>"
+          }
+        },
+        "item_UPwiW4": {
+          "type": "item",
+          "settings": {
+            "title": "Le produit convient-il aux végétariens et végétaliens ?",
+            "content": "<p><p>Oui, Super Detox convient parfaitement aux végétariens et végétaliens. Nos gélules sont 100% végétales et tous nos ingrédients sont d'origine naturelle. Le produit ne contient aucun dérivé animal.</p></p>"
+          }
+        },
+        "item_tfq4jP": {
+          "type": "item",
+          "settings": {
+            "title": "Puis-je prendre Super Detox avec d'autres compléments ?",
+            "content": "<p><p>Super Detox peut généralement être associé à d'autres compléments alimentaires. Cependant, nous recommandons d'espacer les prises de 2h minimum. Si vous suivez un traitement médical ou prenez d'autres suppléments, consultez votre professionnel de santé.</p></p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_c4TUDX",
+        "item_QDPdmz",
+        "item_AN3mHD",
+        "item_6WhXFW",
+        "item_VbbtCC",
+        "item_KQKJJF",
+        "item_ebV7BW",
+        "item_UPwiW4",
+        "item_tfq4jP"
+      ],
+      "name": "FAQ",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "",
+        "content": "<h3><h4>Questions fréquentes</h4></h3>",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    },
+    "173889216379020d1a": {
+      "type": "apps",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "text_with_icons_R7GyBX": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_gDEFhV": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "#5fa0be",
+            "icon_color": "#ffffff",
+            "title": "Livraison gratuite",
+            "content": ""
+          }
+        },
+        "item_PUQrek": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-operator",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "#5fa0be",
+            "icon_color": "#ffffff",
+            "title": "Service client 24h",
+            "content": ""
+          }
+        },
+        "item_PQMQA4": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-lock",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "#5fa0be",
+            "icon_color": "#ffffff",
+            "title": "Paiement sécurisé",
+            "content": ""
+          }
+        },
+        "item_tLJeRY": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-return",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "#5fa0be",
+            "icon_color": "#ffffff",
+            "title": "Satisfait ou remboursé",
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_gDEFhV",
+        "item_PUQrek",
+        "item_PQMQA4",
+        "item_tLJeRY"
+      ],
+      "name": "Text with icons",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "title": "",
+        "heading_tag": "h5",
+        "text_alignment": "center",
+        "icon_spacing": "medium",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   }
 }
