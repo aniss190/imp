@@ -10,7 +10,9 @@
 {
   "order": [
     "slideshow_qxk8Ba",
-    "logo_list_mer8Cd",
+    "mad_scrolling_logo_pncdMe",
+    "rich_text_DHLDdE",
+    "image_with_text_overlay_8NVY73",
     "sp_image_standalone_mEaDfr",
     "ss_testimonial_8_kRy8Pg",
     "ss_testimonial_10_hMqefV",
@@ -65,60 +67,113 @@
         "background_gradient": ""
       }
     },
-    "logo_list_mer8Cd": {
-      "type": "logo-list",
+    "mad_scrolling_logo_pncdMe": {
+      "type": "mad-scrolling-logo",
       "blocks": {
-        "logo_Bd69FU": {
-          "type": "logo",
+        "slide_DeEF4N": {
+          "type": "slide",
           "settings": {
-            "logo_width": 300,
+            "image": "shopify://shop_images/Comopolitan_Magazine_Logo_svg_1.png",
             "link": ""
           }
         },
-        "logo_YrdN9r": {
-          "type": "logo",
+        "slide_hMk7qD": {
+          "type": "slide",
           "settings": {
-            "logo_width": 300,
+            "image": "shopify://shop_images/VOGUE_revista_-_logo_1.png",
             "link": ""
           }
         },
-        "logo_dea4mb": {
-          "type": "logo",
+        "slide_9DMzzx": {
+          "type": "slide",
           "settings": {
-            "logo_width": 300,
+            "image": "shopify://shop_images/forbes_wordmark_logo_icon_169157.png",
             "link": ""
           }
         },
-        "logo_XCyhtq": {
-          "type": "logo",
+        "slide_HxLfbW": {
+          "type": "slide",
           "settings": {
-            "logo_width": 300,
+            "image": "shopify://shop_images/Grazia-Logo.svg",
             "link": ""
           }
         }
       },
       "block_order": [
-        "logo_Bd69FU",
-        "logo_YrdN9r",
-        "logo_dea4mb",
-        "logo_XCyhtq"
+        "slide_DeEF4N",
+        "slide_hMk7qD",
+        "slide_9DMzzx",
+        "slide_HxLfbW"
       ],
-      "custom_css": [],
-      "name": "Logo list",
+      "name": "SS - Scrolling Logo Cloud",
+      "settings": {
+        "ss-title": "As seen in",
+        "heading_custom": true,
+        "heading_font": "montserrat_n7",
+        "header_size": 26,
+        "header_align": "center",
+        "scrolling_velocity": 16,
+        "pause_hover": false,
+        "shadow": false,
+        "sliders_mt": 16,
+        "logo_padding_top": 0,
+        "logo_padding_bottom": 0,
+        "slider_gap": 30,
+        "slider_gap_mobile": 30,
+        "slider_direction": "left",
+        "icon_width": 130,
+        "header_color": "#121212",
+        "border_color": "#ffffff",
+        "background-color": "#ffffff",
+        "slider-background-color": "#ffffff",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "full_width": true,
+        "content_width": 120,
+        "border_thickness": 0,
+        "lazy": true
+      }
+    },
+    "rich_text_DHLDdE": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_FYwDPX": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h4><strong>Why choose KLIP™?</strong></h4>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_FYwDPX"
+      ],
+      "name": "Rich text",
       "settings": {
         "full_width": true,
-        "stack_mobile": true,
-        "title": "",
-        "content": "<h3><strong>Recommandé par</strong></h3>",
-        "text_alignment": "center",
-        "items_per_row": 4,
+        "content_width": "small",
+        "text_position": "center",
         "background": "",
         "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "logo_item_background": "#ecf9ff",
-        "logo_item_border": ""
+        "text_color": ""
+      }
+    },
+    "image_with_text_overlay_8NVY73": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/gemini-k8ep2vicux.jpg",
+        "mobile_image": "shopify://shop_images/gemini-k8ep2vicux.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
       }
     },
     "sp_image_standalone_mEaDfr": {
