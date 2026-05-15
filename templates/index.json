@@ -11,18 +11,20 @@
   "order": [
     "slideshow_qxk8Ba",
     "mad_scrolling_logo_pncdMe",
+    "177886010479252500",
     "rich_text_DHLDdE",
     "image_with_text_overlay_8NVY73",
     "custom_liquid_g6enkX",
     "177885888626cde01e",
-    "ss_testimonial_8_kRy8Pg",
-    "multi_column_QxVQLz",
+    "featured_collection_qFKtEB",
     "ss_testimonial_10_hMqefV",
     "featured_product_BNCh3F",
     "image_with_text_overlay_micK7y",
-    "177886010479252500",
     "custom_liquid_c3eGTq",
     "faq_6HBHkM",
+    "media_with_text_k7Y6gY",
+    "ss_testimonial_8_kRy8Pg",
+    "multi_column_QxVQLz",
     "173889216379020d1a"
   ],
   "sections": {
@@ -32,8 +34,8 @@
         "image_Exg7iP": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/gemini-rjbahpfo4xe.jpg",
-            "mobile_image": "shopify://shop_images/gemini-rjbahpfo4xe.jpg",
+            "image": "shopify://shop_images/gemini-rtdc4zx4lrp.jpg",
+            "mobile_image": "shopify://shop_images/gemini-g98fgptc8ic.jpg",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -138,6 +140,44 @@
         "lazy": true
       }
     },
+    "177886010479252500": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_1f2a345_yB8d7B": {
+          "type": "ai_gen_block_1f2a345",
+          "settings": {
+            "layout": "video_left",
+            "desktop_width_percent": 100,
+            "mobile_padding": 16,
+            "video": "shopify://files/videos/202605151812.mp4",
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "controls": false,
+            "video_border_radius": 8,
+            "heading": "<strong>The hair clip hasn't changed since 1901</strong>",
+            "text": "<p>For 125 years, same spring, same mechanism, same struggle. Velvy is the first flat magnetic clip designed by women, for women. Two parts, one magnet, two seconds. And for the first time in 125 years, a clip you completely forget you're wearing.</p>",
+            "text_alignment": "left",
+            "button_text": "En savoir plus",
+            "button_link": "",
+            "heading_size": 22,
+            "text_size": 16,
+            "button_text_size": 16,
+            "button_border_radius": 8,
+            "heading_color": "#1a1a1a",
+            "text_color": "#1a1a1a",
+            "button_background": "#1a1a1a",
+            "button_text_color": "#ffffff",
+            "button_hover_background": "#ff6a00"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_1f2a345_yB8d7B"
+      ],
+      "settings": {}
+    },
     "rich_text_DHLDdE": {
       "type": "rich-text",
       "blocks": {
@@ -151,6 +191,7 @@
       "block_order": [
         "richtext_FYwDPX"
       ],
+      "disabled": true,
       "name": "Rich text",
       "settings": {
         "full_width": true,
@@ -163,6 +204,7 @@
     },
     "image_with_text_overlay_8NVY73": {
       "type": "image-with-text-overlay",
+      "disabled": true,
       "name": "Image with text overlay",
       "settings": {
         "full_width": true,
@@ -180,6 +222,7 @@
     },
     "custom_liquid_g6enkX": {
       "type": "custom-liquid",
+      "disabled": true,
       "name": "Custom Liquid",
       "settings": {
         "full_width": true,
@@ -226,242 +269,33 @@
       ],
       "settings": {}
     },
-    "ss_testimonial_8_kRy8Pg": {
-      "type": "ss-testimonial-8",
-      "name": "SS - Testimonial #8",
+    "featured_collection_qFKtEB": {
+      "type": "featured-collection",
+      "name": "Featured collection",
       "settings": {
-        "heading": "Velvy™ has already changed the lives of over 10,000 women!",
-        "heading_custom": true,
-        "heading_font": "montserrat_n6",
-        "heading_size": 40,
-        "heading_size_mobile": 24,
-        "heading_height": 130,
-        "heading_align": "center",
-        "rating_text": "Excellent",
-        "rating_text_custom": false,
-        "rating_text_font": "montserrat_n6",
-        "rating_text_size": 24,
-        "rating_text_size_mobile": 20,
-        "rating_text_height": 130,
-        "rating_text_mt": 16,
-        "rating": 4.8,
-        "rating_hide": false,
-        "rating_text_hide": false,
-        "rating_align": "center",
-        "stars_count": 5,
-        "stars_size": 28,
-        "stars_size_mobile": 24,
-        "stars_align": "center",
-        "text": "<p>based on <strong>4 067</strong> reviews</p>",
-        "text_custom": false,
-        "text_font": "josefin_sans_n4",
-        "text_size": 20,
-        "text_size_mobile": 16,
-        "text_height": 130,
-        "text_align": "center",
-        "text_mt": 16,
-        "slider_width": 80,
-        "slider_view": 3,
-        "slider_view_mobile": 1.2,
-        "slider_gap": 20,
-        "slider_gap_mobile": 20,
-        "slider_mt": 36,
-        "card_padding_vertical": 32,
-        "card_padding_vertical_mobile": 24,
-        "card_padding_horizontal": 40,
-        "card_padding_horizontal_mobile": 24,
-        "card_radius": 16,
-        "card_border_thickness": 0,
-        "card_shadow": true,
-        "card_heading_custom": false,
-        "card_heading_font": "josefin_sans_n4",
-        "card_heading_size": 24,
-        "card_heading_size_mobile": 20,
-        "card_heading_height": 130,
-        "card_heading_align": "center",
-        "card_heading_mt": 16,
-        "card_text_custom": false,
-        "card_text_font": "josefin_sans_n4",
-        "card_text_size": 14,
-        "card_text_size_mobile": 14,
-        "card_text_height": 150,
-        "card_text_align": "center",
-        "card_text_mt": 16,
-        "card_text_more": "",
-        "card_text_less": "View ess",
-        "card_count_words": 20,
-        "card_author_date_text_custom": false,
-        "card_author_date_text_font": "josefin_sans_n4",
-        "card_author_date_text_size": 16,
-        "card_author_date_text_size_mobile": 16,
-        "card_author_date_text_height": 130,
-        "card_author_date_text_align": "center",
-        "card_author_date_text_mt": 16,
-        "arrow_size": 50,
-        "arrow_size_mobile": 50,
-        "arrow_icon_size": 28,
-        "arrow_icon_size_mobile": 28,
-        "arrow_border_thickness": 0,
-        "arrow_show_desktop": true,
-        "arrow_show_mobile": false,
-        "dots_size": 12,
-        "dots_size_mobile": 12,
-        "dots_show_desktop": false,
-        "dots_show_mobile": false,
-        "button": "",
-        "button_url": "",
-        "button_custom": false,
-        "button_font": "josefin_sans_n4",
-        "button_size": 16,
-        "button_size_mobile": 14,
-        "button_height": 100,
-        "button_align": "center",
-        "button_mt": 16,
-        "button_padding_vertical": 20,
-        "button_padding_horizontal": 16,
-        "button_radius": 8,
-        "button_border_thickness": 0,
-        "button_color": "#ffffff",
-        "button_hover_color": "#ffffff",
-        "button_bg_color": "#000000",
-        "button_bg_hover_color": "#000000",
-        "button_border_color": "#000000",
-        "button_border_hover_color": "#000000",
-        "card_bg_color": "#ffffff",
-        "card_border_color": "#000000",
-        "card_shadow_color": "#ffffff",
-        "card_heading_color": "#000000",
-        "card_text_color": "#000000",
-        "card_author_date_text_color": "#000000",
-        "arrow_color": "#000000",
-        "arrow_hover_color": "#000000",
-        "arrow_bg_color": "#ffffff",
-        "arrow_bg_hover_color": "#ffffff",
-        "arrow_border_color": "#ffffff",
-        "arrow_border_hover_color": "#ffffff",
-        "dots_color": "#000000",
-        "heading_color": "#000000",
-        "rating_text_color": "#000000",
-        "stars_bg_color": "#00b67a",
-        "stars_color": "#ffffff",
-        "text_color": "#000000",
-        "background_color": "#ffffff",
-        "background_gradient": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
-        "border_color": "#000000",
-        "margin_top": 0,
-        "margin_bottom": 0,
-        "padding_top": 20,
-        "padding_bottom": 0,
-        "padding_horizontal": 5,
-        "padding_horizontal_mobile": 1.5,
+        "collection": "frontpage",
+        "products": [
+          "velvy-d-blue-magnetic-hair-clip-set-of-2",
+          "velvy-ribbon-dusty-pink-magnetic-hair-clip"
+        ],
         "full_width": true,
-        "content_width": 120,
-        "border_thickness": 0,
-        "lazy": true
-      }
-    },
-    "multi_column_QxVQLz": {
-      "type": "multi-column",
-      "blocks": {
-        "item_mCh4ed": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/Capture_d_ecran_2026-04-10_a_12.jpg",
-            "column_size": "3",
-            "title": "\"I thought my hair was too thick for it to actually hold…\"",
-            "heading_tag": "h5",
-            "content": "<p>Very thick, curly hair — and yet the clip doesn't budge all day. I can finally lean back without any discomfort.</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_Uqx74t": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/Capture_d_ecran_2026-04-10_a_15.jpg",
-            "column_size": "3",
-            "title": "\"I can't live without it anymore…\"",
-            "heading_tag": "h5",
-            "content": "<p>Life-changing to finally stop struggling with hair ties that snap. Simple, quick, and it just works.</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_6XCFqX": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/hf_20260409_094642_83cee46a-8fe9-40ef-87c2-0deeff20a8b6.jpg",
-            "column_size": "3",
-            "title": "\"No more hair getting ripped out by regular clips…\"",
-            "heading_tag": "h5",
-            "content": "<p>The magnetic system holds all day without damaging your hair. I'll never go back to anything else.</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_gyzkwc": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/Capture_d_ecran_2026-04-01_a_10.jpg",
-            "column_size": "3",
-            "title": "\"Arrived in 3 days, beautifully packaged…\"",
-            "heading_tag": "h5",
-            "content": "<p>The quality is genuinely impressive. 100% recommend worth every penny.</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_FTaLyc": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/Capture_d_ecran_2026-02-06_a_13.jpg",
-            "column_size": "3",
-            "title": "\"All my friends keep asking where I got it…\"",
-            "heading_tag": "h5",
-            "content": "<p>Elegant and practical, the perfect combination. I've already ordered a second one as a gift.</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_aHGwhK": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/Capture_d_ecran_2026-04-10_a_12_1.jpg",
-            "column_size": "3",
-            "title": "\"I use it every single day, so convenient…\"",
-            "heading_tag": "h5",
-            "content": "<p>Quick to put in, my hair stays in place all day long. A real time-saver in the morning.</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        }
-      },
-      "block_order": [
-        "item_mCh4ed",
-        "item_Uqx74t",
-        "item_6XCFqX",
-        "item_gyzkwc",
-        "item_FTaLyc",
-        "item_aHGwhK"
-      ],
-      "name": "Multi-column",
-      "settings": {
-        "full_width": true,
-        "stack_on_mobile": false,
-        "gap": "medium",
-        "text_alignment": "center",
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
         "subheading": "",
-        "title": "",
+        "title": "Featured collection",
         "content": "",
+        "link_url": "",
+        "link_text": "View all",
         "background": "",
         "background_gradient": "",
-        "text_color": ""
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
       }
     },
     "ss_testimonial_10_hMqefV": {
@@ -715,6 +549,7 @@
         "liquid_fUFVxW",
         "liquid_n8Lp3B"
       ],
+      "disabled": true,
       "custom_css": [],
       "settings": {
         "full_width": true,
@@ -751,46 +586,9 @@
         "overlay_opacity": 0
       }
     },
-    "177886010479252500": {
-      "type": "_blocks",
-      "blocks": {
-        "ai_gen_block_1f2a345_yB8d7B": {
-          "type": "ai_gen_block_1f2a345",
-          "settings": {
-            "layout": "video_left",
-            "desktop_width_percent": 100,
-            "mobile_padding": 16,
-            "video": "shopify://files/videos/202605151812.mp4",
-            "autoplay": true,
-            "loop": true,
-            "muted": true,
-            "controls": false,
-            "video_border_radius": 8,
-            "heading": "<strong>The hair clip hasn't changed since 1901</strong>",
-            "text": "<p>For 125 years, same spring, same mechanism, same struggle. Velvy is the first flat magnetic clip designed by women, for women. Two parts, one magnet, two seconds. And for the first time in 125 years, a clip you completely forget you're wearing.</p>",
-            "text_alignment": "left",
-            "button_text": "En savoir plus",
-            "button_link": "",
-            "heading_size": 22,
-            "text_size": 16,
-            "button_text_size": 16,
-            "button_border_radius": 8,
-            "heading_color": "#1a1a1a",
-            "text_color": "#1a1a1a",
-            "button_background": "#1a1a1a",
-            "button_text_color": "#ffffff",
-            "button_hover_background": "#ff6a00"
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "ai_gen_block_1f2a345_yB8d7B"
-      ],
-      "settings": {}
-    },
     "custom_liquid_c3eGTq": {
       "type": "custom-liquid",
+      "disabled": true,
       "name": "Custom Liquid",
       "settings": {
         "full_width": true,
@@ -856,6 +654,7 @@
         "item_UPwiW4",
         "item_tfq4jP"
       ],
+      "disabled": true,
       "name": "FAQ",
       "settings": {
         "full_width": true,
@@ -877,6 +676,304 @@
         "button_text_color": "",
         "accordion_background": "",
         "accordion_text_color": ""
+      }
+    },
+    "media_with_text_k7Y6gY": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_fCzhqP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Capture_d_ecran_2026-04-06_a_18.16.20.webp",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "Absolute comfort, everywhere",
+            "title": "",
+            "content": "<p>With VELVY™, you can finally put your hair up without paying for it in discomfort. Its flat design creates no bump or pressure point — you can lean back on a chair, rest your head on the sofa, work out or lie down in bed without ever having to take it off.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "video_PgLGxP": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/a36ea3bbaf7542a4bbc518695491f0bf.mov",
+            "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "autoplay": true,
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "Built to last, not to be thrown away",
+            "title": "",
+            "content": "<p>Unlike regular clips and barrettes whose springs snap, bend or pop off after a few days, VELVY™ has no fragile mechanism whatsoever. Its flat magnetic system stays reliable even after dozens of opens a day, drops on the floor or trips to the bottom of your bag. The result: a clip that never loses its hold or its shape — one you actually keep for the long run, instead of binning it like all the others.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_fCzhqP",
+        "video_PgLGxP"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "ss_testimonial_8_kRy8Pg": {
+      "type": "ss-testimonial-8",
+      "name": "SS - Testimonial #8",
+      "settings": {
+        "heading": "Velvy™ has already changed the lives of over 10,000 women!",
+        "heading_custom": true,
+        "heading_font": "montserrat_n6",
+        "heading_size": 40,
+        "heading_size_mobile": 24,
+        "heading_height": 130,
+        "heading_align": "center",
+        "rating_text": "Excellent",
+        "rating_text_custom": false,
+        "rating_text_font": "montserrat_n6",
+        "rating_text_size": 24,
+        "rating_text_size_mobile": 20,
+        "rating_text_height": 130,
+        "rating_text_mt": 16,
+        "rating": 4.8,
+        "rating_hide": false,
+        "rating_text_hide": false,
+        "rating_align": "center",
+        "stars_count": 5,
+        "stars_size": 28,
+        "stars_size_mobile": 24,
+        "stars_align": "center",
+        "text": "<p>based on <strong>4 067</strong> reviews</p>",
+        "text_custom": false,
+        "text_font": "josefin_sans_n4",
+        "text_size": 20,
+        "text_size_mobile": 16,
+        "text_height": 130,
+        "text_align": "center",
+        "text_mt": 16,
+        "slider_width": 80,
+        "slider_view": 3,
+        "slider_view_mobile": 1.2,
+        "slider_gap": 20,
+        "slider_gap_mobile": 20,
+        "slider_mt": 36,
+        "card_padding_vertical": 32,
+        "card_padding_vertical_mobile": 24,
+        "card_padding_horizontal": 40,
+        "card_padding_horizontal_mobile": 24,
+        "card_radius": 16,
+        "card_border_thickness": 0,
+        "card_shadow": true,
+        "card_heading_custom": false,
+        "card_heading_font": "josefin_sans_n4",
+        "card_heading_size": 24,
+        "card_heading_size_mobile": 20,
+        "card_heading_height": 130,
+        "card_heading_align": "center",
+        "card_heading_mt": 16,
+        "card_text_custom": false,
+        "card_text_font": "josefin_sans_n4",
+        "card_text_size": 14,
+        "card_text_size_mobile": 14,
+        "card_text_height": 150,
+        "card_text_align": "center",
+        "card_text_mt": 16,
+        "card_text_more": "",
+        "card_text_less": "View ess",
+        "card_count_words": 20,
+        "card_author_date_text_custom": false,
+        "card_author_date_text_font": "josefin_sans_n4",
+        "card_author_date_text_size": 16,
+        "card_author_date_text_size_mobile": 16,
+        "card_author_date_text_height": 130,
+        "card_author_date_text_align": "center",
+        "card_author_date_text_mt": 16,
+        "arrow_size": 50,
+        "arrow_size_mobile": 50,
+        "arrow_icon_size": 28,
+        "arrow_icon_size_mobile": 28,
+        "arrow_border_thickness": 0,
+        "arrow_show_desktop": true,
+        "arrow_show_mobile": false,
+        "dots_size": 12,
+        "dots_size_mobile": 12,
+        "dots_show_desktop": false,
+        "dots_show_mobile": false,
+        "button": "",
+        "button_url": "",
+        "button_custom": false,
+        "button_font": "josefin_sans_n4",
+        "button_size": 16,
+        "button_size_mobile": 14,
+        "button_height": 100,
+        "button_align": "center",
+        "button_mt": 16,
+        "button_padding_vertical": 20,
+        "button_padding_horizontal": 16,
+        "button_radius": 8,
+        "button_border_thickness": 0,
+        "button_color": "#ffffff",
+        "button_hover_color": "#ffffff",
+        "button_bg_color": "#000000",
+        "button_bg_hover_color": "#000000",
+        "button_border_color": "#000000",
+        "button_border_hover_color": "#000000",
+        "card_bg_color": "#ffffff",
+        "card_border_color": "#000000",
+        "card_shadow_color": "#ffffff",
+        "card_heading_color": "#000000",
+        "card_text_color": "#000000",
+        "card_author_date_text_color": "#000000",
+        "arrow_color": "#000000",
+        "arrow_hover_color": "#000000",
+        "arrow_bg_color": "#ffffff",
+        "arrow_bg_hover_color": "#ffffff",
+        "arrow_border_color": "#ffffff",
+        "arrow_border_hover_color": "#ffffff",
+        "dots_color": "#000000",
+        "heading_color": "#000000",
+        "rating_text_color": "#000000",
+        "stars_bg_color": "#00b67a",
+        "stars_color": "#ffffff",
+        "text_color": "#000000",
+        "background_color": "#ffffff",
+        "background_gradient": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 20,
+        "padding_bottom": 0,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": true,
+        "content_width": 120,
+        "border_thickness": 0,
+        "lazy": true
+      }
+    },
+    "multi_column_QxVQLz": {
+      "type": "multi-column",
+      "blocks": {
+        "item_mCh4ed": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Capture_d_ecran_2026-04-10_a_12.jpg",
+            "column_size": "3",
+            "title": "\"I thought my hair was too thick for it to actually hold…\"",
+            "heading_tag": "h5",
+            "content": "<p>Very thick, curly hair — and yet the clip doesn't budge all day. I can finally lean back without any discomfort.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_Uqx74t": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Capture_d_ecran_2026-04-10_a_15.jpg",
+            "column_size": "3",
+            "title": "\"I can't live without it anymore…\"",
+            "heading_tag": "h5",
+            "content": "<p>Life-changing to finally stop struggling with hair ties that snap. Simple, quick, and it just works.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_6XCFqX": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/hf_20260409_094642_83cee46a-8fe9-40ef-87c2-0deeff20a8b6.jpg",
+            "column_size": "3",
+            "title": "\"No more hair getting ripped out by regular clips…\"",
+            "heading_tag": "h5",
+            "content": "<p>The magnetic system holds all day without damaging your hair. I'll never go back to anything else.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_gyzkwc": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Capture_d_ecran_2026-04-01_a_10.jpg",
+            "column_size": "3",
+            "title": "\"Arrived in 3 days, beautifully packaged…\"",
+            "heading_tag": "h5",
+            "content": "<p>The quality is genuinely impressive. 100% recommend worth every penny.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_FTaLyc": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Capture_d_ecran_2026-02-06_a_13.jpg",
+            "column_size": "3",
+            "title": "\"All my friends keep asking where I got it…\"",
+            "heading_tag": "h5",
+            "content": "<p>Elegant and practical, the perfect combination. I've already ordered a second one as a gift.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_aHGwhK": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Capture_d_ecran_2026-04-10_a_12_1.jpg",
+            "column_size": "3",
+            "title": "\"I use it every single day, so convenient…\"",
+            "heading_tag": "h5",
+            "content": "<p>Quick to put in, my hair stays in place all day long. A real time-saver in the morning.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_mCh4ed",
+        "item_Uqx74t",
+        "item_6XCFqX",
+        "item_gyzkwc",
+        "item_FTaLyc",
+        "item_aHGwhK"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
       }
     },
     "173889216379020d1a": {
