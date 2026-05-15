@@ -32,8 +32,8 @@
         "image_Exg7iP": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/gemini-rjbahpfo4xe.jpg",
-            "mobile_image": "shopify://shop_images/gemini-rjbahpfo4xe.jpg",
+            "image": "shopify://shop_images/gemini-1u6spgys0b1.jpg",
+            "mobile_image": "shopify://shop_images/gemini-1u6spgys0b1.jpg",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -169,8 +169,8 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/gemini-k8ep2vicux.jpg",
-        "mobile_image": "shopify://shop_images/gemini-k8ep2vicux.jpg",
+        "image": "shopify://shop_images/gemini-hry7wux79r.jpg",
+        "mobile_image": "shopify://shop_images/gemini-hry7wux79r.jpg",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
