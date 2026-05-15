@@ -42,7 +42,7 @@
         "links_LgGKtx": {
           "type": "links",
           "settings": {
-            "menu": "",
+            "menu": "footer",
             "show_menu_title": true,
             "menu_title": ""
           }
