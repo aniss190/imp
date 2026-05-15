@@ -13,6 +13,7 @@
     "mad_scrolling_logo_pncdMe",
     "rich_text_DHLDdE",
     "image_with_text_overlay_8NVY73",
+    "177885888626cde01e",
     "ss_testimonial_8_kRy8Pg",
     "multi_column_QxVQLz",
     "ss_testimonial_10_hMqefV",
@@ -175,6 +176,41 @@
         "overlay_color": "#000000",
         "overlay_opacity": 0
       }
+    },
+    "177885888626cde01e": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_531eeb7_FVGMrN": {
+          "type": "ai_gen_block_531eeb7",
+          "settings": {
+            "section_title": "The hair accessory that's going viral on Insta & TikTok in 2026",
+            "title_size": 22,
+            "title_alignment": "center",
+            "title_color": "#1a1a1a",
+            "container_width": 1400,
+            "videos_per_view_desktop": 4,
+            "video_gap": 20,
+            "video_border_radius": 16,
+            "background_color": "#ffffff",
+            "button_background": "#1a1a1a",
+            "button_hover_background": "#ff6a00",
+            "button_color": "#ffffff",
+            "dot_color": "#1a1a1a",
+            "enable_autoplay": true,
+            "autoplay_delay": 4,
+            "video_1": "shopify://files/videos/df569fd9fb474a37b2fc14bf6074b0c5.mp4",
+            "video_2": "shopify://files/videos/83ab0f685ce1497ab920eea1a7338e8b.mp4",
+            "video_3": "shopify://files/videos/2ab083fdae3042d6b86b143b1b2dee60.mp4",
+            "video_4": "shopify://files/videos/37828e87b22e4f6082152056831e6225.mp4",
+            "video_5": "shopify://files/videos/cd4b10b92ba14b9a890d31ce52549e66.mp4"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_531eeb7_FVGMrN"
+      ],
+      "settings": {}
     },
     "ss_testimonial_8_kRy8Pg": {
       "type": "ss-testimonial-8",
