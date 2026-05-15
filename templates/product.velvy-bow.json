@@ -366,11 +366,11 @@
         "item_mCh4ed": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/Capture_d_ecran_2026-04-10_a_12.jpg",
+            "image": "shopify://shop_images/Capture_d_ecran_2026-03-28_a_17.11.30.png",
             "column_size": "3",
-            "title": "\"I thought my hair was too thick for it to actually hold…\"",
+            "title": "\"Even I can do it — and I'm all thumbs . Done in 2 seconds\"",
             "heading_tag": "h5",
-            "content": "<p>Very thick, curly hair — and yet the clip doesn't budge all day. I can finally lean back without any discomfort.</p>",
+            "content": "<p>I clip it, it goes in by itself. A quick hairstyle in the morning that holds all day without touching it up.<br/></p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -379,11 +379,11 @@
         "item_Uqx74t": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/Capture_d_ecran_2026-04-10_a_15.jpg",
+            "image": "shopify://shop_images/Capture_d_ecran_2026-03-28_a_17.10.30.png",
             "column_size": "3",
-            "title": "\"I can't live without it anymore…\"",
+            "title": "\"I don't stress about accidents in the car anymore…\"",
             "heading_tag": "h5",
-            "content": "<p>Life-changing to finally stop struggling with hair ties that snap. Simple, quick, and it just works.</p>",
+            "content": "<p>With VELVY™ flat against the headrest, I'm no longer worried about a clip pressing into my skull in a collision. My hair stays up and I feel so much more at ease.</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -392,11 +392,11 @@
         "item_6XCFqX": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/hf_20260409_094642_83cee46a-8fe9-40ef-87c2-0deeff20a8b6.jpg",
+            "image": "shopify://shop_images/Capture_d_ecran_2026-03-28_a_17.11.59.png",
             "column_size": "3",
-            "title": "\"No more hair getting ripped out by regular clips…\"",
+            "title": "\"Curly hair, ponytail, half-up… it handles everything\"",
             "heading_tag": "h5",
-            "content": "<p>The magnetic system holds all day without damaging your hair. I'll never go back to anything else.</p>",
+            "content": "<p>I was worried it would crush my curls, but the clip respects them completely. My styles actually hold now.</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -405,11 +405,11 @@
         "item_gyzkwc": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/Capture_d_ecran_2026-04-01_a_10.jpg",
+            "image": "shopify://shop_images/Capture_d_ecran_2026-02-06_a_12.53.40.png",
             "column_size": "3",
-            "title": "\"Arrived in 3 days, beautifully packaged…\"",
+            "title": "\"I thought my hair was too thick for it to hold…\"",
             "heading_tag": "h5",
-            "content": "<p>The quality is genuinely impressive. 100% recommend worth every penny.</p>",
+            "content": "<p>Very thick, straight hair — and yet the clip doesn't move all day. I can finally lean back without any discomfort.</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -418,11 +418,11 @@
         "item_FTaLyc": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/Capture_d_ecran_2026-02-06_a_13.jpg",
+            "image": "shopify://shop_images/Capture_d_ecran_2026-03-28_a_17.11.02.png",
             "column_size": "3",
-            "title": "\"All my friends keep asking where I got it…\"",
+            "title": "\"My clips usually don't survive 2 weeks…\"",
             "heading_tag": "h5",
-            "content": "<p>Elegant and practical, the perfect combination. I've already ordered a second one as a gift.</p>",
+            "content": "<p>Springs that snap, plastic that breaks… this one has held for months and I wear it every single day.</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -431,11 +431,11 @@
         "item_aHGwhK": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/Capture_d_ecran_2026-04-10_a_12_1.jpg",
+            "image": "shopify://shop_images/Capture_d_ecran_2026-02-06_a_12.56.10.png",
             "column_size": "3",
-            "title": "\"I use it every single day, so convenient…\"",
+            "title": "\"Not a single hair caught in the spring\"",
             "heading_tag": "h5",
-            "content": "<p>Quick to put in, my hair stays in place all day long. A real time-saver in the morning.</p>",
+            "content": "<p>No more hair being ripped out by regular clips. The magnetic system holds firmly without damaging the hair.</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -459,7 +459,7 @@
         "subheading": "",
         "title": "",
         "content": "",
-        "background": "",
+        "background": "#ffffff",
         "background_gradient": "",
         "text_color": ""
       }
