@@ -819,27 +819,6 @@
     "faq_6HBHkM": {
       "type": "faq",
       "blocks": {
-        "item_c4TUDX": {
-          "type": "item",
-          "settings": {
-            "title": "Quels sont les délais et frais de livraison ?",
-            "content": "<p><p>Nous offrons la livraison gratuite en France métropolitaine sous 3-5 jours ouvrés. Votre commande est expédiée sous 24h depuis nos entrepôts français. Vous recevrez un email de suivi avec votre numéro de colis.</p></p>"
-          }
-        },
-        "item_QDPdmz": {
-          "type": "item",
-          "settings": {
-            "title": "Puis-je retourner le produit si je ne suis pas satisfait(e) ?",
-            "content": "<p><p>Absolument ! Nous offrons une garantie satisfait ou remboursé de 30 jours. Si vous n'êtes pas pleinement satisfait(e) de votre achat, retournez-nous le produit et nous vous remboursons intégralement, sans questions.</p></p>"
-          }
-        },
-        "item_AN3mHD": {
-          "type": "item",
-          "settings": {
-            "title": "Quels moyens de paiement acceptez-vous ?",
-            "content": "<p><p>Nous acceptons toutes les cartes bancaires (Visa, Mastercard, American Express), PayPal, et le paiement en 3 fois sans frais via Klarna. Tous nos paiements sont sécurisés par cryptage SSL 256 bits pour votre sécurité.</p></p>"
-          }
-        },
         "item_6WhXFW": {
           "type": "item",
           "settings": {
@@ -851,28 +830,28 @@
           "type": "item",
           "settings": {
             "title": "Le produit est-il certifié et contrôlé ?",
-            "content": "<p><p>Oui, Super Detox est fabriqué en France dans des laboratoires certifiés ISO 22000 et HACCP. Chaque lot est testé par des laboratoires indépendants pour garantir la pureté et la concentration des actifs. Nous respectons toutes les normes européennes.</p></p>"
+            "content": "<p></p><p>Oui, Super Detox est fabriqué en France dans des laboratoires certifiés ISO 22000 et HACCP. Chaque lot est testé par des laboratoires indépendants pour garantir la pureté et la concentration des actifs. Nous respectons toutes les normes européennes.</p><p></p>"
           }
         },
         "item_KQKJJF": {
           "type": "item",
           "settings": {
             "title": "Puis-je commander plusieurs boîtes pour une cure longue ?",
-            "content": "<p><p>Bien sûr ! Beaucoup de nos clients commandent des lots de 3 ou 6 boîtes pour bénéficier de tarifs préférentiels et assurer leur cure complète. Plus vous commandez, plus vous économisez. Vos produits sont garantis 2 ans.</p></p>"
+            "content": "<p></p><p>Bien sûr ! Beaucoup de nos clients commandent des lots de 3 ou 6 boîtes pour bénéficier de tarifs préférentiels et assurer leur cure complète. Plus vous commandez, plus vous économisez. Vos produits sont garantis 2 ans.</p><p></p>"
           }
         },
         "item_ebV7BW": {
           "type": "item",
           "settings": {
             "title": "Livrez-vous en Europe et dans les DOM-TOM ?",
-            "content": "<p><p>Oui, nous livrons dans toute l'Europe (5-8 jours ouvrés) et les DOM-TOM (7-12 jours ouvrés). Les frais de port varient selon la destination. Toutes nos expéditions sont assurées et suivies jusqu'à votre domicile.</p></p>"
+            "content": "<p></p><p>Oui, nous livrons dans toute l'Europe (5-8 jours ouvrés) et les DOM-TOM (7-12 jours ouvrés). Les frais de port varient selon la destination. Toutes nos expéditions sont assurées et suivies jusqu'à votre domicile.</p><p></p>"
           }
         },
         "item_UPwiW4": {
           "type": "item",
           "settings": {
             "title": "Le produit convient-il aux végétariens et végétaliens ?",
-            "content": "<p><p>Oui, Super Detox convient parfaitement aux végétariens et végétaliens. Nos gélules sont 100% végétales et tous nos ingrédients sont d'origine naturelle. Le produit ne contient aucun dérivé animal.</p></p>"
+            "content": "<p></p><p>Oui, Super Detox convient parfaitement aux végétariens et végétaliens. Nos gélules sont 100% végétales et tous nos ingrédients sont d'origine naturelle. Le produit ne contient aucun dérivé animal.</p><p></p>"
           }
         },
         "item_tfq4jP": {
@@ -884,9 +863,6 @@
         }
       },
       "block_order": [
-        "item_c4TUDX",
-        "item_QDPdmz",
-        "item_AN3mHD",
         "item_6WhXFW",
         "item_VbbtCC",
         "item_KQKJJF",
