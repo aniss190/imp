@@ -1,6 +1,590 @@
+{% doc %}
+  @prompt
+    créer moi une section carousel vidéo pour mettre en avant les vidéos de mes clientes. il faut avoir un titre de section qui sera : The hair accessory that's going viral on Insta & TikTok in 2026
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-video-carousel-{{ ai_gen_id }} {
+    width: 100%;
+    display: block;
+    padding: 40px 20px;
+    background-color: {{ block.settings.background_color }};
+  }
+
+  .ai-video-carousel__container-{{ ai_gen_id }} {
+    max-width: {{ block.settings.container_width }}px;
+    margin: 0 auto;
+  }
+
+  .ai-video-carousel__header-{{ ai_gen_id }} {
+    text-align: {{ block.settings.title_alignment }};
+    margin-bottom: 40px;
+  }
+
+  .ai-video-carousel__title-{{ ai_gen_id }} {
+    font-size: {{ block.settings.title_size }}px;
+    color: {{ block.settings.title_color }};
+    margin: 0;
+    font-weight: 800;
+    line-height: 1.2;
+  }
+
+  .ai-video-carousel__track-wrapper-{{ ai_gen_id }} {
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+  }
+
+  .ai-video-carousel__track-{{ ai_gen_id }} {
+    display: flex;
+    gap: {{ block.settings.video_gap }}px;
+    transition: transform 0.5s ease;
+    will-change: transform;
+  }
+
+  .ai-video-carousel__slide-{{ ai_gen_id }} {
+    flex: 0 0 100%;
+    position: relative;
+    border-radius: {{ block.settings.video_border_radius }}px;
+    overflow: hidden;
+    background-color: #f4f4f4;
+  }
+
+  .ai-video-carousel__video-wrapper-{{ ai_gen_id }} {
+    position: relative;
+    width: 100%;
+    padding-bottom: 177.78%;
+    background-color: #000000;
+  }
+
+  .ai-video-carousel__video-{{ ai_gen_id }} {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .ai-video-carousel__placeholder-{{ ai_gen_id }} {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4f4;
+  }
+
+  .ai-video-carousel__placeholder-{{ ai_gen_id }} svg {
+    width: 60px;
+    height: 60px;
+    opacity: 0.3;
+  }
+
+  .ai-video-carousel__controls-{{ ai_gen_id }} {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 30px;
+  }
+
+  .ai-video-carousel__button-{{ ai_gen_id }} {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: {{ block.settings.button_background }};
+    color: {{ block.settings.button_color }};
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+  }
+
+  .ai-video-carousel__button-{{ ai_gen_id }}:hover {
+    background-color: {{ block.settings.button_hover_background }};
+    transform: scale(1.1);
+  }
+
+  .ai-video-carousel__button-{{ ai_gen_id }}:disabled {
+    opacity: 0.3;
+    cursor: not-allowed;
+  }
+
+  .ai-video-carousel__button-{{ ai_gen_id }}:disabled:hover {
+    transform: scale(1);
+  }
+
+  .ai-video-carousel__button-{{ ai_gen_id }} svg {
+    width: 20px;
+    height: 20px;
+  }
+
+  .ai-video-carousel__dots-{{ ai_gen_id }} {
+    display: flex;
+    gap: 8px;
+  }
+
+  .ai-video-carousel__dot-{{ ai_gen_id }} {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: {{ block.settings.dot_color }};
+    opacity: 0.3;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    transition: all 0.3s ease;
+  }
+
+  .ai-video-carousel__dot-{{ ai_gen_id }}.active {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+
+  @media screen and (min-width: 750px) {
+    .ai-video-carousel__slide-{{ ai_gen_id }} {
+      flex: 0 0 calc((100% - ({{ block.settings.video_gap }}px * ({{ block.settings.videos_per_view_desktop }} - 1))) / {{ block.settings.videos_per_view_desktop }});
+    }
+
+    .ai-video-carousel__title-{{ ai_gen_id }} {
+      font-size: calc({{ block.settings.title_size }}px * 1.2);
+    }
+  }
+{% endstyle %}
+
+<video-carousel-{{ ai_gen_id }}
+  class="ai-video-carousel-{{ ai_gen_id }}"
+  {{ block.shopify_attributes }}
+>
+  <div class="ai-video-carousel__container-{{ ai_gen_id }}">
+    <div class="ai-video-carousel__header-{{ ai_gen_id }}">
+      <h2 class="ai-video-carousel__title-{{ ai_gen_id }}">{{ block.settings.section_title }}</h2>
+    </div>
+
+    <div class="ai-video-carousel__track-wrapper-{{ ai_gen_id }}">
+      <div class="ai-video-carousel__track-{{ ai_gen_id }}" data-track>
+        {% for i in (1..8) %}
+          {% liquid
+            assign video_key = 'video_' | append: i
+            assign video = block.settings[video_key]
+          %}
+          
+          <div class="ai-video-carousel__slide-{{ ai_gen_id }}">
+            <div class="ai-video-carousel__video-wrapper-{{ ai_gen_id }}">
+              {% if video %}
+                <video
+                  class="ai-video-carousel__video-{{ ai_gen_id }}"
+                  src="{{ video.sources[1].url }}"
+                  playsinline
+                  muted
+                  loop
+                  preload="metadata"
+                ></video>
+              {% else %}
+                <div class="ai-video-carousel__placeholder-{{ ai_gen_id }}">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                  </svg>
+                </div>
+              {% endif %}
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+
+    <div class="ai-video-carousel__controls-{{ ai_gen_id }}">
+      <button
+        class="ai-video-carousel__button-{{ ai_gen_id }}"
+        data-prev
+        aria-label="Vidéo précédente"
+      >
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <polyline points="15 18 9 12 15 6"></polyline>
+        </svg>
+      </button>
+
+      <div class="ai-video-carousel__dots-{{ ai_gen_id }}" data-dots></div>
+
+      <button
+        class="ai-video-carousel__button-{{ ai_gen_id }}"
+        data-next
+        aria-label="Vidéo suivante"
+      >
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <polyline points="9 18 15 12 9 6"></polyline>
+        </svg>
+      </button>
+    </div>
+  </div>
+</video-carousel-{{ ai_gen_id }}>
+
+<script>
+  (function() {
+    class VideoCarousel{{ ai_gen_id }} extends HTMLElement {
+      constructor() {
+        super();
+        this.currentIndex = 0;
+        this.videosPerView = 1;
+        this.autoplayEnabled = {{ block.settings.enable_autoplay }};
+        this.autoplayInterval = null;
+        this.videos = [];
+      }
+
+      connectedCallback() {
+        this.track = this.querySelector('[data-track]');
+        this.prevButton = this.querySelector('[data-prev]');
+        this.nextButton = this.querySelector('[data-next]');
+        this.dotsContainer = this.querySelector('[data-dots]');
+        this.slides = Array.from(this.querySelectorAll('.ai-video-carousel__slide-{{ ai_gen_id }}'));
+        this.videos = Array.from(this.querySelectorAll('.ai-video-carousel__video-{{ ai_gen_id }}'));
+
+        this.updateVideosPerView();
+        this.createDots();
+        this.setupEventListeners();
+        this.updateCarousel();
+
+        if (this.autoplayEnabled) {
+          this.startAutoplay();
+        }
+
+        this.setupVideoPlayback();
+      }
+
+      updateVideosPerView() {
+        if (window.innerWidth >= 750) {
+          this.videosPerView = {{ block.settings.videos_per_view_desktop }};
+        } else {
+          this.videosPerView = 1;
+        }
+      }
+
+      createDots() {
+        this.dotsContainer.innerHTML = '';
+        const totalSlides = Math.ceil(this.slides.length / this.videosPerView);
+        
+        for (let i = 0; i < totalSlides; i++) {
+          const dot = document.createElement('button');
+          dot.classList.add('ai-video-carousel__dot-{{ ai_gen_id }}');
+          dot.setAttribute('aria-label', `Aller à la diapositive ${i + 1}`);
+          dot.addEventListener('click', () => this.goToSlide(i));
+          this.dotsContainer.appendChild(dot);
+        }
+        
+        this.dots = Array.from(this.dotsContainer.querySelectorAll('.ai-video-carousel__dot-{{ ai_gen_id }}'));
+      }
+
+      setupEventListeners() {
+        this.prevButton.addEventListener('click', () => this.prev());
+        this.nextButton.addEventListener('click', () => this.next());
+
+        window.addEventListener('resize', () => {
+          this.updateVideosPerView();
+          this.createDots();
+          this.updateCarousel();
+        });
+
+        this.addEventListener('mouseenter', () => this.stopAutoplay());
+        this.addEventListener('mouseleave', () => {
+          if (this.autoplayEnabled) {
+            this.startAutoplay();
+          }
+        });
+      }
+
+      setupVideoPlayback() {
+        const observer = new IntersectionObserver((entries) => {
+          entries.forEach(entry => {
+            const video = entry.target;
+            if (entry.isIntersecting) {
+              video.play().catch(() => {});
+            } else {
+              video.pause();
+            }
+          });
+        }, { threshold: 0.5 });
+
+        this.videos.forEach(video => observer.observe(video));
+      }
+
+      prev() {
+        if (this.currentIndex > 0) {
+          this.currentIndex--;
+          this.updateCarousel();
+          this.resetAutoplay();
+        }
+      }
+
+      next() {
+        const maxIndex = Math.ceil(this.slides.length / this.videosPerView) - 1;
+        if (this.currentIndex < maxIndex) {
+          this.currentIndex++;
+          this.updateCarousel();
+          this.resetAutoplay();
+        }
+      }
+
+      goToSlide(index) {
+        this.currentIndex = index;
+        this.updateCarousel();
+        this.resetAutoplay();
+      }
+
+      updateCarousel() {
+        const slideWidth = this.slides[0].offsetWidth;
+        const gap = {{ block.settings.video_gap }};
+        const offset = -(this.currentIndex * this.videosPerView * (slideWidth + gap));
+        
+        this.track.style.transform = `translateX(${offset}px)`;
+
+        this.dots.forEach((dot, index) => {
+          dot.classList.toggle('active', index === this.currentIndex);
+        });
+
+        const maxIndex = Math.ceil(this.slides.length / this.videosPerView) - 1;
+        this.prevButton.disabled = this.currentIndex === 0;
+        this.nextButton.disabled = this.currentIndex === maxIndex;
+      }
+
+      startAutoplay() {
+        this.autoplayInterval = setInterval(() => {
+          const maxIndex = Math.ceil(this.slides.length / this.videosPerView) - 1;
+          if (this.currentIndex < maxIndex) {
+            this.next();
+          } else {
+            this.currentIndex = 0;
+            this.updateCarousel();
+          }
+        }, {{ block.settings.autoplay_delay }} * 1000);
+      }
+
+      stopAutoplay() {
+        if (this.autoplayInterval) {
+          clearInterval(this.autoplayInterval);
+          this.autoplayInterval = null;
+        }
+      }
+
+      resetAutoplay() {
+        if (this.autoplayEnabled) {
+          this.stopAutoplay();
+          this.startAutoplay();
+        }
+      }
+
+      disconnectedCallback() {
+        this.stopAutoplay();
+      }
+    }
+
+    customElements.define('video-carousel-{{ ai_gen_id }}', VideoCarousel{{ ai_gen_id }});
+  })();
+</script>
+
 {% schema %}
- {
-   "name": "AI_Block",
-   "tag": "shopify-ai-generated-block"
- }
+{
+  "name": "Carousel vidéo",
+  "tag": null,
+  "settings": [
+    {
+      "type": "header",
+      "content": "Titre"
+    },
+    {
+      "type": "text",
+      "id": "section_title",
+      "label": "Titre de la section",
+      "default": "The hair accessory that's going viral on Insta & TikTok in 2026"
+    },
+    {
+      "type": "range",
+      "id": "title_size",
+      "label": "Taille du titre",
+      "min": 20,
+      "max": 60,
+      "step": 2,
+      "unit": "px",
+      "default": 32
+    },
+    {
+      "type": "select",
+      "id": "title_alignment",
+      "label": "Alignement du titre",
+      "options": [
+        {
+          "value": "left",
+          "label": "Gauche"
+        },
+        {
+          "value": "center",
+          "label": "Centre"
+        },
+        {
+          "value": "right",
+          "label": "Droite"
+        }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "color",
+      "id": "title_color",
+      "label": "Couleur du titre",
+      "default": "#1a1a1a"
+    },
+    {
+      "type": "header",
+      "content": "Mise en page"
+    },
+    {
+      "type": "range",
+      "id": "container_width",
+      "label": "Largeur du conteneur",
+      "min": 1000,
+      "max": 1800,
+      "step": 100,
+      "unit": "px",
+      "default": 1400
+    },
+    {
+      "type": "range",
+      "id": "videos_per_view_desktop",
+      "label": "Vidéos visibles (desktop)",
+      "min": 2,
+      "max": 5,
+      "step": 1,
+      "default": 4
+    },
+    {
+      "type": "range",
+      "id": "video_gap",
+      "label": "Espacement entre vidéos",
+      "min": 10,
+      "max": 40,
+      "step": 5,
+      "unit": "px",
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "video_border_radius",
+      "label": "Arrondi des vidéos",
+      "min": 0,
+      "max": 40,
+      "step": 4,
+      "unit": "px",
+      "default": 16
+    },
+    {
+      "type": "header",
+      "content": "Couleurs"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Arrière-plan",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "button_background",
+      "label": "Boutons arrière-plan",
+      "default": "#1a1a1a"
+    },
+    {
+      "type": "color",
+      "id": "button_hover_background",
+      "label": "Boutons survol",
+      "default": "#ff6a00"
+    },
+    {
+      "type": "color",
+      "id": "button_color",
+      "label": "Boutons icône",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "dot_color",
+      "label": "Points de navigation",
+      "default": "#1a1a1a"
+    },
+    {
+      "type": "header",
+      "content": "Lecture automatique"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_autoplay",
+      "label": "Activer la lecture automatique",
+      "default": true
+    },
+    {
+      "type": "range",
+      "id": "autoplay_delay",
+      "label": "Délai entre les slides",
+      "min": 2,
+      "max": 10,
+      "step": 1,
+      "unit": "s",
+      "default": 4
+    },
+    {
+      "type": "header",
+      "content": "Vidéos"
+    },
+    {
+      "type": "video",
+      "id": "video_1",
+      "label": "Vidéo 1"
+    },
+    {
+      "type": "video",
+      "id": "video_2",
+      "label": "Vidéo 2"
+    },
+    {
+      "type": "video",
+      "id": "video_3",
+      "label": "Vidéo 3"
+    },
+    {
+      "type": "video",
+      "id": "video_4",
+      "label": "Vidéo 4"
+    },
+    {
+      "type": "video",
+      "id": "video_5",
+      "label": "Vidéo 5"
+    },
+    {
+      "type": "video",
+      "id": "video_6",
+      "label": "Vidéo 6"
+    },
+    {
+      "type": "video",
+      "id": "video_7",
+      "label": "Vidéo 7"
+    },
+    {
+      "type": "video",
+      "id": "video_8",
+      "label": "Vidéo 8"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Carousel vidéo"
+    }
+  ]
+}
 {% endschema %}
