@@ -17,21 +17,29 @@
         "message": {
           "type": "message",
           "settings": {
-            "text": "CHRISTMAS : -76% NOW !",
+            "text": "FREE SHIPPING TODAY",
             "url": ""
           }
         },
         "message_yx3w7J": {
           "type": "message",
           "settings": {
-            "text": "FREE SHIPPING WITHIN 24H",
+            "text": "VIRAL ON TIKTOK",
+            "url": ""
+          }
+        },
+        "message_Lt7rLJ": {
+          "type": "message",
+          "settings": {
+            "text": "LOW STOCK",
             "url": ""
           }
         }
       },
       "block_order": [
         "message",
-        "message_yx3w7J"
+        "message_yx3w7J",
+        "message_Lt7rLJ"
       ],
       "settings": {
         "enable_sticky": true,
