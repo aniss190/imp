@@ -1,1 +1,70 @@
-{"type":"footer","name":"Footer group","sections":{"footer":{"type":"footer","blocks":{"newsletter":{"type":"newsletter","settings":{"image_width":150,"heading_size":"h3","title":"Soyez le premier à être informé des nouveautés.","content":""}},"text_KFYzhQ":{"type":"text","settings":{"title":"Notre objectif","content":"<p><strong>Notre mission : <\/strong>simplifier les réparations en plomberie grâce à des solutions innovantes.<br\/><br\/>Chez FlexiCut, nous concevons des outils qui allient <strong>praticité, fiabilité et efficacité<\/strong>, pour faciliter la vie des professionnels comme des bricoleurs.<\/p>","enable_follow_on_shop":false}},"links_F37arU":{"type":"links","settings":{"menu":"main-menu","show_menu_title":true,"menu_title":""}},"links_LgGKtx":{"type":"links","settings":{"menu":"liens-utiles","show_menu_title":true,"menu_title":""}}},"block_order":["newsletter","text_KFYzhQ","links_F37arU","links_LgGKtx"],"settings":{"show_social_media":false,"show_payment_icons":true,"show_country_selector":false,"show_country_flag":false,"show_country_name":false,"show_locale_selector":true}}},"order":["footer"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "footer",
+  "name": "Footer group",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "newsletter": {
+          "type": "newsletter",
+          "settings": {
+            "image_width": 150,
+            "heading_size": "h3",
+            "title": "Soyez le premier à être informé des nouveautés.",
+            "content": ""
+          }
+        },
+        "text_KFYzhQ": {
+          "type": "text",
+          "settings": {
+            "title": "Our mission",
+            "content": "<p><strong>Our mission: </strong>Redefining everyday hair accessories through smart, innovative design. <br/><br/>At Velvy, we create products that combine elegance, comfort and reliability for women who expect more from the things they wear every day.</p>",
+            "enable_follow_on_shop": false
+          }
+        },
+        "links_F37arU": {
+          "type": "links",
+          "settings": {
+            "menu": "main-menu",
+            "show_menu_title": true,
+            "menu_title": ""
+          }
+        },
+        "links_LgGKtx": {
+          "type": "links",
+          "settings": {
+            "menu": "",
+            "show_menu_title": true,
+            "menu_title": ""
+          }
+        }
+      },
+      "block_order": [
+        "newsletter",
+        "text_KFYzhQ",
+        "links_F37arU",
+        "links_LgGKtx"
+      ],
+      "settings": {
+        "show_social_media": false,
+        "show_payment_icons": true,
+        "show_country_selector": false,
+        "show_country_flag": false,
+        "show_country_name": false,
+        "show_locale_selector": true
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}
