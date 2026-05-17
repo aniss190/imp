@@ -10,15 +10,15 @@
 {
   "order": [
     "slideshow_qxk8Ba",
+    "featured_product_BNCh3F",
     "mad_scrolling_logo_pncdMe",
-    "rich_text_DHLDdE",
-    "image_with_text_overlay_8NVY73",
-    "custom_liquid_g6enkX",
     "177885888626cde01e",
     "ss_testimonial_8_kRy8Pg",
     "multi_column_QxVQLz",
+    "rich_text_DHLDdE",
+    "image_with_text_overlay_8NVY73",
+    "custom_liquid_g6enkX",
     "ss_testimonial_10_hMqefV",
-    "featured_product_BNCh3F",
     "image_with_text_overlay_micK7y",
     "177886010479252500",
     "custom_liquid_c3eGTq",
@@ -55,6 +55,7 @@
       "block_order": [
         "image_Exg7iP"
       ],
+      "disabled": true,
       "name": "Slideshow",
       "settings": {
         "full_width": true,
