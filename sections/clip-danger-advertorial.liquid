@@ -181,7 +181,8 @@
   .vd-shop-rating { display:flex; align-items:center; gap:8px; font-size:12px; color:var(--vd-mute); margin-bottom:18px; letter-spacing:.02em; font-weight:600; }
   .vd-shop-rating .stars { color:var(--vd-tan); letter-spacing:1px; font-size:14px; }
 
-  .vd-shop-price { display:flex; align-items:baseline; gap:12px; margin-bottom:8px; flex-wrap:wrap; }
+  .vd-shop-price { display:flex; align-items:baseline; gap:10px; margin-bottom:22px; flex-wrap:wrap; }
+  .vd-shop-price .from { font-size:11px; letter-spacing:.18em; text-transform:uppercase; color:var(--vd-mute); font-weight:700; }
   .vd-shop-price .price { font-family:'Montserrat', sans-serif; font-weight:800; font-size:38px; color:var(--vd-ink); letter-spacing:-0.03em; line-height:1; }
   .vd-shop-price .old { font-size:15px; color:var(--vd-mute); text-decoration:line-through; }
   .vd-shop-price .save { font-size:10.5px; letter-spacing:.14em; text-transform:uppercase; color:#fff; font-weight:800; background:var(--vd-red); padding:4px 8px; }
@@ -375,16 +376,10 @@
 
       <div id="vdShop" class="vd-shop">
         <div class="vd-shop-eyebrow">— Where to find it</div>
-        <form id="vdShopForm" class="vd-shop-grid">
+        <div class="vd-shop-grid">
 
           <div class="vd-shop-images">
-            <img class="vd-shop-main" id="vdShopMain" src="{{ img_product }}" alt='Velvy "D" — Magnetic Hair Clip'>
-            <div class="vd-shop-thumbs">
-              <button type="button" class="vd-shop-thumb active" data-src="{{ img_product }}"><img src="{{ img_product }}" alt=""></button>
-              <button type="button" class="vd-shop-thumb" data-src="{{ img_product_in }}"><img src="{{ img_product_in }}" alt=""></button>
-              <button type="button" class="vd-shop-thumb" data-src="{{ img_car_hero }}"><img src="{{ img_car_hero }}" alt=""></button>
-              <button type="button" class="vd-shop-thumb" data-src="https://cdn.shopify.com/s/files/1/1017/2396/3727/files/gemini-pxn5br78n1m.jpg?v=1778902157"><img src="https://cdn.shopify.com/s/files/1/1017/2396/3727/files/gemini-pxn5br78n1m.jpg?v=1778902157" alt=""></button>
-            </div>
+            <img class="vd-shop-main" src="{{ img_product }}" alt='Velvy "D" — Magnetic Hair Clip'>
           </div>
 
           <div class="vd-shop-info">
@@ -392,25 +387,14 @@
             <h3 class="vd-shop-title">Velvy "D" — Magnetic Hair Clip</h3>
 
             <div class="vd-shop-price">
+              <span class="from">Starting at</span>
               <span class="price">£11.99</span>
             </div>
 
-            <div class="vd-shop-color">
-              <div class="vd-shop-color-lab">Colour:<b id="vdColorName">Leopard</b></div>
-              <div class="vd-shop-swatches" id="vdSwatches">
-                <button type="button" class="vd-shop-swatch active" data-variant="57698262810959" data-name="Leopard" aria-label="Leopard" style="background:radial-gradient(circle at 30% 30%, #5a2e16 14%, transparent 15%), radial-gradient(circle at 70% 20%, #4a2410 12%, transparent 13%), radial-gradient(circle at 65% 65%, #3a1c0a 14%, transparent 15%), radial-gradient(circle at 25% 75%, #4a2410 12%, transparent 13%), linear-gradient(135deg, #c2792d, #8d4a17);"></button>
-                <button type="button" class="vd-shop-swatch" data-variant="57698262778191" data-name="Blue" aria-label="Blue" style="background:linear-gradient(135deg, #7ec2d6, #3d7e96);"></button>
-                <button type="button" class="vd-shop-swatch" data-variant="57698262843727" data-name="Beige" aria-label="Beige" style="background:linear-gradient(135deg, #d9c5a3, #ab8f6a);"></button>
-                <button type="button" class="vd-shop-swatch" data-variant="57698262876495" data-name="Pink" aria-label="Pink" style="background:linear-gradient(135deg, #f0c4be, #c98a82);"></button>
-                <button type="button" class="vd-shop-swatch" data-variant="57698262909263" data-name="Black" aria-label="Black" style="background:linear-gradient(135deg, #2a2a2a, #0a0a0a);"></button>
-              </div>
-            </div>
-
-            <button type="submit" class="vd-btn alt vd-shop-cta" id="vdShopCta">Order from the brand</button>
-            <div class="vd-shop-error" id="vdShopErr">Something went wrong. Please try again.</div>
+            <a class="vd-btn alt vd-shop-cta" href="{{ product.url | default: '/products/velvy-d-magnetic-hair-clip' }}">Order from the brand</a>
           </div>
 
-        </form>
+        </div>
       </div>
 
     </div>
@@ -712,64 +696,6 @@
   </div>
   <a class="vd-btn alt" href="#vdShop">{{ cta_label }}</a>
 </div>
-
-<script>
-(function(){
-  var form    = document.getElementById('vdShopForm');
-  if (!form) return;
-  var swatches = form.querySelectorAll('.vd-shop-swatch');
-  var thumbs   = form.querySelectorAll('.vd-shop-thumb');
-  var main     = document.getElementById('vdShopMain');
-  var colorEl  = document.getElementById('vdColorName');
-  var cta      = document.getElementById('vdShopCta');
-  var err      = document.getElementById('vdShopErr');
-  var currentVariant = '57698262810959';
-
-  swatches.forEach(function(b){
-    b.addEventListener('click', function(){
-      swatches.forEach(function(x){ x.classList.remove('active'); });
-      b.classList.add('active');
-      currentVariant = b.dataset.variant;
-      colorEl.textContent = b.dataset.name;
-    });
-  });
-
-  thumbs.forEach(function(t){
-    t.addEventListener('click', function(){
-      thumbs.forEach(function(x){ x.classList.remove('active'); });
-      t.classList.add('active');
-      main.src = t.dataset.src;
-    });
-  });
-
-  form.addEventListener('submit', async function(e){
-    e.preventDefault();
-    err.style.display = 'none';
-    cta.disabled = true;
-    var origText = cta.textContent;
-    cta.textContent = 'Adding...';
-    try {
-      var res = await fetch('/cart/add.js', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
-        body: JSON.stringify({ items: [{ id: parseInt(currentVariant, 10), quantity: 1 }] }),
-      });
-      if (!res.ok) throw new Error(await res.text());
-      cta.textContent = 'Added ✓  Redirecting to checkout…';
-      cta.setAttribute('data-state','added');
-      if (typeof window.fbq === 'function') {
-        try { window.fbq('track', 'AddToCart', { content_ids: [String(currentVariant)], value: 11.99, currency: 'GBP' }); } catch(e){}
-      }
-      setTimeout(function(){ window.location.href = '/checkout'; }, 700);
-    } catch (ex) {
-      console.error(ex);
-      cta.textContent = origText;
-      cta.disabled = false;
-      err.style.display = 'block';
-    }
-  });
-})();
-</script>
 
 {% schema %}
 {
