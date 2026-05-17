@@ -1,6 +1,7 @@
 {%- assign img_hero          = 'https://cdn.shopify.com/s/files/1/1017/2396/3727/files/velvy-advertorial-hero-danger.jpg' -%}
 {%- assign img_shards        = 'https://cdn.shopify.com/s/files/1/1017/2396/3727/files/velvy-advertorial-shattered-clip.jpg' -%}
-{%- assign img_safe          = 'https://cdn.shopify.com/s/files/1/1017/2396/3727/files/velvy-d-safe-driving-v3.jpg' -%}
+{%- assign img_car_hero      = 'https://cdn.shopify.com/s/files/1/1017/2396/3727/files/velvy-d-car-hero-v4.jpg' -%}
+{%- assign img_car_inuse     = 'https://cdn.shopify.com/s/files/1/1017/2396/3727/files/velvy-d-car-inuse-v4.jpg' -%}
 {%- assign img_avatar        = 'https://cdn.shopify.com/s/files/1/1017/2396/3727/files/velvy-advertorial-author-avatar.jpg' -%}
 {%- assign img_product       = 'https://cdn.shopify.com/s/files/1/1017/2396/3727/files/velvy-d-product-editorial-v3.jpg' -%}
 {%- assign img_product_in    = 'https://cdn.shopify.com/s/files/1/1017/2396/3727/files/velvy-d-product-in-hair-v3.jpg' -%}
@@ -13,15 +14,17 @@
 
 <style>
   :root {
-    --vd-bg:        #F6F1E8;
-    --vd-surface:   #FFFFFF;
-    --vd-ink:       #1C1814;
-    --vd-body:      #3A332B;
-    --vd-mute:      #7B6F5E;
-    --vd-line:      #E2D6BF;
-    --vd-rust:      #8E2F1B;
-    --vd-rust-soft: #C9603F;
-    --vd-gold:      #A88752;
+    --vd-bg:        #0A0908;
+    --vd-surface:   #141210;
+    --vd-surface-2: #1B1815;
+    --vd-ink:       #F4EEDF;
+    --vd-body:      #BFB6A1;
+    --vd-mute:      #6B6356;
+    --vd-line:      #1F1B16;
+    --vd-line-2:    #2A251D;
+    --vd-rust:      #C9603F;
+    --vd-rust-deep: #8E2F1B;
+    --vd-gold:      #B59A6B;
   }
   .vd { background:var(--vd-bg); color:var(--vd-body); font-family:'Montserrat', system-ui, -apple-system, sans-serif; -webkit-font-smoothing:antialiased; line-height:1.65; padding-bottom:90px; }
   .vd *, .vd *::before, .vd *::after { box-sizing:border-box; }
@@ -31,23 +34,23 @@
   .vd-wrap-wide { max-width:1080px; margin:0 auto; padding:0 22px; }
 
   /* MASTHEAD */
-  .vd-masthead { border-bottom:1px solid var(--vd-line); padding:18px 0; background:var(--vd-bg); position:relative; }
+  .vd-masthead { border-bottom:1px solid var(--vd-line); padding:18px 0; background:var(--vd-bg); }
   .vd-masthead-inner { display:flex; align-items:center; justify-content:space-between; }
   .vd-pub { font-weight:800; font-size:11px; letter-spacing:.32em; color:var(--vd-ink); text-transform:uppercase; }
   .vd-pub .sep { color:var(--vd-mute); margin:0 8px; font-weight:400; }
   .vd-pub-tag { font-size:10px; letter-spacing:.16em; color:var(--vd-mute); text-transform:uppercase; }
 
-  /* CATEGORY + HEADLINE */
+  /* HERO BLOCK (text only) */
   .vd-hero { padding:56px 0 0; }
   .vd-cat { display:inline-flex; align-items:center; gap:10px; font-size:11px; letter-spacing:.22em; text-transform:uppercase; color:var(--vd-rust); font-weight:700; margin-bottom:24px; }
   .vd-cat::before { content:""; width:24px; height:1px; background:var(--vd-rust); display:inline-block; }
-  .vd-h1 { font-family:'Montserrat', serif; font-weight:800; font-size:clamp(34px, 6vw, 60px); line-height:1.04; letter-spacing:-0.025em; color:var(--vd-ink); margin:0 0 22px; }
+  .vd-h1 { font-family:'Montserrat', sans-serif; font-weight:800; font-size:clamp(34px, 6vw, 60px); line-height:1.04; letter-spacing:-0.025em; color:var(--vd-ink); margin:0 0 22px; }
   .vd-h1 em { font-style:italic; font-weight:600; color:var(--vd-rust); }
   .vd-lede { font-size:clamp(17px,2vw,20px); color:var(--vd-body); max-width:640px; margin:0 0 30px; font-weight:400; }
 
   /* AUTHOR */
   .vd-author { display:flex; align-items:center; gap:14px; padding:22px 0 28px; border-top:1px solid var(--vd-line); border-bottom:1px solid var(--vd-line); margin-bottom:32px; }
-  .vd-author img { width:54px; height:54px; border-radius:50%; object-fit:cover; }
+  .vd-author img { width:54px; height:54px; border-radius:50%; object-fit:cover; border:1px solid var(--vd-line-2); }
   .vd-author-meta { display:flex; flex-direction:column; gap:2px; }
   .vd-author-name { font-weight:700; font-size:14px; color:var(--vd-ink); letter-spacing:.01em; }
   .vd-author-role { font-size:12px; color:var(--vd-mute); letter-spacing:.04em; }
@@ -69,7 +72,7 @@
 
   /* PULL QUOTE */
   .vd-pull { margin:32px 0; padding:22px 0 22px 22px; border-left:3px solid var(--vd-rust); }
-  .vd-pull-text { font-family:'Montserrat', serif; font-style:italic; font-weight:500; font-size:clamp(19px,2.5vw,24px); line-height:1.4; color:var(--vd-ink); margin:0 0 12px; letter-spacing:-0.01em; }
+  .vd-pull-text { font-family:'Montserrat', sans-serif; font-style:italic; font-weight:500; font-size:clamp(19px,2.5vw,24px); line-height:1.4; color:var(--vd-ink); margin:0 0 12px; letter-spacing:-0.01em; }
   .vd-pull-attr { font-size:11.5px; letter-spacing:.16em; text-transform:uppercase; color:var(--vd-mute); font-weight:600; }
 
   /* FIGURE */
@@ -78,10 +81,18 @@
   .vd-fig-wide { margin-left:calc(50% - 50vw); margin-right:calc(50% - 50vw); max-width:none; }
   @media(min-width:768px){ .vd-fig-wide { margin-left:calc(-1*((100vw - 720px)/2)); margin-right:calc(-1*((100vw - 720px)/2)); } }
 
+  /* IN-USE PROOF (Velvy D in car) */
+  .vd-proof { margin:48px 0; position:relative; }
+  .vd-proof img { width:100%; height:auto; display:block; }
+  .vd-proof-overlay { position:absolute; left:22px; bottom:22px; max-width:300px; background:rgba(10,9,8,.86); -webkit-backdrop-filter:blur(8px); backdrop-filter:blur(8px); padding:18px 20px; border-left:2px solid var(--vd-rust); }
+  .vd-proof-overlay .label { font-size:10px; letter-spacing:.22em; text-transform:uppercase; color:var(--vd-rust); font-weight:700; margin-bottom:8px; }
+  .vd-proof-overlay .txt { font-size:13.5px; line-height:1.5; color:var(--vd-ink); font-weight:500; }
+  @media(max-width:520px){ .vd-proof-overlay { position:static; max-width:none; border-left:none; border-top:2px solid var(--vd-rust); margin-top:0; } }
+
   /* STAT ROW */
-  .vd-stats { display:grid; grid-template-columns:repeat(3,1fr); gap:12px; margin:24px 0 8px; padding:28px 24px; background:var(--vd-surface); border:1px solid var(--vd-line); border-radius:2px; }
-  .vd-stat { text-align:center; }
-  .vd-stat .n { font-family:'Montserrat', serif; font-weight:800; font-size:30px; color:var(--vd-ink); line-height:1; letter-spacing:-0.02em; }
+  .vd-stats { display:grid; grid-template-columns:repeat(3,1fr); gap:1px; margin:24px 0 8px; padding:0; background:var(--vd-line-2); border:1px solid var(--vd-line-2); }
+  .vd-stat { text-align:center; background:var(--vd-surface); padding:24px 12px; }
+  .vd-stat .n { font-family:'Montserrat', sans-serif; font-weight:800; font-size:30px; color:var(--vd-ink); line-height:1; letter-spacing:-0.02em; }
   .vd-stat .l { font-size:10.5px; color:var(--vd-mute); letter-spacing:.12em; text-transform:uppercase; margin-top:10px; font-weight:600; }
 
   /* COMPARE */
@@ -89,32 +100,16 @@
   .vd-compare-h { font-size:11px; letter-spacing:.2em; text-transform:uppercase; color:var(--vd-mute); font-weight:700; margin-bottom:14px; }
   .vd-compare { display:grid; grid-template-columns:1fr; gap:14px; }
   @media(min-width:640px){ .vd-compare { grid-template-columns:1fr 1fr; gap:18px; } }
-  .vd-c-card { background:var(--vd-surface); border:1px solid var(--vd-line); padding:26px 22px; border-radius:2px; }
-  .vd-c-card.bad { border-top:3px solid var(--vd-rust); }
+  .vd-c-card { background:var(--vd-surface); border:1px solid var(--vd-line-2); padding:26px 22px; }
+  .vd-c-card.bad { border-top:3px solid var(--vd-rust-deep); }
   .vd-c-card.good { border-top:3px solid var(--vd-gold); }
   .vd-c-tag { font-size:10px; letter-spacing:.18em; text-transform:uppercase; font-weight:700; color:var(--vd-mute); margin-bottom:10px; }
   .vd-c-card h3 { font-size:19px; font-weight:700; color:var(--vd-ink); margin:0 0 16px; letter-spacing:-0.005em; }
   .vd-c-card ul { list-style:none; padding:0; margin:0; }
-  .vd-c-card li { padding:9px 0 9px 22px; position:relative; color:var(--vd-body); font-size:14.5px; line-height:1.5; border-top:1px solid var(--vd-line); }
+  .vd-c-card li { padding:9px 0 9px 22px; position:relative; color:var(--vd-body); font-size:14.5px; line-height:1.5; border-top:1px solid var(--vd-line-2); }
   .vd-c-card li:first-child { border-top:none; padding-top:2px; }
   .vd-c-card.bad li::before { content:"—"; position:absolute; left:0; color:var(--vd-rust); font-weight:700; }
   .vd-c-card.good li::before { content:"+"; position:absolute; left:0; color:var(--vd-gold); font-weight:700; }
-
-  /* PRODUCT REVEAL CARD */
-  .vd-reveal { background:var(--vd-surface); border:1px solid var(--vd-line); border-radius:2px; padding:36px 26px; margin:48px 0; text-align:center; }
-  .vd-reveal img { width:100%; max-width:380px; height:auto; display:block; margin:0 auto 22px; }
-  .vd-reveal .label { font-size:10.5px; letter-spacing:.22em; text-transform:uppercase; color:var(--vd-gold); font-weight:700; margin-bottom:10px; }
-  .vd-reveal h3 { font-family:'Montserrat', sans-serif; font-weight:700; font-size:26px; color:var(--vd-ink); margin:0 0 12px; letter-spacing:-0.015em; }
-  .vd-reveal p { font-size:15.5px; color:var(--vd-body); margin:0 auto 22px; max-width:480px; }
-  .vd-reveal .specs { display:flex; gap:18px; justify-content:center; flex-wrap:wrap; font-size:11.5px; letter-spacing:.08em; text-transform:uppercase; color:var(--vd-mute); font-weight:600; margin-bottom:24px; }
-  .vd-reveal .specs span::before { content:"•"; margin-right:8px; color:var(--vd-gold); }
-  .vd-reveal .specs span:first-child::before { display:none; }
-
-  /* BTN */
-  .vd-btn { display:inline-block; background:var(--vd-ink); color:#fff; padding:17px 30px; border-radius:2px; text-decoration:none; font-weight:600; font-size:13.5px; letter-spacing:.14em; text-transform:uppercase; transition:background .2s ease, transform .15s ease; border:none; cursor:pointer; }
-  .vd-btn:hover { background:var(--vd-rust); transform:translateY(-1px); }
-  .vd-btn.alt { background:var(--vd-rust); }
-  .vd-btn.alt:hover { background:var(--vd-ink); }
 
   /* TESTIMONIALS */
   .vd-test { margin:48px 0 12px; padding:36px 0; border-top:1px solid var(--vd-line); border-bottom:1px solid var(--vd-line); }
@@ -128,27 +123,31 @@
   .vd-test-card .a .stars { color:var(--vd-gold); margin-right:6px; letter-spacing:0; }
 
   /* BOTTOM OFFER */
-  .vd-offer { margin:64px 0 28px; background:var(--vd-ink); color:#fff; border-radius:3px; overflow:hidden; }
+  .vd-offer { margin:64px 0 28px; background:var(--vd-surface-2); border:1px solid var(--vd-line-2); overflow:hidden; }
   .vd-offer-grid { display:grid; grid-template-columns:1fr; }
-  @media(min-width:760px){ .vd-offer-grid { grid-template-columns:1fr 1fr; align-items:center; } }
+  @media(min-width:760px){ .vd-offer-grid { grid-template-columns:1fr 1fr; align-items:stretch; } }
   .vd-offer-img { background:#000; }
-  .vd-offer-img img { width:100%; height:100%; display:block; object-fit:cover; min-height:280px; }
+  .vd-offer-img img { width:100%; height:100%; display:block; object-fit:cover; min-height:320px; }
   .vd-offer-body { padding:42px 30px; }
-  .vd-offer .label { font-size:10.5px; letter-spacing:.22em; text-transform:uppercase; color:var(--vd-rust-soft); font-weight:700; margin-bottom:14px; }
-  .vd-offer h3 { font-family:'Montserrat', sans-serif; font-weight:700; font-size:clamp(24px,3.5vw,32px); line-height:1.14; letter-spacing:-0.015em; color:#fff; margin:0 0 14px; }
-  .vd-offer p { font-size:14.5px; color:#c9c1b3; margin:0 0 22px; max-width:380px; }
-  .vd-offer .price-line { display:flex; align-items:baseline; gap:12px; margin-bottom:22px; }
-  .vd-offer .price { font-family:'Montserrat', serif; font-weight:800; font-size:32px; color:#fff; letter-spacing:-0.02em; }
-  .vd-offer .price-old { font-size:14px; color:#7B6F5E; text-decoration:line-through; }
-  .vd-offer .price-save { font-size:11px; letter-spacing:.12em; text-transform:uppercase; color:var(--vd-rust-soft); font-weight:700; }
-  .vd-offer .vd-btn { background:#fff; color:var(--vd-ink); }
-  .vd-offer .vd-btn:hover { background:var(--vd-rust-soft); color:#fff; }
-  .vd-offer .micro { display:flex; gap:14px; margin-top:16px; font-size:10.5px; letter-spacing:.1em; text-transform:uppercase; color:#7B6F5E; flex-wrap:wrap; }
+  .vd-offer .label { font-size:10.5px; letter-spacing:.22em; text-transform:uppercase; color:var(--vd-rust); font-weight:700; margin-bottom:14px; }
+  .vd-offer h3 { font-family:'Montserrat', sans-serif; font-weight:700; font-size:clamp(24px,3.5vw,32px); line-height:1.14; letter-spacing:-0.015em; color:var(--vd-ink); margin:0 0 14px; }
+  .vd-offer p { font-size:14.5px; color:var(--vd-body); margin:0 0 22px; max-width:380px; }
+  .vd-offer .price-line { display:flex; align-items:baseline; gap:12px; margin-bottom:22px; flex-wrap:wrap; }
+  .vd-offer .price { font-family:'Montserrat', sans-serif; font-weight:800; font-size:36px; color:var(--vd-ink); letter-spacing:-0.025em; }
+  .vd-offer .price-old { font-size:14px; color:var(--vd-mute); text-decoration:line-through; }
+  .vd-offer .price-save { font-size:11px; letter-spacing:.12em; text-transform:uppercase; color:var(--vd-rust); font-weight:700; }
+  .vd-offer .micro { display:flex; gap:14px; margin-top:18px; font-size:10.5px; letter-spacing:.1em; text-transform:uppercase; color:var(--vd-mute); flex-wrap:wrap; }
+
+  /* BTN */
+  .vd-btn { display:inline-block; background:var(--vd-ink); color:var(--vd-bg); padding:17px 30px; border-radius:0; text-decoration:none; font-weight:700; font-size:13px; letter-spacing:.16em; text-transform:uppercase; transition:background .2s ease, color .2s ease, transform .15s ease; border:none; cursor:pointer; }
+  .vd-btn:hover { background:var(--vd-rust); color:#fff; transform:translateY(-1px); }
+  .vd-btn.alt { background:var(--vd-rust); color:#fff; }
+  .vd-btn.alt:hover { background:var(--vd-ink); color:var(--vd-bg); }
 
   /* FAQ */
   .vd-faq { padding:48px 0 30px; }
   .vd-faq h2 { font-weight:700; font-size:22px; color:var(--vd-ink); margin:0 0 22px; letter-spacing:-0.01em; }
-  .vd-faq details { border-bottom:1px solid var(--vd-line); padding:18px 0; cursor:pointer; }
+  .vd-faq details { border-bottom:1px solid var(--vd-line-2); padding:18px 0; cursor:pointer; }
   .vd-faq summary { font-weight:600; font-size:15px; list-style:none; display:flex; justify-content:space-between; align-items:center; color:var(--vd-ink); gap:18px; }
   .vd-faq summary::-webkit-details-marker { display:none; }
   .vd-faq summary::after { content:"+"; color:var(--vd-rust); font-size:22px; line-height:1; flex-shrink:0; }
@@ -159,15 +158,16 @@
   .vd-discl { padding:30px 0 50px; font-size:11.5px; color:var(--vd-mute); line-height:1.55; border-top:1px solid var(--vd-line); margin-top:20px; letter-spacing:.01em; }
 
   /* STICKY MOBILE BAR */
-  .vd-sticky { position:fixed; left:0; right:0; bottom:0; z-index:1000; background:rgba(255,255,255,.97); -webkit-backdrop-filter:saturate(180%) blur(14px); backdrop-filter:saturate(180%) blur(14px); border-top:1px solid var(--vd-line); padding:10px 14px; display:flex; align-items:center; gap:12px; }
-  .vd-sticky img { width:44px; height:44px; border-radius:4px; object-fit:cover; flex-shrink:0; }
+  .vd-sticky { position:fixed; left:0; right:0; bottom:0; z-index:1000; background:rgba(10,9,8,.92); -webkit-backdrop-filter:saturate(140%) blur(16px); backdrop-filter:saturate(140%) blur(16px); border-top:1px solid var(--vd-line-2); padding:10px 14px; display:flex; align-items:center; gap:12px; }
+  .vd-sticky img { width:44px; height:44px; border-radius:2px; object-fit:cover; flex-shrink:0; border:1px solid var(--vd-line-2); }
   .vd-sticky .info { flex:1; min-width:0; line-height:1.25; }
   .vd-sticky .name { font-size:12.5px; color:var(--vd-ink); font-weight:700; letter-spacing:.01em; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
   .vd-sticky .price { font-size:11.5px; color:var(--vd-mute); font-weight:500; letter-spacing:.02em; }
-  .vd-sticky .vd-btn { padding:13px 18px; font-size:11.5px; letter-spacing:.12em; flex-shrink:0; }
+  .vd-sticky .price b { color:var(--vd-rust); font-weight:700; }
+  .vd-sticky .vd-btn { padding:13px 18px; font-size:11px; letter-spacing:.14em; flex-shrink:0; }
   @media(min-width:900px){ .vd-sticky { display:none; } .vd { padding-bottom:0; } }
 
-  /* CTA INLINE (mobile spacing) */
+  /* CTA INLINE */
   .vd-cta-inline { text-align:center; margin:28px 0; }
   .vd-cta-inline .meta { display:block; font-size:11px; letter-spacing:.14em; text-transform:uppercase; color:var(--vd-mute); margin-top:14px; font-weight:600; }
 </style>
@@ -200,7 +200,8 @@
     </div>
 
     <div class="vd-hero-img">
-      <div class="vd-wrap"><img src="{{ img_hero }}" alt="Plastic claw clip pressed between a woman's head and a car headrest" loading="eager">
+      <div class="vd-wrap">
+        <img src="{{ img_hero }}" alt="Plastic claw clip pressed between a woman's head and a car headrest" loading="eager">
         <div class="vd-figcap">A standard claw clip, photographed against a headrest. The pressure point is not a feeling — it's a measurable hard contact between two unforgiving objects.</div>
       </div>
     </div>
@@ -214,7 +215,7 @@
 
       <h2>The hidden danger between your skull and your headrest.</h2>
 
-      <p>Every time you sit back in a car with a traditional claw clip in your hair, you are creating a rigid pressure point. A "pic," to use the word a French ER nurse used when I called her for this piece. She has seen it before — small bruises, indentations, occasionally a shallow laceration — on women who'd been in low-speed rear-end collisions wearing a thick plastic clip.</p>
+      <p>Every time you sit back in a car with a traditional claw clip in your hair, you create a rigid pressure point. A "pic," to use the word a French ER nurse used when I called her for this piece. She has seen it before — small bruises, indentations, occasionally a shallow laceration — on women in low-speed rear-end collisions who'd been wearing a thick plastic clip.</p>
 
       <p>"It's not the clip that injures them, exactly," she told me. "It's the fact that there's a hard object between the head and the headrest. The headrest is designed to catch the head. The clip turns that catch into a punch."</p>
 
@@ -246,14 +247,16 @@
 
       <p>The brand that asked this question first was a small workshop outside Paris. Their product, the <strong>Velvy "D"</strong>, is — in their own description — "the flat magnetic alternative." It does the same job as a claw clip. It holds a chignon. It travels in a handbag. It costs less than lunch.</p>
 
-      <p>The difference is structural: there is no protruding plastic body, no tensioned spring, and no shatter point. Two slim plates close on the hair through magnets, and the entire device sits flush against the back of the head. When you lean back — against a headrest, an airline seat, a sofa — there is nothing between you and the surface. That is the entire pitch. The pitch is, in fact, the absence of a thing.</p>
+      <p>The difference is structural: there is no protruding plastic body, no tensioned spring, and no shatter point. Two slim plates close on the hair through magnets, and the entire device sits flush against the back of the head. <strong>When you lean back — against a headrest, an airline seat, a sofa — there is nothing between you and the surface.</strong> That is the entire pitch. The pitch is, in fact, the absence of a thing.</p>
 
     </div>
 
-    <div class="vd-fig">
-      <div class="vd-wrap">
-        <img src="{{ img_product_in }}" alt="Velvy D worn in a low chignon, back of head view" loading="lazy">
-        <div class="vd-figcap">The Velvy "D" in use. The clip lies completely flat against the scalp — you can sleep on it.</div>
+    <!-- IN-USE PROOF — Velvy D in car -->
+    <div class="vd-proof vd-fig-wide">
+      <img src="{{ img_car_hero }}" alt="Velvy D tortoise clip in low chignon, head resting against car headrest" loading="lazy">
+      <div class="vd-proof-overlay">
+        <div class="label">— The flat alternative, in situ</div>
+        <div class="txt">The Velvy "D" sits between the hair and the leather. The contact between skull and headrest is direct, with no protruding object in between.</div>
       </div>
     </div>
 
@@ -287,7 +290,19 @@
         </div>
       </div>
 
-      <p>I will admit something. When I started this piece, I expected a story about a marketing gimmick. I have written about enough hair-care launches to know what those look like. The first time I clipped a Velvy "D" into my own hair, I was prepared to be unimpressed. The second time I leaned back against my car seat, I noticed the absence. The small, dull pressure I had been carrying without knowing it was gone.</p>
+    </div>
+
+    <!-- Product worn at home -->
+    <div class="vd-fig">
+      <div class="vd-wrap">
+        <img src="{{ img_product_in }}" alt="Velvy D tortoise holding a low chignon, back of head view" loading="lazy">
+        <div class="vd-figcap">The Velvy "D" worn at home. The double-D acetate silhouette is the only visible part of the clip.</div>
+      </div>
+    </div>
+
+    <div class="vd-wrap">
+
+      <p>I will admit something. When I started this piece, I expected a story about a marketing gimmick. I have written about enough hair-care launches to know what those look like. The first time I clipped a Velvy "D" into my own hair, I was prepared to be unimpressed. <strong>The second time I leaned back against my car seat, I noticed the absence.</strong> The small, dull pressure I had been carrying without knowing it was gone.</p>
 
       <div class="vd-pull">
         <div class="vd-pull-text">"I noticed the absence. The small dull pressure I had been carrying without knowing it was gone."</div>
@@ -330,7 +345,7 @@
               <span class="price-old">£17.99</span>
               <span class="price-save">Save 33%</span>
             </div>
-            <a class="vd-btn" href="{{ product_url }}">{{ cta_label }}</a>
+            <a class="vd-btn alt" href="{{ product_url }}">{{ cta_label }}</a>
             <div class="micro">
               <span>30-day returns</span>
               <span>Ships UK</span>
@@ -384,7 +399,7 @@
   <img src="{{ img_product }}" alt="Velvy D">
   <div class="info">
     <div class="name">Velvy "D" — flat magnetic</div>
-    <div class="price">£11.99 <span style="color:#A88752;">· Save 33%</span></div>
+    <div class="price">£11.99 <b>· Save 33%</b></div>
   </div>
   <a class="vd-btn alt" href="{{ product_url }}">{{ cta_label }}</a>
 </div>
