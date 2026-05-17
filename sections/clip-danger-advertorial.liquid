@@ -13,26 +13,28 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
+<script>
+  (function(){
+    var s = document.createElement('style');
+    s.id = 'vd-hide-global';
+    s.textContent = ''
+      + '.shopify-section-group-header-group,'
+      + '.shopify-section-group-footer-group,'
+      + '.shopify-section--announcement-bar,'
+      + '.shopify-section--header,'
+      + '.shopify-section--footer,'
+      + '#shopify-section-header,'
+      + '#shopify-section-footer,'
+      + '[id*="announcement-bar"],'
+      + '[id*="__header"],'
+      + '[id*="__footer"]{display:none!important;visibility:hidden!important;height:0!important;margin:0!important;padding:0!important;border:0!important;overflow:hidden!important;}'
+      + 'html,body{background:#0E0C09!important;}'
+      + 'body{padding-top:0!important;margin-top:0!important;--header-height:0px!important;--announcement-bar-height:0px!important;--sticky-area-height:0px!important;}';
+    (document.head || document.documentElement).appendChild(s);
+  })();
+</script>
+
 <style>
-  /* Hide global header / announcement / footer ONLY on this page */
-  .shopify-section-group-header-group,
-  .shopify-section-group-footer-group,
-  .shopify-section--announcement-bar,
-  .shopify-section--header,
-  .shopify-section--footer,
-  #shopify-section-header,
-  #shopify-section-footer,
-  header[is="header-component"],
-  header.header,
-  footer.footer,
-  .announcement-bar,
-  .header,
-  .footer { display:none !important; visibility:hidden !important; height:0 !important; padding:0 !important; margin:0 !important; }
-
-  html, body { background:#0E0C09 !important; }
-  body { padding-top:0 !important; margin-top:0 !important; }
-  body::before, body::after { display:none !important; }
-
   :root {
     --vd-bg:        #0E0C09;
     --vd-surface:   #181612;
