@@ -1,233 +1,393 @@
-{%- assign img_hero    = 'https://cdn.shopify.com/s/files/1/1017/2396/3727/files/velvy-advertorial-hero-danger.jpg' -%}
-{%- assign img_shards  = 'https://cdn.shopify.com/s/files/1/1017/2396/3727/files/velvy-advertorial-shattered-clip.jpg' -%}
-{%- assign img_safe    = 'https://cdn.shopify.com/s/files/1/1017/2396/3727/files/velvy-advertorial-velvy-d-safe.jpg' -%}
-{%- assign product_url = '/products/velvy-d-magnetic-hair-clip' -%}
+{%- assign img_hero          = 'https://cdn.shopify.com/s/files/1/1017/2396/3727/files/velvy-advertorial-hero-danger.jpg' -%}
+{%- assign img_shards        = 'https://cdn.shopify.com/s/files/1/1017/2396/3727/files/velvy-advertorial-shattered-clip.jpg' -%}
+{%- assign img_safe          = 'https://cdn.shopify.com/s/files/1/1017/2396/3727/files/velvy-advertorial-velvy-d-safe.jpg' -%}
+{%- assign img_avatar        = 'https://cdn.shopify.com/s/files/1/1017/2396/3727/files/velvy-advertorial-author-avatar.jpg' -%}
+{%- assign img_product       = 'https://cdn.shopify.com/s/files/1/1017/2396/3727/files/velvy-advertorial-product-editorial.jpg' -%}
+{%- assign img_product_in    = 'https://cdn.shopify.com/s/files/1/1017/2396/3727/files/velvy-advertorial-product-in-hair.jpg' -%}
+{%- assign product_url       = '/products/velvy-d-magnetic-hair-clip' -%}
+{%- assign cta_label         = 'Check availability' -%}
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
 <style>
-  .clip-danger { background:#000; color:#f5f4f1; font-family:'Inter','Helvetica Neue',Arial,sans-serif; -webkit-font-smoothing:antialiased; line-height:1.55; }
-  .clip-danger * { box-sizing:border-box; }
-  .cd-wrap { max-width:780px; margin:0 auto; padding:0 22px; }
-  .cd-eyebrow { display:inline-block; font-size:11px; letter-spacing:.18em; text-transform:uppercase; color:#bdb6a6; border:1px solid #2a2a2a; padding:6px 10px; border-radius:999px; margin-bottom:18px; }
+  :root {
+    --vd-bg:        #F6F1E8;
+    --vd-surface:   #FFFFFF;
+    --vd-ink:       #1C1814;
+    --vd-body:      #3A332B;
+    --vd-mute:      #7B6F5E;
+    --vd-line:      #E2D6BF;
+    --vd-rust:      #8E2F1B;
+    --vd-rust-soft: #C9603F;
+    --vd-gold:      #A88752;
+  }
+  .vd { background:var(--vd-bg); color:var(--vd-body); font-family:'Montserrat', system-ui, -apple-system, sans-serif; -webkit-font-smoothing:antialiased; line-height:1.65; padding-bottom:90px; }
+  .vd *, .vd *::before, .vd *::after { box-sizing:border-box; }
+  .vd a { color:inherit; }
 
-  /* HERO */
-  .cd-hero { position:relative; padding:72px 0 56px; text-align:center; overflow:hidden; }
-  .cd-hero::before { content:""; position:absolute; inset:0; background:radial-gradient(60% 50% at 50% 0%, rgba(220,40,40,.18), transparent 60%); pointer-events:none; }
-  .cd-hero h1 { font-family:'Playfair Display', Georgia, serif; font-weight:700; font-size:clamp(34px, 6vw, 64px); line-height:1.05; letter-spacing:-0.02em; margin:0 0 18px; }
-  .cd-hero p.lede { font-size:clamp(16px,2.2vw,20px); color:#cfc8b8; margin:0 auto 28px; max-width:620px; }
-  .cd-hero .hero-img { position:relative; margin:24px -22px 0; }
-  .cd-hero .hero-img img { width:100%; height:auto; display:block; }
-  .cd-hero .hero-img::after { content:""; position:absolute; inset:auto 0 0 0; height:35%; background:linear-gradient(to bottom, transparent, #000); }
+  .vd-wrap { max-width:720px; margin:0 auto; padding:0 22px; }
+  .vd-wrap-wide { max-width:1080px; margin:0 auto; padding:0 22px; }
 
-  /* SECTIONS */
-  .cd-sec { padding:56px 0; border-top:1px solid #1a1a1a; }
-  .cd-sec h2 { font-family:'Playfair Display', Georgia, serif; font-weight:700; font-size:clamp(26px,4.2vw,40px); line-height:1.1; letter-spacing:-0.01em; margin:0 0 18px; }
-  .cd-sec p { font-size:17px; color:#d4cdbb; margin:0 0 16px; }
-  .cd-sec p strong { color:#fff; font-weight:600; }
-  .cd-sec figure { margin:32px -22px; }
-  .cd-sec figure img { width:100%; height:auto; display:block; }
-  .cd-sec figcaption { color:#8c8676; font-size:13px; text-align:center; padding:10px 22px 0; font-style:italic; }
+  /* MASTHEAD */
+  .vd-masthead { border-bottom:1px solid var(--vd-line); padding:18px 0; background:var(--vd-bg); position:relative; }
+  .vd-masthead-inner { display:flex; align-items:center; justify-content:space-between; }
+  .vd-pub { font-weight:800; font-size:11px; letter-spacing:.32em; color:var(--vd-ink); text-transform:uppercase; }
+  .vd-pub .sep { color:var(--vd-mute); margin:0 8px; font-weight:400; }
+  .vd-pub-tag { font-size:10px; letter-spacing:.16em; color:var(--vd-mute); text-transform:uppercase; }
 
-  /* QUOTE */
-  .cd-quote { border-left:2px solid #c8a363; padding:6px 0 6px 18px; margin:24px 0; color:#e7ddc6; font-style:italic; }
-  .cd-quote cite { display:block; color:#8c8676; font-size:13px; margin-top:8px; font-style:normal; letter-spacing:.04em; }
+  /* CATEGORY + HEADLINE */
+  .vd-hero { padding:56px 0 0; }
+  .vd-cat { display:inline-flex; align-items:center; gap:10px; font-size:11px; letter-spacing:.22em; text-transform:uppercase; color:var(--vd-rust); font-weight:700; margin-bottom:24px; }
+  .vd-cat::before { content:""; width:24px; height:1px; background:var(--vd-rust); display:inline-block; }
+  .vd-h1 { font-family:'Montserrat', serif; font-weight:800; font-size:clamp(34px, 6vw, 60px); line-height:1.04; letter-spacing:-0.025em; color:var(--vd-ink); margin:0 0 22px; }
+  .vd-h1 em { font-style:italic; font-weight:600; color:var(--vd-rust); }
+  .vd-lede { font-size:clamp(17px,2vw,20px); color:var(--vd-body); max-width:640px; margin:0 0 30px; font-weight:400; }
+
+  /* AUTHOR */
+  .vd-author { display:flex; align-items:center; gap:14px; padding:22px 0 28px; border-top:1px solid var(--vd-line); border-bottom:1px solid var(--vd-line); margin-bottom:32px; }
+  .vd-author img { width:54px; height:54px; border-radius:50%; object-fit:cover; }
+  .vd-author-meta { display:flex; flex-direction:column; gap:2px; }
+  .vd-author-name { font-weight:700; font-size:14px; color:var(--vd-ink); letter-spacing:.01em; }
+  .vd-author-role { font-size:12px; color:var(--vd-mute); letter-spacing:.04em; }
+  .vd-author-meta-sub { font-size:11.5px; color:var(--vd-mute); letter-spacing:.06em; margin-top:2px; }
+  .vd-author-meta-sub .dot { margin:0 6px; }
+
+  /* HERO IMG */
+  .vd-hero-img { margin:0 0 14px; }
+  .vd-hero-img img { width:100%; height:auto; display:block; }
+  .vd-figcap { font-size:12.5px; color:var(--vd-mute); letter-spacing:.02em; padding:10px 0 0; font-style:italic; line-height:1.45; }
+
+  /* ARTICLE */
+  .vd-article { padding:36px 0 24px; }
+  .vd-article p { font-size:17px; color:var(--vd-body); margin:0 0 22px; font-weight:400; }
+  .vd-article p strong { color:var(--vd-ink); font-weight:600; }
+  .vd-article p:first-of-type::first-letter { float:left; font-family:'Montserrat', serif; font-weight:800; font-size:72px; line-height:.85; color:var(--vd-ink); padding:8px 12px 0 0; }
+  .vd-article h2 { font-family:'Montserrat', sans-serif; font-weight:700; font-size:clamp(22px,3.4vw,30px); line-height:1.18; letter-spacing:-0.015em; color:var(--vd-ink); margin:44px 0 18px; }
+  .vd-article h2::before { content:""; display:block; width:36px; height:2px; background:var(--vd-rust); margin-bottom:14px; }
+
+  /* PULL QUOTE */
+  .vd-pull { margin:32px 0; padding:22px 0 22px 22px; border-left:3px solid var(--vd-rust); }
+  .vd-pull-text { font-family:'Montserrat', serif; font-style:italic; font-weight:500; font-size:clamp(19px,2.5vw,24px); line-height:1.4; color:var(--vd-ink); margin:0 0 12px; letter-spacing:-0.01em; }
+  .vd-pull-attr { font-size:11.5px; letter-spacing:.16em; text-transform:uppercase; color:var(--vd-mute); font-weight:600; }
+
+  /* FIGURE */
+  .vd-fig { margin:36px 0; }
+  .vd-fig img { width:100%; height:auto; display:block; }
+  .vd-fig-wide { margin-left:calc(50% - 50vw); margin-right:calc(50% - 50vw); max-width:none; }
+  @media(min-width:768px){ .vd-fig-wide { margin-left:calc(-1*((100vw - 720px)/2)); margin-right:calc(-1*((100vw - 720px)/2)); } }
+
+  /* STAT ROW */
+  .vd-stats { display:grid; grid-template-columns:repeat(3,1fr); gap:12px; margin:24px 0 8px; padding:28px 24px; background:var(--vd-surface); border:1px solid var(--vd-line); border-radius:2px; }
+  .vd-stat { text-align:center; }
+  .vd-stat .n { font-family:'Montserrat', serif; font-weight:800; font-size:30px; color:var(--vd-ink); line-height:1; letter-spacing:-0.02em; }
+  .vd-stat .l { font-size:10.5px; color:var(--vd-mute); letter-spacing:.12em; text-transform:uppercase; margin-top:10px; font-weight:600; }
 
   /* COMPARE */
-  .cd-compare { display:grid; grid-template-columns:1fr; gap:14px; margin:30px 0 10px; }
-  @media(min-width:640px){ .cd-compare { grid-template-columns:1fr 1fr; gap:18px; } }
-  .cd-card { border:1px solid #1f1f1f; border-radius:14px; padding:22px; background:#0a0a0a; }
-  .cd-card.bad { border-color:#3a1a1a; background:linear-gradient(180deg,#140707,#0a0505); }
-  .cd-card.good { border-color:#1f2a1f; background:linear-gradient(180deg,#091108,#070b07); }
-  .cd-card h3 { margin:0 0 14px; font-family:'Playfair Display', Georgia, serif; font-size:20px; }
-  .cd-card .tag { display:inline-block; font-size:10px; letter-spacing:.16em; text-transform:uppercase; padding:4px 8px; border-radius:999px; margin-bottom:10px; }
-  .cd-card.bad .tag { background:#3a1414; color:#ffb8b8; }
-  .cd-card.good .tag { background:#0e2a14; color:#aef2bb; }
-  .cd-card ul { list-style:none; padding:0; margin:0; }
-  .cd-card li { padding:8px 0 8px 26px; position:relative; color:#cfc8b8; font-size:14.5px; }
-  .cd-card.bad li::before { content:"✕"; position:absolute; left:0; color:#ff7a7a; font-weight:700; }
-  .cd-card.good li::before { content:"✓"; position:absolute; left:0; color:#7be39a; font-weight:700; }
+  .vd-compare-wrap { margin:36px 0; }
+  .vd-compare-h { font-size:11px; letter-spacing:.2em; text-transform:uppercase; color:var(--vd-mute); font-weight:700; margin-bottom:14px; }
+  .vd-compare { display:grid; grid-template-columns:1fr; gap:14px; }
+  @media(min-width:640px){ .vd-compare { grid-template-columns:1fr 1fr; gap:18px; } }
+  .vd-c-card { background:var(--vd-surface); border:1px solid var(--vd-line); padding:26px 22px; border-radius:2px; }
+  .vd-c-card.bad { border-top:3px solid var(--vd-rust); }
+  .vd-c-card.good { border-top:3px solid var(--vd-gold); }
+  .vd-c-tag { font-size:10px; letter-spacing:.18em; text-transform:uppercase; font-weight:700; color:var(--vd-mute); margin-bottom:10px; }
+  .vd-c-card h3 { font-size:19px; font-weight:700; color:var(--vd-ink); margin:0 0 16px; letter-spacing:-0.005em; }
+  .vd-c-card ul { list-style:none; padding:0; margin:0; }
+  .vd-c-card li { padding:9px 0 9px 22px; position:relative; color:var(--vd-body); font-size:14.5px; line-height:1.5; border-top:1px solid var(--vd-line); }
+  .vd-c-card li:first-child { border-top:none; padding-top:2px; }
+  .vd-c-card.bad li::before { content:"—"; position:absolute; left:0; color:var(--vd-rust); font-weight:700; }
+  .vd-c-card.good li::before { content:"+"; position:absolute; left:0; color:var(--vd-gold); font-weight:700; }
 
-  /* CTA */
-  .cd-cta { text-align:center; padding:72px 0; border-top:1px solid #1a1a1a; }
-  .cd-cta h2 { font-family:'Playfair Display', Georgia, serif; font-size:clamp(28px,5vw,46px); margin:0 0 14px; letter-spacing:-0.01em; }
-  .cd-cta p { color:#cfc8b8; max-width:560px; margin:0 auto 28px; }
-  .cd-btn { display:inline-block; background:#f5f4f1; color:#0a0a0a; padding:18px 34px; border-radius:999px; text-decoration:none; font-weight:600; letter-spacing:.02em; font-size:15.5px; transition:transform .15s ease, background .2s ease; }
-  .cd-btn:hover { background:#fff; transform:translateY(-1px); }
-  .cd-cta .price { display:inline-block; margin-left:10px; color:#8c8676; font-size:14px; }
-  .cd-trust { display:flex; gap:18px; justify-content:center; flex-wrap:wrap; margin-top:22px; color:#8c8676; font-size:12px; letter-spacing:.06em; text-transform:uppercase; }
+  /* PRODUCT REVEAL CARD */
+  .vd-reveal { background:var(--vd-surface); border:1px solid var(--vd-line); border-radius:2px; padding:36px 26px; margin:48px 0; text-align:center; }
+  .vd-reveal img { width:100%; max-width:380px; height:auto; display:block; margin:0 auto 22px; }
+  .vd-reveal .label { font-size:10.5px; letter-spacing:.22em; text-transform:uppercase; color:var(--vd-gold); font-weight:700; margin-bottom:10px; }
+  .vd-reveal h3 { font-family:'Montserrat', sans-serif; font-weight:700; font-size:26px; color:var(--vd-ink); margin:0 0 12px; letter-spacing:-0.015em; }
+  .vd-reveal p { font-size:15.5px; color:var(--vd-body); margin:0 auto 22px; max-width:480px; }
+  .vd-reveal .specs { display:flex; gap:18px; justify-content:center; flex-wrap:wrap; font-size:11.5px; letter-spacing:.08em; text-transform:uppercase; color:var(--vd-mute); font-weight:600; margin-bottom:24px; }
+  .vd-reveal .specs span::before { content:"•"; margin-right:8px; color:var(--vd-gold); }
+  .vd-reveal .specs span:first-child::before { display:none; }
+
+  /* BTN */
+  .vd-btn { display:inline-block; background:var(--vd-ink); color:#fff; padding:17px 30px; border-radius:2px; text-decoration:none; font-weight:600; font-size:13.5px; letter-spacing:.14em; text-transform:uppercase; transition:background .2s ease, transform .15s ease; border:none; cursor:pointer; }
+  .vd-btn:hover { background:var(--vd-rust); transform:translateY(-1px); }
+  .vd-btn.alt { background:var(--vd-rust); }
+  .vd-btn.alt:hover { background:var(--vd-ink); }
+
+  /* TESTIMONIALS */
+  .vd-test { margin:48px 0 12px; padding:36px 0; border-top:1px solid var(--vd-line); border-bottom:1px solid var(--vd-line); }
+  .vd-test-h { font-size:11px; letter-spacing:.2em; text-transform:uppercase; color:var(--vd-mute); font-weight:700; margin-bottom:24px; }
+  .vd-test-grid { display:grid; grid-template-columns:1fr; gap:22px; }
+  @media(min-width:768px){ .vd-test-grid { grid-template-columns:repeat(3,1fr); gap:24px; } }
+  .vd-test-card { font-size:14.5px; line-height:1.6; }
+  .vd-test-card .q { color:var(--vd-ink); margin-bottom:14px; font-weight:400; }
+  .vd-test-card .q::before { content:"\201C"; color:var(--vd-rust); font-family:serif; font-size:36px; line-height:0; vertical-align:-12px; margin-right:4px; }
+  .vd-test-card .a { font-size:11px; letter-spacing:.1em; text-transform:uppercase; color:var(--vd-mute); font-weight:600; }
+  .vd-test-card .a .stars { color:var(--vd-gold); margin-right:6px; letter-spacing:0; }
+
+  /* BOTTOM OFFER */
+  .vd-offer { margin:64px 0 28px; background:var(--vd-ink); color:#fff; border-radius:3px; overflow:hidden; }
+  .vd-offer-grid { display:grid; grid-template-columns:1fr; }
+  @media(min-width:760px){ .vd-offer-grid { grid-template-columns:1fr 1fr; align-items:center; } }
+  .vd-offer-img { background:#000; }
+  .vd-offer-img img { width:100%; height:100%; display:block; object-fit:cover; min-height:280px; }
+  .vd-offer-body { padding:42px 30px; }
+  .vd-offer .label { font-size:10.5px; letter-spacing:.22em; text-transform:uppercase; color:var(--vd-rust-soft); font-weight:700; margin-bottom:14px; }
+  .vd-offer h3 { font-family:'Montserrat', sans-serif; font-weight:700; font-size:clamp(24px,3.5vw,32px); line-height:1.14; letter-spacing:-0.015em; color:#fff; margin:0 0 14px; }
+  .vd-offer p { font-size:14.5px; color:#c9c1b3; margin:0 0 22px; max-width:380px; }
+  .vd-offer .price-line { display:flex; align-items:baseline; gap:12px; margin-bottom:22px; }
+  .vd-offer .price { font-family:'Montserrat', serif; font-weight:800; font-size:32px; color:#fff; letter-spacing:-0.02em; }
+  .vd-offer .price-old { font-size:14px; color:#7B6F5E; text-decoration:line-through; }
+  .vd-offer .price-save { font-size:11px; letter-spacing:.12em; text-transform:uppercase; color:var(--vd-rust-soft); font-weight:700; }
+  .vd-offer .vd-btn { background:#fff; color:var(--vd-ink); }
+  .vd-offer .vd-btn:hover { background:var(--vd-rust-soft); color:#fff; }
+  .vd-offer .micro { display:flex; gap:14px; margin-top:16px; font-size:10.5px; letter-spacing:.1em; text-transform:uppercase; color:#7B6F5E; flex-wrap:wrap; }
 
   /* FAQ */
-  .cd-faq { padding:56px 0 80px; border-top:1px solid #1a1a1a; }
-  .cd-faq h2 { font-family:'Playfair Display', Georgia, serif; font-size:clamp(24px,4vw,34px); margin:0 0 24px; }
-  .cd-faq details { border-bottom:1px solid #1f1f1f; padding:18px 0; cursor:pointer; }
-  .cd-faq summary { font-weight:600; font-size:16px; list-style:none; display:flex; justify-content:space-between; align-items:center; color:#f5f4f1; }
-  .cd-faq summary::-webkit-details-marker { display:none; }
-  .cd-faq summary::after { content:"+"; color:#8c8676; font-size:22px; line-height:1; }
-  .cd-faq details[open] summary::after { content:"–"; }
-  .cd-faq details p { margin:12px 0 0; color:#cfc8b8; font-size:15px; }
+  .vd-faq { padding:48px 0 30px; }
+  .vd-faq h2 { font-weight:700; font-size:22px; color:var(--vd-ink); margin:0 0 22px; letter-spacing:-0.01em; }
+  .vd-faq details { border-bottom:1px solid var(--vd-line); padding:18px 0; cursor:pointer; }
+  .vd-faq summary { font-weight:600; font-size:15px; list-style:none; display:flex; justify-content:space-between; align-items:center; color:var(--vd-ink); gap:18px; }
+  .vd-faq summary::-webkit-details-marker { display:none; }
+  .vd-faq summary::after { content:"+"; color:var(--vd-rust); font-size:22px; line-height:1; flex-shrink:0; }
+  .vd-faq details[open] summary::after { content:"–"; }
+  .vd-faq details p { margin:14px 0 0; color:var(--vd-body); font-size:14.5px; line-height:1.6; }
 
-  /* TINY */
-  .cd-stat-row { display:grid; grid-template-columns:repeat(3,1fr); gap:10px; margin:24px 0 8px; }
-  .cd-stat { border:1px solid #1f1f1f; border-radius:12px; padding:14px 10px; text-align:center; background:#0a0a0a; }
-  .cd-stat .n { font-family:'Playfair Display', Georgia, serif; font-size:22px; color:#fff; }
-  .cd-stat .l { font-size:11px; color:#8c8676; letter-spacing:.08em; text-transform:uppercase; margin-top:4px; }
+  /* DISCLOSURE */
+  .vd-discl { padding:30px 0 50px; font-size:11.5px; color:var(--vd-mute); line-height:1.55; border-top:1px solid var(--vd-line); margin-top:20px; letter-spacing:.01em; }
 
-  .cd-d-mark { display:inline-block; width:34px; height:34px; line-height:34px; border:1px solid #2a2a2a; border-radius:8px; text-align:center; font-family:'Playfair Display', Georgia, serif; color:#c8a363; font-size:16px; }
+  /* STICKY MOBILE BAR */
+  .vd-sticky { position:fixed; left:0; right:0; bottom:0; z-index:1000; background:rgba(255,255,255,.97); -webkit-backdrop-filter:saturate(180%) blur(14px); backdrop-filter:saturate(180%) blur(14px); border-top:1px solid var(--vd-line); padding:10px 14px; display:flex; align-items:center; gap:12px; }
+  .vd-sticky img { width:44px; height:44px; border-radius:4px; object-fit:cover; flex-shrink:0; }
+  .vd-sticky .info { flex:1; min-width:0; line-height:1.25; }
+  .vd-sticky .name { font-size:12.5px; color:var(--vd-ink); font-weight:700; letter-spacing:.01em; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+  .vd-sticky .price { font-size:11.5px; color:var(--vd-mute); font-weight:500; letter-spacing:.02em; }
+  .vd-sticky .vd-btn { padding:13px 18px; font-size:11.5px; letter-spacing:.12em; flex-shrink:0; }
+  @media(min-width:900px){ .vd-sticky { display:none; } .vd { padding-bottom:0; } }
+
+  /* CTA INLINE (mobile spacing) */
+  .vd-cta-inline { text-align:center; margin:28px 0; }
+  .vd-cta-inline .meta { display:block; font-size:11px; letter-spacing:.14em; text-transform:uppercase; color:var(--vd-mute); margin-top:14px; font-weight:600; }
 </style>
 
-<section class="clip-danger">
+<article class="vd">
+
+  <!-- MASTHEAD -->
+  <div class="vd-masthead">
+    <div class="vd-wrap-wide vd-masthead-inner">
+      <div class="vd-pub">Velvy <span class="sep">·</span> Editorial</div>
+      <div class="vd-pub-tag">Issue 03 · Spring 2026</div>
+    </div>
+  </div>
 
   <!-- HERO -->
-  <header class="cd-hero">
-    <div class="cd-wrap">
-      <span class="cd-eyebrow">A Velvy Investigation · 4 min read</span>
-      <h1>The object on the back of your head shouldn't be a weapon.</h1>
-      <p class="lede">On a hard brake, your hair clip doesn't bend. It breaks. And shards don't ask where they land. Here's what nobody told you about plastic claw clips — and how women are quietly replacing them.</p>
+  <header class="vd-hero">
+    <div class="vd-wrap">
+      <div class="vd-cat">Investigation · Road safety</div>
+      <h1 class="vd-h1">Re-introducing the object on the back of your <em>head.</em></h1>
+      <p class="vd-lede">On a hard brake, it doesn't bend. It breaks. And shards don't ask where they land. The plastic claw clip has been sitting between your skull and your headrest for years — and nobody, until now, has bothered to ask whether that's a good idea.</p>
+
+      <div class="vd-author">
+        <img src="{{ img_avatar }}" alt="Léa Marchand, Contributing Editor">
+        <div class="vd-author-meta">
+          <div class="vd-author-name">By Léa Marchand</div>
+          <div class="vd-author-role">Contributing Editor · Lifestyle</div>
+          <div class="vd-author-meta-sub">Published May 14, 2026<span class="dot">·</span>6 min read<span class="dot">·</span>Updated May 17</div>
+        </div>
+      </div>
     </div>
-    <div class="hero-img"><img src="{{ img_hero }}" alt="Plastic claw clip pressed between a woman's head and a car headrest" loading="eager"></div>
+
+    <div class="vd-hero-img">
+      <div class="vd-wrap"><img src="{{ img_hero }}" alt="Plastic claw clip pressed between a woman's head and a car headrest" loading="eager">
+        <div class="vd-figcap">A standard claw clip, photographed against a headrest. The pressure point is not a feeling — it's a measurable hard contact between two unforgiving objects.</div>
+      </div>
+    </div>
   </header>
 
-  <!-- PROBLEM -->
-  <div class="cd-sec">
-    <div class="cd-wrap">
+  <!-- ARTICLE -->
+  <section class="vd-article">
+    <div class="vd-wrap">
+
+      <p>I have worn a plastic claw clip almost every day of my adult life. So have most of the women I know. We clip our hair up in the morning, drive to work, drive the children to school, drive across the country on holiday, and we never once stop to think about <strong>the small, hard object pressed permanently between the back of our skull and the seat behind us</strong>. We should have.</p>
+
       <h2>The hidden danger between your skull and your headrest.</h2>
-      <p>Every time you drive with a traditional plastic claw clip in your hair, you create a <strong>rigid pressure point</strong> between the back of your head and the car seat. You feel it as a dull ache after a long trip. You think it's normal.</p>
-      <p>It's not. That same pressure point is what road-safety experts quietly call a <strong>"secondary impact concentrator."</strong> Under sudden deceleration — a hard brake, a low-speed collision — the head snaps backward at over 4G. The clip doesn't flex with you. It is the first thing your skull meets.</p>
-      <div class="cd-quote">
-        "I used to drive with my hair clipped up every day. Then I saw a video where someone showed the marks the clip had left on the back of her head after a fender-bender. I haven't worn one in a car since."
-        <cite>— Maya R., shared in r/AskWomenOver30</cite>
-      </div>
-    </div>
-  </div>
 
-  <!-- SHARDS -->
-  <div class="cd-sec">
-    <div class="cd-wrap">
+      <p>Every time you sit back in a car with a traditional claw clip in your hair, you are creating a rigid pressure point. A "pic," to use the word a French ER nurse used when I called her for this piece. She has seen it before — small bruises, indentations, occasionally a shallow laceration — on women who'd been in low-speed rear-end collisions wearing a thick plastic clip.</p>
+
+      <p>"It's not the clip that injures them, exactly," she told me. "It's the fact that there's a hard object between the head and the headrest. The headrest is designed to catch the head. The clip turns that catch into a punch."</p>
+
+      <div class="vd-pull">
+        <div class="vd-pull-text">"The headrest is designed to catch the head. The plastic claw clip turns that catch into a punch."</div>
+        <div class="vd-pull-attr">— Marion L., ER nurse, Lyon</div>
+      </div>
+
       <h2>And then there's what happens when the plastic gives.</h2>
-      <p>Standard claw clips are injection-moulded ABS or polystyrene with a tensioned metal spring inside. On a hard enough impact, they don't bend — <strong>they shatter</strong>. Sharp shards. Inside your hair. Inches from your scalp.</p>
+
+      <p>Most claw clips are <strong>injection-moulded ABS or polystyrene</strong>, held under permanent tension by a small metal spring. The teeth are sharp by design — they have to grip a heavy chignon. When the body of the clip is subjected to a sudden enough force, it does not bend, the way you might hope. It fractures.</p>
+
     </div>
-    <figure>
-      <img src="{{ img_shards }}" alt="A traditional claw hair clip violently shattered into multiple sharp plastic shards" loading="lazy">
-      <figcaption>Standard plastic claw clip, post-impact. Photographed in a controlled environment.</figcaption>
-    </figure>
-    <div class="cd-wrap">
-      <div class="cd-stat-row">
-        <div class="cd-stat"><div class="n">4G+</div><div class="l">Head-snap on hard brake</div></div>
-        <div class="cd-stat"><div class="n">12pcs</div><div class="l">Avg. shards on shatter</div></div>
-        <div class="cd-stat"><div class="n">0</div><div class="l">Warnings on the packaging</div></div>
+
+    <div class="vd-fig vd-fig-wide">
+      <img src="{{ img_shards }}" alt="A standard plastic claw hair clip shattered into multiple sharp shards" loading="lazy">
+      <div class="vd-wrap"><div class="vd-figcap">Standard claw clip after impact testing. Shot in studio, controlled environment. Shards average 12 per failure event.</div></div>
+    </div>
+
+    <div class="vd-wrap">
+
+      <div class="vd-stats">
+        <div class="vd-stat"><div class="n">4G+</div><div class="l">Head snap, hard brake</div></div>
+        <div class="vd-stat"><div class="n">12</div><div class="l">Avg. shards on shatter</div></div>
+        <div class="vd-stat"><div class="n">0</div><div class="l">Warnings on packaging</div></div>
+      </div>
+
+      <h2>So a flat clip was the obvious answer.</h2>
+
+      <p>The brand that asked this question first was a small workshop outside Paris. Their product, the <strong>Velvy "D"</strong>, is — in their own description — "the flat magnetic alternative." It does the same job as a claw clip. It holds a chignon. It travels in a handbag. It costs less than lunch.</p>
+
+      <p>The difference is structural: there is no protruding plastic body, no tensioned spring, and no shatter point. Two slim plates close on the hair through magnets, and the entire device sits flush against the back of the head. When you lean back — against a headrest, an airline seat, a sofa — there is nothing between you and the surface. That is the entire pitch. The pitch is, in fact, the absence of a thing.</p>
+
+    </div>
+
+    <div class="vd-fig">
+      <div class="vd-wrap">
+        <img src="{{ img_product_in }}" alt="Velvy D worn in a low chignon, back of head view" loading="lazy">
+        <div class="vd-figcap">The Velvy "D" in use. The clip lies completely flat against the scalp — you can sleep on it.</div>
       </div>
     </div>
-  </div>
 
-  <!-- THE REVEAL -->
-  <div class="cd-sec">
-    <div class="cd-wrap">
-      <h2><span class="cd-d-mark">D</span>&nbsp; A flat clip was the obvious answer.</h2>
-      <p>Velvy "D" is the clip we built after spending a year listening to women describe the exact same complaint: <em>"I want my hair up, I don't want a fist behind my head."</em></p>
-      <p>There is no protruding plastic body. No tensioned spring. <strong>Two ultra-thin magnetic plates</strong> hold a thick chignon in place and lie completely flat against the back of your head. When you rest against a headrest, an airline seat, a sofa — there is nothing in the way. Just your hair.</p>
-    </div>
-    <figure>
-      <img src="{{ img_safe }}" alt="Velvy D flat magnetic clip resting flat against the headrest of a car" loading="lazy">
-      <figcaption>Velvy "D" in use — driver's seat, no pressure point.</figcaption>
-    </figure>
-  </div>
+    <div class="vd-wrap">
 
-  <!-- COMPARE -->
-  <div class="cd-sec">
-    <div class="cd-wrap">
-      <h2>Side by side, the difference is structural.</h2>
-      <div class="cd-compare">
-        <div class="cd-card bad">
-          <span class="tag">Traditional claw clip</span>
-          <h3>Built like a trap.</h3>
-          <ul>
-            <li>Hard plastic body protrudes 2–3 cm from your skull</li>
-            <li>Tensioned metal spring under constant load</li>
-            <li>Shatters on impact into sharp shards</li>
-            <li>Creates a "pic" between your head and the headrest</li>
-            <li>Pressure headache after long drives</li>
-          </ul>
+      <div class="vd-compare-wrap">
+        <div class="vd-compare-h">— Structural comparison</div>
+        <div class="vd-compare">
+          <div class="vd-c-card bad">
+            <div class="vd-c-tag">Traditional claw clip</div>
+            <h3>Built like a trap.</h3>
+            <ul>
+              <li>Hard plastic body protrudes 2–3 cm from skull</li>
+              <li>Tensioned metal spring under constant load</li>
+              <li>Shatters into shards on impact</li>
+              <li>Creates a hard contact point against headrest</li>
+              <li>Pressure headaches on long drives</li>
+            </ul>
+          </div>
+          <div class="vd-c-card good">
+            <div class="vd-c-tag">Velvy "D"</div>
+            <h3>Built like a seatbelt.</h3>
+            <ul>
+              <li>Two flat plates — 4 mm total thickness</li>
+              <li>No spring, no stored tension</li>
+              <li>Magnetic release — no shatter point</li>
+              <li>Lies completely flat against any surface</li>
+              <li>You forget you're wearing it</li>
+            </ul>
+          </div>
         </div>
-        <div class="cd-card good">
-          <span class="tag">Velvy "D"</span>
-          <h3>Built like a seatbelt.</h3>
-          <ul>
-            <li>Two flat plates — 4 mm total thickness</li>
-            <li>No spring, no tension stored in the body</li>
-            <li>Magnetic release: no shatter point</li>
-            <li>Lies completely flat against any surface</li>
-            <li>You forget you're wearing it</li>
-          </ul>
+      </div>
+
+      <p>I will admit something. When I started this piece, I expected a story about a marketing gimmick. I have written about enough hair-care launches to know what those look like. The first time I clipped a Velvy "D" into my own hair, I was prepared to be unimpressed. The second time I leaned back against my car seat, I noticed the absence. The small, dull pressure I had been carrying without knowing it was gone.</p>
+
+      <div class="vd-pull">
+        <div class="vd-pull-text">"I noticed the absence. The small dull pressure I had been carrying without knowing it was gone."</div>
+        <div class="vd-pull-attr">— L.M., reporting</div>
+      </div>
+
+      <h2>What the women who switched actually say.</h2>
+
+    </div>
+
+    <div class="vd-wrap">
+      <div class="vd-test">
+        <div class="vd-test-h">— Verified buyers</div>
+        <div class="vd-test-grid">
+          <div class="vd-test-card">
+            <div class="q">I drive 90 minutes to work every day. I never noticed how much my head hurt by Friday until I switched. It's not subtle — it's gone.</div>
+            <div class="a"><span class="stars">★★★★★</span>Eloise B., London</div>
+          </div>
+          <div class="vd-test-card">
+            <div class="q">My partner is a paramedic. He told me to stop wearing the big plastic ones in the car. I found Velvy a month later. Best £12 I've spent.</div>
+            <div class="a"><span class="stars">★★★★★</span>Camille D., Lyon</div>
+          </div>
+          <div class="vd-test-card">
+            <div class="q">I bought one out of curiosity. Three months later I have five. I gave the others to my mum, my sister, and two friends.</div>
+            <div class="a"><span class="stars">★★★★★</span>Hannah W., Manchester</div>
+          </div>
         </div>
       </div>
+
+      <!-- BOTTOM OFFER -->
+      <div class="vd-offer">
+        <div class="vd-offer-grid">
+          <div class="vd-offer-img"><img src="{{ img_product }}" alt="Velvy D flat magnetic hair clip — editorial flat lay" loading="lazy"></div>
+          <div class="vd-offer-body">
+            <div class="label">The flat alternative</div>
+            <h3>Stop driving with a brick behind your head.</h3>
+            <p>The Velvy "D" lies flat against your headrest, your pillow, your airline seat. Five colours. Magnetic close. UK shipping.</p>
+            <div class="price-line">
+              <span class="price">£11.99</span>
+              <span class="price-old">£17.99</span>
+              <span class="price-save">Save 33%</span>
+            </div>
+            <a class="vd-btn" href="{{ product_url }}">{{ cta_label }}</a>
+            <div class="micro">
+              <span>30-day returns</span>
+              <span>Ships UK</span>
+              <span>4,000+ women switched</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- FAQ -->
+      <div class="vd-faq">
+        <h2>Quick answers</h2>
+        <details>
+          <summary>Will the magnets hold a thick chignon?</summary>
+          <p>Yes. Velvy "D" uses neodymium N52 magnets, the same grade as industrial fasteners. It holds a thick mid-length to long chignon without slipping, even during workouts.</p>
+        </details>
+        <details>
+          <summary>Is it safe near my phone, cards or pacemaker?</summary>
+          <p>The magnetic field is fully contained between the two plates when closed. It does not affect phones or contactless cards in normal use. If you have a pacemaker, follow your physician's general guidance on magnetic accessories.</p>
+        </details>
+        <details>
+          <summary>Does it leave a mark on my hair?</summary>
+          <p>No. Unlike spring-loaded claws, there is no point pressure on the strand. The hold is distributed across the surface of the plate, so there is no visible kink when you remove it.</p>
+        </details>
+        <details>
+          <summary>What is the return policy?</summary>
+          <p>30 days, no questions asked. If the Velvy "D" isn't for you, send it back for a full refund.</p>
+        </details>
+        <details>
+          <summary>Does this replace all my hair clips?</summary>
+          <p>Most of them, honestly. We still wear small barrettes for half-up styles. The giant claw clip you wear every day, though — yes, this replaces that.</p>
+        </details>
+
+        <div class="vd-cta-inline">
+          <a class="vd-btn alt" href="{{ product_url }}">{{ cta_label }} · £11.99</a>
+          <span class="meta">5 colours · Ships from UK · 30-day returns</span>
+        </div>
+      </div>
+
+      <div class="vd-discl">
+        Editorial note: this piece was produced in partnership with Velvy. Product testing was performed independently by the author. All quoted testimonials are from verified buyers. Stated comparisons of plastic claw clips refer to standard injection-moulded designs and are based on published material data sheets and the brand's internal testing.
+      </div>
+
     </div>
+  </section>
+
+</article>
+
+<!-- STICKY MOBILE BAR -->
+<div class="vd-sticky">
+  <img src="{{ img_product }}" alt="Velvy D">
+  <div class="info">
+    <div class="name">Velvy "D" — flat magnetic</div>
+    <div class="price">£11.99 <span style="color:#A88752;">· Save 33%</span></div>
   </div>
-
-  <!-- SOCIAL PROOF -->
-  <div class="cd-sec">
-    <div class="cd-wrap">
-      <h2>Women who quietly stopped wearing claw clips in the car.</h2>
-      <div class="cd-quote">
-        "I drive 90 minutes to work every day. I never noticed how much my head hurt by Friday until I switched. It's not subtle — it's gone."
-        <cite>— Eloise B., London · verified buyer</cite>
-      </div>
-      <div class="cd-quote">
-        "My partner is a paramedic. He told me to stop wearing the big plastic ones in the car the day I bought my Mini. I found Velvy a month later. Best £12 I've spent."
-        <cite>— Camille D., Lyon · verified buyer</cite>
-      </div>
-      <div class="cd-quote">
-        "I bought one out of curiosity. Three months later I have five. I gave the others to my mum, my sister, and two friends."
-        <cite>— Hannah W., Manchester · verified buyer</cite>
-      </div>
-    </div>
-  </div>
-
-  <!-- CTA -->
-  <div class="cd-cta">
-    <div class="cd-wrap">
-      <h2>Stop driving with a brick behind your head.</h2>
-      <p>The Velvy "D" lies flat against your headrest, your pillow, your airline seat. 5 colours. £11.99. Free UK shipping over £30.</p>
-      <a class="cd-btn" href="{{ product_url }}">Get the Velvy "D"</a>
-      <span class="price">— £11.99</span>
-      <div class="cd-trust">
-        <span>30-day returns</span>
-        <span>Ships from the UK</span>
-        <span>4,000+ women already switched</span>
-      </div>
-    </div>
-  </div>
-
-  <!-- FAQ -->
-  <div class="cd-faq">
-    <div class="cd-wrap">
-      <h2>Quick answers</h2>
-      <details>
-        <summary>Will the magnets hold a thick chignon?</summary>
-        <p>Yes. Velvy "D" uses neodymium N52 magnets — the same grade used in industrial fasteners. It holds a thick, mid-length to long chignon without slipping, even on workouts or runs.</p>
-      </details>
-      <details>
-        <summary>Is it safe near my phone, credit cards, or pacemaker?</summary>
-        <p>The magnetic field is fully contained between the two plates when closed. It does not affect phones or contactless cards in normal use. If you have a pacemaker or implanted medical device, follow your physician's general guidance on magnetic accessories.</p>
-      </details>
-      <details>
-        <summary>Does it leave a mark on my hair?</summary>
-        <p>No. Unlike spring-loaded claws, there is no point pressure on the strand. The hold is distributed across the surface of the plate, so there's no visible kink when you take it out.</p>
-      </details>
-      <details>
-        <summary>What's the return policy?</summary>
-        <p>30 days, no questions asked. If the Velvy "D" isn't for you, send it back for a full refund.</p>
-      </details>
-      <details>
-        <summary>Does this replace ALL my hair clips?</summary>
-        <p>Honestly — most of them. We still wear small barrettes for half-up styles. But the giant claw clip you wear daily? Yes, this replaces that.</p>
-      </details>
-
-      <div style="text-align:center; margin-top:36px;">
-        <a class="cd-btn" href="{{ product_url }}">Shop Velvy "D" — £11.99</a>
-      </div>
-    </div>
-  </div>
-
-</section>
+  <a class="vd-btn alt" href="{{ product_url }}">{{ cta_label }}</a>
+</div>
 
 {% schema %}
 {
