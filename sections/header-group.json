@@ -41,6 +41,7 @@
         "message_yx3w7J",
         "message_Lt7rLJ"
       ],
+      "disabled": true,
       "settings": {
         "enable_sticky": true,
         "autoplay": false,
@@ -55,6 +56,7 @@
     },
     "header": {
       "type": "header",
+      "disabled": true,
       "settings": {
         "enable_sticky": true,
         "hide_on_scroll": false,
