@@ -51,6 +51,8 @@
   .vd { background:var(--vd-bg); color:var(--vd-body); font-family:'Montserrat', system-ui, -apple-system, sans-serif; -webkit-font-smoothing:antialiased; line-height:1.7; padding-bottom:96px; }
   .vd *, .vd *::before, .vd *::after { box-sizing:border-box; }
   .vd a { color:inherit; }
+  .vd-article p a, .vd-update p a { color:var(--vd-red); text-decoration:underline; text-decoration-thickness:1px; text-underline-offset:3px; font-weight:500; }
+  .vd-article p a:hover, .vd-update p a:hover { color:var(--vd-red-deep); }
 
   .vd-wrap { max-width:680px; margin:0 auto; padding:0 22px; }
   .vd-wrap-wide { max-width:1080px; margin:0 auto; padding:0 22px; }
@@ -223,6 +225,12 @@
   .vd-faq details[open] summary::after { content:"–"; }
   .vd-faq details p { margin:14px 0 0; color:var(--vd-body); font-size:14.5px; line-height:1.6; }
 
+  /* UPDATE NOTICE */
+  .vd-update { background:#FFF9E6; border-left:4px solid #E0A100; padding:22px 26px; margin:48px 0 24px; font-size:14.5px; line-height:1.65; }
+  .vd-update-h { font-size:11px; letter-spacing:.22em; text-transform:uppercase; color:#9A6A00; font-weight:800; margin-bottom:10px; }
+  .vd-update p { margin:0; color:#1A1A1A; font-weight:500; }
+  .vd-update p strong { color:#0A0A0A; font-weight:800; }
+
   /* DISCLOSURE */
   .vd-discl { padding:34px 0 30px; font-size:11.5px; color:var(--vd-mute); line-height:1.6; border-top:1px solid var(--vd-line-2); margin-top:24px; letter-spacing:.01em; }
 
@@ -314,17 +322,13 @@
 
     <div class="vd-wrap">
 
-      <div class="vd-stats">
-        <div class="vd-stat"><div class="n">4<span class="u">G+</span></div><div class="l">Head snap, hard brake</div></div>
-        <div class="vd-stat"><div class="n">12</div><div class="l">Avg. shards on shatter</div></div>
-        <div class="vd-stat"><div class="n">0</div><div class="l">Warnings on packaging</div></div>
-      </div>
-
       <h2><span class="step">— 04</span>So a flat clip was the obvious answer.</h2>
 
-      <p>The brand that asked this question first was a small workshop outside Paris. Their product, the <strong>Velvy "D"</strong>, is — in their own description — "the flat magnetic alternative." It does the same job as a claw clip. It holds a chignon. It travels in a handbag. It costs less than lunch.</p>
+      <p>The brand that asked this question first was a small workshop outside Paris. Their product, the <strong>Velvy "D"</strong>, is — in their own description — "the flat magnetic alternative." It does the same job as a claw clip. It holds a chignon. It travels in a handbag. <a href="#vdShop">It retails at under £12</a>, sold directly on the brand's site rather than through retailers.</p>
 
       <p>The difference is structural: there is no protruding plastic body, no tensioned spring, and no shatter point. Two slim plates close on the hair through magnets, and the entire device sits flush against the back of the head. <strong>When you lean back — against a headrest, an airline seat, a sofa — there is nothing between you and the surface.</strong> That is the entire pitch. The pitch is, in fact, the absence of a thing.</p>
+
+      <p>The workshop is small, and demand has not been small. At the time of writing, the brand confirms a <strong>3-to-4 week backlog</strong> on certain colours and has been replenishing in limited drops. <a href="#vdShop">Current availability is here</a>.</p>
 
     </div>
 
@@ -341,38 +345,6 @@
       <div class="vd-video-caption">
         <div class="vd-figcap"><b>Demonstrated</b>First half: standard plastic claw clip. Second half: the Velvy "D" — flat, flush, no pressure point.</div>
       </div>
-    </div>
-
-    <div class="vd-wrap">
-
-      <div class="vd-compare-wrap">
-        <div class="vd-compare-h">— Structural comparison</div>
-        <div class="vd-compare">
-          <div class="vd-c-card bad">
-            <div class="vd-c-tag">Traditional claw clip</div>
-            <h3>Built like a trap.</h3>
-            <ul>
-              <li>Hard plastic body protrudes 2–3 cm from skull</li>
-              <li>Tensioned metal spring under constant load</li>
-              <li>Shatters into shards on impact</li>
-              <li>Creates a hard contact point against headrest</li>
-              <li>Pressure headaches on long drives</li>
-            </ul>
-          </div>
-          <div class="vd-c-card good">
-            <div class="vd-c-tag">Velvy "D"</div>
-            <h3>Built like a seatbelt.</h3>
-            <ul>
-              <li>Two flat plates — 4 mm total thickness</li>
-              <li>No spring, no stored tension</li>
-              <li>Magnetic release — no shatter point</li>
-              <li>Lies completely flat against any surface</li>
-              <li>You forget you're wearing it</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-
     </div>
 
     <!-- Product worn at home -->
@@ -392,13 +364,17 @@
         <div class="vd-pull-attr">— L.M., reporting</div>
       </div>
 
+      <p>The reader response has been similar. One woman who wrote in after the original publication, Eloise B., commutes ninety minutes each way in London traffic. "I never noticed how much my head hurt by Friday until I switched," she wrote. "It's not subtle — it's gone." Another, Camille D., a chemist in Lyon, sent two sentences: <em>"My partner is a paramedic. He told me to stop wearing the big plastic ones in the car."</em> She made the switch a month later.</p>
+
+      <p>The product is currently <a href="#vdShop">listed on the brand's site here</a>. There is no retail equivalent — for the moment, at least.</p>
+
     </div>
 
     <!-- SHOP SECTION -->
     <div class="vd-wrap">
 
       <div id="vdShop" class="vd-shop">
-        <div class="vd-shop-eyebrow">— The product</div>
+        <div class="vd-shop-eyebrow">— Where to find it</div>
         <form id="vdShopForm" class="vd-shop-grid">
 
           <div class="vd-shop-images">
@@ -412,22 +388,11 @@
           </div>
 
           <div class="vd-shop-info">
-            <div class="vd-shop-label">The flat alternative</div>
+            <div class="vd-shop-label">Sold direct by the brand</div>
             <h3 class="vd-shop-title">Velvy "D" — Magnetic Hair Clip</h3>
-            <div class="vd-shop-rating"><span class="stars">★★★★★</span> 4.8 · 4,000+ verified reviews</div>
 
             <div class="vd-shop-price">
               <span class="price">£11.99</span>
-              <span class="old">£17.99</span>
-              <span class="save">Save 33%</span>
-            </div>
-            <div class="vd-shop-stock">In stock · Ships within 24h</div>
-
-            <div class="vd-shop-feat">
-              <span>No spring</span>
-              <span>No shatter point</span>
-              <span>4 mm flat profile</span>
-              <span>N52 magnets</span>
             </div>
 
             <div class="vd-shop-color">
@@ -441,13 +406,8 @@
               </div>
             </div>
 
-            <button type="submit" class="vd-btn alt vd-shop-cta" id="vdShopCta">Add to cart · £11.99</button>
+            <button type="submit" class="vd-btn alt vd-shop-cta" id="vdShopCta">Order from the brand</button>
             <div class="vd-shop-error" id="vdShopErr">Something went wrong. Please try again.</div>
-            <div class="vd-shop-trust">
-              <span>30-day returns</span>
-              <span>Ships from UK</span>
-              <span>Secure checkout</span>
-            </div>
           </div>
 
         </form>
@@ -457,49 +417,9 @@
 
     <div class="vd-wrap">
 
-      <h2><span class="step">— 05</span>What the women who switched actually say.</h2>
-
-      <div class="vd-test">
-        <div class="vd-test-h">— Verified buyers</div>
-        <div class="vd-test-grid">
-          <div class="vd-test-card">
-            <div class="q">I drive 90 minutes to work every day. I never noticed how much my head hurt by Friday until I switched. It's not subtle — it's gone.</div>
-            <div class="a"><span class="stars">★★★★★</span>Eloise B., London</div>
-          </div>
-          <div class="vd-test-card">
-            <div class="q">My partner is a paramedic. He told me to stop wearing the big plastic ones in the car. I found Velvy a month later. Best £12 I've spent.</div>
-            <div class="a"><span class="stars">★★★★★</span>Camille D., Lyon</div>
-          </div>
-          <div class="vd-test-card">
-            <div class="q">I bought one out of curiosity. Three months later I have five. I gave the others to my mum, my sister, and two friends.</div>
-            <div class="a"><span class="stars">★★★★★</span>Hannah W., Manchester</div>
-          </div>
-        </div>
-      </div>
-
-      <!-- FAQ -->
-      <div class="vd-faq">
-        <h2>Quick answers</h2>
-        <details>
-          <summary>Will the magnets hold a thick chignon?</summary>
-          <p>Yes. Velvy "D" uses neodymium N52 magnets, the same grade as industrial fasteners. It holds a thick mid-length to long chignon without slipping, even during workouts.</p>
-        </details>
-        <details>
-          <summary>Is it safe near my phone, cards or pacemaker?</summary>
-          <p>The magnetic field is fully contained between the two plates when closed. It does not affect phones or contactless cards in normal use. If you have a pacemaker, follow your physician's general guidance on magnetic accessories.</p>
-        </details>
-        <details>
-          <summary>Does it leave a mark on my hair?</summary>
-          <p>No. Unlike spring-loaded claws, there is no point pressure on the strand. The hold is distributed across the surface of the plate, so there is no visible kink when you remove it.</p>
-        </details>
-        <details>
-          <summary>What is the return policy?</summary>
-          <p>30 days, no questions asked. If the Velvy "D" isn't for you, send it back for a full refund.</p>
-        </details>
-        <details>
-          <summary>Does this replace all my hair clips?</summary>
-          <p>Most of them, honestly. We still wear small barrettes for half-up styles. The giant claw clip you wear every day, though — yes, this replaces that.</p>
-        </details>
+      <div class="vd-update">
+        <div class="vd-update-h">— UPDATE · 18 May 2026</div>
+        <p>Following the publication of this piece, the workshop has confirmed a sharp surge in orders. The brand is currently honouring a <strong>33% reader discount</strong> while stock holds — applied automatically on the brand's own site. <a href="#vdShop">Stock check is here</a>. Once the current production run sells through, the next colours are expected mid-June.</p>
       </div>
 
       <div class="vd-discl">
@@ -787,8 +707,8 @@
 <div class="vd-sticky">
   <img src="{{ img_product }}" alt="Velvy D">
   <div class="info">
-    <div class="name">Velvy "D" — flat magnetic</div>
-    <div class="price">£11.99 <b>· Save 33%</b></div>
+    <div class="name">Velvy "D" — sold by the brand</div>
+    <div class="price">From £11.99</div>
   </div>
   <a class="vd-btn alt" href="#vdShop">{{ cta_label }}</a>
 </div>
