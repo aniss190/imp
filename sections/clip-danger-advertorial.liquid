@@ -5,7 +5,7 @@
 {%- assign img_product       = 'https://cdn.shopify.com/s/files/1/1017/2396/3727/files/velvy-d-product-editorial-v3.jpg' -%}
 {%- assign img_product_in    = 'https://cdn.shopify.com/s/files/1/1017/2396/3727/files/velvy-d-product-in-hair-v3.jpg' -%}
 {%- assign cta_label         = 'Check availability' -%}
-{%- comment -%} cache-bust v1779051300 hide-global-chrome-via-js {%- endcomment -%}
+{%- comment -%} cache-bust v1779052000 video-demo + hide-global-chrome-via-js {%- endcomment -%}
 
 {%- assign product = all_products['velvy-d-magnetic-hair-clip'] -%}
 
@@ -107,6 +107,12 @@
   .vd-fig img { width:100%; height:auto; display:block; }
   .vd-fig-wide { margin-left:calc(50% - 50vw); margin-right:calc(50% - 50vw); max-width:none; }
   @media(min-width:768px){ .vd-fig-wide { margin-left:calc(-1*((100vw - 680px)/2)); margin-right:calc(-1*((100vw - 680px)/2)); } }
+
+  /* VIDEO DEMO */
+  .vd-video { margin:52px 0 0; position:relative; background:#000; }
+  .vd-video video { width:100%; height:auto; display:block; background:#000; max-height:80vh; object-fit:contain; }
+  .vd-video .vd-video-tag { position:absolute; left:18px; top:18px; background:rgba(14,12,9,.86); border-left:2px solid var(--vd-red); padding:8px 12px; font-size:10px; letter-spacing:.22em; text-transform:uppercase; color:var(--vd-red); font-weight:800; z-index:2; -webkit-backdrop-filter:blur(8px); backdrop-filter:blur(8px); }
+  .vd-video-caption { margin:0 0 52px; padding-top:12px; }
 
   /* IN-USE PROOF (Velvy D in car) */
   .vd-proof { margin:52px 0; position:relative; }
@@ -307,6 +313,17 @@
 
       <p>The difference is structural: there is no protruding plastic body, no tensioned spring, and no shatter point. Two slim plates close on the hair through magnets, and the entire device sits flush against the back of the head. <strong>When you lean back — against a headrest, an airline seat, a sofa — there is nothing between you and the surface.</strong> That is the entire pitch. The pitch is, in fact, the absence of a thing.</p>
 
+    </div>
+
+    <!-- VIDEO DEMO — side-by-side -->
+    <div class="vd-video vd-fig-wide">
+      <span class="vd-video-tag">— Side-by-side test</span>
+      <video autoplay muted loop playsinline preload="metadata" controls poster="{{ img_car_hero }}">
+        <source src="https://cdn.shopify.com/videos/c/o/v/fd3cec5976914697a9a1716cda77b80c.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="vd-wrap vd-video-caption">
+      <div class="vd-figcap"><b>Demonstrated</b>Left half: a standard plastic claw clip against the headrest — visible pressure, audible contact. Right half: the Velvy "D" — flat, silent, flush. Same hair, same headrest, same angle.</div>
     </div>
 
     <!-- IN-USE PROOF — Velvy D in car -->
