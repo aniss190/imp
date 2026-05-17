@@ -379,7 +379,7 @@
         <div class="vd-shop-grid">
 
           <div class="vd-shop-images">
-            <img class="vd-shop-main" src="{{ img_product }}" alt='Velvy "D" — Magnetic Hair Clip'>
+            <img class="vd-shop-main" src="{% if product.featured_image %}{{ product.featured_image | image_url: width: 800 }}{% else %}{{ img_product }}{% endif %}" alt="{{ product.title | default: 'Velvy D — Magnetic Hair Clip' }}">
           </div>
 
           <div class="vd-shop-info">
