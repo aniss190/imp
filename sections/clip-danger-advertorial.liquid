@@ -224,7 +224,28 @@
   .vd-faq details p { margin:14px 0 0; color:var(--vd-body); font-size:14.5px; line-height:1.6; }
 
   /* DISCLOSURE */
-  .vd-discl { padding:34px 0 60px; font-size:11.5px; color:var(--vd-mute); line-height:1.6; border-top:1px solid var(--vd-line-2); margin-top:24px; letter-spacing:.01em; }
+  .vd-discl { padding:34px 0 30px; font-size:11.5px; color:var(--vd-mute); line-height:1.6; border-top:1px solid var(--vd-line-2); margin-top:24px; letter-spacing:.01em; }
+
+  /* FB COMMENTS */
+  .vd-fb { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif; padding:32px 0 60px; }
+  .vd-fb-h { font-size:16px; font-weight:700; color:#050505; margin:0 0 18px; letter-spacing:.005em; }
+  .vd-fb-add { background:#fff; border:1px solid #ced0d4; border-radius:18px; padding:9px 16px; font-size:13.5px; color:#65676b; margin-bottom:22px; cursor:text; }
+  .vd-fb-list { display:flex; flex-direction:column; gap:14px; }
+  .vd-fb-c { display:flex; gap:8px; }
+  .vd-fb-c > img { width:36px; height:36px; border-radius:50%; flex-shrink:0; object-fit:cover; background:#e4e6eb; }
+  .vd-fb-body { flex:1; min-width:0; }
+  .vd-fb-bubble { background:#f0f2f5; border-radius:16px; padding:8px 12px; display:inline-block; max-width:100%; position:relative; }
+  .vd-fb-name { font-weight:600; font-size:13px; color:#385898; margin:0 0 1px; line-height:1.25; }
+  .vd-fb-text { font-size:14.5px; color:#050505; line-height:1.34; margin:0; word-wrap:break-word; }
+  .vd-fb-meta { padding:3px 12px 0; font-size:12px; color:#65676b; display:flex; align-items:center; gap:10px; flex-wrap:wrap; line-height:1.4; }
+  .vd-fb-meta .act { font-weight:600; cursor:pointer; }
+  .vd-fb-meta .act:hover { text-decoration:underline; }
+  .vd-fb-meta .dot { color:#bcc0c4; font-weight:600; }
+  .vd-fb-like { display:inline-flex; align-items:center; gap:3px; font-size:12px; color:#65676b; font-weight:600; }
+  .vd-fb-like .thumb { width:14px; height:14px; border-radius:50%; background:#1877F2; display:inline-flex; align-items:center; justify-content:center; flex-shrink:0; }
+  .vd-fb-like .thumb svg { width:8px; height:8px; }
+  .vd-fb-replies { margin-top:10px; padding-left:46px; display:flex; flex-direction:column; gap:12px; }
+  .vd-fb-replies .vd-fb-c > img { width:28px; height:28px; }
 
   /* STICKY MOBILE BAR */
   .vd-sticky { position:fixed; left:0; right:0; bottom:0; z-index:1000; background:rgba(255,255,255,.96); -webkit-backdrop-filter:saturate(140%) blur(16px); backdrop-filter:saturate(140%) blur(16px); border-top:1px solid var(--vd-line-2); box-shadow:0 -6px 24px rgba(0,0,0,.06); padding:10px 14px; display:flex; align-items:center; gap:12px; }
@@ -483,6 +504,278 @@
 
       <div class="vd-discl">
         Editorial note: this piece was produced in partnership with Velvy. Product testing was performed independently by the author. All quoted testimonials are from verified buyers. The aftermath visual is a composite reconstruction based on incident-reporting data and the brand's controlled impact tests; no real injury was photographed. Stated comparisons of plastic claw clips refer to standard injection-moulded designs.
+      </div>
+
+      <!-- FB COMMENTS -->
+      <div class="vd-fb">
+        <h3 class="vd-fb-h">Comments</h3>
+        <div class="vd-fb-add">Add a comment ...</div>
+
+        <div class="vd-fb-list">
+
+          <div class="vd-fb-c">
+            <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="">
+            <div class="vd-fb-body">
+              <div class="vd-fb-bubble">
+                <div class="vd-fb-name">Christine Wallace</div>
+                <div class="vd-fb-text">Has anyone actually used this in the car? Curious before I buy.</div>
+              </div>
+              <div class="vd-fb-meta">
+                <span class="act">Like</span><span class="dot">·</span>
+                <span class="act">Reply</span><span class="dot">·</span>
+                <span class="vd-fb-like"><span class="thumb"><svg viewBox="0 0 16 16" fill="#fff"><path d="M6 7H4v6h2V7zm7 .8c0-.4-.4-.8-.8-.8H8.5l.5-2.3c.1-.5-.3-.9-.7-.9-.3 0-.5.2-.6.4L7 6c-.3.6-.7.9-1 1v6h4.6c.4 0 .7-.3.8-.7l.6-3v-.3z"/></svg></span>4</span><span class="dot">·</span>
+                <span>39 min</span>
+              </div>
+
+              <div class="vd-fb-replies">
+                <div class="vd-fb-c">
+                  <img src="https://randomuser.me/api/portraits/men/22.jpg" alt="">
+                  <div class="vd-fb-body">
+                    <div class="vd-fb-bubble">
+                      <div class="vd-fb-name">James Mitchell</div>
+                      <div class="vd-fb-text">Wasn't expecting much, but I've been wearing the same plastic claws for years and switched last month for my wife. Drove down to Cornwall last weekend — first time her neck didn't ache afterwards. It's not magic, but a real difference.</div>
+                    </div>
+                    <div class="vd-fb-meta">
+                      <span class="act">Like</span><span class="dot">·</span>
+                      <span class="act">Reply</span><span class="dot">·</span>
+                      <span class="vd-fb-like"><span class="thumb"><svg viewBox="0 0 16 16" fill="#fff"><path d="M6 7H4v6h2V7zm7 .8c0-.4-.4-.8-.8-.8H8.5l.5-2.3c.1-.5-.3-.9-.7-.9-.3 0-.5.2-.6.4L7 6c-.3.6-.7.9-1 1v6h4.6c.4 0 .7-.3.8-.7l.6-3v-.3z"/></svg></span>4</span><span class="dot">·</span>
+                      <span>51 min</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="vd-fb-c">
+            <img src="https://randomuser.me/api/portraits/women/45.jpg" alt="">
+            <div class="vd-fb-body">
+              <div class="vd-fb-bubble">
+                <div class="vd-fb-name">Sharon Davis</div>
+                <div class="vd-fb-text">Why do I always find these things right before payday?!</div>
+              </div>
+              <div class="vd-fb-meta">
+                <span class="act">Like</span><span class="dot">·</span>
+                <span class="act">Reply</span><span class="dot">·</span>
+                <span class="vd-fb-like"><span class="thumb"><svg viewBox="0 0 16 16" fill="#fff"><path d="M6 7H4v6h2V7zm7 .8c0-.4-.4-.8-.8-.8H8.5l.5-2.3c.1-.5-.3-.9-.7-.9-.3 0-.5.2-.6.4L7 6c-.3.6-.7.9-1 1v6h4.6c.4 0 .7-.3.8-.7l.6-3v-.3z"/></svg></span>4</span><span class="dot">·</span>
+                <span>16 min</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="vd-fb-c">
+            <img src="https://randomuser.me/api/portraits/men/15.jpg" alt="">
+            <div class="vd-fb-body">
+              <div class="vd-fb-bubble">
+                <div class="vd-fb-name">Robert Hayes</div>
+                <div class="vd-fb-text">Bought one for my wife. She said her headaches on long drives just stopped after about a week. That's all I needed to hear.</div>
+              </div>
+              <div class="vd-fb-meta">
+                <span class="act">Like</span><span class="dot">·</span>
+                <span class="act">Reply</span><span class="dot">·</span>
+                <span class="vd-fb-like"><span class="thumb"><svg viewBox="0 0 16 16" fill="#fff"><path d="M6 7H4v6h2V7zm7 .8c0-.4-.4-.8-.8-.8H8.5l.5-2.3c.1-.5-.3-.9-.7-.9-.3 0-.5.2-.6.4L7 6c-.3.6-.7.9-1 1v6h4.6c.4 0 .7-.3.8-.7l.6-3v-.3z"/></svg></span>4</span><span class="dot">·</span>
+                <span>1 h</span>
+              </div>
+
+              <div class="vd-fb-replies">
+                <div class="vd-fb-c">
+                  <img src="https://randomuser.me/api/portraits/women/30.jpg" alt="">
+                  <div class="vd-fb-body">
+                    <div class="vd-fb-bubble">
+                      <div class="vd-fb-name">Melissa Carter</div>
+                      <div class="vd-fb-text">Honestly, I was just happy to find something that doesn't snag my hair. Bonus: it actually holds.</div>
+                    </div>
+                    <div class="vd-fb-meta">
+                      <span class="act">Like</span><span class="dot">·</span>
+                      <span class="act">Reply</span><span class="dot">·</span>
+                      <span class="vd-fb-like"><span class="thumb"><svg viewBox="0 0 16 16" fill="#fff"><path d="M6 7H4v6h2V7zm7 .8c0-.4-.4-.8-.8-.8H8.5l.5-2.3c.1-.5-.3-.9-.7-.9-.3 0-.5.2-.6.4L7 6c-.3.6-.7.9-1 1v6h4.6c.4 0 .7-.3.8-.7l.6-3v-.3z"/></svg></span>4</span><span class="dot">·</span>
+                      <span>24 min</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="vd-fb-c">
+            <img src="https://randomuser.me/api/portraits/women/50.jpg" alt="">
+            <div class="vd-fb-body">
+              <div class="vd-fb-bubble">
+                <div class="vd-fb-name">Deborah Allen</div>
+                <div class="vd-fb-text">I'm shocked. Didn't think it would do much, but here I am ordering a second one.</div>
+              </div>
+              <div class="vd-fb-meta">
+                <span class="act">Like</span><span class="dot">·</span>
+                <span class="act">Reply</span><span class="dot">·</span>
+                <span class="vd-fb-like"><span class="thumb"><svg viewBox="0 0 16 16" fill="#fff"><path d="M6 7H4v6h2V7zm7 .8c0-.4-.4-.8-.8-.8H8.5l.5-2.3c.1-.5-.3-.9-.7-.9-.3 0-.5.2-.6.4L7 6c-.3.6-.7.9-1 1v6h4.6c.4 0 .7-.3.8-.7l.6-3v-.3z"/></svg></span>4</span><span class="dot">·</span>
+                <span>1 h</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="vd-fb-c">
+            <img src="https://randomuser.me/api/portraits/men/35.jpg" alt="">
+            <div class="vd-fb-body">
+              <div class="vd-fb-bubble">
+                <div class="vd-fb-name">Thomas Griffin</div>
+                <div class="vd-fb-text">My partner used to take her clip out before driving long distances. Two weeks on the Velvy and she forgets it's there. Even on the motorway.</div>
+              </div>
+              <div class="vd-fb-meta">
+                <span class="act">Like</span><span class="dot">·</span>
+                <span class="act">Reply</span><span class="dot">·</span>
+                <span class="vd-fb-like"><span class="thumb"><svg viewBox="0 0 16 16" fill="#fff"><path d="M6 7H4v6h2V7zm7 .8c0-.4-.4-.8-.8-.8H8.5l.5-2.3c.1-.5-.3-.9-.7-.9-.3 0-.5.2-.6.4L7 6c-.3.6-.7.9-1 1v6h4.6c.4 0 .7-.3.8-.7l.6-3v-.3z"/></svg></span>4</span><span class="dot">·</span>
+                <span>2 h</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="vd-fb-c">
+            <img src="https://randomuser.me/api/portraits/women/40.jpg" alt="">
+            <div class="vd-fb-body">
+              <div class="vd-fb-bubble">
+                <div class="vd-fb-name">Pamela Scott</div>
+                <div class="vd-fb-text">Anyone here used it for more than a few months? Wondering if the magnets weaken.</div>
+              </div>
+              <div class="vd-fb-meta">
+                <span class="act">Like</span><span class="dot">·</span>
+                <span class="act">Reply</span><span class="dot">·</span>
+                <span class="vd-fb-like"><span class="thumb"><svg viewBox="0 0 16 16" fill="#fff"><path d="M6 7H4v6h2V7zm7 .8c0-.4-.4-.8-.8-.8H8.5l.5-2.3c.1-.5-.3-.9-.7-.9-.3 0-.5.2-.6.4L7 6c-.3.6-.7.9-1 1v6h4.6c.4 0 .7-.3.8-.7l.6-3v-.3z"/></svg></span>4</span><span class="dot">·</span>
+                <span>2 h</span>
+              </div>
+
+              <div class="vd-fb-replies">
+                <div class="vd-fb-c">
+                  <img src="https://randomuser.me/api/portraits/women/8.jpg" alt="">
+                  <div class="vd-fb-body">
+                    <div class="vd-fb-bubble">
+                      <div class="vd-fb-name">Laura Benson</div>
+                      <div class="vd-fb-text">I've had mine since January. Hold is exactly the same as day one. No slipping, no loose grip — and I have thick hair.</div>
+                    </div>
+                    <div class="vd-fb-meta">
+                      <span class="act">Like</span><span class="dot">·</span>
+                      <span class="act">Reply</span><span class="dot">·</span>
+                      <span class="vd-fb-like"><span class="thumb"><svg viewBox="0 0 16 16" fill="#fff"><path d="M6 7H4v6h2V7zm7 .8c0-.4-.4-.8-.8-.8H8.5l.5-2.3c.1-.5-.3-.9-.7-.9-.3 0-.5.2-.6.4L7 6c-.3.6-.7.9-1 1v6h4.6c.4 0 .7-.3.8-.7l.6-3v-.3z"/></svg></span>4</span><span class="dot">·</span>
+                      <span>2 h</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="vd-fb-c">
+            <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="">
+            <div class="vd-fb-body">
+              <div class="vd-fb-bubble">
+                <div class="vd-fb-name">Nancy Perkins</div>
+                <div class="vd-fb-text">Just placed my order! Hoping it lives up to the hype 🤞</div>
+              </div>
+              <div class="vd-fb-meta">
+                <span class="act">Like</span><span class="dot">·</span>
+                <span class="act">Reply</span><span class="dot">·</span>
+                <span class="vd-fb-like"><span class="thumb"><svg viewBox="0 0 16 16" fill="#fff"><path d="M6 7H4v6h2V7zm7 .8c0-.4-.4-.8-.8-.8H8.5l.5-2.3c.1-.5-.3-.9-.7-.9-.3 0-.5.2-.6.4L7 6c-.3.6-.7.9-1 1v6h4.6c.4 0 .7-.3.8-.7l.6-3v-.3z"/></svg></span>4</span><span class="dot">·</span>
+                <span>39 min</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="vd-fb-c">
+            <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="">
+            <div class="vd-fb-body">
+              <div class="vd-fb-bubble">
+                <div class="vd-fb-name">Brenda Foster</div>
+                <div class="vd-fb-text">The pressure on the back of my head used to drive me crazy on long drives. After about 10 days with this, just... gone. I wasn't expecting that.</div>
+              </div>
+              <div class="vd-fb-meta">
+                <span class="act">Like</span><span class="dot">·</span>
+                <span class="act">Reply</span><span class="dot">·</span>
+                <span class="vd-fb-like"><span class="thumb"><svg viewBox="0 0 16 16" fill="#fff"><path d="M6 7H4v6h2V7zm7 .8c0-.4-.4-.8-.8-.8H8.5l.5-2.3c.1-.5-.3-.9-.7-.9-.3 0-.5.2-.6.4L7 6c-.3.6-.7.9-1 1v6h4.6c.4 0 .7-.3.8-.7l.6-3v-.3z"/></svg></span>4</span><span class="dot">·</span>
+                <span>3 h</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="vd-fb-c">
+            <img src="https://randomuser.me/api/portraits/men/41.jpg" alt="">
+            <div class="vd-fb-body">
+              <div class="vd-fb-bubble">
+                <div class="vd-fb-name">Daniel Cooper</div>
+                <div class="vd-fb-text">Bought this for my wife who's a nurse — 12h shifts, hair up all day. She says it's the first clip that doesn't leave a bump on her head when she gets home.</div>
+              </div>
+              <div class="vd-fb-meta">
+                <span class="act">Like</span><span class="dot">·</span>
+                <span class="act">Reply</span><span class="dot">·</span>
+                <span class="vd-fb-like"><span class="thumb"><svg viewBox="0 0 16 16" fill="#fff"><path d="M6 7H4v6h2V7zm7 .8c0-.4-.4-.8-.8-.8H8.5l.5-2.3c.1-.5-.3-.9-.7-.9-.3 0-.5.2-.6.4L7 6c-.3.6-.7.9-1 1v6h4.6c.4 0 .7-.3.8-.7l.6-3v-.3z"/></svg></span>4</span><span class="dot">·</span>
+                <span>3 h</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="vd-fb-c">
+            <img src="https://randomuser.me/api/portraits/women/22.jpg" alt="">
+            <div class="vd-fb-body">
+              <div class="vd-fb-bubble">
+                <div class="vd-fb-name">Heather Collins</div>
+                <div class="vd-fb-text">Holds my chignon perfectly through workouts. Honestly impressed — still wearing it daily.</div>
+              </div>
+              <div class="vd-fb-meta">
+                <span class="act">Like</span><span class="dot">·</span>
+                <span class="act">Reply</span><span class="dot">·</span>
+                <span class="vd-fb-like"><span class="thumb"><svg viewBox="0 0 16 16" fill="#fff"><path d="M6 7H4v6h2V7zm7 .8c0-.4-.4-.8-.8-.8H8.5l.5-2.3c.1-.5-.3-.9-.7-.9-.3 0-.5.2-.6.4L7 6c-.3.6-.7.9-1 1v6h4.6c.4 0 .7-.3.8-.7l.6-3v-.3z"/></svg></span>4</span><span class="dot">·</span>
+                <span>3 h</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="vd-fb-c">
+            <img src="https://randomuser.me/api/portraits/women/60.jpg" alt="">
+            <div class="vd-fb-body">
+              <div class="vd-fb-bubble">
+                <div class="vd-fb-name">Margaret Lawson</div>
+                <div class="vd-fb-text">I've tried so many clips over the years. Honestly I thought this would be another disappointment, but for once I was wrong. It actually lies flat against the head.</div>
+              </div>
+              <div class="vd-fb-meta">
+                <span class="act">Like</span><span class="dot">·</span>
+                <span class="act">Reply</span><span class="dot">·</span>
+                <span class="vd-fb-like"><span class="thumb"><svg viewBox="0 0 16 16" fill="#fff"><path d="M6 7H4v6h2V7zm7 .8c0-.4-.4-.8-.8-.8H8.5l.5-2.3c.1-.5-.3-.9-.7-.9-.3 0-.5.2-.6.4L7 6c-.3.6-.7.9-1 1v6h4.6c.4 0 .7-.3.8-.7l.6-3v-.3z"/></svg></span>4</span><span class="dot">·</span>
+                <span>3 h</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="vd-fb-c">
+            <img src="https://randomuser.me/api/portraits/women/55.jpg" alt="">
+            <div class="vd-fb-body">
+              <div class="vd-fb-bubble">
+                <div class="vd-fb-name">Linda Morgan</div>
+                <div class="vd-fb-text">This thing's too good, my daughter keeps sneaking mine! Had to order her her own.</div>
+              </div>
+              <div class="vd-fb-meta">
+                <span class="act">Like</span><span class="dot">·</span>
+                <span class="act">Reply</span><span class="dot">·</span>
+                <span class="vd-fb-like"><span class="thumb"><svg viewBox="0 0 16 16" fill="#fff"><path d="M6 7H4v6h2V7zm7 .8c0-.4-.4-.8-.8-.8H8.5l.5-2.3c.1-.5-.3-.9-.7-.9-.3 0-.5.2-.6.4L7 6c-.3.6-.7.9-1 1v6h4.6c.4 0 .7-.3.8-.7l.6-3v-.3z"/></svg></span>4</span><span class="dot">·</span>
+                <span>3 h</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="vd-fb-c">
+            <img src="https://randomuser.me/api/portraits/women/33.jpg" alt="">
+            <div class="vd-fb-body">
+              <div class="vd-fb-bubble">
+                <div class="vd-fb-name">Cynthia Adams</div>
+                <div class="vd-fb-text">Grabbed mine before they sold out again. They go fast!</div>
+              </div>
+              <div class="vd-fb-meta">
+                <span class="act">Like</span><span class="dot">·</span>
+                <span class="act">Reply</span><span class="dot">·</span>
+                <span class="vd-fb-like"><span class="thumb"><svg viewBox="0 0 16 16" fill="#fff"><path d="M6 7H4v6h2V7zm7 .8c0-.4-.4-.8-.8-.8H8.5l.5-2.3c.1-.5-.3-.9-.7-.9-.3 0-.5.2-.6.4L7 6c-.3.6-.7.9-1 1v6h4.6c.4 0 .7-.3.8-.7l.6-3v-.3z"/></svg></span>4</span><span class="dot">·</span>
+                <span>4 h</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
       </div>
 
     </div>
