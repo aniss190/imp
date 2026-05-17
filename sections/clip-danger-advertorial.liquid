@@ -28,7 +28,7 @@
       + '[id*="announcement-bar"],'
       + '[id*="__header"],'
       + '[id*="__footer"]{display:none!important;visibility:hidden!important;height:0!important;margin:0!important;padding:0!important;border:0!important;overflow:hidden!important;}'
-      + 'html,body{background:#0E0C09!important;}'
+      + 'html,body{background:#FFFFFF!important;}'
       + 'body{padding-top:0!important;margin-top:0!important;--header-height:0px!important;--announcement-bar-height:0px!important;--sticky-area-height:0px!important;}';
     (document.head || document.documentElement).appendChild(s);
   })();
@@ -36,17 +36,17 @@
 
 <style>
   :root {
-    --vd-bg:        #0E0C09;
-    --vd-surface:   #181612;
-    --vd-surface-2: #1F1B16;
-    --vd-ink:       #F1ECDE;
-    --vd-body:      #B6AD98;
+    --vd-bg:        #FFFFFF;
+    --vd-surface:   #F4F1EC;
+    --vd-surface-2: #FAF7F1;
+    --vd-ink:       #0A0A0A;
+    --vd-body:      #2B2B2B;
     --vd-mute:      #7A7163;
-    --vd-line:      #1F1B16;
-    --vd-line-2:    #2A251D;
-    --vd-red:       #C8392B;
-    --vd-red-deep:  #8E2417;
-    --vd-tan:       #A8855C;
+    --vd-line:      #ECE7DD;
+    --vd-line-2:    #D9D3C5;
+    --vd-red:       #D81B22;
+    --vd-red-deep:  #A0141A;
+    --vd-tan:       #8B5A2B;
   }
   .vd { background:var(--vd-bg); color:var(--vd-body); font-family:'Montserrat', system-ui, -apple-system, sans-serif; -webkit-font-smoothing:antialiased; line-height:1.7; padding-bottom:96px; }
   .vd *, .vd *::before, .vd *::after { box-sizing:border-box; }
@@ -112,13 +112,13 @@
   .vd-video { margin:52px 0 0; display:flex; justify-content:center; background:transparent; }
   .vd-video .vd-video-frame { position:relative; width:100%; max-width:560px; aspect-ratio:1/1; background:#000; overflow:hidden; }
   .vd-video video { width:100%; height:100%; display:block; object-fit:cover; pointer-events:none; }
-  .vd-video .vd-video-tag { position:absolute; left:14px; top:14px; background:rgba(14,12,9,.86); border-left:2px solid var(--vd-red); padding:7px 11px; font-size:10px; letter-spacing:.22em; text-transform:uppercase; color:var(--vd-red); font-weight:800; z-index:2; -webkit-backdrop-filter:blur(8px); backdrop-filter:blur(8px); }
+  .vd-video .vd-video-tag { position:absolute; left:14px; top:14px; background:rgba(255,255,255,.94); border-left:2px solid var(--vd-red); padding:7px 11px; font-size:10px; letter-spacing:.22em; text-transform:uppercase; color:var(--vd-red); font-weight:800; z-index:2; -webkit-backdrop-filter:blur(8px); backdrop-filter:blur(8px); }
   .vd-video-caption { margin:0 0 52px; padding-top:14px; text-align:center; }
 
   /* IN-USE PROOF (Velvy D in car) */
   .vd-proof { margin:52px 0; position:relative; }
   .vd-proof img { width:100%; height:auto; display:block; }
-  .vd-proof-overlay { position:absolute; left:22px; bottom:22px; max-width:340px; background:rgba(14,12,9,.88); -webkit-backdrop-filter:blur(8px); backdrop-filter:blur(8px); padding:20px 22px; border-left:2px solid var(--vd-red); }
+  .vd-proof-overlay { position:absolute; left:22px; bottom:22px; max-width:340px; background:rgba(255,255,255,.94); -webkit-backdrop-filter:blur(8px); backdrop-filter:blur(8px); padding:20px 22px; border-left:2px solid var(--vd-red); }
   .vd-proof-overlay .label { font-size:10px; letter-spacing:.22em; text-transform:uppercase; color:var(--vd-red); font-weight:800; margin-bottom:9px; }
   .vd-proof-overlay .txt { font-size:13.5px; line-height:1.55; color:var(--vd-ink); font-weight:500; }
   @media(max-width:600px){ .vd-proof-overlay { position:static; max-width:none; border-left:none; border-top:2px solid var(--vd-red); margin-top:0; } }
@@ -182,7 +182,7 @@
   .vd-shop-price { display:flex; align-items:baseline; gap:12px; margin-bottom:8px; flex-wrap:wrap; }
   .vd-shop-price .price { font-family:'Montserrat', sans-serif; font-weight:800; font-size:38px; color:var(--vd-ink); letter-spacing:-0.03em; line-height:1; }
   .vd-shop-price .old { font-size:15px; color:var(--vd-mute); text-decoration:line-through; }
-  .vd-shop-price .save { font-size:10.5px; letter-spacing:.14em; text-transform:uppercase; color:var(--vd-red); font-weight:800; background:rgba(200,57,43,.12); padding:4px 8px; }
+  .vd-shop-price .save { font-size:10.5px; letter-spacing:.14em; text-transform:uppercase; color:#fff; font-weight:800; background:var(--vd-red); padding:4px 8px; }
   .vd-shop-stock { font-size:11px; color:var(--vd-tan); letter-spacing:.1em; text-transform:uppercase; font-weight:700; margin-bottom:20px; }
   .vd-shop-stock::before { content:"●"; color:#7be39a; margin-right:6px; font-size:9px; vertical-align:1px; }
 
@@ -227,7 +227,7 @@
   .vd-discl { padding:34px 0 60px; font-size:11.5px; color:var(--vd-mute); line-height:1.6; border-top:1px solid var(--vd-line-2); margin-top:24px; letter-spacing:.01em; }
 
   /* STICKY MOBILE BAR */
-  .vd-sticky { position:fixed; left:0; right:0; bottom:0; z-index:1000; background:rgba(14,12,9,.94); -webkit-backdrop-filter:saturate(140%) blur(16px); backdrop-filter:saturate(140%) blur(16px); border-top:1px solid var(--vd-line-2); padding:10px 14px; display:flex; align-items:center; gap:12px; }
+  .vd-sticky { position:fixed; left:0; right:0; bottom:0; z-index:1000; background:rgba(255,255,255,.96); -webkit-backdrop-filter:saturate(140%) blur(16px); backdrop-filter:saturate(140%) blur(16px); border-top:1px solid var(--vd-line-2); box-shadow:0 -6px 24px rgba(0,0,0,.06); padding:10px 14px; display:flex; align-items:center; gap:12px; }
   .vd-sticky img { width:44px; height:44px; border-radius:2px; object-fit:cover; flex-shrink:0; border:1px solid var(--vd-line-2); }
   .vd-sticky .info { flex:1; min-width:0; line-height:1.25; }
   .vd-sticky .name { font-size:12.5px; color:var(--vd-ink); font-weight:700; letter-spacing:.01em; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
