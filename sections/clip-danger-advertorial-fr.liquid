@@ -1,0 +1,699 @@
+{%- assign img_hero          = 'https://cdn.shopify.com/s/files/1/1017/2396/3727/files/gemini-ri81dd7022l_1.jpg?v=1779058406' -%}
+{%- assign img_shards        = 'https://cdn.shopify.com/s/files/1/1017/2396/3727/files/velvy-advertorial-shattered-clip.jpg' -%}
+{%- assign img_car_hero      = 'https://cdn.shopify.com/s/files/1/1017/2396/3727/files/velvy-d-insitu-hidden-v7.jpg' -%}
+{%- assign img_avatar        = 'https://cdn.shopify.com/s/files/1/1017/2396/3727/files/velvy-advertorial-author-avatar.jpg' -%}
+{%- assign img_product       = 'https://cdn.shopify.com/s/files/1/1017/2396/3727/files/velvy-d-product-editorial-v3.jpg' -%}
+{%- assign img_product_in    = 'https://cdn.shopify.com/s/files/1/1017/2396/3727/files/gemini-82cwja2kzhi.jpg?v=1779054064' -%}
+{%- assign cta_label         = 'Vérifier la disponibilité' -%}
+{%- comment -%} cache-bust v1779054200 driver-turning-v8 {%- endcomment -%}
+
+{%- assign product = all_products['velvy-d-magnetic-hair-clip'] -%}
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<script>
+  (function(){
+    var s = document.createElement('style');
+    s.id = 'vd-hide-global';
+    s.textContent = ''
+      + '.shopify-section-group-header-group,'
+      + '.shopify-section-group-footer-group,'
+      + '.shopify-section--announcement-bar,'
+      + '.shopify-section--header,'
+      + '.shopify-section--footer,'
+      + '#shopify-section-header,'
+      + '#shopify-section-footer,'
+      + '[id*="announcement-bar"],'
+      + '[id*="__header"],'
+      + '[id*="__footer"]{display:none!important;visibility:hidden!important;height:0!important;margin:0!important;padding:0!important;border:0!important;overflow:hidden!important;}'
+      + 'html,body{background:#FFFFFF!important;}'
+      + 'body{padding-top:0!important;margin-top:0!important;--header-height:0px!important;--announcement-bar-height:0px!important;--sticky-area-height:0px!important;}';
+    (document.head || document.documentElement).appendChild(s);
+  })();
+</script>
+
+<style>
+  :root {
+    --vd-bg:        #FFFFFF;
+    --vd-surface:   #F4F1EC;
+    --vd-surface-2: #FAF7F1;
+    --vd-ink:       #0A0A0A;
+    --vd-body:      #2B2B2B;
+    --vd-mute:      #7A7163;
+    --vd-line:      #ECE7DD;
+    --vd-line-2:    #D9D3C5;
+    --vd-red:       #D81B22;
+    --vd-red-deep:  #A0141A;
+    --vd-tan:       #8B5A2B;
+  }
+  .vd { background:var(--vd-bg); color:var(--vd-body); font-family:'Montserrat', system-ui, -apple-system, sans-serif; -webkit-font-smoothing:antialiased; line-height:1.7; padding-bottom:96px; }
+  .vd *, .vd *::before, .vd *::after { box-sizing:border-box; }
+  .vd a { color:inherit; }
+  .vd-article p a, .vd-update p a { color:var(--vd-red); text-decoration:underline; text-decoration-thickness:1px; text-underline-offset:3px; font-weight:500; }
+  .vd-article p a:hover, .vd-update p a:hover { color:var(--vd-red-deep); }
+
+  .vd-wrap { max-width:680px; margin:0 auto; padding:0 22px; }
+  .vd-wrap-wide { max-width:1080px; margin:0 auto; padding:0 22px; }
+
+  /* MASTHEAD */
+  .vd-masthead { border-bottom:1px solid var(--vd-line-2); padding:16px 0; background:var(--vd-bg); }
+  .vd-masthead-inner { display:flex; align-items:center; justify-content:space-between; gap:14px; }
+  .vd-pub { font-weight:800; font-size:11px; letter-spacing:.34em; color:var(--vd-ink); text-transform:uppercase; }
+  .vd-pub .sep { color:var(--vd-mute); margin:0 8px; font-weight:400; }
+  .vd-pub-tag { font-size:10px; letter-spacing:.18em; color:var(--vd-mute); text-transform:uppercase; }
+  .vd-pub-tag .red { color:var(--vd-red); font-weight:700; }
+
+  /* HERO */
+  .vd-hero { padding:64px 0 0; }
+  .vd-cat { display:inline-flex; align-items:center; gap:12px; font-size:11px; letter-spacing:.24em; text-transform:uppercase; color:var(--vd-red); font-weight:800; margin-bottom:28px; }
+  .vd-cat::before { content:""; width:28px; height:1px; background:var(--vd-red); display:inline-block; }
+  .vd-cat .num { background:var(--vd-red); color:#fff; padding:3px 7px; font-size:9.5px; letter-spacing:.12em; margin-right:6px; }
+  .vd-h1 { font-family:'Montserrat', sans-serif; font-weight:800; font-size:clamp(36px, 6.4vw, 60px); line-height:1.04; letter-spacing:-0.028em; color:var(--vd-ink); margin:0 0 22px; }
+  .vd-h1 em { font-style:italic; font-weight:600; color:var(--vd-red); }
+  .vd-lede { font-size:clamp(17px,2vw,20px); color:var(--vd-body); max-width:620px; margin:0 0 32px; font-weight:400; line-height:1.55; }
+  .vd-lede strong { color:var(--vd-ink); font-weight:600; }
+
+  /* AUTHOR */
+  .vd-author { display:flex; align-items:center; gap:14px; padding:22px 0 28px; border-top:1px solid var(--vd-line-2); border-bottom:1px solid var(--vd-line-2); margin-bottom:32px; }
+  .vd-author img { width:50px; height:50px; border-radius:50%; object-fit:cover; border:1px solid var(--vd-line-2); }
+  .vd-author-meta { display:flex; flex-direction:column; gap:3px; }
+  .vd-author-name { font-weight:700; font-size:13.5px; color:var(--vd-ink); letter-spacing:.01em; }
+  .vd-author-role { font-size:11.5px; color:var(--vd-mute); letter-spacing:.04em; }
+  .vd-author-meta-sub { font-size:10.5px; color:var(--vd-mute); letter-spacing:.08em; margin-top:2px; text-transform:uppercase; font-weight:600; }
+  .vd-author-meta-sub .dot { margin:0 7px; color:var(--vd-line-2); }
+
+  /* HERO IMG */
+  .vd-hero-img { margin:0 0 18px; }
+  .vd-hero-img img { width:100%; height:auto; display:block; }
+  .vd-figcap { font-size:12px; color:var(--vd-mute); letter-spacing:.01em; padding:12px 0 0; font-style:italic; line-height:1.55; }
+  .vd-figcap b { font-style:normal; color:var(--vd-body); text-transform:uppercase; font-size:10.5px; letter-spacing:.16em; margin-right:6px; font-weight:700; }
+
+  /* ARTICLE */
+  .vd-article { padding:40px 0 24px; }
+  .vd-article p { font-size:17px; color:var(--vd-body); margin:0 0 24px; font-weight:400; }
+  .vd-article p strong { color:var(--vd-ink); font-weight:600; }
+  .vd-article p:first-of-type::first-letter { float:left; font-family:'Montserrat', serif; font-weight:800; font-size:78px; line-height:.84; color:var(--vd-ink); padding:6px 12px 0 0; }
+  .vd-article h2 { font-family:'Montserrat', sans-serif; font-weight:700; font-size:clamp(22px,3.4vw,30px); line-height:1.18; letter-spacing:-0.015em; color:var(--vd-ink); margin:48px 0 18px; }
+  .vd-article h2::before { content:""; display:block; width:34px; height:2px; background:var(--vd-red); margin-bottom:14px; }
+  .vd-article h2 .step { display:inline-block; font-family:'Montserrat', sans-serif; font-weight:800; font-size:11px; color:var(--vd-red); letter-spacing:.18em; text-transform:uppercase; margin-right:10px; vertical-align:middle; }
+
+  /* PULL QUOTE Vox-style */
+  .vd-pull { margin:38px -8px; padding:26px 30px; background:var(--vd-surface); border-left:3px solid var(--vd-red); }
+  .vd-pull-text { font-family:'Montserrat', sans-serif; font-style:italic; font-weight:500; font-size:clamp(19px,2.5vw,24px); line-height:1.42; color:var(--vd-ink); margin:0 0 14px; letter-spacing:-0.012em; }
+  .vd-pull-attr { font-size:11px; letter-spacing:.16em; text-transform:uppercase; color:var(--vd-mute); font-weight:700; }
+
+  /* FIGURE */
+  .vd-fig { margin:40px 0; }
+  .vd-fig img { width:100%; height:auto; display:block; }
+  .vd-fig-wide { margin-left:calc(50% - 50vw); margin-right:calc(50% - 50vw); max-width:none; }
+  @media(min-width:768px){ .vd-fig-wide { margin-left:calc(-1*((100vw - 680px)/2)); margin-right:calc(-1*((100vw - 680px)/2)); } }
+
+  /* VIDEO DEMO — 1:1 centered, no controls */
+  .vd-video { margin:52px 0 0; display:flex; justify-content:center; background:transparent; }
+  .vd-video .vd-video-frame { position:relative; width:100%; max-width:560px; aspect-ratio:1/1; background:#000; overflow:hidden; }
+  .vd-video video { width:100%; height:100%; display:block; object-fit:cover; pointer-events:none; }
+  .vd-video .vd-video-tag { position:absolute; left:14px; top:14px; background:rgba(255,255,255,.94); border-left:2px solid var(--vd-red); padding:7px 11px; font-size:10px; letter-spacing:.22em; text-transform:uppercase; color:var(--vd-red); font-weight:800; z-index:2; -webkit-backdrop-filter:blur(8px); backdrop-filter:blur(8px); }
+  .vd-video-caption { margin:0 0 52px; padding-top:14px; text-align:center; }
+
+  /* IN-USE PROOF (Velvy D in car) */
+  .vd-proof { margin:52px 0; position:relative; }
+  .vd-proof img { width:100%; height:auto; display:block; }
+  .vd-proof-overlay { position:absolute; left:22px; bottom:22px; max-width:340px; background:rgba(255,255,255,.94); -webkit-backdrop-filter:blur(8px); backdrop-filter:blur(8px); padding:20px 22px; border-left:2px solid var(--vd-red); }
+  .vd-proof-overlay .label { font-size:10px; letter-spacing:.22em; text-transform:uppercase; color:var(--vd-red); font-weight:800; margin-bottom:9px; }
+  .vd-proof-overlay .txt { font-size:13.5px; line-height:1.55; color:var(--vd-ink); font-weight:500; }
+  @media(max-width:600px){ .vd-proof-overlay { position:static; max-width:none; border-left:none; border-top:2px solid var(--vd-red); margin-top:0; } }
+
+  /* STATS — NYT Well style */
+  .vd-stats { display:grid; grid-template-columns:repeat(3,1fr); gap:0; margin:32px 0 12px; padding:0; border-top:1px solid var(--vd-line-2); border-bottom:1px solid var(--vd-line-2); }
+  .vd-stat { text-align:center; padding:28px 14px; border-right:1px solid var(--vd-line-2); }
+  .vd-stat:last-child { border-right:none; }
+  .vd-stat .n { font-family:'Montserrat', sans-serif; font-weight:800; font-size:36px; color:var(--vd-ink); line-height:1; letter-spacing:-0.025em; }
+  .vd-stat .n .u { font-size:18px; color:var(--vd-red); font-weight:700; margin-left:2px; }
+  .vd-stat .l { font-size:10.5px; color:var(--vd-mute); letter-spacing:.14em; text-transform:uppercase; margin-top:10px; font-weight:700; }
+
+  /* COMPARE */
+  .vd-compare-wrap { margin:44px 0; }
+  .vd-compare-h { font-size:10.5px; letter-spacing:.22em; text-transform:uppercase; color:var(--vd-mute); font-weight:800; margin-bottom:16px; }
+  .vd-compare { display:grid; grid-template-columns:1fr; gap:14px; }
+  @media(min-width:640px){ .vd-compare { grid-template-columns:1fr 1fr; gap:18px; } }
+  .vd-c-card { background:var(--vd-surface); border:1px solid var(--vd-line-2); padding:28px 22px; }
+  .vd-c-card.bad { border-top:3px solid var(--vd-red); }
+  .vd-c-card.good { border-top:3px solid var(--vd-tan); }
+  .vd-c-tag { font-size:10px; letter-spacing:.2em; text-transform:uppercase; font-weight:800; color:var(--vd-mute); margin-bottom:12px; }
+  .vd-c-card h3 { font-size:19px; font-weight:700; color:var(--vd-ink); margin:0 0 18px; letter-spacing:-0.005em; }
+  .vd-c-card ul { list-style:none; padding:0; margin:0; }
+  .vd-c-card li { padding:11px 0 11px 24px; position:relative; color:var(--vd-body); font-size:14.5px; line-height:1.55; border-top:1px solid var(--vd-line-2); }
+  .vd-c-card li:first-child { border-top:none; padding-top:2px; }
+  .vd-c-card.bad li::before { content:"—"; position:absolute; left:0; color:var(--vd-red); font-weight:700; font-size:16px; }
+  .vd-c-card.good li::before { content:"+"; position:absolute; left:0; color:var(--vd-tan); font-weight:700; font-size:18px; }
+
+  /* TESTIMONIALS */
+  .vd-test { margin:52px 0 12px; padding:40px 0; border-top:1px solid var(--vd-line-2); border-bottom:1px solid var(--vd-line-2); }
+  .vd-test-h { font-size:10.5px; letter-spacing:.22em; text-transform:uppercase; color:var(--vd-mute); font-weight:800; margin-bottom:26px; }
+  .vd-test-grid { display:grid; grid-template-columns:1fr; gap:24px; }
+  @media(min-width:768px){ .vd-test-grid { grid-template-columns:repeat(3,1fr); gap:26px; } }
+  .vd-test-card { font-size:14.5px; line-height:1.6; }
+  .vd-test-card .q { color:var(--vd-ink); margin-bottom:14px; font-weight:400; }
+  .vd-test-card .q::before { content:"\201C"; color:var(--vd-red); font-family:serif; font-size:38px; line-height:0; vertical-align:-12px; margin-right:4px; }
+  .vd-test-card .a { font-size:10.5px; letter-spacing:.12em; text-transform:uppercase; color:var(--vd-mute); font-weight:700; }
+  .vd-test-card .a .stars { color:var(--vd-tan); margin-right:7px; letter-spacing:0; font-size:12px; }
+
+  /* ============== SHOP SECTION (replaces offer block) ============== */
+  .vd-shop { margin:72px 0 32px; scroll-margin-top:20px; }
+  .vd-shop-eyebrow { display:flex; align-items:center; gap:10px; font-size:10.5px; letter-spacing:.22em; text-transform:uppercase; color:var(--vd-red); font-weight:800; margin-bottom:20px; }
+  .vd-shop-eyebrow::before { content:""; display:block; width:28px; height:1px; background:var(--vd-red); }
+
+  .vd-shop-grid { display:grid; grid-template-columns:1fr; gap:28px; background:var(--vd-surface-2); border:1px solid var(--vd-line-2); padding:24px; }
+  @media(min-width:760px){ .vd-shop-grid { grid-template-columns:1fr 1fr; gap:36px; padding:32px; align-items:start; } }
+
+  .vd-shop-images { position:relative; }
+  .vd-shop-main { width:100%; aspect-ratio:1/1; object-fit:cover; display:block; background:var(--vd-surface); }
+  .vd-shop-thumbs { display:grid; grid-template-columns:repeat(4,1fr); gap:8px; margin-top:10px; }
+  .vd-shop-thumb { background:none; border:1px solid var(--vd-line-2); padding:0; cursor:pointer; aspect-ratio:1/1; overflow:hidden; transition:border-color .15s ease; }
+  .vd-shop-thumb img { width:100%; height:100%; object-fit:cover; display:block; }
+  .vd-shop-thumb.active { border-color:var(--vd-red); }
+
+  .vd-shop-info { display:flex; flex-direction:column; }
+  .vd-shop-label { font-size:10.5px; letter-spacing:.22em; text-transform:uppercase; color:var(--vd-tan); font-weight:800; margin-bottom:10px; }
+  .vd-shop-title { font-family:'Montserrat', sans-serif; font-weight:700; font-size:clamp(24px,3.4vw,32px); line-height:1.12; letter-spacing:-0.02em; color:var(--vd-ink); margin:0 0 12px; }
+  .vd-shop-rating { display:flex; align-items:center; gap:8px; font-size:12px; color:var(--vd-mute); margin-bottom:18px; letter-spacing:.02em; font-weight:600; }
+  .vd-shop-rating .stars { color:var(--vd-tan); letter-spacing:1px; font-size:14px; }
+
+  .vd-shop-price { display:flex; align-items:baseline; gap:10px; margin-bottom:22px; flex-wrap:wrap; }
+  .vd-shop-price .from { font-size:11px; letter-spacing:.18em; text-transform:uppercase; color:var(--vd-mute); font-weight:700; }
+  .vd-shop-price .price { font-family:'Montserrat', sans-serif; font-weight:800; font-size:38px; color:var(--vd-ink); letter-spacing:-0.03em; line-height:1; }
+  .vd-shop-price .old { font-size:15px; color:var(--vd-mute); text-decoration:line-through; }
+  .vd-shop-price .save { font-size:10.5px; letter-spacing:.14em; text-transform:uppercase; color:#fff; font-weight:800; background:var(--vd-red); padding:4px 8px; }
+  .vd-shop-stock { font-size:11px; color:var(--vd-tan); letter-spacing:.1em; text-transform:uppercase; font-weight:700; margin-bottom:20px; }
+  .vd-shop-stock::before { content:"●"; color:#7be39a; margin-right:6px; font-size:9px; vertical-align:1px; }
+
+  .vd-shop-feat { display:flex; flex-wrap:wrap; gap:8px; margin-bottom:22px; }
+  .vd-shop-feat span { font-size:11px; color:var(--vd-body); padding:6px 10px; background:var(--vd-surface); border:1px solid var(--vd-line-2); font-weight:600; letter-spacing:.02em; }
+  .vd-shop-feat span::before { content:"+"; color:var(--vd-tan); font-weight:700; margin-right:5px; }
+
+  .vd-shop-color { margin-bottom:22px; }
+  .vd-shop-color-lab { font-size:11px; letter-spacing:.16em; text-transform:uppercase; color:var(--vd-mute); font-weight:700; margin-bottom:10px; }
+  .vd-shop-color-lab b { color:var(--vd-ink); font-weight:800; margin-left:6px; }
+  .vd-shop-swatches { display:flex; flex-wrap:wrap; gap:10px; }
+  .vd-shop-swatch { width:36px; height:36px; border-radius:50%; border:1px solid var(--vd-line-2); padding:0; cursor:pointer; position:relative; transition:transform .15s ease; }
+  .vd-shop-swatch::after { content:""; position:absolute; inset:-5px; border:1.5px solid transparent; border-radius:50%; transition:border-color .15s ease; }
+  .vd-shop-swatch.active::after { border-color:var(--vd-red); }
+  .vd-shop-swatch:hover { transform:scale(1.05); }
+
+  .vd-shop-cta { width:100%; padding:18px 22px; font-size:13.5px; letter-spacing:.18em; text-align:center; }
+  .vd-shop-cta[data-state="added"] { background:#1f3d23; color:#aef2bb; }
+  .vd-shop-reassure { margin-top:12px; font-size:11px; letter-spacing:.08em; color:var(--vd-mute); text-align:center; font-weight:600; line-height:1.5; }
+  .vd-shop-trust { display:flex; gap:14px; margin-top:14px; font-size:10.5px; letter-spacing:.12em; text-transform:uppercase; color:var(--vd-mute); flex-wrap:wrap; font-weight:700; }
+  .vd-shop-trust span::before { content:"✓"; color:var(--vd-tan); margin-right:5px; }
+
+  .vd-shop-error { display:none; margin-top:10px; color:var(--vd-red); font-size:12px; font-weight:600; }
+
+  /* BTN */
+  .vd-btn { display:inline-block; background:var(--vd-ink); color:var(--vd-bg); padding:17px 30px; border-radius:0; text-decoration:none; font-weight:700; font-size:13px; letter-spacing:.16em; text-transform:uppercase; transition:background .2s ease, color .2s ease, transform .15s ease; border:none; cursor:pointer; line-height:1; }
+  .vd-btn:hover { background:var(--vd-red); color:#fff; transform:translateY(-1px); }
+  .vd-btn.alt { background:var(--vd-red); color:#fff; }
+  .vd-btn.alt:hover { background:var(--vd-ink); color:var(--vd-bg); }
+  .vd-btn:disabled { opacity:.7; cursor:wait; transform:none; }
+
+  /* FAQ */
+  .vd-faq { padding:52px 0 30px; }
+  .vd-faq h2 { font-weight:700; font-size:22px; color:var(--vd-ink); margin:0 0 22px; letter-spacing:-0.01em; }
+  .vd-faq details { border-bottom:1px solid var(--vd-line-2); padding:18px 0; cursor:pointer; }
+  .vd-faq summary { font-weight:600; font-size:15px; list-style:none; display:flex; justify-content:space-between; align-items:center; color:var(--vd-ink); gap:18px; }
+  .vd-faq summary::-webkit-details-marker { display:none; }
+  .vd-faq summary::after { content:"+"; color:var(--vd-red); font-size:22px; line-height:1; flex-shrink:0; }
+  .vd-faq details[open] summary::after { content:"–"; }
+  .vd-faq details p { margin:14px 0 0; color:var(--vd-body); font-size:14.5px; line-height:1.6; }
+
+  /* UPDATE NOTICE */
+  .vd-update { background:#FFF9E6; border-left:4px solid #E0A100; padding:22px 26px; margin:48px 0 24px; font-size:14.5px; line-height:1.65; }
+  .vd-update-h { font-size:11px; letter-spacing:.22em; text-transform:uppercase; color:#9A6A00; font-weight:800; margin-bottom:10px; }
+  .vd-update p { margin:0; color:#1A1A1A; font-weight:500; }
+  .vd-update p strong { color:#0A0A0A; font-weight:800; }
+
+  /* DISCLOSURE */
+  .vd-discl { padding:34px 0 30px; font-size:11.5px; color:var(--vd-mute); line-height:1.6; border-top:1px solid var(--vd-line-2); margin-top:24px; letter-spacing:.01em; }
+
+  /* FB COMMENTS */
+  .vd-fb { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif; padding:32px 0 60px; }
+  .vd-fb-h { font-size:16px; font-weight:700; color:#050505; margin:0 0 18px; letter-spacing:.005em; }
+  .vd-fb-add { background:#fff; border:1px solid #ced0d4; border-radius:18px; padding:9px 16px; font-size:13.5px; color:#65676b; margin-bottom:22px; cursor:text; }
+  .vd-fb-list { display:flex; flex-direction:column; gap:14px; }
+  .vd-fb-c { display:flex; gap:8px; }
+  .vd-fb-c > img { width:36px; height:36px; border-radius:50%; flex-shrink:0; object-fit:cover; background:#e4e6eb; }
+  .vd-fb-body { flex:1; min-width:0; }
+  .vd-fb-bubble { background:#f0f2f5; border-radius:16px; padding:8px 12px; display:inline-block; max-width:100%; position:relative; }
+  .vd-fb-name { font-weight:600; font-size:13px; color:#385898; margin:0 0 1px; line-height:1.25; }
+  .vd-fb-text { font-size:14.5px; color:#050505; line-height:1.34; margin:0; word-wrap:break-word; }
+  .vd-fb-meta { padding:3px 12px 0; font-size:12px; color:#65676b; display:flex; align-items:center; gap:10px; flex-wrap:wrap; line-height:1.4; }
+  .vd-fb-meta .act { font-weight:600; cursor:pointer; }
+  .vd-fb-meta .act:hover { text-decoration:underline; }
+  .vd-fb-meta .dot { color:#bcc0c4; font-weight:600; }
+  .vd-fb-like { display:inline-flex; align-items:center; gap:3px; font-size:12px; color:#65676b; font-weight:600; }
+  .vd-fb-like .thumb { width:14px; height:14px; border-radius:50%; background:#1877F2; display:inline-flex; align-items:center; justify-content:center; flex-shrink:0; }
+  .vd-fb-like .thumb svg { width:8px; height:8px; }
+  .vd-fb-replies { margin-top:10px; padding-left:46px; display:flex; flex-direction:column; gap:12px; }
+  .vd-fb-replies .vd-fb-c > img { width:28px; height:28px; }
+
+  /* STICKY MOBILE BAR */
+  .vd-sticky { position:fixed; left:0; right:0; bottom:0; z-index:1000; background:rgba(255,255,255,.96); -webkit-backdrop-filter:saturate(140%) blur(16px); backdrop-filter:saturate(140%) blur(16px); border-top:1px solid var(--vd-line-2); box-shadow:0 -6px 24px rgba(0,0,0,.06); padding:10px 14px; display:flex; align-items:center; gap:12px; }
+  .vd-sticky img { width:44px; height:44px; border-radius:2px; object-fit:cover; flex-shrink:0; border:1px solid var(--vd-line-2); }
+  .vd-sticky .info { flex:1; min-width:0; line-height:1.25; }
+  .vd-sticky .name { font-size:12.5px; color:var(--vd-ink); font-weight:700; letter-spacing:.01em; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+  .vd-sticky .price { font-size:11px; color:var(--vd-mute); font-weight:600; letter-spacing:.02em; }
+  .vd-sticky .price b { color:var(--vd-red); font-weight:800; }
+  .vd-sticky .vd-btn { padding:13px 16px; font-size:11px; letter-spacing:.14em; flex-shrink:0; }
+  @media(min-width:900px){ .vd-sticky { display:none; } .vd { padding-bottom:0; } }
+</style>
+
+<article class="vd">
+
+  <!-- HERO -->
+  <header class="vd-hero">
+    <div class="vd-wrap">
+      <h1 class="vd-h1">Repenser l'objet posé à l'arrière de votre <em>tête.</em></h1>
+      <p class="vd-lede">Lors d'un freinage brutal, il ne plie pas. Il casse. Et les éclats ne demandent pas où ils atterrissent. <strong>La pince à cheveux en plastique est coincée entre votre crâne et votre appuie-tête depuis des années</strong> — et personne, jusqu'à présent, ne s'est demandé si c'était une bonne idée.</p>
+
+      <div class="vd-author">
+        <img src="{{ img_avatar }}" alt="Eleanor Whitfield, rédactrice contributrice">
+        <div class="vd-author-meta">
+          <div class="vd-author-name">Par Eleanor Whitfield</div>
+          <div class="vd-author-role">Rédactrice contributrice · Lifestyle</div>
+          <div class="vd-author-meta-sub">Publié le 14 mai 2026<span class="dot">·</span>6 min de lecture<span class="dot">·</span>Mis à jour le 17 mai</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="vd-hero-img">
+      <div class="vd-wrap">
+        <img src="{{ img_hero }}" alt="Conséquences d'une collision à faible vitesse : une pince à cheveux en plastique s'est brisée, des éclats emmêlés dans les cheveux d'une femme contre l'appuie-tête" loading="eager">
+      </div>
+    </div>
+  </header>
+
+  <!-- ARTICLE -->
+  <section class="vd-article">
+    <div class="vd-wrap">
+
+      <p>J'ai porté une pince à cheveux en plastique presque tous les jours de ma vie adulte. Comme la plupart des femmes que je connais. Le matin, on s'attache les cheveux, on va travailler en voiture, on emmène les enfants à l'école, on traverse le pays pour les vacances, et jamais nous ne pensons à <strong>ce petit objet dur, pressé en permanence entre l'arrière de notre crâne et le siège derrière nous</strong>. Nous aurions dû.</p>
+
+      <h2><span class="step">— 01</span>Le danger caché entre votre crâne et votre appuie-tête.</h2>
+
+      <p>Chaque fois que vous vous asseyez dans une voiture avec une pince traditionnelle dans les cheveux, vous créez un point de pression rigide. «&nbsp;Une pointe&nbsp;», pour reprendre le terme employé par une infirmière des urgences que j'ai appelée pour cet article. Elle l'a déjà constaté&nbsp;: petits hématomes, marques d'enfoncement, parfois une lacération superficielle, sur des femmes victimes de collisions arrière à faible vitesse qui portaient une pince épaisse en plastique.</p>
+
+      <p>«&nbsp;Ce n'est pas exactement la pince qui les blesse, m'a-t-elle expliqué. C'est le fait qu'il y a un objet dur entre la tête et l'appuie-tête. L'appuie-tête est conçu pour amortir la tête. La pince transforme cet amortissement en coup.&nbsp;»</p>
+
+      <div class="vd-pull">
+        <div class="vd-pull-text">«&nbsp;L'appuie-tête est conçu pour amortir la tête. La pince en plastique transforme cet amortissement en coup.&nbsp;»</div>
+        <div class="vd-pull-attr">— Marion L., infirmière aux urgences, Manchester</div>
+      </div>
+
+      <h2><span class="step">— 02</span>Et puis il y a ce qui se passe quand le plastique cède.</h2>
+
+      <p>La plupart des pinces sont en <strong>ABS ou polystyrène moulé par injection</strong>, maintenues sous tension permanente par un petit ressort métallique. Les dents sont tranchantes par conception — elles doivent retenir un chignon lourd. Lorsque le corps de la pince subit une force suffisamment soudaine, il ne plie pas, comme on pourrait l'espérer. Il se fracture.</p>
+
+    </div>
+
+    <div class="vd-fig vd-fig-wide">
+      <img src="{{ img_shards }}" alt="Une pince à cheveux standard en plastique brisée en de multiples éclats tranchants" loading="lazy">
+      <div class="vd-wrap"><div class="vd-figcap"><b>Condition de test</b>Pince standard après impact contrôlé. Moyenne de 12 éclats par rupture. Source&nbsp;: tests internes Velvy, mars 2026.</div></div>
+    </div>
+
+    <div class="vd-wrap">
+
+      <h2><span class="step">— 03</span>Une pince plate s'imposait comme évidence.</h2>
+
+      <p>La marque qui a posé la question la première était un petit atelier indépendant. Leur produit, la <strong>Velvy «&nbsp;D&nbsp;»</strong>, est — selon leur propre description — «&nbsp;l'alternative plate magnétique&nbsp;». Elle remplit la même fonction qu'une pince à griffes. Elle tient un chignon. Elle se glisse dans un sac à main. <a href="#vdShop">Elle est vendue à moins de 12&nbsp;£</a>, directement sur le site de la marque plutôt que par les détaillants.</p>
+
+      <p>La différence est structurelle&nbsp;: pas de corps en plastique saillant, pas de ressort sous tension, et aucun point de rupture. Deux fines plaques se referment sur les cheveux grâce à des aimants, et le dispositif entier repose à plat contre l'arrière de la tête. <strong>Quand vous vous adossez — contre un appuie-tête, un siège d'avion, un canapé — il n'y a rien entre vous et la surface.</strong> C'est tout l'argument. L'argument, en fait, c'est l'absence d'objet.</p>
+
+      <p>L'atelier est petit, mais la demande, elle, ne l'a pas été. À l'heure où nous écrivons, la marque confirme un <strong>délai de 3 à 4 semaines</strong> sur certains coloris et réapprovisionne par petits lots. <a href="#vdShop">La disponibilité actuelle est ici</a>.</p>
+
+    </div>
+
+    <!-- VIDEO DEMO — side-by-side, 1:1 centered, no controls -->
+    <div class="vd-wrap">
+      <div class="vd-video">
+        <div class="vd-video-frame">
+          <span class="vd-video-tag">— Test comparatif</span>
+          <video autoplay muted loop playsinline preload="metadata" poster="{{ img_car_hero }}" disablepictureinpicture disableremoteplayback>
+            <source src="https://cdn.shopify.com/videos/c/o/v/bb5e1790684340ba9086b50cd560cdda.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+      <div class="vd-video-caption">
+        <div class="vd-figcap"><b>Démonstration</b>Première moitié&nbsp;: pince à griffes standard en plastique. Seconde moitié&nbsp;: la Velvy «&nbsp;D&nbsp;» — plate, affleurante, sans point de pression.</div>
+      </div>
+    </div>
+
+    <!-- Product worn at home -->
+    <div class="vd-fig">
+      <div class="vd-wrap">
+        <img src="{{ img_product_in }}" alt="Velvy D écaille de tortue tenant un chignon bas, vue de dos" loading="lazy">
+        <div class="vd-figcap"><b>Portée</b>La Velvy «&nbsp;D&nbsp;» écaille de tortue — plaquée à l'arrière d'une demi-queue. Portée au volant, photographiée à l'heure dorée.</div>
+      </div>
+    </div>
+
+    <div class="vd-wrap">
+
+      <p>Je vais avouer quelque chose. En entamant cet article, je m'attendais à un sujet sur un gadget marketing. J'ai couvert assez de lancements capillaires pour savoir à quoi cela ressemble. La première fois que j'ai mis une Velvy «&nbsp;D&nbsp;» dans mes propres cheveux, je m'attendais à ne pas être impressionnée. <strong>La deuxième fois que je me suis adossée à mon siège de voiture, j'ai remarqué l'absence.</strong> La petite pression sourde que je portais sans le savoir avait disparu.</p>
+
+      <div class="vd-pull">
+        <div class="vd-pull-text">«&nbsp;J'ai remarqué l'absence. La petite pression sourde que je portais sans le savoir avait disparu.&nbsp;»</div>
+        <div class="vd-pull-attr">— L.M., reportage</div>
+      </div>
+
+      <p>La réaction des lectrices a été similaire. Une femme qui nous a écrit après la publication initiale, Eloise B., fait quatre-vingt-dix minutes de trajet dans le sens chaque jour dans la circulation londonienne. «&nbsp;Je ne réalisais pas à quel point j'avais mal à la tête le vendredi avant de changer, écrit-elle. Ce n'est pas subtil&nbsp;: c'est parti.&nbsp;» Une autre, Sarah D., pharmacienne à Bristol, nous a envoyé deux phrases&nbsp;: <em>«&nbsp;Mon compagnon est ambulancier. Il m'a dit d'arrêter de porter les grosses pinces en plastique en voiture.&nbsp;»</em> Elle a fait le changement un mois plus tard.</p>
+
+      <p>Le produit est actuellement <a href="#vdShop">disponible sur le site de la marque ici</a>. Il n'existe pas d'équivalent en boutique — du moins pour le moment.</p>
+
+    </div>
+
+    <!-- SHOP SECTION -->
+    <div class="vd-wrap">
+
+      <div id="vdShop" class="vd-shop">
+        <div class="vd-shop-eyebrow">— Où le trouver</div>
+        <div class="vd-shop-grid">
+
+          <div class="vd-shop-images">
+            <img class="vd-shop-main" src="{% if product.featured_image %}{{ product.featured_image | image_url: width: 800 }}{% else %}{{ img_product }}{% endif %}" alt="{{ product.title | default: 'Velvy D — Pince à cheveux magnétique' }}">
+          </div>
+
+          <div class="vd-shop-info">
+            <div class="vd-shop-label">Vendu directement par la marque</div>
+            <h3 class="vd-shop-title">Velvy «&nbsp;D&nbsp;» — Pince à cheveux magnétique</h3>
+
+            <a class="vd-btn alt vd-shop-cta" href="{{ product.url | default: '/products/velvy-d-magnetic-hair-clip' }}">Vérifier la disponibilité</a>
+            <div class="vd-shop-reassure">Vendu directement · Retours sous 30 jours · Expédié depuis le Royaume-Uni</div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+    <div class="vd-wrap">
+
+      <div class="vd-update">
+        <div class="vd-update-h">— MISE À JOUR · 18 mai 2026</div>
+        <p>Suite à la publication de cet article, l'atelier a confirmé une forte hausse des commandes. La marque applique actuellement une <strong>remise lectrice de 33&nbsp;%</strong> tant que le stock le permet — appliquée automatiquement sur le site de la marque. <a href="#vdShop">La vérification du stock est ici</a>. Une fois la série de production actuelle écoulée, les prochains coloris sont attendus mi-juin.</p>
+      </div>
+
+      <!-- FB COMMENTS -->
+      <div class="vd-fb">
+        <h3 class="vd-fb-h">Commentaires</h3>
+        <div class="vd-fb-add">Ajouter un commentaire ...</div>
+
+        <div class="vd-fb-list">
+
+          <div class="vd-fb-c">
+            <img src="https://cdn.shopify.com/s/files/1/1017/2396/3727/files/velvy-fb-avatar-christine.jpg?v=1779061258" alt="">
+            <div class="vd-fb-body">
+              <div class="vd-fb-bubble">
+                <div class="vd-fb-name">Christine Wallace</div>
+                <div class="vd-fb-text">Quelqu'un l'a vraiment essayée en voiture&nbsp;? Curieuse avant d'acheter.</div>
+              </div>
+              <div class="vd-fb-meta">
+                <span class="act">J'aime</span><span class="dot">·</span>
+                <span class="act">Répondre</span><span class="dot">·</span>
+                <span class="vd-fb-like"><span class="thumb"><svg viewBox="0 0 16 16" fill="#fff"><path d="M6 7H4v6h2V7zm7 .8c0-.4-.4-.8-.8-.8H8.5l.5-2.3c.1-.5-.3-.9-.7-.9-.3 0-.5.2-.6.4L7 6c-.3.6-.7.9-1 1v6h4.6c.4 0 .7-.3.8-.7l.6-3v-.3z"/></svg></span>12</span><span class="dot">·</span>
+                <span>39 min</span>
+              </div>
+
+              <div class="vd-fb-replies">
+                <div class="vd-fb-c">
+                  <img src="https://cdn.shopify.com/s/files/1/1017/2396/3727/files/velvy-fb-avatar-james.jpg?v=1779061258" alt="">
+                  <div class="vd-fb-body">
+                    <div class="vd-fb-bubble">
+                      <div class="vd-fb-name">James Mitchell</div>
+                      <div class="vd-fb-text">Je ne m'attendais pas à grand-chose, mais je porte les mêmes pinces en plastique depuis des années et j'ai changé le mois dernier pour ma femme. On est descendus en Cornouailles le week-end dernier — pour la première fois, sa nuque ne lui faisait pas mal après. Ce n'est pas magique, mais c'est une vraie différence.</div>
+                    </div>
+                    <div class="vd-fb-meta">
+                      <span class="act">J'aime</span><span class="dot">·</span>
+                      <span class="act">Répondre</span><span class="dot">·</span>
+                      <span class="vd-fb-like"><span class="thumb"><svg viewBox="0 0 16 16" fill="#fff"><path d="M6 7H4v6h2V7zm7 .8c0-.4-.4-.8-.8-.8H8.5l.5-2.3c.1-.5-.3-.9-.7-.9-.3 0-.5.2-.6.4L7 6c-.3.6-.7.9-1 1v6h4.6c.4 0 .7-.3.8-.7l.6-3v-.3z"/></svg></span>23</span><span class="dot">·</span>
+                      <span>51 min</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="vd-fb-c">
+            <img src="https://cdn.shopify.com/s/files/1/1017/2396/3727/files/velvy-fb-avatar-sharon.jpg?v=1779061258" alt="">
+            <div class="vd-fb-body">
+              <div class="vd-fb-bubble">
+                <div class="vd-fb-name">Sharon Davis</div>
+                <div class="vd-fb-text">Pourquoi je tombe toujours sur ces trucs juste avant la paie&nbsp;?!</div>
+              </div>
+              <div class="vd-fb-meta">
+                <span class="act">J'aime</span><span class="dot">·</span>
+                <span class="act">Répondre</span><span class="dot">·</span>
+                <span class="vd-fb-like"><span class="thumb"><svg viewBox="0 0 16 16" fill="#fff"><path d="M6 7H4v6h2V7zm7 .8c0-.4-.4-.8-.8-.8H8.5l.5-2.3c.1-.5-.3-.9-.7-.9-.3 0-.5.2-.6.4L7 6c-.3.6-.7.9-1 1v6h4.6c.4 0 .7-.3.8-.7l.6-3v-.3z"/></svg></span>47</span><span class="dot">·</span>
+                <span>16 min</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="vd-fb-c">
+            <img src="https://cdn.shopify.com/s/files/1/1017/2396/3727/files/velvy-fb-avatar-robert.jpg?v=1779061258" alt="">
+            <div class="vd-fb-body">
+              <div class="vd-fb-bubble">
+                <div class="vd-fb-name">Robert Hayes</div>
+                <div class="vd-fb-text">J'en ai acheté une pour ma femme. Elle m'a dit que ses maux de tête sur les longs trajets se sont simplement arrêtés au bout d'une semaine. C'est tout ce que j'avais besoin d'entendre.</div>
+              </div>
+              <div class="vd-fb-meta">
+                <span class="act">J'aime</span><span class="dot">·</span>
+                <span class="act">Répondre</span><span class="dot">·</span>
+                <span class="vd-fb-like"><span class="thumb"><svg viewBox="0 0 16 16" fill="#fff"><path d="M6 7H4v6h2V7zm7 .8c0-.4-.4-.8-.8-.8H8.5l.5-2.3c.1-.5-.3-.9-.7-.9-.3 0-.5.2-.6.4L7 6c-.3.6-.7.9-1 1v6h4.6c.4 0 .7-.3.8-.7l.6-3v-.3z"/></svg></span>7</span><span class="dot">·</span>
+                <span>1 h</span>
+              </div>
+
+              <div class="vd-fb-replies">
+                <div class="vd-fb-c">
+                  <img src="https://cdn.shopify.com/s/files/1/1017/2396/3727/files/velvy-fb-avatar-melissa.jpg?v=1779061258" alt="">
+                  <div class="vd-fb-body">
+                    <div class="vd-fb-bubble">
+                      <div class="vd-fb-name">Melissa Carter</div>
+                      <div class="vd-fb-text">Honnêtement, j'étais juste contente de trouver un truc qui n'accroche pas mes cheveux. Bonus&nbsp;: ça tient vraiment.</div>
+                    </div>
+                    <div class="vd-fb-meta">
+                      <span class="act">J'aime</span><span class="dot">·</span>
+                      <span class="act">Répondre</span><span class="dot">·</span>
+                      <span class="vd-fb-like"><span class="thumb"><svg viewBox="0 0 16 16" fill="#fff"><path d="M6 7H4v6h2V7zm7 .8c0-.4-.4-.8-.8-.8H8.5l.5-2.3c.1-.5-.3-.9-.7-.9-.3 0-.5.2-.6.4L7 6c-.3.6-.7.9-1 1v6h4.6c.4 0 .7-.3.8-.7l.6-3v-.3z"/></svg></span>4</span><span class="dot">·</span>
+                      <span>24 min</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="vd-fb-c">
+            <img src="https://cdn.shopify.com/s/files/1/1017/2396/3727/files/velvy-fb-avatar-deborah.jpg?v=1779061258" alt="">
+            <div class="vd-fb-body">
+              <div class="vd-fb-bubble">
+                <div class="vd-fb-name">Deborah Allen</div>
+                <div class="vd-fb-text">Je suis bluffée. Je ne pensais pas que ça ferait grand-chose, et me voilà à en commander une deuxième.</div>
+              </div>
+              <div class="vd-fb-meta">
+                <span class="act">J'aime</span><span class="dot">·</span>
+                <span class="act">Répondre</span><span class="dot">·</span>
+                <span class="vd-fb-like"><span class="thumb"><svg viewBox="0 0 16 16" fill="#fff"><path d="M6 7H4v6h2V7zm7 .8c0-.4-.4-.8-.8-.8H8.5l.5-2.3c.1-.5-.3-.9-.7-.9-.3 0-.5.2-.6.4L7 6c-.3.6-.7.9-1 1v6h4.6c.4 0 .7-.3.8-.7l.6-3v-.3z"/></svg></span>9</span><span class="dot">·</span>
+                <span>1 h</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="vd-fb-c">
+            <img src="https://cdn.shopify.com/s/files/1/1017/2396/3727/files/velvy-fb-avatar-thomas.jpg?v=1779061258" alt="">
+            <div class="vd-fb-body">
+              <div class="vd-fb-bubble">
+                <div class="vd-fb-name">Thomas Griffin</div>
+                <div class="vd-fb-text">Ma compagne enlevait sa pince avant les longs trajets. Deux semaines avec la Velvy et elle oublie qu'elle l'a. Même sur l'autoroute.</div>
+              </div>
+              <div class="vd-fb-meta">
+                <span class="act">J'aime</span><span class="dot">·</span>
+                <span class="act">Répondre</span><span class="dot">·</span>
+                <span class="vd-fb-like"><span class="thumb"><svg viewBox="0 0 16 16" fill="#fff"><path d="M6 7H4v6h2V7zm7 .8c0-.4-.4-.8-.8-.8H8.5l.5-2.3c.1-.5-.3-.9-.7-.9-.3 0-.5.2-.6.4L7 6c-.3.6-.7.9-1 1v6h4.6c.4 0 .7-.3.8-.7l.6-3v-.3z"/></svg></span>6</span><span class="dot">·</span>
+                <span>2 h</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="vd-fb-c">
+            <img src="https://cdn.shopify.com/s/files/1/1017/2396/3727/files/velvy-fb-avatar-pamela.jpg?v=1779061258" alt="">
+            <div class="vd-fb-body">
+              <div class="vd-fb-bubble">
+                <div class="vd-fb-name">Pamela Scott</div>
+                <div class="vd-fb-text">Quelqu'un l'utilise depuis plus de quelques mois&nbsp;? Je me demande si les aimants s'affaiblissent.</div>
+              </div>
+              <div class="vd-fb-meta">
+                <span class="act">J'aime</span><span class="dot">·</span>
+                <span class="act">Répondre</span><span class="dot">·</span>
+                <span class="vd-fb-like"><span class="thumb"><svg viewBox="0 0 16 16" fill="#fff"><path d="M6 7H4v6h2V7zm7 .8c0-.4-.4-.8-.8-.8H8.5l.5-2.3c.1-.5-.3-.9-.7-.9-.3 0-.5.2-.6.4L7 6c-.3.6-.7.9-1 1v6h4.6c.4 0 .7-.3.8-.7l.6-3v-.3z"/></svg></span>3</span><span class="dot">·</span>
+                <span>2 h</span>
+              </div>
+
+              <div class="vd-fb-replies">
+                <div class="vd-fb-c">
+                  <img src="https://cdn.shopify.com/s/files/1/1017/2396/3727/files/velvy-fb-avatar-laura.jpg?v=1779061258" alt="">
+                  <div class="vd-fb-body">
+                    <div class="vd-fb-bubble">
+                      <div class="vd-fb-name">Laura Benson</div>
+                      <div class="vd-fb-text">J'ai la mienne depuis janvier. La tenue est exactement la même qu'au premier jour. Pas de glissement, pas de prise relâchée — et j'ai les cheveux épais.</div>
+                    </div>
+                    <div class="vd-fb-meta">
+                      <span class="act">J'aime</span><span class="dot">·</span>
+                      <span class="act">Répondre</span><span class="dot">·</span>
+                      <span class="vd-fb-like"><span class="thumb"><svg viewBox="0 0 16 16" fill="#fff"><path d="M6 7H4v6h2V7zm7 .8c0-.4-.4-.8-.8-.8H8.5l.5-2.3c.1-.5-.3-.9-.7-.9-.3 0-.5.2-.6.4L7 6c-.3.6-.7.9-1 1v6h4.6c.4 0 .7-.3.8-.7l.6-3v-.3z"/></svg></span>11</span><span class="dot">·</span>
+                      <span>2 h</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="vd-fb-c">
+            <img src="https://cdn.shopify.com/s/files/1/1017/2396/3727/files/velvy-fb-avatar-nancy.jpg?v=1779061258" alt="">
+            <div class="vd-fb-body">
+              <div class="vd-fb-bubble">
+                <div class="vd-fb-name">Nancy Perkins</div>
+                <div class="vd-fb-text">Je viens de passer ma commande&nbsp;! J'espère que ça sera à la hauteur 🤞</div>
+              </div>
+              <div class="vd-fb-meta">
+                <span class="act">J'aime</span><span class="dot">·</span>
+                <span class="act">Répondre</span><span class="dot">·</span>
+                <span class="vd-fb-like"><span class="thumb"><svg viewBox="0 0 16 16" fill="#fff"><path d="M6 7H4v6h2V7zm7 .8c0-.4-.4-.8-.8-.8H8.5l.5-2.3c.1-.5-.3-.9-.7-.9-.3 0-.5.2-.6.4L7 6c-.3.6-.7.9-1 1v6h4.6c.4 0 .7-.3.8-.7l.6-3v-.3z"/></svg></span>2</span><span class="dot">·</span>
+                <span>39 min</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="vd-fb-c">
+            <img src="https://cdn.shopify.com/s/files/1/1017/2396/3727/files/velvy-fb-avatar-brenda.jpg?v=1779061258" alt="">
+            <div class="vd-fb-body">
+              <div class="vd-fb-bubble">
+                <div class="vd-fb-name">Brenda Foster</div>
+                <div class="vd-fb-text">La pression à l'arrière de ma tête me rendait folle sur les longs trajets. Après une dizaine de jours avec ça, juste... disparue. Je ne m'y attendais pas.</div>
+              </div>
+              <div class="vd-fb-meta">
+                <span class="act">J'aime</span><span class="dot">·</span>
+                <span class="act">Répondre</span><span class="dot">·</span>
+                <span class="vd-fb-like"><span class="thumb"><svg viewBox="0 0 16 16" fill="#fff"><path d="M6 7H4v6h2V7zm7 .8c0-.4-.4-.8-.8-.8H8.5l.5-2.3c.1-.5-.3-.9-.7-.9-.3 0-.5.2-.6.4L7 6c-.3.6-.7.9-1 1v6h4.6c.4 0 .7-.3.8-.7l.6-3v-.3z"/></svg></span>8</span><span class="dot">·</span>
+                <span>3 h</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="vd-fb-c">
+            <img src="https://cdn.shopify.com/s/files/1/1017/2396/3727/files/velvy-fb-avatar-daniel.jpg?v=1779061258" alt="">
+            <div class="vd-fb-body">
+              <div class="vd-fb-bubble">
+                <div class="vd-fb-name">Daniel Cooper</div>
+                <div class="vd-fb-text">Achetée pour ma femme qui est infirmière — gardes de 12 h, cheveux attachés toute la journée. Elle dit que c'est la première pince qui ne lui laisse pas une bosse sur la tête en rentrant.</div>
+              </div>
+              <div class="vd-fb-meta">
+                <span class="act">J'aime</span><span class="dot">·</span>
+                <span class="act">Répondre</span><span class="dot">·</span>
+                <span class="vd-fb-like"><span class="thumb"><svg viewBox="0 0 16 16" fill="#fff"><path d="M6 7H4v6h2V7zm7 .8c0-.4-.4-.8-.8-.8H8.5l.5-2.3c.1-.5-.3-.9-.7-.9-.3 0-.5.2-.6.4L7 6c-.3.6-.7.9-1 1v6h4.6c.4 0 .7-.3.8-.7l.6-3v-.3z"/></svg></span>5</span><span class="dot">·</span>
+                <span>3 h</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="vd-fb-c">
+            <img src="https://cdn.shopify.com/s/files/1/1017/2396/3727/files/velvy-fb-avatar-heather.jpg?v=1779061258" alt="">
+            <div class="vd-fb-body">
+              <div class="vd-fb-bubble">
+                <div class="vd-fb-name">Heather Collins</div>
+                <div class="vd-fb-text">Elle tient parfaitement mon chignon pendant le sport. Franchement impressionnée — je la porte tous les jours.</div>
+              </div>
+              <div class="vd-fb-meta">
+                <span class="act">J'aime</span><span class="dot">·</span>
+                <span class="act">Répondre</span><span class="dot">·</span>
+                <span class="vd-fb-like"><span class="thumb"><svg viewBox="0 0 16 16" fill="#fff"><path d="M6 7H4v6h2V7zm7 .8c0-.4-.4-.8-.8-.8H8.5l.5-2.3c.1-.5-.3-.9-.7-.9-.3 0-.5.2-.6.4L7 6c-.3.6-.7.9-1 1v6h4.6c.4 0 .7-.3.8-.7l.6-3v-.3z"/></svg></span>1</span><span class="dot">·</span>
+                <span>3 h</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="vd-fb-c">
+            <img src="https://cdn.shopify.com/s/files/1/1017/2396/3727/files/velvy-fb-avatar-margaret.jpg?v=1779061258" alt="">
+            <div class="vd-fb-body">
+              <div class="vd-fb-bubble">
+                <div class="vd-fb-name">Margaret Lawson</div>
+                <div class="vd-fb-text">J'ai essayé tellement de pinces au fil des années. Honnêtement, je pensais que ce serait encore une déception, mais pour une fois je me suis trompée. Elle repose vraiment à plat contre la tête.</div>
+              </div>
+              <div class="vd-fb-meta">
+                <span class="act">J'aime</span><span class="dot">·</span>
+                <span class="act">Répondre</span><span class="dot">·</span>
+                <span class="vd-fb-like"><span class="thumb"><svg viewBox="0 0 16 16" fill="#fff"><path d="M6 7H4v6h2V7zm7 .8c0-.4-.4-.8-.8-.8H8.5l.5-2.3c.1-.5-.3-.9-.7-.9-.3 0-.5.2-.6.4L7 6c-.3.6-.7.9-1 1v6h4.6c.4 0 .7-.3.8-.7l.6-3v-.3z"/></svg></span>14</span><span class="dot">·</span>
+                <span>3 h</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="vd-fb-c">
+            <img src="https://cdn.shopify.com/s/files/1/1017/2396/3727/files/velvy-fb-avatar-linda.jpg?v=1779061258" alt="">
+            <div class="vd-fb-body">
+              <div class="vd-fb-bubble">
+                <div class="vd-fb-name">Linda Morgan</div>
+                <div class="vd-fb-text">Ce truc est trop bien, ma fille n'arrête pas de me piquer la mienne&nbsp;! J'ai dû lui en commander une à elle.</div>
+              </div>
+              <div class="vd-fb-meta">
+                <span class="act">J'aime</span><span class="dot">·</span>
+                <span class="act">Répondre</span><span class="dot">·</span>
+                <span class="vd-fb-like"><span class="thumb"><svg viewBox="0 0 16 16" fill="#fff"><path d="M6 7H4v6h2V7zm7 .8c0-.4-.4-.8-.8-.8H8.5l.5-2.3c.1-.5-.3-.9-.7-.9-.3 0-.5.2-.6.4L7 6c-.3.6-.7.9-1 1v6h4.6c.4 0 .7-.3.8-.7l.6-3v-.3z"/></svg></span>19</span><span class="dot">·</span>
+                <span>3 h</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="vd-fb-c">
+            <img src="https://cdn.shopify.com/s/files/1/1017/2396/3727/files/velvy-fb-avatar-cynthia.jpg?v=1779061258" alt="">
+            <div class="vd-fb-body">
+              <div class="vd-fb-bubble">
+                <div class="vd-fb-name">Cynthia Adams</div>
+                <div class="vd-fb-text">J'ai chopé la mienne avant qu'elles ne soient à nouveau en rupture. Elles partent vite&nbsp;!</div>
+              </div>
+              <div class="vd-fb-meta">
+                <span class="act">J'aime</span><span class="dot">·</span>
+                <span class="act">Répondre</span><span class="dot">·</span>
+                <span class="vd-fb-like"><span class="thumb"><svg viewBox="0 0 16 16" fill="#fff"><path d="M6 7H4v6h2V7zm7 .8c0-.4-.4-.8-.8-.8H8.5l.5-2.3c.1-.5-.3-.9-.7-.9-.3 0-.5.2-.6.4L7 6c-.3.6-.7.9-1 1v6h4.6c.4 0 .7-.3.8-.7l.6-3v-.3z"/></svg></span>2</span><span class="dot">·</span>
+                <span>4 h</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+</article>
+
+<!-- STICKY MOBILE BAR -->
+<div class="vd-sticky">
+  <img src="{{ img_product }}" alt="Velvy D">
+  <div class="info">
+    <div class="name">Velvy «&nbsp;D&nbsp;» — vendu par la marque</div>
+    <div class="price">From £11.99</div>
+  </div>
+  <a class="vd-btn alt" href="#vdShop">{{ cta_label }}</a>
+</div>
+
+{% schema %}
+{
+  "name": "Clip Danger FR",
+  "tag": "section",
+  "class": "shopify-section--clip-danger",
+  "settings": []
+}
+{% endschema %}
