@@ -14,7 +14,7 @@
   "parent": "index.json",
   "sections": {
     "slideshow_qxk8Ba": {
-      "disabled": true,
+      "disabled": false,
       "settings": {},
       "blocks": {}
     }
