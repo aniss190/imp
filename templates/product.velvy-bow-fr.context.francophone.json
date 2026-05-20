@@ -22,6 +22,11 @@
           }
         }
       }
+    },
+    "image_with_text_overlay_micK7y": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
     }
   }
 }
