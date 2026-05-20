@@ -27,6 +27,13 @@
       "disabled": true,
       "settings": {},
       "blocks": {}
+    },
+    "image_with_text_overlay_8NVY73": {
+      "settings": {
+        "image": "shopify://shop_images/velvy-bow-03-benefits-fr.jpg",
+        "mobile_image": "shopify://shop_images/velvy-bow-03-benefits-fr.jpg"
+      },
+      "blocks": {}
     }
   }
 }
