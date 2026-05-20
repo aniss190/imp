@@ -29,6 +29,11 @@
         "mobile_image": "shopify://shop_images/velvy-d-02-benefits-fr.jpg"
       },
       "blocks": {}
+    },
+    "image_with_text_overlay_micK7y": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
     }
   }
 }
