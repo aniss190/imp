@@ -18,6 +18,13 @@
       "settings": {},
       "blocks": {}
     },
+    "image_with_text_overlay_8NVY73": {
+      "settings": {
+        "image": "shopify://shop_images/velvy-d-02-benefits-fr.jpg",
+        "mobile_image": "shopify://shop_images/velvy-d-02-benefits-fr.jpg"
+      },
+      "blocks": {}
+    },
     "featured_product_BNCh3F": {
       "settings": {
         "product": "velvy™-d-pince-a-cheveux-plate-magnetique"
@@ -30,12 +37,15 @@
         }
       }
     },
-    "image_with_text_overlay_8NVY73": {
-      "settings": {
-        "image": "shopify://shop_images/velvy-d-02-benefits-fr.jpg",
-        "mobile_image": "shopify://shop_images/velvy-d-02-benefits-fr.jpg"
-      },
-      "blocks": {}
+    "mad_scrolling_logo_pncdMe": {
+      "settings": {},
+      "blocks": {
+        "slide_HxLfbW": {
+          "settings": {
+            "image": "shopify://shop_images/Madame_Figaro__logo__svg.webp"
+          }
+        }
+      }
     }
   }
 }
